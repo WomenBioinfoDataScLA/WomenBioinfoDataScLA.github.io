@@ -1,0 +1,14 @@
+
+/*My colors
+green-blue #5cc6d0
+*/
+
+h1 {color:#5cc6d0;}
+
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.35);
+    max-width: 100%;
+    width:100%;
+    left: 0;
+}
