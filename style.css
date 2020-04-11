@@ -30,8 +30,15 @@ h2 {
     margin-left: 10px;
 }
 
+.table {
+    font-family: Lato;
+    font-weight: normal;
+    color: #545454;
+}
+
 .carousel-caption {
     background: rgba(0, 0, 0, 0.35);
+    font-family: Lato;
     max-width: 100%;
     width: 100%;
     left: 0;
