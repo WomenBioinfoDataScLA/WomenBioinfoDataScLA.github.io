@@ -3,8 +3,10 @@
 green-blue #5cc6d0
 */
 
-h1 {color:#5cc6d0;}
+h1 {font-family: Lato; color:#545454; }
+h2 {font-family: Lato; color:#545454; }
 
+p { font-family: Lato; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; color:#545454; } 
 
 .carousel-caption {
     background: rgba(0, 0, 0, 0.35);
@@ -12,3 +14,5 @@ h1 {color:#5cc6d0;}
     width:100%;
     left: 0;
 }
+
+
