@@ -1,14 +1,64 @@
-
 /*My colors
 green-blue #5cc6d0
 */
 
-h1 {color:#5cc6d0;}
+h1 {
+    font-family: Lato;
+    color: #545454;
+}
 
+h2 {
+    font-family: Lato;
+    font-weight: normal;
+    color: #545454;
+}
+
+#container p,
+#container li {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #545454;
+}
+
+#container {
+    font-family: Lato;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.table {
+    font-family: Lato;
+    font-weight: normal;
+    color: #545454;
+}
 
 .carousel-caption {
     background: rgba(0, 0, 0, 0.35);
+    font-family: Lato;
     max-width: 100%;
-    width:100%;
+    width: 100%;
     left: 0;
+}
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.jumboHeaderImg {
+    background-image: url("images/banner3.png");
+    background-size: cover;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.botones-ind {
+    background-color: #dcd0ff;
+    border-radius: 16px;
 }
