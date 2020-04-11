@@ -9,6 +9,7 @@ h1 {
 
 h2 {
     font-family: Lato;
+    font-weight: normal;
     color: #545454;
 }
 
@@ -21,6 +22,12 @@ h2 {
     font-weight: 400;
     line-height: 20px;
     color: #545454;
+}
+
+#container {
+    font-family: Lato;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
 .carousel-caption {
@@ -42,4 +49,9 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+}
+
+.botones-ind {
+    background-color: #dcd0ff;
+    border-radius: 16px;
 }
