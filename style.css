@@ -32,16 +32,27 @@ h2 {
 
 .perfil {
     font-family: Lato;
-    margin-right: 30px;
-    vertical-align: middle;
+    align-items: center;
+    margin-left: 2in;
     text-align: center;
 }
 
 .foto-perfil {
     background-size: cover;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 1.5625in;
+    width: 1.5625in;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.foto-speakers {
+    background-size: cover;
+    border-radius: 50%;
+    height: auto;
+    width: 1.5625in;
     margin-bottom: 15px;
     display: inline-block;
 }
