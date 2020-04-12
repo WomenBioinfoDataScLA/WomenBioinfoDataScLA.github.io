@@ -26,7 +26,7 @@ h2 {
 
 #container {
     font-family: Lato;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-left: 10px;
 }
 
@@ -76,20 +76,20 @@ h2 {
 /* Twitter */
 
 .fa-twitter {
-    color: grey;
+    color: #545454;
 }
 
 
 /* Facebook */
 
 .fa-facebook {
-    color: grey;
+    color: #545454;
 }
 
 .fa-telegram {
-    color: grey;
+    color: #545454;
 }
 
 .fa-github {
-    color: grey;
+    color: #545454;
 }
