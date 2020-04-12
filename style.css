@@ -42,6 +42,7 @@ h2 {
     border-radius: 50%;
     height: 150px;
     width: 150px;
+    margin-bottom: 15px;
     display: inline-block;
 }
 
