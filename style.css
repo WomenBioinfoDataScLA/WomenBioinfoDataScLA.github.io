@@ -37,6 +37,13 @@ h2 {
     text-align: center;
 }
 
+.perfil-speakers {
+    font-family: Lato;
+    align-items: center;
+    margin-left: 1.5in;
+    text-align: center;
+}
+
 .foto-perfil {
     background-size: cover;
     border-radius: 50%;
