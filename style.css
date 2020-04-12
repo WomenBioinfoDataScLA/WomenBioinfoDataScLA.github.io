@@ -63,3 +63,29 @@ h2 {
     background-repeat: no-repeat;
     position: relative;
 }
+
+.fa {
+    font-size: 18px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 90%;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    color: grey;
+}
+
+
+/* Facebook */
+
+.fa-facebook {
+    color: grey;
+}
+
+.fa-google {
+    color: grey;
+}
