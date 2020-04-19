@@ -70,10 +70,12 @@ h5 {
 .foto-speakers {
     background-size: cover;
     border-radius: 50%;
-    height: auto;
-    width: 1.5625in;
+    height: 1.5625in;
+    width: auto;
     margin-bottom: 15px;
     display: inline-block;
+    margin-block-start: auto;
+    margin-block-end: auto;
 }
 
 .row {
