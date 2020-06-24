@@ -25,6 +25,12 @@ h5 {
     color: #545454;
 }
 
+h4 {
+    font-family: Lato;
+    font-weight: normal;
+    color: #545454;
+}
+
 #container p,
 #container li {
     font-family: Lato;
