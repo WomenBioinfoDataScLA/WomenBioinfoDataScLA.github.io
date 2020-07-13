@@ -31,8 +31,50 @@ h4 {
     color: #545454;
 }
 
-li {
-    list-style-type: none;
+.horizontal>li {
+    float: left;
+}
+
+.horizontal li ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+.horizontal li:hover ul {
+    display: block;
+    color: rgba(255, 255, 255, .75);
+    font-family: Lato;
+}
+
+.horizontal li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 10px;
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 8pt;
+    color: rgba(255, 255, 255, .75);
+    text-transform: uppercase;
+    letter-spacing: .08em
+}
+
+.horizontal li a:hover {
+    background-color: #545454;
+    color: #a2becf;
+    font-family: Lato;
+}
+
+.horizontal li:first-child a {
+    border-left: 0;
+}
+
+.horizontal li:last-child a {
+    border-right: 0;
 }
 
 #container p,
