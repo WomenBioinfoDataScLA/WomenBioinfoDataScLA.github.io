@@ -95,14 +95,18 @@ h5 {
 .perfil {
     font-family: Lato;
     align-items: center;
-    margin-left: 2in;
     text-align: center;
+}
+
+.perfiles {
+    display: flex;
+    align-items: initial;
+    justify-content: space-between;
 }
 
 .perfil-speakers {
     font-family: Lato;
     align-items: center;
-    margin-left: 1.5in;
     text-align: center;
 }
 
