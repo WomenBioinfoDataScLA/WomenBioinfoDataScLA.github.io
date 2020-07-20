@@ -25,7 +25,7 @@ h5 {
 
 .navbar {
     overflow: hidden;
-    background-color: #545454;
+    background-color: #3b8c9c;
     font-family: lato;
 }
 
@@ -62,8 +62,8 @@ h5 {
 }
 
 .horizontal li a:hover {
-    background-color: #545454;
-    color: #a2becf;
+    background-color: #e6e6e6;
+    color: #3b8c9c;
     font-family: Lato;
 }
 
