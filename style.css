@@ -2,33 +2,31 @@
 green-blue #5cc6d0
 */
 
+* {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
 h1 {
     font-family: Lato;
     color: #545454;
 }
 
-h2 {
-    font-family: Lato;
-    font-weight: normal;
-    color: #545454;
-}
-
-h3 {
-    font-family: Lato;
-    font-weight: normal;
-    color: #545454;
-}
-
+h3,
+h2,
+h4,
 h5 {
     font-family: Lato;
     font-weight: normal;
     color: #545454;
 }
 
-h4 {
-    font-family: Lato;
-    font-weight: normal;
-    color: #545454;
+.navbar {
+    overflow: hidden;
+    background-color: #545454;
+    font-family: lato;
 }
 
 .horizontal>li {
@@ -213,4 +211,8 @@ div.polaroid {
     width: 80%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.center {
+    text-align: center;
 }
