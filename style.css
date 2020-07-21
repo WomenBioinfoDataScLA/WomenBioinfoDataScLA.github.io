@@ -143,6 +143,15 @@ h5 {
     margin-left: 10px;
 }
 
+.column-perfil {
+    padding: 0 25px;
+    text-align: center;
+}
+
+.colp1 {
+    margin-left: 33vw;
+}
+
 .table {
     font-family: Lato;
     font-weight: normal;
