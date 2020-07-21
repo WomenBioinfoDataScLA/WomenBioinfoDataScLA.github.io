@@ -23,6 +23,10 @@ h5 {
     color: #545454;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .col-12 {
     max-width: 90vw;
     padding: 0 3vw;
@@ -32,6 +36,7 @@ h5 {
     overflow: hidden;
     background-color: #3b8c9c;
     font-family: lato;
+    margin-top: -1px;
 }
 
 .horizontal>li {
@@ -93,8 +98,22 @@ h5 {
 
 #container {
     font-family: Lato;
-    margin-top: 35px;
-    margin-left: 10px;
+    max-width: 90vw;
+    padding: 0 5%;
+}
+
+.btn-group {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.img-fluid {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .perfil {
@@ -234,4 +253,13 @@ div.polaroid {
 .center {
     display: flex;
     justify-content: center;
+}
+
+.VPSinstructions {
+    padding: 2% 3vw;
+}
+
+.VPS-img {
+    width: 40%;
+    height: auto;
 }
