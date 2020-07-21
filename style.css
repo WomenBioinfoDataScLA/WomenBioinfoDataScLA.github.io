@@ -23,6 +23,11 @@ h5 {
     color: #545454;
 }
 
+.col-12 {
+    max-width: 90vw;
+    padding: 0 3vw;
+}
+
 .navbar {
     overflow: hidden;
     background-color: #3b8c9c;
