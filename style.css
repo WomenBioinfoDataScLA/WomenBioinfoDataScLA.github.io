@@ -23,6 +23,11 @@ h5 {
     color: #545454;
 }
 
+a,
+li {
+    text-decoration: none;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -262,4 +267,39 @@ div.polaroid {
 .VPS-img {
     width: 40%;
     height: auto;
+}
+
+.posters {
+    display: flex;
+    flex-flow: row;
+}
+
+.poster-container {
+    display: flex;
+    flex-flow: column;
+    padding: 2% 4%;
+}
+
+.poster-img {
+    width: 400px;
+    height: auto;
+}
+
+.poster-img:hover {
+    transform: scale(1.01);
+}
+
+.authors {
+    font-size: x-small;
+    color: #545454;
+}
+
+.title {
+    font-size: small;
+    font-style: oblique;
+}
+
+figcaption a {
+    text-decoration: none;
+    color: #3b8c9c;
 }
