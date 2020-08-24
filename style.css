@@ -186,6 +186,10 @@ body {
     left: 0;
 }
 
+.carousel {
+    margin-top: 30px;
+}
+
 .fakeimg {
     height: 200px;
     background: #aaa;
