@@ -10,13 +10,13 @@ h1 {
     color: #545454;
 }
 
-h3,
 h2,
+h3,
 h4,
 h5 {
     font-family: Lato;
     font-weight: normal;
-    color: #545454;
+    color: rgb(140, 100, 170);
 }
 
 a,
