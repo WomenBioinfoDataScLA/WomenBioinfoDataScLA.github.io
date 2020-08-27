@@ -304,6 +304,27 @@ figcaption a {
     color: #3b8c9c;
 }
 
+.schedule-photo {
+    width: 60%;
+}
+
+.schedule:hover {
+    transform: scale(1.01);
+}
+
+.photo-schedule {
+    width: 60%;
+}
+
+.photo-schedule:hover {
+    transform: scale(1.01);
+}
+
+.schedule {
+    display: flex;
+    flex-direction: row;
+}
+
 @media screen and (max-width: 670px) {
     .navbar-expand-sm .navbar-nav {
         flex-direction: column;
