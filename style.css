@@ -305,7 +305,7 @@ figcaption a {
 }
 
 .schedule-photo {
-    width: 60%;
+    width: 100%;
 }
 
 .schedule:hover {
@@ -313,7 +313,7 @@ figcaption a {
 }
 
 .photo-schedule {
-    width: 60%;
+    width: 80%;
 }
 
 .photo-schedule:hover {
