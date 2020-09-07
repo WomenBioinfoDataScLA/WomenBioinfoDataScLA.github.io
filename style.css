@@ -325,10 +325,20 @@ figcaption a {
     flex-direction: row;
 }
 
-@media screen and (max-width: 670px) {
+
+@media screen and (max-width: 600px) {
+    
+    .navbar {
+        overflow: hidden;
+        background-color: black;
+        font-family: lato;
+        margin-top: -1px;
+    }
+
     .navbar-expand-sm .navbar-nav {
         flex-direction: column;
     }
+ 
     .horizontal li a {
         text-align: center;
         padding: 12px 10px;
@@ -359,3 +369,5 @@ figcaption a {
         flex-flow: column;
     }
 }
+
+
