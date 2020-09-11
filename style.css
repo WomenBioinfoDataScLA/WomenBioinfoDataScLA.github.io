@@ -328,12 +328,16 @@ figcaption a {
 .navbar .navbar-nav .dropdown-menu {
     position: static;
 }
+
 .navbar .navbar-nav .dropdown-menu.show {
     background: transparent;
     border: transparent;
 }
 
 @media screen and (max-width: 600px) {
+    h2 {
+        text-align: center;
+    }
     .navbar-brand {
         margin: 0;
     }
@@ -383,5 +387,22 @@ figcaption a {
         align-items: initial;
         justify-content: space-between;
         flex-flow: column;
+    }
+    .bios-carousel {
+        display: none;
+    }
+    .perfil {
+        text-align: center;
+        padding: 0 11%;
+    }
+    .column-perfil {
+        padding: 0 20px;
+        text-align: center;
+    }
+    .colp1 {
+        margin: 0;
+    }
+    div.polaroid {
+        width: 100%;
     }
 }
