@@ -325,20 +325,40 @@ figcaption a {
     flex-direction: row;
 }
 
+.navbar .navbar-nav .dropdown-menu {
+    position: static;
+}
+.navbar .navbar-nav .dropdown-menu.show {
+    background: transparent;
+    border: transparent;
+}
+
 @media screen and (max-width: 600px) {
+    .navbar-brand {
+        margin: 0;
+    }
     .navbar {
         overflow: hidden;
-        background-color: black;
         font-family: lato;
         margin-top: -1px;
+        padding: 0;
+        margin: 0;
     }
     .navbar-expand-sm .navbar-nav {
         flex-direction: column;
+        width: 100%;
+    }
+    .navbar-expand-sm .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
     }
     .horizontal li a {
         text-align: center;
-        padding: 12px 10px;
-        font-size: 2vw;
+        padding: 12px 0;
+        font-size: 14px;
+    }
+    .horizontal li a.dropdown-item {
+        font-size: 10px;
     }
     .poster-container {
         padding: 2% 10%;
@@ -349,7 +369,7 @@ figcaption a {
     }
     .col-12 {
         max-width: 95vw;
-        padding: 0 2vw;
+        padding: 0 14px;
     }
     .row {
         padding: 2% 6%;
