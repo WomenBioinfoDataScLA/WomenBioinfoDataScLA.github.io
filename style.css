@@ -334,6 +334,65 @@ figcaption a {
     border: transparent;
 }
 
+.logo-cabana {
+    height: 100px; 
+    width: auto;
+    display:inline-block;
+    margin-left: 15px;
+}
+
+
+.logo-mumuki {
+    height: 70px; 
+    width: 400px; 
+    display:inline-block; 
+    margin-left: 10px;
+}
+
+
+.logo-a2b2c {
+    height: 70px; 
+    width: 350px;
+    display:inline-block;
+}
+
+
+.logo-spyder {
+    height: 95px; 
+    width: auto;
+    display:inline-block; 
+    margin-left: 10px;
+}
+
+
+.logo-engine {
+    height: 155px; 
+    width: auto;
+    display:inline-block; 
+    margin-left: 10px;
+}
+
+
+.logo-argentag {
+    height: 80px; 
+    width: auto;
+    display:inline-block; 
+    margin-left: 10px;
+}
+
+
+.logo-orgas {
+    height: 100px; 
+    width: 100px;
+    display:inline-block;
+}
+
+.logo-orgas2 {
+    height: 100px; 
+    width: auto;
+    display:inline-block;
+}
+
 @media screen and (max-width: 600px) {
     h2 {
         text-align: center;
