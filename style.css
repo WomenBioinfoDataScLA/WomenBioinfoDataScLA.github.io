@@ -111,7 +111,7 @@ body {
 }
 
 .img-fluid {
-    width: 30%;
+    width: 20vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -393,7 +393,7 @@ figcaption a {
     display:inline-block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300px) {
     h2 {
         text-align: center;
     }
@@ -464,4 +464,113 @@ figcaption a {
     div.polaroid {
         width: 100%;
     }
+
+.fa {
+    font-size: 20px;
+    width: 25px;
 }
+}
+
+@media screen and (max-width: 700px) {
+    h2 {
+        text-align: center;
+    }
+    .navbar-brand {
+        margin: 0;
+    }
+    .navbar {
+        overflow: hidden;
+        font-family: lato;
+        margin-top: -1px;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-expand-sm .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar-expand-sm .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+    .horizontal li a {
+        text-align: center;
+        padding: 12px 0;
+        font-size: 14px;
+    }
+    .horizontal li a.dropdown-item {
+        font-size: 10px;
+    }
+    .poster-container {
+        padding: 2% 10%;
+    }
+    .posters {
+        display: flex;
+        flex-flow: column;
+    }
+    .col-12 {
+        max-width: 95vw;
+        padding: 0 14px;
+    }
+    .row {
+        padding: 2% 6%;
+    }
+    .col-center {
+        float: none;
+        margin: 0 12%;
+    }
+    .perfiles {
+        display: flex;
+        align-items: initial;
+        justify-content: space-between;
+        flex-flow: column;
+    }
+    .bios-carousel {
+        display: none;
+    }
+    .perfil {
+        text-align: center;
+        padding: 0 11%;
+    }
+    .column-perfil {
+        padding: 0 20px;
+        text-align: center;
+    }
+    .colp1 {
+        margin: 0;
+    }
+    div.polaroid {
+        width: 100%;
+    }
+
+.fa {
+    font-size: 20px;
+    width: 25px;
+}
+
+.row{
+    padding: 0 10%;
+}
+
+.container{
+    padding-left: 0;
+}
+
+.logo-mumuki {
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.logo-cabana{
+    margin-left: 0;
+    padding-top: 20px;
+}
+
+.logo-spyder{
+    margin-left: 0;
+    padding-top: 20px;
+}
+
+}
+
+
