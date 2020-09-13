@@ -335,62 +335,56 @@ figcaption a {
 }
 
 .logo-cabana {
-    height: 100px; 
+    height: 100px;
     width: auto;
-    display:inline-block;
+    display: inline-block;
     margin-left: 15px;
 }
 
-
 .logo-mumuki {
-    height: 70px; 
-    width: 400px; 
-    display:inline-block; 
+    height: 70px;
+    width: 400px;
+    display: inline-block;
     margin-left: 10px;
 }
-
 
 .logo-a2b2c {
-    height: 70px; 
+    height: 70px;
     width: 350px;
-    display:inline-block;
+    display: inline-block;
 }
-
 
 .logo-spyder {
-    height: 95px; 
+    height: 95px;
     width: auto;
-    display:inline-block; 
+    display: inline-block;
     margin-left: 10px;
 }
-
 
 .logo-engine {
-    height: 155px; 
+    height: 175px;
     width: auto;
-    display:inline-block; 
+    display: inline-block;
     margin-left: 10px;
 }
-
 
 .logo-argentag {
-    height: 80px; 
+    height: 80px;
     width: auto;
-    display:inline-block; 
+    display: inline-block;
     margin-left: 10px;
 }
 
-
 .logo-orgas {
-    height: 100px; 
+    height: 100px;
     width: 100px;
-    display:inline-block;
+    display: inline-block;
 }
 
 .logo-orgas2 {
-    height: 100px; 
+    height: 100px;
     width: auto;
-    display:inline-block;
+    display: inline-block;
 }
 
 @media screen and (max-width: 300px) {
@@ -464,11 +458,10 @@ figcaption a {
     div.polaroid {
         width: 100%;
     }
-
-.fa {
-    font-size: 20px;
-    width: 25px;
-}
+    .fa {
+        font-size: 20px;
+        width: 25px;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -542,35 +535,26 @@ figcaption a {
     div.polaroid {
         width: 100%;
     }
-
-.fa {
-    font-size: 20px;
-    width: 25px;
+    .fa {
+        font-size: 20px;
+        width: 25px;
+    }
+    .row {
+        padding: 0 10%;
+    }
+    .container {
+        padding-left: 0;
+    }
+    .logo-mumuki {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .logo-cabana {
+        margin-left: 0;
+        padding-top: 20px;
+    }
+    .logo-spyder {
+        margin-left: 0;
+        padding-top: 20px;
+    }
 }
-
-.row{
-    padding: 0 10%;
-}
-
-.container{
-    padding-left: 0;
-}
-
-.logo-mumuki {
-    margin-left: 0;
-    margin-top: 20px;
-}
-
-.logo-cabana{
-    margin-left: 0;
-    padding-top: 20px;
-}
-
-.logo-spyder{
-    margin-left: 0;
-    padding-top: 20px;
-}
-
-}
-
-
