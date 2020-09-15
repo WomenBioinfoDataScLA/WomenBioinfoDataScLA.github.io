@@ -387,6 +387,18 @@ figcaption a {
     display: inline-block;
 }
 
+.booklet-img {
+    width: 29vw;
+    height: auto;
+    margin-top: 35px;
+    box-shadow: 0 1px 8px rgba(192, 186, 186, 0.911);
+}
+
+.booklet-img:hover {
+    transform: scale(1.01);
+    box-shadow: 0 1px 8px #545454;
+}
+
 @media screen and (max-width: 300px) {
     h2 {
         text-align: center;
