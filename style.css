@@ -375,6 +375,13 @@ figcaption a {
     margin-left: 10px;
 }
 
+.logo-atg {
+    height: 125px;
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+
 .logo-orgas {
     height: 100px;
     width: 100px;
