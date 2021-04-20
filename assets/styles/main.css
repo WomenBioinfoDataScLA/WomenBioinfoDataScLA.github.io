@@ -1,0 +1,612 @@
+/*----------------------------- import fonts -----------------------------*/
+
+@import url('https://fonts.google.com/?query=lato&preview.text_type=custom&selection.family=Lato:ital,wght@0,400;1,300;1,400');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: 0 none;
+}
+
+body {
+    color: #666666;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    line-height: 45px;
+    font-size: 2.7em;
+    color: rgb(140, 100, 170);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+h2 {
+    line-height: 45px;
+    font-size: 2.5em;
+    color: rgb(140, 100, 170);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 2.3em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    margin: 2vw 0;
+}
+
+h6 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+p,
+li {
+    font-size: 1.06em;
+    color: rgb(85, 85, 85);
+    line-height: 27px;
+    text-align: center;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.06em;
+    line-height: 27px;
+    text-align: center;
+}
+
+.disable {
+    display: none;
+}
+
+
+/*----------------------------- nav bar -----------------------------*/
+
+
+/*https://itnext.io/how-to-create-a-responsive-navigation-bar-with-html-css-and-jquery-step-by-step-tutorial-9c780b58479f*/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0;
+    height: 6vw;
+    width: 100%;
+    background: #f3f2f2;
+}
+
+.logofigure {
+    margin: 0 3vw;
+}
+
+.logofigure img {
+    width: auto;
+    height: 4.9vw;
+    margin-top: 2%;
+}
+
+.arrowfigure {
+    margin: 0px -1px 0px 0px;
+}
+
+.arrowfigure img {
+    height: 5.1vw;
+}
+
+.header {
+    background-color: rgb(140, 100, 170);
+    width: 100%;
+    height: 5.1vw;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0 .3vw;
+    line-height: 18px;
+}
+
+nav a {
+    color: rgb(254, 254, 254);
+    font-size: 1.1em;
+    line-height: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffa992;
+}
+
+.active {
+    color: #ffa992
+}
+
+.lang-imige-mobile {
+    display: none;
+}
+
+.ham {
+    display: none;
+}
+
+.lang-img {
+    width: 32px;
+}
+
+.languages {
+    margin: 0 0.15vw;
+}
+
+.languages a {
+    color: #bdf2f2;
+    margin: 0;
+}
+
+
+/*----------------------------- ABOUT -----------------------------*/
+
+.row {
+    display: flex;
+    padding: 0;
+    margin: 5vw 12vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    padding: 3vw 0vw;
+    margin-right: 2vw;
+    text-align: center;
+}
+
+.about p {
+    margin-bottom: 2vw;
+}
+
+.aboutfigure {
+    padding: 3vw;
+}
+
+.aboutfigure img {
+    width: auto;
+    height: 26vw;
+}
+
+
+/*----------------------------- BUTTON -----------------------------*/
+
+
+/*https://fdossena.com/?p=html5cool/buttons/i.frag*/
+
+.button {
+    width: 10vw;
+    padding: 0.7vw 2.6vw;
+    margin: 1vw;
+    border-radius: 2em;
+    /* borda arredondada */
+    color: #FFFFFF;
+    background-color: #5cc6d0;
+    transition: all 0.2s;
+}
+
+.button:hover {
+    background-color: #e7d4f9;
+    color: #906aac;
+}
+
+
+/*----------------------------- GOALS -----------------------------*/
+
+.goals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 8% 10%;
+}
+
+.goals p {
+    margin: 1vw 5vw;
+}
+
+.vision{
+    display: flex;
+    justify-content: center;
+    flex-grow:1 1;
+    flex-basis:0;
+}
+
+.vision p{
+    background-color: #ffa992;
+}
+
+.goals ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.goals li {
+    background-color: #ffa992;
+    padding: 2.3vw;
+    margin: 1.3vw;
+    flex: 1;
+    border-radius: 4em 1em;
+    font-size: 1.1em;
+    color: #292929;
+    box-shadow: 5px 5px 3px #bdf2f2;
+}
+
+.goals li:hover {
+    box-shadow: 5px 5px 3px #e7d4f9;
+    transform: scale(1.05);
+}
+
+
+/*----------------------------- 1stWBDS -----------------------------*/
+
+.p_purplerow {
+    margin: 0.3vw 0vw;
+    line-height: 2vw;
+    font-weight: bold;
+    color: #707081;
+}
+
+.p_purplerow a {
+    color: #4d38a5;
+}
+
+.purplerow {
+    padding: 1.5vw 10vw;
+    margin: 1% 0 2% 0;
+    background-color: #906aac;
+}
+
+.purplerow ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.purplerow h3 {
+    color: #ffff;
+    margin: 1.2vw 0vw;
+}
+
+.purplerow h4 {
+    color: #5cc6d0;
+    margin: 1.2vw 0vw;
+}
+
+.purplerow h3:hover, .purplerow h4:hover {
+    color: #e7d4f9;
+}
+
+
+/*----------------------------- SUPPORT -----------------------------*/
+
+.support {
+    background-image: url("/assets/img/box.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 0 5% 2%;
+    margin-bottom: 5%;
+    margin-top: 8%;
+}
+
+.support h2 {
+    padding-top: 5vw;
+}
+
+.support p {
+    font-size: .9em;
+}
+
+.support article {
+    margin: 0 20vw;
+    text-align: center;
+}
+
+.supportlinks {
+    display: flex;
+    flex-direction: row;
+    margin: 2vw 0;
+    text-align: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.brochurelink {
+    margin: 2vw 0;
+}
+
+.brochurelink .button {
+    color: #ffff;
+    background-color: #906aac;
+}
+
+.brochurelink .button:hover {
+    color: #ffff;
+    background-color: #5cc6d0;
+}
+
+
+/*-------------------------HEXAGONS-----------------------------*/
+
+:root {
+    --Nhexa: 4;
+    --gap: 2vw;
+    --size: calc(calc(100vw / var(--Nhexa)) - var(--gap));
+}
+
+#projects {
+    box-sizing: border-box;
+    overflow-X: hidden;
+    hyphens: auto;
+    position: relative;
+    box-sizing: inherit;
+    margin-top: 8%;
+}
+
+.projects {
+    margin: calc(var(--size) * .70) 0 3vw 10vw;
+    width: calc(var(--size) * calc(var(--Nhexa) - 1));
+    display: grid;
+    grid-template-columns: repeat(var(--Nhexa), 1fr);
+    grid-gap: var(--gap);
+}
+
+.projects a {
+    background: #5cc6d0;
+    width: var(--size);
+    height: calc(var(--size) / 1.1111111);
+    clip-path: url(#hexagono);
+    clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+    margin-right: calc(var(--size) / 2);
+    color: #fff;
+    overflow: hidden;
+}
+
+.projects a.clickable:hover {
+    background: #ffa992;
+}
+
+.projects a.orangehex:hover {
+    background: #e7d4f9;
+}
+
+.projects a.orangehex:hover h2 {
+    color: #4d38a5;
+}
+
+.projects a.clickable:active,
+a.orangehex:active {
+    box-shadow: 0 2px 0 #006599;
+    transform: translateY(3px);
+}
+
+.projects .whitehex,
+.projects .orangehex {
+    display: none;
+}
+
+.projects .orangehex h2 {
+    color: #ffffff;
+    margin: 0 -8px;
+}
+
+.projects a:nth-child(2n) {
+    margin: calc(var(--size) * -.5) calc(var(--size) * -.25) 0 calc(var(--size) * -.75);
+}
+
+.projects a::before {
+    content: '';
+    float: left;
+    width: 25%;
+    height: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 50%, 100% 100%, 0% 100%);
+    shape-outside: polygon(0% 0%, 100% 0%, 0% 50%, 100% 100%, 0% 100%);
+}
+
+.projects img {
+    width: var(--size);
+    height: var(--size);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 0% 50%;
+    transition: .75s;
+    clip-path: url(#hexagono);
+    clip-path: inherit;
+    z-index: 10;
+}
+
+.projects h2 {
+    font-size: .95em;
+    line-height: 25px;
+    color: #4d38a5;
+    margin: 0 -9px;
+}
+
+.projects h3 {
+    font-size: .8em;
+    color: #ffffff;
+    margin-top: 1vw;
+}
+
+.projects div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 50%;
+    height: 100%;
+    font-size: calc(9 / var(--Nhexa) * 1vw);
+    line-height: 1;
+    color: #fff;
+    transition: .75s .05s;
+    text-align: center;
+}
+
+.projects div p {
+    font-size: 70%;
+    line-height: 1.2;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+     :root {
+        --Nhexa: 2;
+    }
+    .projects {
+        margin-left: 0;
+    }
+}
+
+
+/*----------------------------- FOOTER -----------------------------*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 11em;
+    margin-top: 1.5vw;
+    margin-bottom: 0;
+    padding-top: 1.5vw;
+    background-color: rgb(140, 100, 170);
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h4 {
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+address {
+    font-size: .98em;
+    line-height: 4vw;
+    margin-bottom: 1vw;
+    color: rgb(92, 198, 208);
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: .1vw;
+}
+
+.medialinks {
+    height: 5.2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    line-height: 1vw;
+    padding: 0;
+}
+
+.medialinks li {
+    list-style-type: none;
+    /* remove bullet point */
+    margin: 0 1.5vw;
+    /* add space between items in the list */
+}
+
+.medialinks img:hover {
+    background-color: rgb(92, 198, 208);
+    border-radius: 1.4vw;
+}
+
+
+/*----------------WHO ARE WE------------*/
+
+.abtext {
+    padding: 3vw 0vw;
+    text-align: center;
+    margin-right: 2vw;
+}
+
+.memberslist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin: 0;
+    width: 100%;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 20vw;
+    height: 330px;
+}
+
+.member img {
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 15px solid #ffa992;
+}
+
+.name{
+    font-weight: bold;
+    color: rgb(140, 100, 170);
+}
+
+/*---------------------CONDUCT-----------------------*/
+
+.conduct {
+    margin: 0 12vw;
+}
+
+.conduct h4{
+    margin: 5vw 7vw 2vw;
+    color:rgb(140, 100, 170);
+}
+
+.conduct div{
+    margin: 3vw 0;
+}

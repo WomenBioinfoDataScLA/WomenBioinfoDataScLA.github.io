@@ -1,0 +1,283 @@
+@media screen and (min-width: 300px) and (max-width: 650px){
+ h5{
+    font-size: 1.1em;
+} 
+
+ nav {
+    height: 12vw;
+}
+.logofigure img {
+    width: auto;
+    height: 8.9vw;
+}
+.header{
+    padding-left: 23%;
+}
+.nav-options {
+    margin-right: -7.5%;
+}
+.button {
+    padding: 1.7vw;
+    font-size: 1em;
+}
+.goals {
+    margin-bottom: 8vw;
+    margin: 8% 4%;
+}
+.goals li{
+    padding: 4vw;
+    font-size: 1em;
+}
+.purplerow li {
+    margin: 3vw 7vw;
+}
+
+.p_purplerow {
+    line-height: 5vw;
+}
+.projects h2 {
+    font-size: 1.1em;
+}
+.member {
+    width: 16em;
+}
+.member img {
+    width: 10em;
+    height: 10em;
+}
+.support{
+    background-image: none;
+    background-color: #e7d4f9;
+}
+ .support article {
+    margin: 0;
+ }
+ .supportlinks img{
+    width: 45%;   
+ }
+ footer {
+    padding-bottom: 4vw;
+ }
+ footer img {
+    width: 7vw;
+ }
+}
+
+@media screen and (max-width: 850px){
+    nav {
+        height: 11vw;
+    }
+
+    .nav-options{
+        position: absolute;
+        margin-top: 9%;
+        align-items: end;
+    }
+
+    .arrowfigure img{
+        height:9.2vw;
+    }
+      
+    .header{
+        height: 9.2vw;
+        justify-content: right;
+        align-items: flex-start;
+    }
+   
+    nav ul{
+        flex-direction: column;
+        margin-top: 40%;
+        list-style-type: none;
+        z-index: 10;
+    }
+
+    nav li{
+        line-height: 30px;
+    }
+
+    nav a{
+        color: rgb(140, 100, 170);
+        font-size: 13px;
+    }
+
+    .lang-ul{
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .languages a,
+    .languajes h4{
+        color: rgb(140, 100, 170);
+    }
+
+    .sep{
+        color: rgb(140, 100, 170); 
+    }
+
+    .ham{
+        display: block;
+        position: absolute;
+        margin-right: -7%;
+        margin-top: 2%;
+    }
+
+    .ham img{
+        width: 18px;
+        margin-top: 2vw;
+    }
+    .lang-img{
+        display:none;
+    }
+    .lang-imige-mobile{
+        display: block;
+        width: 19px;
+    }
+
+    .row{
+        flex-direction: column-reverse;
+        margin: 5vw 4vw;
+    }
+
+    .goals ul{
+        flex-direction: column;   
+    }
+
+    .supportlinks {
+        flex-direction: column;
+     }
+
+    footer{
+        flex-direction: column;
+        padding-bottom: 2vw;
+        height: 13em;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 850px){
+    h2{
+        font-size: 2em;
+    }
+    h4{
+        line-height: 35px;
+    }
+    .logofigure img{
+        width:auto;
+        height:7.9vw;
+    }
+    .header{
+        padding-left: 30%;
+    }
+    .nav-options {
+        margin-right: -2.5%;
+    }
+    .about{
+        margin-right: 0;
+        margin: 0 4vw 2vw;
+    }
+
+    .button{
+        margin:0.2em auto;
+        padding: 1.5vw 2.6vw;
+    }
+
+    .goals{
+        margin: 5vw 4vw;
+    }
+
+    .goals li{
+        padding: 2.6vw;
+    }
+
+    .purplerow{
+        padding: 1vw 3vw;
+    }
+
+    .purplerow h3{
+        font-size: 1.7em;
+    }
+
+    .purplerow h4{
+        font-size: 1.5em;
+    }
+  
+    .support{
+        padding-bottom: 10vw;
+    }
+
+    .support h2 {
+        padding-top: 8vw;
+        margin-bottom: 26px;
+    }
+
+    .support article {
+        margin: 0px 6vw;
+    }
+      
+    .member {
+        width: 30vw;
+    }
+
+    .member img {
+        width: 25vw;
+        height: 25vw;
+    }
+    footer img{
+        width: 4.5vw;
+    }
+}
+
+@media screen and (min-width:851px) and (max-width: 1009px){
+    h3 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    nav ul > li {
+        margin: 0 1vw;
+        line-height: 18px;
+    }
+    nav a{
+        font-size: .85em;
+    }
+    .row{
+        margin: 5vw 8vw;
+    }
+    .goals{
+        margin: 5vw 7vw;        
+    }
+    .purplerow h3{
+        font-size: 1.7em;
+    }
+
+    .purplerow h4{
+        font-size: 1.5em;
+    }
+    .support article {
+        margin: 0px 15vw;
+    }
+}
+
+@media (min-width: 1010px) and (max-width: 1500px){
+    nav ul > li {
+        padding: 8px 8px;
+        font-size: 13px;
+        margin: 0 0.5vw;
+    }
+    
+    .languages {
+        margin: 0 0.1vw;
+    }
+
+    :root {
+        --Nhexa: 6;
+      }
+      .projects .whitehex {
+          display: block;
+          background: #ffff;
+      }
+      .projects .orangehex {
+          display: block;
+          background: #ffa992;
+      }
+}
+
+/*-------------------------HEXAGONS-----------------------------*/

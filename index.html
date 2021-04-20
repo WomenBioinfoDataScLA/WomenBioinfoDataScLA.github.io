@@ -2,195 +2,264 @@
 <html lang="en">
 
 <head>
-    <title>index</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Women in Bioinformatics and Data Science Latin America</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='/assets/styles/main.css'>
+    <link rel='stylesheet' type='text/css' href="/assets/styles/responsive.css">
+    <script src="assets/js/main.js" type="text/javascript" charset="utf-8" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!--header-->
-    <div class="jumbotron jumbotron-fluid jumboHeaderImg" style="margin-bottom:0">
-    </div>
-
-    <!--Navigation bar-->
-    <nav class="navbar navbar-expand-sm" id=navbar>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav horizontal">
+    <nav>
+        <figure class="logofigure">
+            <a href="index.html"> 
+                <img src="./assets/img/logo.png" alt="WBDS logo">
+            </a>
+        </figure>
+        <figure class="arrowfigure">
+            <img src="./assets/img/top_arrow.png" alt="">
+        </figure>
+        <div class="header">
+            <div class="ham">
+                <img src="assets/icon/lista.png" class="ham-list disable" id="ham-list">
+                <img src="assets/icon/close.png" class="cross-icon" id="cross-icon">
+            </div>
+            <ul class="nav-options" id="nav-options">
                 <li>
-                    <a class="navbar-brand" href="index.html">Home</a>
+                    <a id="home-button" class="active" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="organization.html">Organization</a>
+                <li>
+                    <a id="whoweare-button" href="#">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="registration.html">Registration</a>
+                <li>
+                    <a id="projects-button" href="#projects">Projects</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="speakers.html">Speakers</a>
+                <li>
+                    <a id="conduct-button" href="#">Code of Conduct</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="code-of-conduct.html">Code of Conduct</a>
+                <li>
+                    <a id="support-button" href="index.html#support">Support Us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="workshops.html">Workshops</a>
+                <li>
+                    <a id="contact-button" href="#contact">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="programm.html">Program</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Virtual Poster Session
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="vpsession.html">Instructions</a>
-                        <a class="dropdown-item" href="mlandbigdataVPS.html">Deep Learning, data mining and big data analysis</a>
-                        <a class="dropdown-item" href="chemanddrugsVPS.html">Chemoinformatics and Drug discovery</a>
-                        <a class="dropdown-item" href="genandevolVPS.html">Genomics and Evolution</a>
-                        <a class="dropdown-item" href="StructuralBioVPS.html">Structural Bioinformatics - Biomolecular Simulations</a>
-                        <a class="dropdown-item" href="deseasesVPS.html">Bioinformatics and Diseases</a>
-                        <a class="dropdown-item" href="systemandeducVPS.html">Systems Biology and Education</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="sponsors.html">Sponsorships</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Join-us.html"><img src="images/email-4-16.png" class='nav-img'></a>
+                <li>
+                    <ul class="lang-ul">
+                        <li class="languages">
+                            <img id="globe-icon" alt="#" src="./assets/icon/globe.png" class="lang-img">
+                            <img alt="#" src="./assets/icon/globe_purple.png" class="lang-imige-mobile">
+                        </li>
+                        <li class="languages">
+                            <a id="spanish-button" href="#">ES</a>
+                        </li>
+                        <li class="languages">
+                            <h5 class="sep">|</h5>
+                        </li>
+                        <li class="languages">
+                            <a id="portuguese-button" href="#">PT</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
+            <div>
+                <img>
+            </div>
         </div>
     </nav>
 
+    <section id="about">
+        <div  class="row">
+            <article id="about-article" class='about'>
+                <h1 id="about-h1" >Women in Bioinformatics and Data Science LA</h1>
+                <p id="about-p" >We are a community of women working in the fields of Bioinformatics and Data Science created in 2019 aiming at promoting and making visible the research carried out by women in these fields. 
+                    We also seek to create networking and collaboration within the community of women scientists from both the public and private sectors.
+                    Our projects aim to bring together researchers from Latin America who work in the areas of systems biology, omics technologies, artificial intelligence, machine learning, data science, data mining and high-performance computing with applications in biology from the public and private sectors.</p>
+                <a id="about-button" href="#" class="button">Who we are</a>
+            </article>
 
-    <div class="container">
-        <div class="row">
-            <div class="col12">
-                <h1>1st Congress of Women in Bioinformatics and Data Science Latin America </h1>
-                <p style="font-size: 18px;"> FREE VIRTUAL MEETING - from 21 to 24 th SEPTEMBER 2020</p>
-                <p style="font-size: 18px;"><strong>What is the 1st Latin American Congress of Women in Bioinformatics and Data Science 2020?</strong></p>
-                <p style="font-size: 18px;"> It is a community and non-profit meeting, aiming at promoting and making visible the research carried out by women in the fields of Bioinformatics and Data Science. It also seek to create networking and collaboration within the community
-                    of women scientists. This congress will bring together researchers from Latin America who work in the areas of systems biology, omics technologies, artificial intelligence, machine learning, data science, data mining and high-performance
-                    computing with applications in biology and the public and private sectors.</p>
-                <p style="font-size: 18px;">This is an event with women as protagonists, but <a href="registration.html"><strong style="color:#4B0082;">open to the entire community</strong></a></p>
-                <p style="font-size: 18px;"><strong>Why participating in the 1st Latin American Congress of Women in Bioinformatics and Data Science 2020?</strong></p>
-                <p style="font-size: 18px;">Because it is an opportunity to support and promote the dissemination of women's work in the fields of IT and academic research, and thus allowing women to assume the role of keynote speakers. In addition, this meeting encourages the women's
-                    participation in these sciences, providing a space of empathy, respect, trust and comfort for young researcher. The Conference program will include scientific lectures, posters and oral presentations. Part of the schedule will be devoted
-                    to education, specific training courses and round tables discussion.</p>
+            <figure class="aboutfigure">
+                <img src="./assets/img/cabeza.png" alt="" >
+            </figure>
+        </div>
+    </section>
 
-                <br>
-                <h2>Key Dates</h2>
-                <table class="table" style="font-size: 18px;">
-                    <thead class="p-3 mb-2 bg-info text-white">
-                        <tr>
-                            <th colspan="2">Abstract Submission for talks and Posters</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Call for Abstract Opens</td>
-                            <td><strike>April 15, 2020</strike></td>
-                        </tr>
-                        <tr>
-                            <td>Abstract Submission deadline</td>
-                            <td><strike> July 1, 2020</strike> </td>
-                        </tr>
-                        <tr>
-                            <td>Poster Acceptance Notification</td>
-                            <td><strike>July 30, 2020</strike></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="table">
-                    <thead class="p-3 mb-2 bg-info text-white">
-                        <tr>
-                            <th colspan="2">Registration</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Registration Opens</td>
-                            <td><strike>May 15, 2020</strike></td>
-                        </tr>
-                        <tr>
-                            <td>Registration Deadline</td>
-                            <td>September 10, 2020</td>
-                        </tr>
-                    </tbody>
-                </table>
+    <section id="goals">
+        <article class="goals">
+            <h2 id="goals-h2" >Our Vision and Mission</h2>
+            <ul class="vision">
+                <li id="goals-li1" >Science and technology are masculinized environments in which gender disparities remain part of their 
+                    structure. For this reason, we create a space with a broad perspective so all women can feel safe and empowered. </li>
+                    
+                <li id="goals-li2" >We want to contribute with spaces in which all the community can develop their careers without 
+                    barriers, that promotes all aspects that are important for the construction of a 
+                    more equal and diverse society and scientific community. </li>
+            </ul>
+            <ul >
+                <li id="goals-li3" >Promoting and visibilizing women research in the Bioinformatics and Data Science fields</li>
+                <li id="goals-li4" >Encouraging women to establish collaborative research networks</li>
+                <li id="goals-li5" >Empowering young scientists to be confident in their work and capabilities</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="1stwbds">
+        <h2 id="events-h2" class="blue">Our events</h2>
+        <div class="purplerow">
+            <ul>
+                <li>
+                    <h3>800+</h3>
+                    <h4 id="events-h4-1" >Participants</h4>
+                </li>
+                <li>
+                    <h3>168</h3>
+                    <h4 id="events-h4-2" >Abstracts</h4>
+                </li>
+                <li>
+                    <h3>24</h3>
+                    <h4 id="events-h4-3" >Keynotes</h4>
+                </li>
+                <li>
+                    <h3>+10</h3>
+                    <h4 id="events-h4-4" >Countries</h4>
+                </li>
+            </ul>
+        </div>
+        <p id="events-p" class="p_purplerow">You can check how the 1stWBDS went on our <a href="/conferences/1WBDSLAC/index.html" target="_blank">website</a> and <a href="https://www.youtube.com/channel/UCh4nMfC3_YIH6A1q5uf2Q0Q" target="_blank">youtube channel</a>.</p>
+    </section>
+
+    <section id="projects">
+        <h2 id="projects-h2">Our Projects</h2>
+        <div class="projects">
+            <a>
+                <div>
+                </div>
+                <img alt src='assets/img/CIRCUITOS.png' />
+            </a>
+            <a class="clickable" href="/conferences/2WBDSLAC/index.html" target="_blank" >
+                <div>
+                    <h2 id="conference-h2">2nd WBDS Conference</h2>
+                    <h3 id="conference-h3">22-24 Sep 21</h3>
+                </div>
+            </a>
+            <a class="clickable">
+                <div>
+                    <h2 id="workshops-h2">Workshops</h2>
+                    <h3 id="workshops-h3">Comming Soon!</h3>
+                </div>
+            </a>
+            <a>
+                <div>
+                </div>
+                <img alt src='assets/img/MOLECULAS.png' />
+            </a>
+
+            <a class="clickable">
+                <div>
+                    <h2 id="articles-h2">Articles</h2>
+                    <h3 id="articles-h3">Comming Soon!</h3>
+                </div>
+            </a>
+
+            <a class="whitehex">
+                <div>
+                </div>
+            </a>
+            <a class="whitehex">
+                <div>
+                </div>
+            </a>
+            <a class="clickable" href="/conferences/2WBDSLAC/index.html" target="_blank" >
+                <div>
+                    <h2 id="volunteer-h2">Become a Volunteer</h2>
+                </div>
+            </a>
+            <a>
+                <div>
+                </div>
+                <img alt src='assets/img/cabeza.png' />
+            </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdyi72ASbIZ6bM4K6M4HJ2yL90kCVtoL7L1igOxL93oGFOPxg/viewform" target="blank" class="clickable">
+                <div>
+                    <h2 id="propose-h2">Propose a Workshop</h2>
+                </div>
+            </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSenGDo6cDI_2JZp46tJMPOEjCPrtkJ-uGvq1oJvF2e5HRYYkg/viewform" target="_blank" class="clickable">
+                <div>
+                    <h2 id="database-h2">Women and LGBTQIA+ Database</h2>
+                </div>
+            </a>
+            <a class="whitehex">
+                <div>
+                </div>
+                <img alt src='assets/img/CIRCUITOS2.png' />
+            </a>
+        </div>
+    </section>
+
+    <section id="who-we-are" class="abtext disable">
+    </section>
+
+    <section id="conduct" class="conduct disable">
+    </section>
+
+    <section id="support" class="support">
+        <h2 id="support-h2" >Support Us</h2>
+        <article>
+            <p id="support-p1">If you enjoyed our community and would like to support us, check the links bellow. We are a non-profit community so any help will be greatly appreciated.</p>
+            <div class="supportlinks">
+                <a href="https://cafecito.app/wbdsla" rel="noopener" target="_blank">
+                    <img src="assets/img/cafecito.png" alt="Invitame un café en cafecito.app">
+                </a>
+                <a href="https://www.paypal.me/1wbds" rel="noopener" target="_blank">
+                    <img src="assets/img/paypal.png" alt="#">
+                </a>
             </div>
-
-        </div>
-    </div>
-
-
-
-    <hr style="border:2px solid white;">
-    <hr style="border:2px solid white;">
-    <div class="row">
-        <h3>Sponsors:</h3>
-        <div class="col-9"></div>
-        <div class="col-12">
-            <a target="_blank" href="http://a2b2c.org/"><img class="img-responsive logo-a2b2c" src="images/logo_a2b2c.png"></a>
-            
-            <a target="_blank" href="https://mumuki.io/home/"><img class="img-responsive logo-mumuki" src="images/isologo-mumuki.png"></a>
-            
-            <a target="_blank" href="https://www.cabana.online/"><img class="img-responsive logo-cabana" src="images/cabana_logo.png"></a>
-
-            <a target="_blank" href="https://spyder-ide.org"><img class="img-responsive logo-spyder" src="images/SpyderBannerLight.png"></a>
-
-            <a target="_blank" href="http://enginzyme.com/"><img class="img-responsive logo-engine" src="images/EnginZymeLogo_webready.jpg"></a>
-
-            <a target="_blank" href="https://www.argentag.com/"><img class="img-responsive logo-argentag" src="images/argentag.jpeg"></a>
-
-            <a target="_blank" href="https://www.argentag.com/"><img class="img-responsive logo-atg" src="images/atg_vert_logo.png"></a>
-        </div>
-    </div>
-    </div>
-
-    <hr style="border:2px solid white;">
-    <hr style="border:2px solid white;">
-
-    <div class="row">
-        <h3>Support this event: </h3>
-        <div class="col-9"></div>
-        <div class="col-12">
-            <a target="_blank" href="https://twitter.com/lasdesistemas"><img class="img-responsive logo-orgas" src="images/las_de_sistemas.png"></a>
-
-            <a target="_blank" href="https://twitter.com/rladiesba"><img class="img-responsive logo-orgas" src="images/R_ladies.jpg"></a>
-
-            <a target="_blank" href="https://twitter.com/WiMLDS_BA"><img class="img-responsive logo-orgas" src="images/WiMLDS.jpg"></a>
-
-            <a target="_blank" href="https://twitter.com/RSGArgentina"><img class="img-responsive logo-orgas" src="images/RSGlogoArgentina.png"></a>
-
-            <a target="_blank" href="https://twitter.com/RSGArgentina"><img class="img-responsive logo-orgas" src="images/wie_arg_violeta.png"></a>
-
-            <a target="_blank" href="https://twitter.com/RSGArgentina"><img class="img-responsive logo-orgas2" src="images/obser_gen.jpg"></a>
-        </div>
-    </div>
-    </div>
-
-
-    <hr style="border:2px solid white;">
-    <hr style="border:2px solid gray;">
-    <div>
-        <img class="img-fluid" src="images/logo_woman_en.jpg" alt="women_in_bioinformatics">
-        <div class="btn-toolbar">
-            <div class="btn-group">
-                <i><a target="_blank" href="https://twitter.com/BioinfoLa" class="fa fa-twitter"></a></i>
-                <i><a target="_blank" href="https://www.facebook.com/womenbioinfodatascla" class="fa fa-facebook"></a></i>
-                <i><a target="_blank" href="https://t.me/WomenBioinfoDataScLA" class="fa fa-telegram"></a></i>
-                <i><a target="_blank" href="https://github.com/WomenBioinfoDataScLA" class="fa fa-github"></a></i>
+        </article>
+        <article>
+            <p id="support-p2">We also offer a variety of sponsorship opportunities, including advertisement space in our conference program and website. It's an unique opportunity to promote your business. To know more, Download the sponsorship brochure below. </p>
+            <div class="brochurelink">
+                <a href="https://drive.google.com/file/d/1djj793z2MWue0y9MC2KBer9wld8tkzsL/view?usp=sharing" class="button" target="_blank">Sponsorship Brochure</a>
             </div>
-        </div>
-    </div>
+        </article>
+    </section>
 
+    <footer id="contact">
+        <section id="email">
+            <h5 id="contact-h5" ><img src="./assets/icon/email.png" alt="#"> Contact us by e-mail:</h5>
+            <address>womenbioinformaticsnetworkla@gmail.com</address>
+        </section>
+
+        <section id="socialmedia">
+            <h5  id="socialmedia-h5" >Follow us on our social media:</h5>
+            <ul class="medialinks">
+                <li>
+                    <a href="https://twitter.com/BioinfoLa" target="_blank"><img alt="#" src="./assets/icon/tw.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/womenbioinfodatascla" target="_blank"><img alt="#" src="./assets/icon/fb.png"></a>
+                </li>
+                <li>
+                    <a href="https://t.me/WomenBioinfoDataScLA" target="_blank"><img alt="#" src="./assets/icon/tl.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCh4nMfC3_YIH6A1q5uf2Q0Q" target="_blank"><img alt="#" src="./assets/icon/yt.png"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/WomenBioinfoDataScLA" target="_blank"><img alt="#" src="./assets/icon/gt.png"></a>
+                </li>
+            </ul>
+        </section>
+    </footer>
+    <svg width="0" height="0">
+            <defs>
+                <clipPath id="hexagono" clipPathUnits="objectBoundingBox">
+                    <polygon points=".25 0, .75 0, 1 .5, .75 1, .25 1, 0 .5" />
+                </clipPath>
+            </defs>
+    </svg>
 </body>
 
 </html>
