@@ -481,8 +481,8 @@ p:hover {
 
 .support-div span {
     width: 45vw;
-    height: 5vw;
-    background-color: rgb(92, 198, 208);
+    height: 7vw;
+    background-color: #4d38a5;
     border-radius: 2.7em 0px 0px 2.7em;
     margin-left: 58%;
 }
@@ -494,7 +494,7 @@ p:hover {
 }
 
 .support-div h2 {
-    margin-top: 3%;
+    margin-top: 4%;
     font-size: 2.1em;
     margin-left: -9vw;
     color: white;
@@ -514,7 +514,23 @@ p:hover {
     height: 6em;
 }
 
+#acmw {
+    height: 6em;
+}
+
+#mumuki {
+    height: 4em;
+}
+
 .orgas-logo {
+    height: 5em;
+}
+
+.smaller-orgas-logo {
+    height: 4em;
+}
+
+.bigger-orgas-logo {
     height: 6em;
 }
 

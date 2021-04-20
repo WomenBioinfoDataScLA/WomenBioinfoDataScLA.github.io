@@ -141,7 +141,8 @@ const speakersList = [
     { "name": "Maria Luisa Serrano García", 'img': 'Maria_Luisa_Serrano_squared.jpg', "filiation": "Fac. de Farmacia - UCV Venezuela" },
     { "name": "Gabriela de Queiroz", 'img': 'Gabriela_Queiroz_squared.jpg', "filiation": "IBM - USA" },
     { "name": "Georgina Stegmayer", 'img': 'GeorginaStegmayer_square.png', "filiation": "UNL - CONICET - Argentine" },
-    { "name": "Han Sun", 'img': 'Han_sun_squared.jpeg', "filiation": "Leibniz - Forschungsinstitut - Germany" }
+    { "name": "Han Sun", 'img': 'Han_sun_squared.jpeg', "filiation": "Leibniz - Forschungsinstitut - Germany" },
+    { "name": "Janet Thorton", 'img': 'janet_thorton.jpg', "filiation": "EBI - EMBL, UK" }
 ];
 
 function renderSpeakersBios() {
