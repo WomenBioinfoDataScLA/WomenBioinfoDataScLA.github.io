@@ -190,14 +190,30 @@ function renderRegistrationSection() {
     const registrationContent = $(`
     <h2>Registration</h2>
     <p><strong>Latin American Congress of Women in Bioinformatics and Data Science</strong> is a free event open to the entire community, which brings together professionals, students, academics, businesswomen, public officials and hobbyists. The main purpose of the meeting is to promote and make visible the research carried out by women and dissidents in the field of Bioinformatics and Data Science.</p>
-    <p>This congress focuses on the areas of systems biology, omics technologies, artificial intelligence, machine learning, data science, data mining and high performance computing with biological applications in public and private sectors.</p>
+    <p>The whole conference will be held in <strong>English</strong>.</p>
     <hr class="separator">
     <p>Access the registration form <a target="_blank" href="https://forms.gle/AKFMaoqqZ1ghvXN58"> here</a></p>
-    <p>Submit your abstract <a target="_blank" href="https://easychair.org/conferences/?conf=2ndwbdsla" >here</a></p>
+    <hr class="separator">
+    <h2>Abstract Submission</h2>
+    <p>The call for abstracts is currently open! The deadline is <strong>July 1st</strong>!</p>
+    <p>This congress focuses on the areas of systems biology, omics technologies, artificial intelligence, machine learning, data science, data mining and high performance computing with biological applications in public and private sectors.</p>
+    <hr class="separator">
+    <p><strong>We welcome abstract that fall within the event topics:</strong></p>
+    <ul>
+    <li>Bioinformatics and Diseases</li>
+    <li>Biomolecular Simulations, Structural Bioinformatics & Systems Biology</li>
+    <li>Chemoinformatics and Drug Discovery</li>
+    <li>Genomics and Evolution</li>
+    <li>Machine Learning, Data mining and Big Data Analysis</li>
+    <li>Education</li>
+    </ul>
+    <hr class="separator">
+    <p>Before starting the submission process, check the submission guidelines  <a target="_blank" href="https://easychair.org/cfp/2ndWBDS-LA" >here</a>.</p>
+    <p>Submit your abstract <a target="_blank" href="https://easychair.org/conferences/?conf=2ndwbdsla" >here</a>.</p>
     <hr class="separator">
     
-    <h3>Volunteers</h3>
-    <p>If you want to join the volunteers' team to help us during the event, please complete this <a target="_blank" href="#">form</a> and soon you will be contacted. Thank you!!</p>
+    <h2>Volunteers</h2>
+    <p>If you want to join the volunteers' team to help us during the event, please complete this <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfgs5K5mwFDI5tbu9MRc4SucY1XFheaDFlZSzWdLUSi-Jrkuw/viewform">form</a> and soon you will be contacted. Thank you!!</p>
     `);
 
     registrationContent.appendTo(registrationSection);
@@ -219,7 +235,7 @@ function renderPosterSessionSection() {
             the abstract: background, or motivation to your approach, method or techniques, results, conclusions, and any related references.
         </p>
         <h3>Video</h3>
-        <p>It is mandatory that authors also send the pre-record of their poster talk (3-5 minutes), which will be uploaded on our <a target="_blank" href="https://www.youtube.com/watch?v=anq8YaRMQDo&feature=youtu.be">Youtube Channel</a> and will be presented on our website along with the poster. Save your presentation as an MP4 file. Please send the video to the conference official email account, using the Subject: Virtual Poster Session. The file name should be named with the last name of the first author and the EasyChair submission number: “Velez_Rueda_Poster5.mp4”.
+        <p>It is mandatory that authors also send the pre-record of their poster talk (3-5 minutes), which will be uploaded on our <a target="_blank" href="https://www.youtube.com/watch?v=anq8YaRMQDo&feature=youtu.be">Youtube Channel</a> and will be presented on our website along with the poster. The video must be in English. Save your presentation as an MP4 file. Please send the video to the conference official email account, using the Subject: Virtual Poster Session. The file name should be named with the last name of the first author and the EasyChair submission number: “Velez_Rueda_Poster5.mp4”.
         </p>
         <h3>Twitter</h3>
         <p>
