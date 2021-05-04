@@ -9,7 +9,9 @@ const speakersSection = $('#speakers-section');
 const sponsorsButton = $('#sponsors-nav-button');
 const sponsorSection = $('#sponsorship-section');
 const posterSection = $('#poster-section');
-const posterButton = $('#poster-button');
+const posterInstButton = $('#poster-button');
+const posterSessionButton = $('#session-poster');
+
 const registrationSection = $('#registration-section');
 const registrationButton = $('#registration-nav-button');
 const committeeSection = $('#comittees-section');
@@ -18,6 +20,7 @@ const sponsorTitleSuport = document.getElementById('sponsors-tittle-suport');
 const sponsorsLogosDiv = document.getElementById('sponsors-logos');
 const orgasLogosDiv = document.getElementById('orgas-logos');
 const datesSection = $('#key-dates');
+const workshopsSection = $('#workshops-section');
 const datesbutton = $('#keydates-button');
 const workshopButton = $('#workshops-button');
 
@@ -60,6 +63,7 @@ function cleanBody() {
     committeeSection.empty();
     registrationSection.empty();
     datesSection.empty();
+    workshopsSection.addClass("disable");
 
 }
 
@@ -220,7 +224,7 @@ function renderRegistrationSection() {
 }
 
 
-function renderPosterSessionSection() {
+function renderPosterInstSection() {
     const posterSessionContent = $(`
     <article>
         <h2>Poster Submission</h2>
@@ -278,6 +282,32 @@ function renderPosterSessionSection() {
     posterSessionContent.appendTo(posterSection);
 }
 
+function renderPosterSessionSection() {
+    const posterSessionContent = $(`
+    <section>
+        <h2>2WBDS Poster Session</h2>
+        <div class="tracks">
+            <div>
+                <div class="track-title">
+                    <h3>Bioinformatics and Diseases</h3>
+                    <a href="#"><img alt="" src=""></a>
+                </div>
+                <ul class="poster-titles">
+                    <li></li>
+                </ul> 
+            </div>
+            <h3>Biomolecular Simulations, Structural Bioinformatics & Systems Biology</h3>
+            <h3>Chemoinformatics and Drug Discovery</h3>
+            <h3>Genomics and Evolution</h3>
+            <h3>Machine Learning, Data mining and Big Data Analysis</h3>
+            <h3>Education</h3>
+        </div>
+    </section>
+    `);
+
+    posterSessionContent.appendTo(posterSection);
+}
+
 
 function renderCommitteesSection() {
     const committeeContent = $(`
@@ -313,7 +343,7 @@ function renderPortuguese() {
     h3Title.innerHTML = "de 22 a 24 de SETEMBRO de 2021";
     workshopButton.text('Cursos');
     datesbutton.text('Datas Importantes');
-    posterButton.text('Sessão de Pôsteres');
+    posterInstButton.text('Sessão de Pôsteres');
     h2dates.innerHTML = "Datas Importantes";
     thdates.innerHTML = "Envio de Resumos para Palestras e Pôsteres";
     open1.innerHTML = "Abertura da Chamada para Resumo";
@@ -339,7 +369,7 @@ function renderSpanish() {
     h3Title.innerHTML = "22-24 de SEPTIEMBRE de 2021";
     workshopButton.text('Cursos');
     datesbutton.text('Fechas importantes');
-    posterButton.text('Sesión de Póster');
+    posterInstButton.text('Sesión de Póster');
     h2dates.innerHTML = "Fechas importantes";
     thdates.innerHTML = "Envío de resúmenes para conferencias y carteles";
     open1.innerHTML = "Apertura de la Convocatoria de Resumen";
@@ -378,7 +408,13 @@ speakersButton.on('click', () => {
 })
 
 
-posterButton.on('click', () => {
+posterInstButton.on('click', () => {
+    event.preventDefault()
+    cleanBody();
+    renderPosterInstSection();
+})
+
+posterSessionButton.on('click', () => {
     event.preventDefault()
     cleanBody();
     renderPosterSessionSection();
@@ -403,12 +439,14 @@ registrationButton.on('click', () => {
 
 datesbutton.on('click', () => {
     event.preventDefault()
+    workshopsSection.addClass("disable");
     datesSection.toggleClass('disable');
-
 })
 
 workshopButton.on('click', () => {
     event.preventDefault()
+    datesSection.addClass("disable");
+    workshopsSection.toggleClass('disable');
 })
 
 spanishButton.addEventListener('click', () => {

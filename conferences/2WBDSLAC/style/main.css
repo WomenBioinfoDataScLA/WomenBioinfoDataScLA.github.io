@@ -201,10 +201,15 @@ p:hover {
     width: 7vw;
 }
 
-.button-div {
+.buttons {
     margin-top: 17%;
+}
+
+.button-div {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 5vw;
 }
 
 .button-div a {
@@ -411,7 +416,7 @@ p:hover {
     position: relative;
     padding: 0 10%;
     margin-top: -20%;
-    margin-bottom: 20%;
+    margin-bottom: 25%;
 }
 
 .poster-section article,
@@ -623,4 +628,29 @@ address {
     height: 15vw;
     object-fit: cover;
     border-radius: 100%;
+}
+
+.tracks h3{
+    text-align: left;
+    margin: 2%;
+}
+
+.track-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.poster-titles li{
+    margin-left: 4%;
+    text-align: left;
+    color: #906aac;
+}
+
+.poster-titles li:hover{
+    transform: scale(1);
+}
+
+.workshops-section{
+    margin-top: -33%;
 }
