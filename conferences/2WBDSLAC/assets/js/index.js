@@ -146,7 +146,7 @@ const speakersList = [
     { "name": "Gabriela de Queiroz", 'img': 'Gabriela_Queiroz_squared.jpg', "filiation": "IBM - USA" },
     { "name": "Georgina Stegmayer", 'img': 'GeorginaStegmayer_square.png', "filiation": "UNL - CONICET - Argentine" },
     { "name": "Han Sun", 'img': 'Han_sun_squared.jpeg', "filiation": "Leibniz - Forschungsinstitut - Germany" },
-    { "name": "Janet Thorton", 'img': 'janet_thorton.jpg', "filiation": "EBI - EMBL, UK" }
+    { "name": "Janet Thorton", 'img': 'janet_thorton_square.jpg', "filiation": "EBI - EMBL, UK" }
 ];
 
 function renderSpeakersBios() {
@@ -282,31 +282,151 @@ function renderPosterInstSection() {
     posterSessionContent.appendTo(posterSection);
 }
 
+
+const BioinfoDisease = [
+    {"number": "#1",  "title": "DNA blablabla", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    {"number": "#2",  "title": "RNA blebleble", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+];
+
+const Structural = [
+    {"number": "#3",  "title": "esrgsegergs", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    {"number": "#4",  "title": "rttytyiyui", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+];
+
+const ChemoDrug = [
+    {"number": "#5",  "title": "luiluhilkuy", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    {"number": "#6",  "title": "ilhyuilguyil", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+];
+
+const GenEvol = [
+    {"number": "#7",  "title": "bnvcncvncvb", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    {"number": "#8",  "title": "vcbncncbvn", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+];
+
+const MlDataMining = [
+    {"number": "#9",  "title": "yu8itjfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    {"number": "#10",  "title": "rdyrxgmgbh", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+];
+
+const Edu = [
+    {"number": "#11",  "title": "dfdfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    {"number": "#12",  "title": "dfdfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+];
+
 function renderPosterSessionSection() {
     const posterSessionContent = $(`
     <section>
         <h2>2WBDS Poster Session</h2>
         <div class="tracks">
             <div>
-                <div class="track-title">
+                <button class="collapsible">
                     <h3>Bioinformatics and Diseases</h3>
-                    <a href="#"><img alt="" src=""></a>
-                </div>
-                <ul class="poster-titles">
-                    <li></li>
-                </ul> 
+                    <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
+                </button>
+                <div class="content" id="bioinfodisease-titles"></div> 
             </div>
-            <h3>Biomolecular Simulations, Structural Bioinformatics & Systems Biology</h3>
-            <h3>Chemoinformatics and Drug Discovery</h3>
-            <h3>Genomics and Evolution</h3>
-            <h3>Machine Learning, Data mining and Big Data Analysis</h3>
-            <h3>Education</h3>
+            <div>
+                <button class="collapsible">
+                    <h3>Biomolecular Simulations, Structural Bioinformatics & Systems Biology</h3>
+                    <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
+                </button>
+                <div class="content" id="structural-titles"></div> 
+            </div>
+            <div>
+                <button class="collapsible">
+                    <h3>Chemoinformatics and Drug Discovery</h3>
+                    <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
+                </button>
+                <div class="content" id="chemo-drug-titles"></div> 
+            </div>
+            <div>
+                <button class="collapsible">
+                    <h3>Genomics and Evolution</h3>
+                    <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
+                </button>
+                <div class="content" id="genomics-evol-titles"></div> 
+            </div>
+            <div>
+                <button class="collapsible">
+                    <h3>Machine Learning, Data mining and Big Data Analysis</h3>
+                    <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
+                </button>
+                <div class="content" id="ml-data-titles"></div> 
+            </div>
+            <div>
+                <button class="collapsible">
+                    <h3>Education</h3>
+                    <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
+                </button>
+                <div class="content" id="education-titles"></div> 
+            </div>
         </div>
+        
     </section>
     `);
 
     posterSessionContent.appendTo(posterSection);
+ 
+    var divPosters = document.getElementsByClassName("content");
+    //var dicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu]//
+    var j;
+
+    for (j=0; j<dicts.length;j++){
+        dicts[j].forEach(element => {
+            var title = $(`
+            <a id="myBtn" class="titleposters"> ${element.number} ${element.title}</a>
+            <div id="myPopUp" class="popup">
+                <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Poster ${element.number}: ${element.title}</p>
+                </div>
+            </div>`);
+            title.appendTo(divPosters[j]);
+        });
+
+    }
+
+    var tracks = document.getElementsByClassName("collapsible");
+    
+    for (var i = 0; i < tracks.length; i++) {
+        tracks[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+    // Get the modal
+    var modal = document.getElementById("myPopUp");
+
+    // Get the button that opens the modal
+    var btn = document.getElementsByClassName("titleposters");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn[0].onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+    }
 }
+
 
 
 function renderCommitteesSection() {
@@ -327,7 +447,6 @@ function renderCommitteesSection() {
         <li>Mercedes Didier Garnham, Trypanosomatics Lab, IIB-UNSAM, Argentine</li>
     </ul>
     `);
-
     committeeContent.appendTo(committeeSection)
 }
 

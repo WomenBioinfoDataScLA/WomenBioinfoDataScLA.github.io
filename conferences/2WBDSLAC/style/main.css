@@ -630,9 +630,12 @@ address {
     border-radius: 100%;
 }
 
+.tracks{
+    margin-top: 2vw;
+}
+
 .tracks h3{
     text-align: left;
-    margin: 2%;
 }
 
 .track-title{
@@ -653,4 +656,89 @@ address {
 
 .workshops-section{
     margin-top: -33%;
+}
+
+.arrow{
+    height: 1.6vw;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    background-color: #FFFFFF;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
+
+  .titleposters{
+    font-size: 1.3em;
+    text-align: left;
+    margin-left: 4%;
+    color: #906aac;
+    margin-bottom: 0;
+    margin-bottom: 1.5%;
+    display: block;
+  }
+
+  .titleposters:hover{
+    transform: scale(1);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* The Modal (background) */
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.modal-content p:hover{
+    transform: scale(1);
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
