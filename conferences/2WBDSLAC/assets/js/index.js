@@ -42,6 +42,10 @@ const notify2 = document.getElementById('date-notify-2');
 const h2Sponsors = document.getElementById('sponsors-h2');
 const h4Contact = document.getElementById('contact-h4');
 const h4Media = document.getElementById('socialmedia-h4');
+const scientificComm = document.getElementById('scientific-comm');
+const executiveComm = document.getElementById('executive-comm');
+
+
 
 function disableElement(element) {
     element.classList.add('disable');
@@ -284,8 +288,8 @@ function renderPosterInstSection() {
 
 
 const BioinfoDisease = [
-    {"number": "#1",  "title": "DNA blablabla", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
-    {"number": "#2",  "title": "RNA blebleble", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+    {"number": "#1",  "title": "DNA blablabla", 'poster': 'cabeza.png', "video": "youtubedotcom" },
+    {"number": "#2",  "title": "RNA blebleble", 'poster': 'cabeza.png', "video": "youtubedotcom" }
 ];
 
 const Structural = [
@@ -315,7 +319,6 @@ const Edu = [
 
 function renderPosterSessionSection() {
     const posterSessionContent = $(`
-    <section>
         <h2>2WBDS Poster Session</h2>
         <div class="tracks">
             <div>
@@ -362,20 +365,20 @@ function renderPosterSessionSection() {
             </div>
         </div>
         
-    </section>
     `);
 
     posterSessionContent.appendTo(posterSection);
- 
+    
+    //Create the content in each track
     var divPosters = document.getElementsByClassName("content");
+    //Create array with the tracks dictionaries
     //var dicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu]//
-    var j;
 
-    for (j=0; j<dicts.length;j++){
+    for (var j=0; j<dicts.length;j++){
         dicts[j].forEach(element => {
             var title = $(`
             <a id="myBtn" class="titleposters"> ${element.number} ${element.title}</a>
-            <div id="myPopUp" class="popup">
+            <div class="popup">
                 <div class="modal-content">
                 <span class="close">&times;</span>
                 <p>Poster ${element.number}: ${element.title}</p>
@@ -385,7 +388,8 @@ function renderPosterSessionSection() {
         });
 
     }
-
+    
+    // Click in the tracks to toggle between showing and hiding the collapsible content
     var tracks = document.getElementsByClassName("collapsible");
     
     for (var i = 0; i < tracks.length; i++) {
@@ -400,30 +404,49 @@ function renderPosterSessionSection() {
       });
     }
 
-    // Get the modal
-    var modal = document.getElementById("myPopUp");
+    // Create the PopUp
+    var modal = document.getElementsByClassName("popup");
 
-    // Get the button that opens the modal
+    // Get the button that opens the PopUp
     var btn = document.getElementsByClassName("titleposters");
 
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+    // Get the <span> element that closes the PopUp
+    var span = document.getElementsByClassName("close");
 
-    // When the user clicks the button, open the modal 
+    var content = document.getElementsByClassName("modal-content");
+
+    // When the user clicks the button, open the PopUp 
     btn[0].onclick = function() {
-        modal.style.display = "block";
+        var poster = $(`
+            <div class="poster-video">
+                <img alt="" src="./assets/img/${dicts[0][0].poster}">
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/kS9yt9z0Gow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+        `);
+        poster.appendTo(content[0]);
+        modal[0].style.display = "block";
     }
 
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
+    btn[1].onclick = function() {
+        modal[1].style.display = "block";
     }
 
-    // When the user clicks anywhere outside of the modal, close it
+    // When the user clicks on <span> (x), close the PopUp
+    span[0].onclick = function() {
+        modal[0].style.display = "none";
+    }
+
+    span[1].onclick = function() {
+        modal[1].style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the PopUp, close it
     window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+        if (event.target == modal[0]) {
+            modal[0].style.display = "none";
+        }
+        if (event.target == modal[1]) {
+            modal[1].style.display = "none";
+        }
     }
 }
 
@@ -431,13 +454,13 @@ function renderPosterSessionSection() {
 
 function renderCommitteesSection() {
     const committeeContent = $(`
-    <h2>Scientific Committee Chairs</h2>
+    <h2 id="scientific-comm" >Scientific Committee Chairs</h2>
     <ul>
         <li>Wendy González,  Universidad de Talca - CBSM, Chile</li>
         <li>Cristina Marino-Buslje, Fundación Instituto Leloir - CONICET, Argentine</li>
     </ul>
     <hr class="separator">
-    <h2>Executive Committee</h2>
+    <h2 id="executive-comm">Executive Committee</h2>
     <ul>
         <li>Ana Julia Velez Rueda, Universidad Nacional de Quilmes - CONICET, Argentine</li>
         <li>Lucy Jiménez, IT - Machine Learning - Mercado Libre, Colombia</li>
@@ -462,7 +485,8 @@ function renderPortuguese() {
     h3Title.innerHTML = "de 22 a 24 de SETEMBRO de 2021";
     workshopButton.text('Cursos');
     datesbutton.text('Datas Importantes');
-    posterInstButton.text('Sessão de Pôsteres');
+    posterInstButton.text('Instruções para Pôsteres');
+    posterSessionButton.text('Sessão de Pôsteres');
     h2dates.innerHTML = "Datas Importantes";
     thdates.innerHTML = "Envio de Resumos para Palestras e Pôsteres";
     open1.innerHTML = "Abertura da Chamada para Resumo";
