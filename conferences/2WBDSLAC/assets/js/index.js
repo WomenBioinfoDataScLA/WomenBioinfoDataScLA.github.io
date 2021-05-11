@@ -288,7 +288,7 @@ function renderPosterInstSection() {
 
 
 const BioinfoDisease = [
-    {"number": "#1",  "title": "DNA blablabla", 'poster': 'cabeza.png', "video": "youtubedotcom" },
+    {"number": "#1",  "title": "DNA blablabla", 'poster': 'cabeza.png', "video": "https://www.youtube.com/embed/kS9yt9z0Gow" },
     {"number": "#2",  "title": "RNA blebleble", 'poster': 'cabeza.png', "video": "youtubedotcom" }
 ];
 
@@ -420,7 +420,7 @@ function renderPosterSessionSection() {
         var poster = $(`
             <div class="poster-video">
                 <img alt="" src="./assets/img/${dicts[0][0].poster}">
-                <iframe width="360" height="315" src="https://www.youtube.com/embed/kS9yt9z0Gow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+                <iframe width="360" height="315" src="${dicts[0][0].video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
         `);
         poster.appendTo(content[0]);
         modal[0].style.display = "block";
@@ -429,6 +429,15 @@ function renderPosterSessionSection() {
     btn[1].onclick = function() {
         modal[1].style.display = "block";
     }
+
+    //for (var k = 0; k < btn.length; k++) {
+        //maybe merge all dictionaries into one?
+        //var poster = $(`
+        //<div class="poster-video">
+        //    <img alt="" src="./assets/img/${dicts[0][0].poster}">
+        //    <iframe width="360" height="315" src="${dicts[0][0].video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+        //`);
+    //}
 
     // When the user clicks on <span> (x), close the PopUp
     span[0].onclick = function() {
