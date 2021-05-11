@@ -11,6 +11,7 @@ const sponsorSection = $('#sponsorship-section');
 const posterSection = $('#poster-section');
 const posterInstButton = $('#poster-button');
 const posterSessionButton = $('#session-poster');
+const supportDiv = $('#support-div');
 
 const registrationSection = $('#registration-section');
 const registrationButton = $('#registration-nav-button');
@@ -68,7 +69,7 @@ function cleanBody() {
     registrationSection.empty();
     datesSection.empty();
     workshopsSection.addClass("disable");
-
+    supportDiv.empty();
 }
 
 function renderCodeCon() {
@@ -288,7 +289,7 @@ function renderPosterInstSection() {
 
 
 const BioinfoDisease = [
-    {"number": "#1",  "title": "DNA blablabla", 'poster': 'cabeza.png', "video": "https://www.youtube.com/embed/kS9yt9z0Gow" },
+    {"number": "#1",  "title": "DNA blablabla", 'poster': 'poster.jpg', "video": "https://www.youtube.com/embed/kS9yt9z0Gow" },
     {"number": "#2",  "title": "RNA blebleble", 'poster': 'cabeza.png', "video": "youtubedotcom" }
 ];
 

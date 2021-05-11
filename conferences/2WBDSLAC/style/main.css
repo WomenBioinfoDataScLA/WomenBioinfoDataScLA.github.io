@@ -661,7 +661,7 @@ address {
 }
 
 .arrow{
-    height: 1.6vw;
+    height: 1vw;
 }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -674,7 +674,7 @@ address {
     outline: none;
     display: flex;
     flex-direction: row;
-    align-items: end;
+    align-items: baseline;
     background-color: #FFFFFF;
   }
   
