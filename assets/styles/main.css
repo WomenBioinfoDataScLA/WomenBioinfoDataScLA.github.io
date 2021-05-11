@@ -452,7 +452,7 @@ a.orangehex:active {
 }
 
 .projects h2 {
-    font-size: .95em;
+    font-size: .8em;
     line-height: 25px;
     color: #4d38a5;
     margin: 0 -9px;
@@ -462,6 +462,9 @@ a.orangehex:active {
     font-size: .8em;
     color: #ffffff;
     margin-top: 1vw;
+    margin-left: -.5vw;
+    margin-right: -.5vw;
+    text-align: center;
 }
 
 .projects div {
