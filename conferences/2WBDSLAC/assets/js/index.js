@@ -512,7 +512,8 @@ function renderSpanish() {
     h3Title.innerHTML = "22-24 de SEPTIEMBRE de 2021";
     workshopButton.text('Cursos');
     datesbutton.text('Fechas importantes');
-    posterInstButton.text('Sesión de Póster');
+    posterInstButton.text('Instrucciones para Pósters');
+    posterSessionButton.text('Sesión de Pósters');
     h2dates.innerHTML = "Fechas importantes";
     thdates.innerHTML = "Envío de resúmenes para conferencias y carteles";
     open1.innerHTML = "Apertura de la Convocatoria de Resumen";
