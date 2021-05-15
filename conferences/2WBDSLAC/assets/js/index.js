@@ -374,7 +374,7 @@ function renderPosterSessionSection() {
     //Create the content in each track
     let divPosters = document.getElementsByClassName("track");
     //Create array with the tracks dictionaries
-    let dicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu]
+    //let dicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu]//
 
     for (let j=0; j<dicts.length;j++){
         dicts[j].forEach(element => {
