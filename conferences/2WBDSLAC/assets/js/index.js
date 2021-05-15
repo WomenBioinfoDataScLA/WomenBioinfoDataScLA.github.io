@@ -143,11 +143,11 @@ function renderCodeCon() {
 
 const speakersList = [
     { "name": "Daniela Robles", 'img': 'Daniela_Robles_square.png', "filiation": "UNAM - Mexico" },
-    { "name": "Janet Gonzalez", "img": "Janneth_Gonzalez.png", "filiation": "PUJ - Colombia" },
+    { "name": "Janneth González", "img": "Janneth_Gonzalez.png", "filiation": "PUJ - Colombia" },
     { "name": "Sara Cuadros Orellana", 'img': 'Sara_Cuadros.JPG', "filiation": "UCM - Chile" },
-    { "name": "Patricia Acosta Vargas", 'img': 'Patricia Acosta.jpg', "filiation": "UDLA - Chile" },
+    { "name": "Patricia Acosta-Vargas", 'img': 'Patricia Acosta.jpg', "filiation": "UDLA - Chile" },
     { "name": "Daiana Mir", 'img': 'daiana_mir.jpg', "filiation": "UGB - CENUR - UdelaR - Uruguay" },
-    { "name": "Maria Luisa Serrano García", 'img': 'Maria_Luisa_Serrano_squared.jpg', "filiation": "Fac. de Farmacia - UCV Venezuela" },
+    { "name": "María Luisa Serrano García", 'img': 'Maria_Luisa_Serrano_squared.jpg', "filiation": "Fac. de Farmacia - UCV Venezuela" },
     { "name": "Gabriela de Queiroz", 'img': 'Gabriela_Queiroz_squared.jpg', "filiation": "IBM - USA" },
     { "name": "Georgina Stegmayer", 'img': 'GeorginaStegmayer_square.png', "filiation": "UNL - CONICET - Argentine" },
     { "name": "Han Sun", 'img': 'Han_sun_squared.jpeg', "filiation": "Leibniz - Forschungsinstitut - Germany" },
@@ -318,6 +318,7 @@ const Edu = [
     {"number": "#12",  "title": "dfdfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
 ];
 
+
 function renderPosterSessionSection() {
     const posterSessionContent = $(`
         <h2>2WBDS Poster Session</h2>
@@ -327,42 +328,42 @@ function renderPosterSessionSection() {
                     <h3>Bioinformatics and Diseases</h3>
                     <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
                 </button>
-                <div class="content" id="bioinfodisease-titles"></div> 
+                <div class=" content track" id="BioinfoDisease"></div> 
             </div>
             <div>
                 <button class="collapsible">
                     <h3>Biomolecular Simulations, Structural Bioinformatics & Systems Biology</h3>
                     <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
                 </button>
-                <div class="content" id="structural-titles"></div> 
+                <div class=" content track" id="Structural"></div> 
             </div>
             <div>
                 <button class="collapsible">
                     <h3>Chemoinformatics and Drug Discovery</h3>
                     <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
                 </button>
-                <div class="content" id="chemo-drug-titles"></div> 
+                <div class=" content track" id="ChemoDrug"></div> 
             </div>
             <div>
                 <button class="collapsible">
                     <h3>Genomics and Evolution</h3>
                     <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
                 </button>
-                <div class="content" id="genomics-evol-titles"></div> 
+                <div class=" content track" id="GenEvol"></div> 
             </div>
             <div>
                 <button class="collapsible">
                     <h3>Machine Learning, Data mining and Big Data Analysis</h3>
                     <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
                 </button>
-                <div class="content" id="ml-data-titles"></div> 
+                <div class=" content track" id="MlDataMining"></div> 
             </div>
             <div>
                 <button class="collapsible">
                     <h3>Education</h3>
                     <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
                 </button>
-                <div class="content" id="education-titles"></div> 
+                <div class=" content track" id="Edu"></div> 
             </div>
         </div>
         
@@ -371,32 +372,35 @@ function renderPosterSessionSection() {
     posterSessionContent.appendTo(posterSection);
     
     //Create the content in each track
-    var divPosters = document.getElementsByClassName("content");
+    let divPosters = document.getElementsByClassName("track");
     //Create array with the tracks dictionaries
-    //var dicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu]//
+    let dicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu]
 
-    for (var j=0; j<dicts.length;j++){
+    for (let j=0; j<dicts.length;j++){
         dicts[j].forEach(element => {
-            var title = $(`
-            <a id="myBtn" class="titleposters"> ${element.number} ${element.title}</a>
-            <div class="popup">
-                <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Poster ${element.number}: ${element.title}</p>
+            let title = $(`
+            <button class="titleposters collapsible"> 
+                <h3>${element.number} ${element.title}</h3>
+            </button>
+            <div class="content">
+                <h4>Poster ${element.number}: ${element.title}</h4>
+                <div class="poster-video">
+                    <img alt="" src="./assets/img/${element.poster}">
+                    <iframe width="360" height="315" src="${element.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-            </div>`);
-            title.appendTo(divPosters[j]);
+            </div> 
+            `);
+            title.appendTo($(divPosters[j]));
         });
-
     }
     
     // Click in the tracks to toggle between showing and hiding the collapsible content
-    var tracks = document.getElementsByClassName("collapsible");
+    let tracks = document.getElementsByClassName("collapsible");
     
-    for (var i = 0; i < tracks.length; i++) {
+    for (let i = 0; i < tracks.length; i++) {
         tracks[i].addEventListener("click", function() {
         this.classList.toggle("active");
-        var content = this.nextElementSibling;
+        let content = this.nextElementSibling;
         if (content.style.display === "block") {
           content.style.display = "none";
         } else {
@@ -405,59 +409,7 @@ function renderPosterSessionSection() {
       });
     }
 
-    // Create the PopUp
-    var modal = document.getElementsByClassName("popup");
-
-    // Get the button that opens the PopUp
-    var btn = document.getElementsByClassName("titleposters");
-
-    // Get the <span> element that closes the PopUp
-    var span = document.getElementsByClassName("close");
-
-    var content = document.getElementsByClassName("modal-content");
-
-    // When the user clicks the button, open the PopUp 
-    btn[0].onclick = function() {
-        var poster = $(`
-            <div class="poster-video">
-                <img alt="" src="./assets/img/${dicts[0][0].poster}">
-                <iframe width="360" height="315" src="${dicts[0][0].video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
-        `);
-        poster.appendTo(content[0]);
-        modal[0].style.display = "block";
-    }
-
-    btn[1].onclick = function() {
-        modal[1].style.display = "block";
-    }
-
-    //for (var k = 0; k < btn.length; k++) {
-        //maybe merge all dictionaries into one?
-        //var poster = $(`
-        //<div class="poster-video">
-        //    <img alt="" src="./assets/img/${dicts[0][0].poster}">
-        //    <iframe width="360" height="315" src="${dicts[0][0].video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
-        //`);
-    //}
-
-    // When the user clicks on <span> (x), close the PopUp
-    span[0].onclick = function() {
-        modal[0].style.display = "none";
-    }
-
-    span[1].onclick = function() {
-        modal[1].style.display = "none";
-    }
-
-    // When the user clicks anywhere outside of the PopUp, close it
-    window.onclick = function(event) {
-        if (event.target == modal[0]) {
-            modal[0].style.display = "none";
-        }
-        if (event.target == modal[1]) {
-            modal[1].style.display = "none";
-        }
-    }
+    
 }
 
 
