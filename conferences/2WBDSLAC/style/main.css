@@ -510,6 +510,8 @@ p:hover {
     margin-top: 4vw;
     display: flex;
     align-items: center;
+    margin-left: -1vw;
+    flex-wrap: wrap;
 }
 
 .sponsors-logos img {
