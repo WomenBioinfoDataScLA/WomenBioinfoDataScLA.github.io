@@ -484,13 +484,23 @@ p:hover {
     margin-bottom: 3%;
 }
 
-.support-div span {
+.sponsors{
     width: 45vw;
     height: 7vw;
-    background-color: #4d38a5;
+    background-color: #6000A5;
+    border-radius: 0px 2.7em 2.7em 0px;
+    margin-left: -7vw;
+}
+
+.supporters {
+    width: 45vw;
+    height: 7vw;
+    background-color: #6000A5;
     border-radius: 2.7em 0px 0px 2.7em;
     margin-left: 58%;
 }
+
+
 
 .sponsors-tittle-suport {
     width: 35em;
@@ -507,11 +517,11 @@ p:hover {
 
 .sponsors-logos,
 .orgas-logos {
-    margin-top: 4vw;
+    margin: 4vw;
     display: flex;
-    align-items: center;
-    margin-left: -1vw;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .sponsors-logos img {
