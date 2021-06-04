@@ -266,7 +266,8 @@
     .languages {
         margin: 0 0.1vw;
     }
-
+}
+@media (min-width: 1010px) {
     :root {
         --Nhexa: 6;
       }
@@ -280,4 +281,57 @@
       }
 }
 
-/*-------------------------HEXAGONS-----------------------------*/
+@media (min-width: 1501px){
+    .support{
+        background-size: 70vw;
+    }
+    .support h2 {
+        padding: 5vw 0 1vw 0;
+    }
+    nav ul{
+        gap: .9vw;
+    }
+    nav a{
+        font-size: 1em;
+    }
+    .medialinks img{
+        width: 2.3vw;
+    }
+    .supportlinks img{
+        width: 13vw;  
+    }
+    h5{
+        margin: 1vw 0;
+    }
+    .support {
+        padding: 0 5% 7%;
+        margin-bottom: 3%;
+    }
+    .projects h2 {
+        line-height: 1.8vw;
+    }
+}
+@media (min-width: 1501px) and (max-width: 1840px){
+    p, li, a, .support p,.goals li, address {
+        font-size: 1.1em;
+        line-height: 2em;
+    }
+
+    .memberslist li{
+        margin: 2em 0;
+    }
+}
+
+
+@media (min-width: 1841px){
+    p, li, a, .support p,.goals li, address {
+        font-size: 1vw;
+        line-height: 2em;
+    }
+    .memberslist li{
+        margin: 3em 0;
+    }
+    .support h2 {
+        padding: 5vw 0 3vw 0;
+    }
+}
