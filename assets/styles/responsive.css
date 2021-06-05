@@ -1,66 +1,65 @@
 @media screen and (min-width: 300px) and (max-width: 650px){
- h5{
-    font-size: 1.1em;
-} 
+    h5{
+        font-size: 1.1em;
+    } 
+    nav {
+        height: 12vw;
+    }
+    .logofigure img {
+        width: auto;
+        height: 8.9vw;
+    }
+    .header{
+        padding-left: 23%;
+    }
+    .nav-options {
+        margin-right: -7.5%;
+    }
+    .button {
+        padding: 1.7vw;
+        font-size: 1em;
+    }
+    .goals {
+        margin-bottom: 8vw;
+        margin: 8% 4%;
+    }
+    .goals li{
+        padding: 4vw;
+        font-size: 1em;
+    }
+    .purplerow li {
+        margin: 3vw 7vw;
+    }
 
- nav {
-    height: 12vw;
-}
-.logofigure img {
-    width: auto;
-    height: 8.9vw;
-}
-.header{
-    padding-left: 23%;
-}
-.nav-options {
-    margin-right: -7.5%;
-}
-.button {
-    padding: 1.7vw;
-    font-size: 1em;
-}
-.goals {
-    margin-bottom: 8vw;
-    margin: 8% 4%;
-}
-.goals li{
-    padding: 4vw;
-    font-size: 1em;
-}
-.purplerow li {
-    margin: 3vw 7vw;
-}
-
-.p_purplerow {
-    line-height: 5vw;
-}
-.projects h2 {
-    font-size: 1.1em;
-}
-.member {
-    width: 16em;
-}
-.member img {
-    width: 10em;
-    height: 10em;
-}
-.support{
-    background-image: none;
-    background-color: #e7d4f9;
-}
- .support article {
-    margin: 0;
- }
- .supportlinks img{
-    width: 45%;   
- }
- footer {
-    padding-bottom: 4vw;
- }
- footer img {
-    width: 7vw;
- }
+    .p_purplerow {
+        line-height: 5vw;
+    }
+    .projects h2 {
+        font-size: 1.1em;
+    }
+    .member {
+        width: 16em;
+    }
+    .member img {
+        width: 10em;
+        height: 10em;
+    }
+    .support{
+        background-image: none;
+        background-color: #e7d4f9;
+    }
+    .support article {
+        margin: 0;
+    }
+    .supportlinks img{
+        width: 45%;   
+    }
+    footer {
+        padding-bottom: 4vw;
+    }
+    footer img {
+        width: 7vw;
+    }
 }
 
 @media screen and (max-width: 850px){
@@ -267,6 +266,7 @@
         margin: 0 0.1vw;
     }
 }
+
 @media (min-width: 1010px) {
     :root {
         --Nhexa: 6;

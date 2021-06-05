@@ -301,7 +301,7 @@ p:hover {
     width: 11em;
     position: absolute;
     margin-top: 1.5%;
-    margin-left: 1%;
+    margin-left: 3%;
     transform: scaleX(-1);
 }
 
@@ -578,16 +578,9 @@ footer h4 {
     margin-bottom: 0px;
 }
 
-.email-contact {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+.mail{
+    margin-right: .7vw;
 }
-
-.email-contact img {
-    margin-right: 5px;
-}
-
 address {
     font-size: 1em;
     line-height: 5.2vw;

@@ -189,7 +189,7 @@ function renderSponsorshipSection() {
     academic research</p>
     <p> We offer a variety of sponsorship opportunities, including advertisement space in our conference program and website.
     For information on sponsorship opportunities, please download the sponsorship <a target=”_blank” href="https://drive.google.com/file/d/1myA94IjMknfAJIAqnQTTakabAooh5f7z/view?usp=sharing">brochure.</a>
-    If you need more information on sponsorship, please email:</p> <p>womenbioinformaticsnetworkla@gmail.com</p>
+    If you need more information on sponsorship, please email us:</p> <p>womenbioinformaticsnetworkla@gmail.com</p>
     </div>`);
 
     sponsorsSectionContent.appendTo(sponsorSection);
