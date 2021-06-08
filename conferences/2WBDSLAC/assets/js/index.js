@@ -151,7 +151,8 @@ const speakersList = [
     { "name": "Gabriela de Queiroz", 'img': 'Gabriela_Queiroz_squared.jpg', "filiation": "IBM - USA" },
     { "name": "Georgina Stegmayer", 'img': 'GeorginaStegmayer_square.png', "filiation": "UNL - CONICET - Argentine" },
     { "name": "Han Sun", 'img': 'Han_sun_squared.jpeg', "filiation": "Leibniz - Forschungsinstitut - Germany" },
-    { "name": "Janet Thorton", 'img': 'janet_thorton_square.jpg', "filiation": "EBI - EMBL, UK" }
+    { "name": "Janet Thorton", 'img': 'janet_thorton_square.jpg', "filiation": "EBI - EMBL, UK" },
+    {"name": "Ariane Nunes Alves", 'img': 'Ariane_Nunes_Alves.jpg', "filiation": "HITS - Germany"}
 ];
 
 function renderSpeakersBios() {
