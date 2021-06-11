@@ -663,6 +663,7 @@ address {
 
 .workshops-section{
     margin-top: -33%;
+    display: flex;
 }
 
 .arrow{
