@@ -510,8 +510,8 @@ p:hover {
 
 .support-div h2 {
     margin-top: 4%;
-    font-size: 2.1em;
-    margin-left: -9vw;
+    font-size: 3vw;
+    margin-left: -4vw;
     color: white;
 }
 
@@ -663,7 +663,21 @@ address {
 
 .workshops-section{
     margin-top: -33%;
+    margin-bottom: 1vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.workshops-section div{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.workshops-section img{
+    width: 30vw;
+
 }
 
 .arrow{

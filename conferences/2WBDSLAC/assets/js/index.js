@@ -153,7 +153,8 @@ const speakersList = [
     { "name": "Han Sun", 'img': 'Han_sun_squared.jpeg', "filiation": "Leibniz - Forschungsinstitut - Germany" },
     { "name": "Janet Thorton", 'img': 'janet_thorton_square.jpg', "filiation": "EBI - EMBL, UK" },
     { "name": "Ariane Nunes Alves", 'img': 'Ariane_Nunes_Alves.jpg', "filiation": "HITS - Germany"},
-    { "name": "Eliana K Asciutto", 'img': "Eliana_Asciutto.jpg", "filiation": "Conicet - UNSAM - Argentine"}
+    { "name": "Eliana K Asciutto", 'img': "Eliana_Asciutto.jpg", "filiation": "Conicet - UNSAM - Argentine"},
+    { "name": "Lucia Spangenberg", "img": "Lucia.jpeg", "filiation": "Institut Pasteur - Uruguay"}
 ];
 
 function renderSpeakersBios() {

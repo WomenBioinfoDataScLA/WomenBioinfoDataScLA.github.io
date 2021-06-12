@@ -66,9 +66,6 @@
     .code-button-section figcaption{
         font-size: 1.2em;
     }
-    .support-div h2 {
-        margin-top: 4%;
-    }
     .button-div {
         margin-left: -13%;
         margin-right: -13%;
@@ -213,16 +210,22 @@
         width: 80%;
     }
 
-    .support-div span {
-        width: 55vw;
-        height: 7vw;
-        margin-left: 58%;
+    .sponsors {
+        width: 50vw;
+        margin-left: -16vw;
     }
 
-    .support-div h2 {
+    .sponsors h2 {
         margin-top: 3%;
-        margin-left: -15vw;
-        font-size: 1.7em;
+        margin-left: 6vw;
+        font-size: 3vw;
+    }
+    .supporters{
+        margin-left: 52%;
+    }
+    .supporters h2 {
+        margin-top: 3%;
+        font-size: 3vw;
     }
       
     .tittle-texts {
@@ -324,16 +327,25 @@
     .support-div span {
         width: 64vw;
         height: 9vw;
-        margin-left: 52%;
     }
 
-    .support-div h2 {
-        font-size: 1.1em;
+    .sponsors h2 {
+        font-size: 4vw;
+        margin-left: 2vw;
     }
 
     .sponsors-logos img {
         height: 15vw;
         margin-left: 0;
+    }
+
+    .supporters {
+        font-size: 4vw;
+        margin-left: 47%;
+    }
+    .supporters h2 {
+        font-size: 4vw;
+        margin-left: -8vw;
     }
 }
 
