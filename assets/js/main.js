@@ -107,7 +107,8 @@ const MembersList = [
     { "name": "Mercedes Didier Garnham", 'img': 'mercedes.jpeg', "filiation": "Genetics and Bioinformatics Lab, IIB-UNSAM, Argentina" },
     { "name": "Ivana Feldfeber", 'img': 'ivana.jpg', "filiation": "Observatorio de Datos con Perspectiva de Género, Argentina" },
     { "name": "Augustina Nardo", 'img': 'Agus2.jpg', "filiation": "CIDCA -UNLP, Argentina" },
-    { "name": "Celeste Grimolizzi", 'img': 'celeste.jpg', "filiation": "3IA-IIIA CONICET UNSAM, Argentina"}
+    { "name": "Celeste Grimolizzi", 'img': 'celeste.jpg', "filiation": "3IA-IIIA CONICET UNSAM, Argentina"},
+    { "name": "Lucía Guerrero García", 'img': 'lucia.jpg', "filiation": "GIBBS - UNAL, Colombia" }
 ];
 
 function renderWeSection(){
@@ -134,6 +135,7 @@ function renderWeSection(){
         img.alt = element.name + "-img";
         figcappurple.innerHTML = element.name;
         figcapgray.innerHTML = element.filiation;
+
         
         figure.appendChild(img);
         figure.appendChild(figcappurple);

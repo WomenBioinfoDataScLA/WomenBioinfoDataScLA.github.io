@@ -591,13 +591,19 @@ address {
     height: 15vw;
     object-fit: cover;
     border-radius: 100%;
-    border: 15px solid #ffa992;
 }
 
 .name{
     font-weight: bold;
     color: rgb(140, 100, 170);
 }
+
+.backgroundimage{
+    width:20vw;
+    height:20vw;
+    margin-top: -6%;
+}
+
 
 /*---------------------CONDUCT-----------------------*/
 
