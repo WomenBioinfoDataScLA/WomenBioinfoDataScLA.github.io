@@ -684,6 +684,11 @@ address {
     height: 1vw;
 }
 
+.purple-a{
+    color: #4d38a5;
+    font-weight: bold;
+}
+
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
     cursor: pointer;

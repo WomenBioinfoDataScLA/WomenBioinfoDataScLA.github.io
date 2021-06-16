@@ -220,7 +220,7 @@ function renderRegistrationSection() {
     <li>Education</li>
     </ul>
     <hr class="separator">
-    <p>Before starting the submission process, check the submission guidelines  <a target="_blank" href="https://easychair.org/cfp/2ndWBDS-LA" >here</a>.</p>
+    <p>Before starting the submission process, check the submission guidelines  <a target="_blank" href="https://easychair.org/cfp/2ndWBDS-LA">here</a>.</p>
     <p>Submit your abstract <a target="_blank" href="https://easychair.org/conferences/?conf=2ndwbdsla" >here</a>.</p>
     <hr class="separator">
     
@@ -236,30 +236,31 @@ function renderPosterInstSection() {
     const posterSessionContent = $(`
     <article>
         <h2>Poster Submission</h2>
-        <p>After receiving the notification that your abstract has been accepted for poster presentation, you will be able to submit your poster. Submitting a poster comprises on sending a file in png format of the poster and a pre-recorded presentation of 3-5 minutes explaining the poster.</p>
+        <p>After <a target="_blank" class = "purple-a" href="https://easychair.org/cfp/2ndWBDS-LA">submitting your abstract </a> and receiving the notification that your abstract has been accepted for poster presentation, you will be able to submit your poster. Submitting a poster comprises on sending a file in png format of the poster and a pre-recorded presentation of 3-5 minutes explaining the poster.</p>
     </article>
     <article>
         <h2>Poster and Video Instructions</h2>
-        <p>Please send it before the 10th of September to the official email account: <a href="#" target="_blank">womenbioinformaticsnetworkla@gmail.com</a></p>
+        <p>Please send it before the 10th of September to the official email account: <a href="#" target="_blank" class = "purple-a">womenbioinformaticsnetworkla@gmail.com</a></p>
         <h3>Poster</h3>
-        <p>Participants must create a 45 cm x 53 cm high-resolution image with all the poster information in English, using the background image <a target="_blank" href="#">provided</a> by the organizing committee. The poster should be in png format.  Please send the poster to the conference official email account, using the Subject: Virtual Poster Session. The file name should be named with the last name of the first author and the EasyChair submission number:
+        <p>Participants must create a 45 cm x 53 cm high-resolution image with all the poster information in English, using the background image <a target="_blank" href="#" class = "purple-a">provided</a> by the organizing committee. The poster should be in png format.  Please send the poster to the conference official email account, using the Subject: Virtual Poster Session. The file should be named with the last name of the first author and the EasyChair submission number:
             “Velez_Rueda_Poster5.png”. To clearly explain your work to a broad technical audience, we recommend the following content for the image: Title, author list, affiliation, and
             the abstract: background, or motivation to your approach, method or techniques, results, conclusions, and any related references.
         </p>
         <h3>Video</h3>
-        <p>It is mandatory that authors also send the pre-record of their poster talk (3-5 minutes), which will be uploaded on our <a target="_blank" href="https://www.youtube.com/watch?v=anq8YaRMQDo&feature=youtu.be">Youtube Channel</a> and will be presented on our website along with the poster. The video must be in English. Save your presentation as an MP4 file. Please send the video to the conference official email account, using the Subject: Virtual Poster Session. The file name should be named with the last name of the first author and the EasyChair submission number: “Velez_Rueda_Poster5.mp4”.
+        <p>It is mandatory that authors also send the pre-record of their poster talk (3-5 minutes), which will be uploaded on our <a target="_blank" href="https://www.youtube.com/watch?v=anq8YaRMQDo&feature=youtu.be" class = "purple-a">Youtube Channel</a> and will be presented on our website along with the poster. 
+        The video should preferably be in English, but participants can speak in their mother tongue and add English subtitles. Save your presentation as an MP4 file. Please send the video to the conference official email account, using the Subject: Virtual Poster Session. The file should be named with the last name of the first author and the EasyChair submission number: “Velez_Rueda_Poster5.mp4”.
         </p>
         <h3>Twitter</h3>
         <p>
         Participants can also post their posters on Twitter at the beginning of the conference using a single tweet with the poster image and a brief explanation. In order to increase the visibility and associate it with the conference, please use the hashtags <strong>#VirtualPostersSession</strong> and <strong>#2WBDS_LA</strong>. 
-        Please use the handle <a target="_blank" href="https://twitter.com/BioinfoLa">@BioinfoLa</a> as well so that we will receive a notification. Other suggestions for hashtags are #bioinformatics <strong>#datascience #WomenSTEM</strong> or the topics of the congress <strong>#DeepLearning #DataMining&BigDataAnalysis #Chemoinformatics&DrugDiscovery #Genomics&Evolution #SystemsBiology #StructuralBioinformatics #BiomolecularSimulations #Bioinformatics&Diseases #Education</strong>. 
+        Please use the handle <a target="_blank" href="https://twitter.com/BioinfoLa" class = "purple-a">@BioinfoLa</a> as well so that we will receive a notification. Other suggestions for hashtags are #bioinformatics <strong>#datascience #WomenSTEM</strong> or the topics of the congress <strong>#DeepLearning #DataMining&BigDataAnalysis #Chemoinformatics&DrugDiscovery #Genomics&Evolution #SystemsBiology #StructuralBioinformatics #BiomolecularSimulations #Bioinformatics&Diseases #Education</strong>. 
         If the poster is associated with a preprint/publication, we advise you to post a second tweet with its url.
         In case you are in a country that does not allow Twitter posting, please send it to the official email account before the 10th of September and we will post it for you.</p>
 
         <h2>Virtual Poster Session</h2>
         <p>We will hold a Virtual Poster Session that will take place on this website and also on Twitter. 
         It will start one week before the conference (22nd to 24th September 2021) and will continue until the end of the conference. 
-        All official posters will be retweeted by <a target="_blank" href="https://twitter.com/BioinfoLa">@BioinfoLa</a>. 
+        All official posters will be retweeted by <a target="_blank" href="https://twitter.com/BioinfoLa" class = "purple-a">@BioinfoLa</a>. 
         </p>
  
         <h2>FREQUENTLY ASKED QUESTIONS</h2>
