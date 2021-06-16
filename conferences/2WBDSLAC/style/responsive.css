@@ -77,6 +77,9 @@
         margin-top: -5%;
         margin-left: 65%;
     }
+    .workshops-section img {
+        width: 40vw;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -287,6 +290,9 @@
     .speakers-img-right, .speakers-img-left{
         display: none;
     }
+    .workshops-section img {
+        width: 50vw;
+    }
 }
 
 @media screen and (max-width:550px) {
@@ -346,6 +352,9 @@
     .supporters h2 {
         font-size: 4vw;
         margin-left: -8vw;
+    }
+    .workshops-section img {
+        width: 80vw;
     }
 }
 
