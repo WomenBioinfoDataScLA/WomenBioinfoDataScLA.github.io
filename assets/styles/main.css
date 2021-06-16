@@ -591,6 +591,8 @@ address {
     height: 15vw;
     object-fit: cover;
     border-radius: 100%;
+    padding: 10px;
+    background: -webkit-linear-gradient(left top, #906aac 40%, #5cc6d0 80%);
 }
 
 .name{
