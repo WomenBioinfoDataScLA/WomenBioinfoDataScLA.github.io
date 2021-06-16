@@ -140,11 +140,11 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffa992;
+    color: #e7d4f9;
 }
 
 .active {
-    color: #ffa992
+    color: #e7d4f9;
 }
 
 .lang-imige-mobile {
@@ -253,13 +253,13 @@ nav a:hover {
 }
 
 .goals li {
-    background-color: #ffa992;
+    background-color: #5cc6d0;
     padding: 2.3vw;
     margin: 1.3vw;
     flex: 1;
     border-radius: 4em 1em;
     font-size: 1.1em;
-    color: #292929;
+    color: #ffff;
     box-shadow: 5px 5px 3px #bdf2f2;
 }
 
