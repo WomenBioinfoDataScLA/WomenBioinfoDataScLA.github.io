@@ -484,7 +484,7 @@ p:hover {
     margin-bottom: 3%;
 }
 
-.sponsors{
+.sponsors {
     width: 45vw;
     height: 7vw;
     background-color: #6000A5;
@@ -499,8 +499,6 @@ p:hover {
     border-radius: 2.7em 0px 0px 2.7em;
     margin-left: 58%;
 }
-
-
 
 .sponsors-tittle-suport {
     width: 35em;
@@ -522,10 +520,11 @@ p:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-left: 0;
 }
 
 .sponsors-logos img {
-    height: 4.5em;
+    height: 5.5em;
     margin-left: 25px;
 }
 
@@ -578,9 +577,10 @@ footer h4 {
     margin-bottom: 0px;
 }
 
-.mail{
+.mail {
     margin-right: .7vw;
 }
+
 address {
     font-size: 1em;
     line-height: 5.2vw;
@@ -637,59 +637,60 @@ address {
     border-radius: 100%;
 }
 
-.tracks{
+.tracks {
     margin-top: 2vw;
 }
 
-.tracks h3{
+.tracks h3 {
     text-align: left;
 }
 
-.track-title{
+.track-title {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.poster-titles li{
+.poster-titles li {
     margin-left: 4%;
     text-align: left;
     color: #906aac;
 }
 
-.poster-titles li:hover{
+.poster-titles li:hover {
     transform: scale(1);
 }
 
-.workshops-section{
+.workshops-section {
     margin-top: -33%;
     margin-bottom: 1vw;
     margin-left: 5vw;
     margin-right: 5vw;
 }
 
-.workshops-section div{
+.workshops-section div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 3vw;
 }
 
-.workshops-section img{
+.workshops-section img {
     width: 30vw;
-
 }
 
-.arrow{
+.arrow {
     height: 1vw;
 }
 
-.purple-a{
+.purple-a {
     color: #4d38a5;
     font-weight: bold;
 }
 
+
 /* Style the button that is used to open and close the collapsible content */
+
 .collapsible {
     cursor: pointer;
     padding: 18px;
@@ -701,16 +702,18 @@ address {
     flex-direction: row;
     align-items: baseline;
     background-color: #FFFFFF;
-  }
-  
-  /* Style the collapsible content. Note: hidden by default */
-  .content {
+}
+
+
+/* Style the collapsible content. Note: hidden by default */
+
+.content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-  }
+}
 
-  .titleposters{
+.titleposters {
     font-size: 1.3em;
     text-align: left;
     margin-left: 4%;
@@ -718,9 +721,9 @@ address {
     margin-bottom: 0;
     margin-bottom: 1.5%;
     display: block;
-  }
+}
 
-  .titleposters:hover{
+.titleposters:hover {
     transform: scale(1);
     text-decoration: underline;
     cursor: pointer;
@@ -728,54 +731,67 @@ address {
 
 
 /* The Modal (background) */
+
 .popup {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
+
 
 /* Modal Content */
+
 .modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
 }
 
-.modal-content p:hover{
+.modal-content p:hover {
     transform: scale(1);
 }
 
+
 /* The Close Button */
+
 .close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 
-.poster-video{
+.poster-video {
     display: flex;
     justify-content: space-evenly;
 }
 
-.poster-video img{
+.poster-video img {
     width: 40%;
 }
-

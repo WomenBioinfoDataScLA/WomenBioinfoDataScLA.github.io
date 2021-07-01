@@ -151,10 +151,10 @@ const speakersList = [
     { "name": "Gabriela de Queiroz", 'img': 'Gabriela_Queiroz_squared.jpg', "filiation": "IBM - USA" },
     { "name": "Georgina Stegmayer", 'img': 'GeorginaStegmayer_square.png', "filiation": "UNL - CONICET - Argentine" },
     { "name": "Han Sun", 'img': 'Han_sun_squared.jpeg', "filiation": "Leibniz - Forschungsinstitut - Germany" },
-    { "name": "Janet Thorton", 'img': 'janet_thorton_square.jpg', "filiation": "EBI - EMBL, UK" },
-    { "name": "Ariane Nunes Alves", 'img': 'Ariane_Nunes_Alves.jpg', "filiation": "HITS - Germany"},
-    { "name": "Eliana K Asciutto", 'img': "Eliana_Asciutto.jpg", "filiation": "Conicet - UNSAM - Argentine"},
-    { "name": "Lucia Spangenberg", "img": "Lucia.jpeg", "filiation": "Institut Pasteur - Uruguay"}
+    { "name": "Ariane Nunes Alves", 'img': 'Ariane_Nunes_Alves.jpg', "filiation": "HITS - Germany" },
+    { "name": "Eliana K Asciutto", 'img': "Eliana_Asciutto.jpg", "filiation": "Conicet - UNSAM - Argentine" },
+    { "name": "Lucia Spangenberg", "img": "Lucia.jpeg", "filiation": "Institut Pasteur - Uruguay" },
+    { "name": "Janet Thorton", 'img': 'janet_thorton_square.jpg', "filiation": "EBI - EMBL, UK" }
 ];
 
 function renderSpeakersBios() {
@@ -207,7 +207,7 @@ function renderRegistrationSection() {
     <p>Access the registration form <a target="_blank" href="https://forms.gle/AKFMaoqqZ1ghvXN58"> here</a></p>
     <hr class="separator">
     <h2>Abstract Submission</h2>
-    <p>The call for abstracts is currently open! The deadline is <strong>July 1st</strong>!</p>
+    <p>The call for abstracts is currently open! The deadline is <strong>July 15st</strong>!</p>
     <p>This congress focuses on the areas of systems biology, omics technologies, artificial intelligence, machine learning, data science, data mining and high performance computing with biological applications in public and private sectors.</p>
     <hr class="separator">
     <p><strong>We welcome abstract that fall within the event topics:</strong></p>
@@ -293,33 +293,33 @@ function renderPosterInstSection() {
 
 
 const BioinfoDisease = [
-    {"number": "#1",  "title": "DNA blablabla", 'poster': 'poster.jpg', "video": "https://www.youtube.com/embed/kS9yt9z0Gow" },
-    {"number": "#2",  "title": "RNA blebleble", 'poster': 'cabeza.png', "video": "youtubedotcom" }
+    { "number": "#1", "title": "DNA blablabla", 'poster': 'poster.jpg', "video": "https://www.youtube.com/embed/kS9yt9z0Gow" },
+    { "number": "#2", "title": "RNA blebleble", 'poster': 'cabeza.png', "video": "youtubedotcom" }
 ];
 
 const Structural = [
-    {"number": "#3",  "title": "esrgsegergs", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
-    {"number": "#4",  "title": "rttytyiyui", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+    { "number": "#3", "title": "esrgsegergs", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    { "number": "#4", "title": "rttytyiyui", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
 ];
 
 const ChemoDrug = [
-    {"number": "#5",  "title": "luiluhilkuy", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
-    {"number": "#6",  "title": "ilhyuilguyil", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+    { "number": "#5", "title": "luiluhilkuy", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    { "number": "#6", "title": "ilhyuilguyil", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
 ];
 
 const GenEvol = [
-    {"number": "#7",  "title": "bnvcncvncvb", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
-    {"number": "#8",  "title": "vcbncncbvn", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+    { "number": "#7", "title": "bnvcncvncvb", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    { "number": "#8", "title": "vcbncncbvn", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
 ];
 
 const MlDataMining = [
-    {"number": "#9",  "title": "yu8itjfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
-    {"number": "#10",  "title": "rdyrxgmgbh", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+    { "number": "#9", "title": "yu8itjfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    { "number": "#10", "title": "rdyrxgmgbh", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
 ];
 
 const Edu = [
-    {"number": "#11",  "title": "dfdfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
-    {"number": "#12",  "title": "dfdfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+    { "number": "#11", "title": "dfdfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    { "number": "#12", "title": "dfdfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
 ];
 
 
@@ -374,13 +374,13 @@ function renderPosterSessionSection() {
     `);
 
     posterSessionContent.appendTo(posterSection);
-    
+
     //Create the content in each track
     let divPosters = document.getElementsByClassName("track");
     //Create array with the tracks dictionaries
     //let dicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu]//
 
-    for (let j=0; j<dicts.length;j++){
+    for (let j = 0; j < dicts.length; j++) {
         dicts[j].forEach(element => {
             let title = $(`
             <button class="titleposters collapsible"> 
@@ -397,23 +397,23 @@ function renderPosterSessionSection() {
             title.appendTo($(divPosters[j]));
         });
     }
-    
+
     // Click in the tracks to toggle between showing and hiding the collapsible content
     let tracks = document.getElementsByClassName("collapsible");
-    
+
     for (let i = 0; i < tracks.length; i++) {
         tracks[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        let content = this.nextElementSibling;
-        if (content.style.display === "block") {
-          content.style.display = "none";
-        } else {
-          content.style.display = "block";
-        }
-      });
+            this.classList.toggle("active");
+            let content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
     }
 
-    
+
 }
 
 
@@ -458,7 +458,7 @@ function renderPortuguese() {
     open1.innerHTML = "Abertura da Chamada para Resumo";
     open2.innerHTML = "15 de abril de 2021";
     close1.innerHTML = "Encerramento da Chamada para Resumo";
-    close2.innerHTML = "1º de julho de 2021";
+    close2.innerHTML = "15 de julho de 2021";
     notify1.innerHTML = "Notificação de Aceitação de Pôster";
     notify2.innerHTML = "30 de julho de 2021";
     h2Sponsors.innerHTML = "Apoiam este evento";
@@ -485,7 +485,7 @@ function renderSpanish() {
     open1.innerHTML = "Apertura de la Convocatoria de Resumen";
     open2.innerHTML = "15 de abril de 2021";
     close1.innerHTML = "Convocatoria de Cierre para Resumen";
-    close2.innerHTML = "1 de julio de 2021";
+    close2.innerHTML = "15 de julio de 2021";
     notify1.innerHTML = "Notificación de Aceptación de Póster";
     notify2.innerHTML = "30 de julio de 2021";
     h2Sponsors.innerHTML = "Apoya este evento";
