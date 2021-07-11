@@ -293,6 +293,9 @@
     .workshops-section img {
         width: 50vw;
     }
+    .program-section table {
+        width:80vw;
+    }
 }
 
 @media screen and (max-width:550px) {
