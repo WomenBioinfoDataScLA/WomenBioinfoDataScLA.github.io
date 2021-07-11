@@ -814,7 +814,7 @@ address {
 }
 
 .program-section table span{
-    font-size: 1.7vw;
+    font-size: 1.4em;
     font-weight:bold;
     color:#4d38a5;
 }
@@ -828,31 +828,33 @@ address {
     overflow: hidden;
     padding: 10px 5px;
     word-break: normal;
-    font-size: 1.1vw;
-    line-height: 1.1vw;
+    font-size: 1em;
+    line-height: 1.1em;
     color:rgb(85, 85, 85);
 }
 
 .breaks td{
-    line-height: 4vw;
+    line-height: 1.3em;
 }
 
+.prog-tracks td{
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 1.4em;
+}
 
 .prog-button{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 5vw;
+}
+
+.prog-button div{
+    margin-bottom: 5%;
 }
 
 .prog-button a {
     font-size: 1.6em;
-}
-
-.prog-tracks td{
-    font-size: 1.2vw;
-    font-weight: bold;
-    line-height: 4vw;
 }
 
 .program-section section{
