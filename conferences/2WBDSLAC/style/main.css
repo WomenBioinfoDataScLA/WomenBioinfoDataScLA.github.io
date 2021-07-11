@@ -132,7 +132,7 @@ nav li {
 
 nav a {
     color: rgb(254, 254, 254);
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 nav a:hover {
@@ -794,4 +794,67 @@ address {
 
 .poster-video img {
     width: 40%;
+}
+
+/*Program*/
+
+.program-section table {
+    border-collapse:collapse;
+    border-spacing:0;
+    margin:0px auto;
+    width:60vw;
+}
+
+.program-section table thead td{
+    border-top:hidden;
+    border-left: hidden;
+    border-right:hidden;
+    line-height: 3vw;
+    vertical-align: bottom;
+}
+
+.program-section table span{
+    font-size: 1.7vw;
+    font-weight:bold;
+    color:#4d38a5;
+}
+
+.program-section td{
+    text-align:center;
+    vertical-align:middle;
+    border-color:#e0e0e0;
+    border-style:solid;
+    border-width:1px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+    font-size: 1.1vw;
+    line-height: 1.1vw;
+    color:rgb(85, 85, 85);
+}
+
+.breaks td{
+    line-height: 4vw;
+}
+
+
+.prog-button{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5vw;
+}
+
+.prog-button a {
+    font-size: 1.6em;
+}
+
+.prog-tracks td{
+    font-size: 1.2vw;
+    font-weight: bold;
+    line-height: 4vw;
+}
+
+.program-section section{
+    margin-top: 1%;
 }

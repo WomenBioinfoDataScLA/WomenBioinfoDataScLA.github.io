@@ -12,6 +12,12 @@ const posterSection = $('#poster-section');
 const posterInstButton = $('#poster-button');
 const posterSessionButton = $('#session-poster');
 const supportDiv = $('#support-div');
+const programButton = $("#program-nav-button");
+const programSection = $('#program-section');
+const programTables = $('#program-tables');
+const dayOneButton = document.getElementById('dayone');
+const dayTwoButton = $('#daytwo');
+const dayThreeButton = $('#daythree');
 
 const registrationSection = $('#registration-section');
 const registrationButton = $('#registration-nav-button');
@@ -64,6 +70,8 @@ function cleanBody() {
     speakersSection.empty();
     $(codeSection).empty();
     sponsorSection.empty();
+    programTables.empty();
+    programSection.addClass('disable')
     posterSection.empty();
     committeeSection.empty();
     registrationSection.empty();
@@ -176,6 +184,185 @@ function renderSpeakersBios() {
     pictsDivRow.appendTo(speakersSection);
     imgRight.appendTo(speakersSection);
     imgLeft.appendTo(speakersSection);
+}
+
+function renderProgramSection(){
+    const programSectionContent = $(`
+    <table id="table-dayone" class="">
+        <thead>
+           <tr>
+                <th colspan="3"><span>Day 1: 22nd September</span></th>
+            </tr>
+            <tr>
+                <td colspan="3"> Brazil/Argentina Time: GMT-3</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr  class="prog-tracks">
+                <td class="prog-tracks" colspan="3">TRACK: Genomics and Evolution</td>
+            </tr>
+            <tr>
+                <td rowspan="3">11:00 - 12:30</td>
+                <td rowspan="3">Invited Speakers</td>
+                <td>Daniela Robles-Espinoza (Mexico)</td>
+            </tr>
+            <tr>
+                <td>Ariane Nunes Alves (Brazil)</td>
+            </tr>
+            <tr>
+                <td>Sara Cuadros (Chile)</td>
+            </tr>
+            <tr class="breaks">
+                <td>12:30 - 13:30</td>
+                <td colspan="2">Lunch Break</td>
+            </tr>
+            <tr class="prog-tracks">
+                <td colspan="3">TRACK: Machine Learning, Data Mining and Big Data Analysis</td>
+            </tr>
+            <tr  class="breaks">
+                <td>13:30 - 14:50</td>
+                <td colspan="2" >Lightning talks</td>
+            </tr>
+            <tr class="breaks">
+                <td>14:50 - 15:00</td>
+                <td colspan="2">Coffee Break</td>
+            </tr>
+            <tr>
+                <td rowspan="4">15:00 - 17:00</td>
+                <td rowspan="4">Invited Speakers</td>
+                <td>Gabriela de Queiroz (Brazil)</td>
+            </tr>
+            <tr>
+                <td>Alejandra Garcia (Chile)</td>
+            </tr>
+            <tr>
+                <td>Patricia Acosta-Vargas (Ecuador)</td>
+            </tr>
+            <tr>
+                <td>Georgina Stegmayer (Argentina)</td>
+            </tr>
+            <tr class="breaks">
+                <td>17:00 - 17:10</td>
+                <td colspan="2">Coffee Break</td>
+            </tr>
+            <tr class="prog-tracks">
+                <td>17:10 - 19:00</td>
+                <td colspan="2" >Gender &amp; Science Conversatory</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="table-daytwo" class="disable">
+        <thead>
+        <tr>
+            <th colspan="3"><span>Day 2: 23rd September</span></th>
+        </tr>
+        <tr>
+        <td colspan="3"> Brazil/Argentina Time: GMT-3</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="prog-tracks">
+            <td colspan="3">TRACK: Bioinformatics and Diseases</td>
+        </tr>
+        <tr class="breaks">
+            <td>11:00 - 11:40</td>
+            <td>Keynote Speaker</td>
+            <td>Janet Thornton (England)</td>
+        </tr>
+        <tr>
+            <td rowspan="2">11:40 - 12:40</td>
+            <td rowspan="2">Invited Speakers</td>
+            <td>Daiana Mir (Uruguay)</td>
+        </tr>
+        <tr>
+            <td>Lucia Spangenberg (Uruguay)</td>
+        </tr>
+        <tr class="breaks">
+            <td>13:40 -14:20</td>
+            <td colspan="2">Lunch Break</td>
+        </tr>
+        <tr class="prog-tracks">
+            <td colspan="3">TRACK: Chemoinformatics and Drug Discovery</td>
+        </tr>
+        <tr class="breaks">
+            <td>13:40 -14:20</td>
+            <td>Keynote Speaker</td>
+            <td>Han Sun (Alemania/Korea)</td>
+        </tr>
+        <tr>
+            <td rowspan="2">14:20 - 15:20</td>
+            <td rowspan="2">Invited Speakers</td>
+            <td>Ana Carolina Guimarães (Brazil)</td>
+        </tr>
+        <tr>
+            <td>Eliana Asciutto</td>
+        </tr>
+        <tr class="breaks">
+            <td>15:20 - 15:30</td>
+            <td colspan="2">Coffee Break</td>
+        </tr>
+        <tr class="breaks">
+            <td>15:30 - 16:30</td>
+            <td colspan="2">Lightning talks</td>
+        </tr>
+        <tr class="prog-tracks">
+            <td class="prog-tracks" colspan="3">TRACK: Biomolecular Simulations, Structural Bioinformatics &amp; Systems Biology</td>
+        </tr>
+        <tr>
+            <td rowspan="3">16:30 - 18:00</td>
+            <td rowspan="3">Invited Speakers</td>
+            <td>Monica Andrea Pickholz (Argentina)</td>
+        </tr>
+        <tr>
+            <td>Janneth González (Colombia)</td>
+        </tr>
+        <tr>
+            <td>Maria Luisa Serrano (Venezuela)</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div id="table-daythree" class="disable">
+        <table>
+        <thead>
+        <tr>
+            <th colspan="3"><span></span></th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        </table>
+    </div>
+    `);
+
+    programSectionContent.appendTo(programTables);
+
+    const tableOne = $('#table-dayone');
+    const tableTwo = $('#table-daytwo');
+    const tableThree = $('#table-daythree');
+
+    dayOneButton.addEventListener('click', () => {
+        tableOne.removeClass("disable");
+        tableTwo.addClass("disable");
+        tableThree.addClass("disable");
+        workshopsSection.addClass("disable");
+    });
+
+    dayTwoButton.on('click', () => {
+        tableOne.addClass("disable");
+        tableTwo.removeClass("disable");
+        tableThree.addClass("disable");
+        workshopsSection.addClass("disable");
+    });
+    
+    dayThreeButton.on('click', () => {
+        tableOne.addClass("disable");
+        tableThree.removeClass("disable");
+        tableTwo.addClass("disable");
+        workshopsSection.appendTo(programSectionContent);
+        workshopsSection.removeClass("disable");
+    });
 }
 
 
@@ -447,8 +634,9 @@ function renderCommitteesSection() {
 }
 
 function renderPortuguese() {
-    registrationButton.text('Inscreva-se');
+    registrationButton.text('Inscrição');
     speakersButton.text('Palestrantes');
+    programButton.text('Programa');
     sponsorsButton.text('Patrocinadores');
     committeeButton.text('Organizadoras');
     h1About.innerHTML = "2ª Conferência de Mulheres em Bioinformática e Ciência de Dados LA";
@@ -476,6 +664,7 @@ function renderPortuguese() {
 function renderSpanish() {
     registrationButton.text('Registrarse');
     speakersButton.text('Oradoras');
+    programButton.text('Programa');
     sponsorsButton.text('Patrocinadores');
     committeeButton.text('Organizadoras');
     h1About.innerHTML = "2do Congreso de Mujeres en Bioinformática y Ciencia de Datos LA";
@@ -516,55 +705,61 @@ ham.addEventListener("click", () => {
 codeButton.addEventListener("click", () => {
     cleanBody();
     renderCodeCon();
-})
+});
 
 
 speakersButton.on('click', () => {
     cleanBody();
     renderSpeakersBios();
-})
+});
+
+programButton.on('click', () => {
+    event.preventDefault()
+    cleanBody();
+    renderProgramSection();
+    programSection.removeClass('disable')
+});
 
 
 posterInstButton.on('click', () => {
     event.preventDefault()
     cleanBody();
     renderPosterInstSection();
-})
+});
 
 posterSessionButton.on('click', () => {
     event.preventDefault()
     cleanBody();
     renderPosterSessionSection();
-})
+});
 
 committeeButton.on('click', () => {
     event.preventDefault()
     cleanBody();
     renderCommitteesSection();
-})
+});
 
 sponsorsButton.on('click', () => {
     cleanBody();
     renderSponsorshipSection();
-})
+});
 
 registrationButton.on('click', () => {
     cleanBody();
     renderRegistrationSection();
-})
-
+});
 
 datesbutton.on('click', () => {
     event.preventDefault()
     workshopsSection.addClass("disable");
     datesSection.toggleClass('disable');
-})
+});
 
 workshopButton.on('click', () => {
     event.preventDefault()
     datesSection.addClass("disable");
     workshopsSection.toggleClass('disable');
-})
+});
 
 spanishButton.addEventListener('click', () => {
     renderSpanish();
