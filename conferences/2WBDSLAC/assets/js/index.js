@@ -480,33 +480,33 @@ function renderPosterInstSection() {
 
 
 const BioinfoDisease = [
-    { "number": "#1", "title": "DNA blablabla", 'poster': 'poster.jpg', "video": "https://www.youtube.com/embed/kS9yt9z0Gow" },
-    { "number": "#2", "title": "RNA blebleble", 'poster': 'cabeza.png', "video": "youtubedotcom" }
+    { "number": "1", "title": "DNA blablabla", 'poster': 'poster.jpg', "video": "https://www.youtube.com/embed/kS9yt9z0Gow" },
+    { "number": "2", "title": "RNA blebleble", 'poster': 'cabeza.png', "video": "youtubedotcom" }
 ];
 
 const Structural = [
-    { "number": "#3", "title": "esrgsegergs", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
-    { "number": "#4", "title": "rttytyiyui", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+    { "number": "3", "title": "esrgsegergs", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    { "number": "4", "title": "rttytyiyui", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
 ];
 
 const ChemoDrug = [
-    { "number": "#5", "title": "luiluhilkuy", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
-    { "number": "#6", "title": "ilhyuilguyil", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+    { "number": "5", "title": "luiluhilkuy", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    { "number": "6", "title": "ilhyuilguyil", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
 ];
 
 const GenEvol = [
-    { "number": "#7", "title": "bnvcncvncvb", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
-    { "number": "#8", "title": "vcbncncbvn", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+    { "number": "7", "title": "bnvcncvncvb", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    { "number": "8", "title": "vcbncncbvn", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
 ];
 
 const MlDataMining = [
-    { "number": "#9", "title": "yu8itjfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
-    { "number": "#10", "title": "rdyrxgmgbh", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+    { "number": "9", "title": "yu8itjfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    { "number": "10", "title": "rdyrxgmgbh", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
 ];
 
 const Edu = [
-    { "number": "#11", "title": "dfdfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
-    { "number": "#12", "title": "dfdfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
+    { "number": "11", "title": "dfdfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" },
+    { "number": "12", "title": "dfdfd", 'poster': 'esrgsegesh.png', "video": "youtubedotcom" }
 ];
 
 
@@ -570,16 +570,9 @@ function renderPosterSessionSection() {
     for (let j = 0; j < dicts.length; j++) {
         dicts[j].forEach(element => {
             let title = $(`
-            <button class="titleposters collapsible"> 
-                <h3>${element.number} ${element.title}</h3>
+            <button id="${element.number}" class="titleposters"> 
+                <h3>#${element.number} ${element.title}</h3>
             </button>
-            <div class="content">
-                <h4>Poster ${element.number}: ${element.title}</h4>
-                <div class="poster-video">
-                    <img alt="" src="./assets/img/${element.poster}">
-                    <iframe width="360" height="315" src="${element.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div> 
             `);
             title.appendTo($(divPosters[j]));
         });
@@ -587,9 +580,24 @@ function renderPosterSessionSection() {
 
     // Click in the tracks to toggle between showing and hiding the collapsible content
     let tracks = document.getElementsByClassName("collapsible");
+    makeCollapsibleElements(tracks);
+    let posters = document.getElementsByClassName("titleposters");
+    savePosterNumber(posters);
+}
 
-    for (let i = 0; i < tracks.length; i++) {
-        tracks[i].addEventListener("click", function() {
+function savePosterNumber(elementLists){
+    for (let i = 0; i < elementLists.length; i++) {
+        elementLists[i].addEventListener("click", function() {
+            localStorage.setItem("posterNumber", this.id);
+        });
+    }
+
+}
+
+function makeCollapsibleElements(elementLists){
+
+    for (let i = 0; i < elementLists.length; i++) {
+        elementLists[i].addEventListener("click", function() {
             this.classList.toggle("active");
             let content = this.nextElementSibling;
             if (content.style.display === "block") {
@@ -599,10 +607,7 @@ function renderPosterSessionSection() {
             }
         });
     }
-
-
 }
-
 
 
 function renderCommitteesSection() {
