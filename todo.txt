@@ -1,7 +1,6 @@
 TO DO
 
-1- Create a function for adding the poster number to the local storage using the title name (clickable button)
-2- Add for the click event of the tittle the function for rendering the posters image and video, taking the information from the dictionary, using the poster number from the local storage 
+1- Add for the click event of the tittle the function for rendering the posters image and video, taking the information from the dictionary, using the poster number from the local storage 
 
             <div class="content">
                 <h4>Poster ${element.number}: ${element.title}</h4>
