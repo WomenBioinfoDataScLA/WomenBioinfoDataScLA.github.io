@@ -454,6 +454,10 @@ p:hover {
     margin-left: -4%;
 }
 
+#date-open-2, #date-close-2{
+    text-decoration: line-through;
+}
+
 .table {
     font-family: Lato;
     font-weight: normal;

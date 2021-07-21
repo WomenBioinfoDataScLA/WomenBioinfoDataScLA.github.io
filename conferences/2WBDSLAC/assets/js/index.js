@@ -279,7 +279,7 @@ function renderProgramSection(){
             <td>Lucia Spangenberg (Uruguay)</td>
         </tr>
         <tr class="breaks">
-            <td>13:40 -14:20</td>
+            <td>12:40 -13:40</td>
             <td colspan="2">Lunch Break</td>
         </tr>
         <tr class="prog-tracks">
@@ -291,20 +291,21 @@ function renderProgramSection(){
             <td>Han Sun (Alemania/Korea)</td>
         </tr>
         <tr>
-            <td rowspan="2">14:20 - 15:20</td>
-            <td rowspan="2">Invited Speakers</td>
-            <td>Ana Carolina Guimarães (Brazil)</td>
-        </tr>
-        <tr>
-            <td>Eliana Asciutto</td>
+            <td>14:20 - 14:50</td>
+            <td>Invited Speaker</td>
+            <td>Eliana Asciutto (Argentina)</td>
         </tr>
         <tr class="breaks">
-            <td>15:20 - 15:30</td>
+            <td>14:50 - 15:00</td>
             <td colspan="2">Coffee Break</td>
+        </tr>    
+        <tr class="breaks">
+            <td>15:00 - 16:20</td>
+            <td colspan="2">Lightning talks</td>
         </tr>
         <tr class="breaks">
-            <td>15:30 - 16:30</td>
-            <td colspan="2">Lightning talks</td>
+            <td>16:20 - 16:30</td>
+            <td colspan="2">Coffee Break</td>
         </tr>
         <tr class="prog-tracks">
             <td class="prog-tracks" colspan="3">TRACK: Biomolecular Simulations, Structural Bioinformatics &amp; Systems Biology</td>
@@ -391,10 +392,10 @@ function renderRegistrationSection() {
     <p><strong>Latin American Congress of Women in Bioinformatics and Data Science</strong> is a free event open to the entire community, which brings together professionals, students, academics, businesswomen, public officials and hobbyists. The main purpose of the meeting is to promote and make visible the research carried out by women and dissidents in the field of Bioinformatics and Data Science.</p>
     <p>The whole conference will be held in <strong>English</strong>.</p>
     <hr class="separator">
-    <p>Access the registration form <a target="_blank" href="https://forms.gle/AKFMaoqqZ1ghvXN58"> here</a></p>
+    <p>Access the registration form <a target="_blank" href="https://forms.gle/AKFMaoqqZ1ghvXN58">here</a></p>
     <hr class="separator">
     <h2>Abstract Submission</h2>
-    <p>The call for abstracts is currently open! The deadline is <strong>July 15st</strong>!</p>
+    <p>The call for abstracts is <strong>closed</strong>!</p>
     <p>This congress focuses on the areas of systems biology, omics technologies, artificial intelligence, machine learning, data science, data mining and high performance computing with biological applications in public and private sectors.</p>
     <hr class="separator">
     <p><strong>We welcome abstract that fall within the event topics:</strong></p>
@@ -407,7 +408,7 @@ function renderRegistrationSection() {
     <li>Education</li>
     </ul>
     <hr class="separator">
-    <p>Before starting the submission process, check the submission guidelines  <a target="_blank" href="https://easychair.org/cfp/2ndWBDS-LA">here</a>.</p>
+    <p>The abstract submission guideline is <a target="_blank" href="https://easychair.org/cfp/2ndWBDS-LA">here</a>.</p>
     <p>Submit your abstract <a target="_blank" href="https://easychair.org/conferences/?conf=2ndwbdsla" >here</a>.</p>
     <hr class="separator">
     
@@ -447,7 +448,7 @@ function renderPosterInstSection() {
         <h2>Virtual Poster Session</h2>
         <p>We will hold a Virtual Poster Session that will take place on this website and also on Twitter. 
         It will start one week before the conference (22nd to 24th September 2021) and will continue until the end of the conference. 
-        All official posters will be retweeted by <a target="_blank" href="https://twitter.com/BioinfoLa" class = "purple-a">@BioinfoLa</a>. 
+        All official posters will be retweeted by <a target="_blank" href="https://twitter.com/wbdsla" class = "purple-a">@WBDSLA</a>. 
         </p>
  
         <h2>FREQUENTLY ASKED QUESTIONS</h2>
@@ -629,10 +630,31 @@ function renderCommitteesSection() {
     </ul>
     <h2 id="executive-comm">Abstract Review Committee</h2>
     <ul>
-        <li>Georgina Stegmayer,  SINC-CONICET-UNL - Argentina</li>
-        <li>Irma Martínez-Flores, UNAM - Mexico</li>
-        <li>Liliane Conteville,  IOC Fiocruz - Brazil </li>
-        <li>Juliana Glavina, IIBio-CONICET (UNSAM) - Argentina</li>
+        <li>Agustina Nardo - Argentine</li>
+        <li>Alejandra Medina-Rivera - Mexico</li>
+        <li>Ana Beatriz Villaseñor Altamirano - Mexico</li>
+        <li>Aurora Labastida Martinez - Mexico</li>
+        <li>Brenda Cabrera Mendoza - Mexico</li>
+        <li>Carla Robles-Espinoza - Mexico</li>
+        <li>Carolina Bellera - Argentina</li>
+        <li>Carolina Susana Cerrudo - Argentina</li>
+        <li>Carolina Torres - Colombia</li>
+        <li>Diana Carolina López - Colombia</li>
+        <li>Elena Laura Coitiño - Uruguay</li>
+        <li>Gabriela Merino - Argentina</li>
+        <li>Georgina Stegmayer - Argentina</li>
+        <li>Irma Martínez-Flores - Mexico</li>
+        <li>Karina Dos Santos Machado - Brazil</li>
+        <li>Laura Ación - Argentina</li>
+        <li>Leda Carolina Torres Maldonado - Mexico</li>
+        <li>Liliane Conteville - Brazil</li>
+        <li>Luciana Gavernet - Argentina</li>
+        <li>Maia Cabrera - Argentina</li>
+        <li>Maria Victoria Revuelta</li>
+        <li>Patricia Soto - Colombia</li>
+        <li>Rebeca Campos Sánchez - Costa Rica</li>
+        <li>Viviana Monje-Galvan - Bolivia</li>
+        <li>Yanina Bellini Saibee - Argentina</li>  
     </ul>
     `);
     committeeContent.appendTo(committeeSection)
