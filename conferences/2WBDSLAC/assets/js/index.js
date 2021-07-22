@@ -296,15 +296,11 @@ function renderProgramSection(){
             <td>Eliana Asciutto (Argentina)</td>
         </tr>
         <tr class="breaks">
-            <td>14:50 - 15:00</td>
-            <td colspan="2">Coffee Break</td>
-        </tr>    
-        <tr class="breaks">
-            <td>15:00 - 16:20</td>
+            <td>14:50 - 16:10</td>
             <td colspan="2">Lightning talks</td>
         </tr>
         <tr class="breaks">
-            <td>16:20 - 16:30</td>
+            <td>16:10 - 16:30</td>
             <td colspan="2">Coffee Break</td>
         </tr>
         <tr class="prog-tracks">
