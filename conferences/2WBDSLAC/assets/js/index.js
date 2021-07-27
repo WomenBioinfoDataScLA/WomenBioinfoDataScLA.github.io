@@ -149,6 +149,33 @@ function renderCodeCon() {
 }
 
 
+const keynotesList =[
+    { "name": "Janet Thorton", 'img': 'janet_thorton_square.jpg', "filiation": "EBI - EMBL, UK" },
+    { "name": "Han Sun", 'img': 'Han_sun_squared.jpeg', "filiation": "Leibniz - Forschungsinstitut - Germany" }
+]
+
+function renderKeynotesBios(){
+    const pictsDivRowkeynotes = $('<div class="bios-container"></div>');
+    const titleDivKeynotes = $('<div class="title-div"></div>')
+    const keynotesTitle = $('<h2 class="keynotes-title">Keynote Speakers</h2>');
+    const underlineSpan = $('<span class="underline"></span>')
+
+    keynotesList.forEach(element => {
+        const keynoteBio = $(`
+        <figure class="speaker-bio"> 
+            <img src="./assets/img/speakers/${element.img}" alt="${element.name}-img"> 
+            <figcaption class="caption-bio">${element.name}</figcaption>
+            <figcaption class="sub-caption-bio">${element.filiation}</figcaption>
+        </figure>`);
+        keynoteBio.appendTo(pictsDivRowkeynotes);
+    });
+    keynotesTitle.appendTo(titleDivKeynotes);
+    underlineSpan.appendTo(titleDivKeynotes);
+    titleDivKeynotes.appendTo(speakersSection);
+    pictsDivRowkeynotes.appendTo(speakersSection);
+
+}
+
 const speakersList = [
     { "name": "Daniela Robles", 'img': 'Daniela_Robles_square.png', "filiation": "UNAM - Mexico" },
     { "name": "Janneth González", "img": "Janneth_Gonzalez.png", "filiation": "PUJ - Colombia" },
@@ -157,18 +184,17 @@ const speakersList = [
     { "name": "Daiana Mir", 'img': 'daiana_mir.jpg', "filiation": "UGB - CENUR - UdelaR - Uruguay" },
     { "name": "María Luisa Serrano García", 'img': 'Maria_Luisa_Serrano_squared.jpg', "filiation": "Fac. de Farmacia - UCV Venezuela" },
     { "name": "Gabriela de Queiroz", 'img': 'Gabriela_Queiroz_squared.jpg', "filiation": "IBM - USA" },
-    { "name": "Georgina Stegmayer", 'img': 'GeorginaStegmayer_square.png', "filiation": "UNL - CONICET - Argentine" },
-    { "name": "Han Sun", 'img': 'Han_sun_squared.jpeg', "filiation": "Leibniz - Forschungsinstitut - Germany" },
+    { "name": "Georgina Stegmayer", 'img': 'GeorginaStegmayer_square.png', "filiation": "UNL - CONICET - Argentina" },
     { "name": "Ariane Nunes Alves", 'img': 'Ariane_Nunes_Alves.jpg', "filiation": "HITS - Germany" },
-    { "name": "Eliana K Asciutto", 'img': "Eliana_Asciutto.jpg", "filiation": "Conicet - UNSAM - Argentine" },
-    { "name": "Lucia Spangenberg", "img": "Lucia.jpeg", "filiation": "Institut Pasteur - Uruguay" },
-    { "name": "Janet Thorton", 'img': 'janet_thorton_square.jpg', "filiation": "EBI - EMBL, UK" }
+    { "name": "Eliana K Asciutto", 'img': "Eliana_Asciutto.jpg", "filiation": "Conicet - UNSAM - Argentina" },
+    { "name": "Lucia Spangenberg", "img": "Lucia.jpeg", "filiation": "Institut Pasteur - Uruguay" }
 ];
 
 function renderSpeakersBios() {
     const pictsDivRow = $('<div class="bios-container"></div>');
-    const imgLeft = $(`<img src="./assets/img/hojas.png" alt="hojas-left" class="speakers-img-left">`);
-    const imgRight = $(`<img src="./assets/img/hojas.png" alt="hojas-right" class="speakers-img-right">`);
+    const titleDivSpeakers = $('<div class="title-div"></div>')
+    const speakersTitle = $('<h2 class="keynotes-title">Invited Speakers</h2>')
+    const underlineSpan2 = $('<span class="underline"></span>')
 
     speakersList.forEach(element => {
 
@@ -180,7 +206,38 @@ function renderSpeakersBios() {
         </figure>`);
         speakerBio.appendTo(pictsDivRow);
     });
+    speakersTitle.appendTo(titleDivSpeakers);
+    underlineSpan2.appendTo(titleDivSpeakers);
+    titleDivSpeakers.appendTo(speakersSection);
+    pictsDivRow.appendTo(speakersSection);
+}
 
+const conservatoryList = [
+    { "name": "Mailén García", 'img': 'mailen.jpg', "filiation": "Data Observatory with a Gender Perspective - Argentina" },
+    { "name": "Fran De Castro Bubani", 'img': 'Fran_Bubani.JPG', "filiation": "CONICET/CAB/IB - Argentina" }
+]
+
+function renderConversatoryBios() {
+    const pictsDivRow = $('<div class="bios-container"></div>');
+    const titleDivConversatory = $('<div class="title-div"></div>');
+    const conversatoryTitle = $('<h2 class="keynotes-title">Inclusion and Diversity Conversatory</h2>');
+    const underlineSpan = $('<span class="underline"></span>');
+    const imgLeft = $(`<img src="./assets/img/hojas.png" alt="hojas-left" class="speakers-img-left">`);
+    const imgRight = $(`<img src="./assets/img/hojas.png" alt="hojas-right" class="speakers-img-right">`);
+
+    conservatoryList.forEach(element => {
+
+        const speakerBio = $(`
+        <figure class="speaker-bio"> 
+            <img src="./assets/img/speakers/${element.img}" alt="${element.name}-img"> 
+            <figcaption class="caption-bio">${element.name}</figcaption>
+            <figcaption class="sub-caption-bio">${element.filiation}</figcaption>
+        </figure>`);
+        speakerBio.appendTo(pictsDivRow);
+    });
+    conversatoryTitle.appendTo(titleDivConversatory);
+    underlineSpan.appendTo(titleDivConversatory);
+    titleDivConversatory.appendTo(speakersSection);
     pictsDivRow.appendTo(speakersSection);
     imgRight.appendTo(speakersSection);
     imgLeft.appendTo(speakersSection);
@@ -733,7 +790,9 @@ codeButton.addEventListener("click", () => {
 
 speakersButton.on('click', () => {
     cleanBody();
+    renderKeynotesBios();
     renderSpeakersBios();
+    renderConversatoryBios();
 });
 
 programButton.on('click', () => {

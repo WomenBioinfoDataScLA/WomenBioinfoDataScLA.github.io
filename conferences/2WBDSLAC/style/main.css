@@ -315,7 +315,7 @@ p:hover {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0;
+    margin-bottom: 5vw;
     width: 100%;
 }
 
@@ -326,6 +326,21 @@ p:hover {
 .sub-caption-bio {
     color: rgb(92, 198, 208);
     font-weight: normal;
+}
+
+.title-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.underline{
+    height: 6px;
+    width: 100px;
+    background: rgb(92, 198, 208);
+    position: relative;
+    border-radius: 15px;
 }
 
 .code-button-section {
