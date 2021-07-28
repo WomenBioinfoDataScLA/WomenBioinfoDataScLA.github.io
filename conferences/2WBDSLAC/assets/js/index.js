@@ -149,7 +149,7 @@ function renderCodeCon() {
 }
 
 
-function renderKeynotesBios(){
+function renderKeynotesBios() {
     const pictsDivRowkeynotes = $('<div class="bios-container"></div>');
     const titleDivKeynotes = $('<div class="title-div"></div>')
     const keynotesTitle = $('<h2 class="keynotes-title">Keynote Speakers</h2>');
@@ -221,7 +221,7 @@ function renderConversatoryBios() {
     imgLeft.appendTo(speakersSection);
 }
 
-function renderProgramSection(){
+function renderProgramSection() {
     const programSectionContent = $(`
     <table id="table-dayone" class="">
         <thead>
@@ -387,7 +387,7 @@ function renderProgramSection(){
         tableThree.addClass("disable");
         workshopsSection.addClass("disable");
     });
-    
+
     dayThreeButton.on('click', () => {
         tableOne.addClass("disable");
         tableThree.removeClass("disable");
@@ -586,7 +586,7 @@ function renderPosterSessionSection() {
     savePosterNumber(posters);
 }
 
-function savePosterNumber(elementLists){
+function savePosterNumber(elementLists) {
     for (let i = 0; i < elementLists.length; i++) {
         elementLists[i].addEventListener("click", function() {
             localStorage.setItem("posterNumber", this.id);
@@ -595,7 +595,7 @@ function savePosterNumber(elementLists){
 
 }
 
-function makeCollapsibleElements(elementLists){
+function makeCollapsibleElements(elementLists) {
 
     for (let i = 0; i < elementLists.length; i++) {
         elementLists[i].addEventListener("click", function() {
@@ -630,9 +630,10 @@ function renderCommitteesSection() {
     </ul>
     <h2 id="executive-comm">Abstract Review Committee</h2>
     <ul>
-        <li>Agustina Nardo - Argentine</li>
+        <li>Agustina Nardo - Argentina</li>
         <li>Alejandra Medina-Rivera - Mexico</li>
         <li>Ana Beatriz Villaseñor Altamirano - Mexico</li>
+        <li>Ana Julia Velez Rueda - Argentina</li>
         <li>Aurora Labastida Martinez - Mexico</li>
         <li>Brenda Cabrera Mendoza - Mexico</li>
         <li>Carla Robles-Espinoza - Mexico</li>
@@ -641,18 +642,28 @@ function renderCommitteesSection() {
         <li>Carolina Torres - Colombia</li>
         <li>Diana Carolina López - Colombia</li>
         <li>Elena Laura Coitiño - Uruguay</li>
+        <li>Elin Teppa - Argentina</li>
+        <li>Elisabeth Tapia - Argentina</li>
         <li>Gabriela Merino - Argentina</li>
         <li>Georgina Stegmayer - Argentina</li>
+        <li>Gloria Perez - España</li>
         <li>Irma Martínez-Flores - Mexico</li>
+        <li>Juliana Glavina - Argentina</li>
+        <li>Karen Oróstica Tapia - Chile</li>
         <li>Karina Dos Santos Machado - Brazil</li>
         <li>Laura Ación - Argentina</li>
         <li>Leda Carolina Torres Maldonado - Mexico</li>
         <li>Liliane Conteville - Brazil</li>
         <li>Luciana Gavernet - Argentina</li>
+        <li>Luciana Rodriguez Sawicki - Argentina</li>
         <li>Maia Cabrera - Argentina</li>
-        <li>Maria Victoria Revuelta</li>
+        <li>Margot Paulino - Uruguay</li>
+        <li>Maria Victoria Revuelta - Argentina</li>
+        <li>Maria Verónica Fumero - Argentina</li>
+        <li>Melissa Alegria-Arcos - Chile</li>
         <li>Patricia Soto - Colombia</li>
         <li>Rebeca Campos Sánchez - Costa Rica</li>
+        <li>Thilakavathy Karuppiah - Malaysia</li>
         <li>Viviana Monje-Galvan - Bolivia</li>
         <li>Yanina Bellini Saibee - Argentina</li>  
     </ul>
