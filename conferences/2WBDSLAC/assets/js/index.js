@@ -634,6 +634,7 @@ function renderCommitteesSection() {
         <li>Alejandra Medina-Rivera - Mexico</li>
         <li>Ana Beatriz Villaseñor Altamirano - Mexico</li>
         <li>Ana Julia Velez Rueda - Argentina</li>
+        <li>Angélica Sandoval-Pérez - Colombia</li>
         <li>Aurora Labastida Martinez - Mexico</li>
         <li>Brenda Cabrera Mendoza - Mexico</li>
         <li>Carla Robles-Espinoza - Mexico</li>
@@ -646,7 +647,6 @@ function renderCommitteesSection() {
         <li>Elisabeth Tapia - Argentina</li>
         <li>Gabriela Merino - Argentina</li>
         <li>Georgina Stegmayer - Argentina</li>
-        <li>Angélica Sandoval-Pérez - Colombia</li>
         <li>Irma Martínez-Flores - Mexico</li>
         <li>Juliana Glavina - Argentina</li>
         <li>Karen Oróstica Tapia - Chile</li>
