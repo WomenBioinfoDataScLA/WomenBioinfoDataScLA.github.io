@@ -646,7 +646,7 @@ function renderCommitteesSection() {
         <li>Elisabeth Tapia - Argentina</li>
         <li>Gabriela Merino - Argentina</li>
         <li>Georgina Stegmayer - Argentina</li>
-        <li>Gloria Angélica Sandoval Pérez - Colombia</li>
+        <li>Angélica Sandoval-Pérez - Colombia</li>
         <li>Irma Martínez-Flores - Mexico</li>
         <li>Juliana Glavina - Argentina</li>
         <li>Karen Oróstica Tapia - Chile</li>
