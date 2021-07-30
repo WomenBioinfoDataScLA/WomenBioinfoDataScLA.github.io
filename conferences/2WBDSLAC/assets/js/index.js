@@ -326,17 +326,20 @@ function renderProgramSection() {
             <td>Han Sun (Alemania/Korea)</td>
         </tr>
         <tr>
-            <td>14:20 - 14:50</td>
-            <td>Invited Speaker</td>
+            <td rowspan="2">14:20 - 15:20</td>
+            <td rowspan="2">Invited Speakers</td>
+            <td>Margot Paulino (Uruguay)</td>
+        </tr>
+        <tr>
             <td>Eliana Asciutto (Argentina)</td>
         </tr>
         <tr class="breaks">
-            <td>14:50 - 16:10</td>
-            <td colspan="2">Lightning talks</td>
+            <td>15:20 - 15:30</td>
+            <td colspan="2">Coffee Break</td>
         </tr>
         <tr class="breaks">
-            <td>16:10 - 16:30</td>
-            <td colspan="2">Coffee Break</td>
+            <td>15:30 - 16:30</td>
+            <td colspan="2">Lightning talks</td>
         </tr>
         <tr class="prog-tracks">
             <td class="prog-tracks" colspan="3">TRACK: Biomolecular Simulations, Structural Bioinformatics &amp; Systems Biology</td>

@@ -248,7 +248,6 @@ function renderPortugueseIndexPage() {
     h2Conference.innerHTML = "Congresso 2° WBDS";
     h3Conference.innerHTML = "22-24 Set 21";
     h2Workshops.innerHTML = "Cursos";
-    h3Workshops.innerHTML = "Em Breve!";
     h2Articles.innerHTML = "Artigos";
     h3Articles.innerHTML = "Em Breve!";
     h2Voluntteer.innerHTML = "Seja um Voluntário";
@@ -287,7 +286,6 @@ function renderSpanishIndexPage() {
     h2Conference.innerHTML = "2do Congreso WBDS";
     h3Conference.innerHTML = "22-24 Sep 21";
     h2Workshops.innerHTML = "Cursos";
-    h3Workshops.innerHTML = "¡Próximamente!";
     h2Articles.innerHTML = "Artículos";
     h3Articles.innerHTML = "¡Próximamente!";
     h2Voluntteer.innerHTML = "Conviértase en voluntario";
