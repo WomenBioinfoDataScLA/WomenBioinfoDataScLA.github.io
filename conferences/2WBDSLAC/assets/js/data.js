@@ -9,13 +9,15 @@ const speakersList = [
     { "name": "Georgina Stegmayer", 'img': 'GeorginaStegmayer_square.png', "filiation": "UNL - CONICET - Argentina" },
     { "name": "Ariane Nunes Alves", 'img': 'Ariane_Nunes_Alves.jpg', "filiation": "HITS - Germany" },
     { "name": "Eliana K Asciutto", 'img': "Eliana_Asciutto.jpg", "filiation": "Conicet - UNSAM - Argentina" },
-    { "name": "Lucia Spangenberg", "img": "Lucia.jpeg", "filiation": "Institut Pasteur - Uruguay" }
+    { "name": "Lucia Spangenberg", "img": "Lucia.jpeg", "filiation": "Institut Pasteur - Uruguay" },
+    { "name": "Margot Paulino", "img": "margot.jpg", "filiation": "Udelar-FQ-DETEMA-CeBioinfo - Uruguay" }
 ];
 
 
 const conservatoryList = [
     { "name": "Mailén García", 'img': 'mailen.jpg', "filiation": "Data Observatory with a Gender Perspective - Argentina" },
-    { "name": "Fran De Castro Bubani", 'img': 'Fran_Bubani.JPG', "filiation": "CONICET/CAB/IB - Argentina" }
+    { "name": "Fran De Castro Bubani", 'img': 'Fran_Bubani.JPG', "filiation": "CONICET/CAB/IB - Argentina" },
+    { "name": "Eliade Lima", 'img': 'eliade.jpg', "filiation": "UNIPAMPA - Brazil"}
 ]
 
 const keynotesList =[
