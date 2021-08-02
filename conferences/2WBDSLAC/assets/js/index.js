@@ -619,17 +619,18 @@ function renderCommitteesSection() {
     <h2 id="scientific-comm" >Scientific Committee Chairs</h2>
     <ul>
         <li>Wendy González,  Universidad de Talca - CBSM, Chile</li>
-        <li>Cristina Marino-Buslje, Fundación Instituto Leloir - CONICET, Argentine</li>
+        <li>Cristina Marino-Buslje, Fundación Instituto Leloir - CONICET, Argentina</li>
+        <li>Ana Julia Velez Rueda, Universidad Nacional de Quilmes - CONICET, Argentina</li>
     </ul>
     <hr class="separator">
     <h2 id="executive-comm">Executive Committee</h2>
     <ul>
-        <li>Ana Julia Velez Rueda, Universidad Nacional de Quilmes - CONICET, Argentine</li>
+        <li>Ana Julia Velez Rueda, Universidad Nacional de Quilmes - CONICET, Argentina</li>
         <li>Lucy Jiménez, IT - Machine Learning - Mercado Libre, Colombia</li>
         <li>Liliane Conteville, IOC - Fiocruz, Brazil</li>
-        <li>Ivana Feldfeber, Observatorio de Datos con Perspectiva de Género, Argentine</li>
-        <li>Agustina Nardo, CIDCA- CONICET, Argentine</li>
-        <li>Mercedes Didier Garnham, Trypanosomatics Lab, IIB-UNSAM, Argentine</li>
+        <li>Ivana Feldfeber, Observatorio de Datos con Perspectiva de Género, Argentina</li>
+        <li>Agustina Nardo, CIDCA- CONICET, Argentina</li>
+        <li>Mercedes Didier Garnham, Trypanosomatics Lab, IIB-UNSAM, Argentina</li>
     </ul>
     <h2 id="executive-comm">Abstract Review Committee</h2>
     <ul>
