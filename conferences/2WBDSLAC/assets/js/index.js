@@ -638,21 +638,24 @@ function renderCommitteesSection() {
         <li>Alejandra Medina-Rivera - Mexico</li>
         <li>Ana Beatriz Villaseñor Altamirano - Mexico</li>
         <li>Ana Julia Velez Rueda - Argentina</li>
+        <li>Alessandra Abreu - Brazil</li>
         <li>Angélica Sandoval-Pérez - Colombia</li>
         <li>Aurora Labastida Martinez - Mexico</li>
         <li>Brenda Cabrera Mendoza - Mexico</li>
         <li>Carla Robles-Espinoza - Mexico</li>
         <li>Carolina Bellera - Argentina</li>
         <li>Carolina Susana Cerrudo - Argentina</li>
-        <li>Carolina Torres - Colombia</li>
+        <li>Carolina Torres - Argentina</li>
         <li>Diana Carolina López - Colombia</li>
         <li>Elena Laura Coitiño - Uruguay</li>
         <li>Elin Teppa - Argentina</li>
         <li>Elisabeth Tapia - Argentina</li>
+        <li>Estefania Mancini - Argentina</li>
         <li>Gabriela Merino - Argentina</li>
         <li>Georgina Stegmayer - Argentina</li>
         <li>Irma Martínez-Flores - Mexico</li>
         <li>Juliana Glavina - Argentina</li>
+        <li>Julia Marchetti - Argentina</li>
         <li>Karen Oróstica Tapia - Chile</li>
         <li>Karina Dos Santos Machado - Brazil</li>
         <li>Laura Ación - Argentina</li>
@@ -661,11 +664,17 @@ function renderCommitteesSection() {
         <li>Luciana Gavernet - Argentina</li>
         <li>Luciana Rodriguez Sawicki - Argentina</li>
         <li>Maia Cabrera - Argentina</li>
+        <li>María Laura Fernández - Argentina</li>
         <li>Margot Paulino - Uruguay</li>
+        <li>Marcia Anahí Hasenahuer - Argentina</li>
         <li>Maria Victoria Revuelta - Argentina</li>
         <li>Maria Verónica Fumero - Argentina</li>
+        <li>Mariana Recamonde-Mendoza - Brazil</li>
         <li>Melissa Alegria-Arcos - Chile</li>
+        <li>Nelly Selem - Mexico</li>
+        <li>Narcisse Joseph - Malaysia</li>
         <li>Patricia Soto - Colombia</li>
+        <li>Patricia M. Palagi - Swiss</li>
         <li>Rebeca Campos Sánchez - Costa Rica</li>
         <li>Thilakavathy Karuppiah - Malaysia</li>
         <li>Viviana Monje-Galvan - Bolivia</li>
