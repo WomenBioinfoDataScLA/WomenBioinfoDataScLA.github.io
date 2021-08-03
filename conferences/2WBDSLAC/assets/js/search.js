@@ -1,14 +1,10 @@
-function createSearchSection(){
+function createSearchSection() {
     const mainSearcherSectionDiv = $(`
         <section class="buscador-section active" id="buscador-section">
-        <h1 class="title">Inspírate, busca, guarda, y crea <br> los mejores <span class="gifos-text">GIFOS</span></h1>
-        <img src="assets/images/ilustra_header.svg" alt="buscador-img" class="buscador-img">
+        <h2 class="title">2WBDS LA Posters</h2>
         <div class="buscador" id="buscador">
-            <img src="assets/images/icon-search.svg" alt="lupa" class="lupa lupa-suplementaria">
-            <input type="text" placeholder=" Search.." name="search" class="search-input" id="search-input">
-            <img src="assets/images/icon-search.svg" alt="lupa" class="lupa active" id="lupa">
-            <img src="assets/images/close.svg" alt="close-icon" class="close-icon" id="close-icon">
-            <ul class="sugerencias" id="sugerencias">
+            <input type="text" placeholder=" Search a poster by keywords.." name="search" class="search-input" id="search-input">
+                        <ul class="sugerencias" id="sugerencias">
                 <li class="space-top"></li>
                 <li class="sugerencia1" id="sugerencia1"></li>
                 <li class="sugerencia2" id="sugerencia2"></li>
@@ -17,4 +13,16 @@ function createSearchSection(){
         </div>
         </section>`);
     return mainSearcherSectionDiv
+}
+
+
+let listDicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu]
+
+function keywordSearch(listDicts) {
+    const keywords = []
+    listDicts.map(keywdsList => keywdsList.map(element => {
+        element['keyword'].map(keywd => keywords.push(keywd));
+    }))
+
+    return keywords;
 }
