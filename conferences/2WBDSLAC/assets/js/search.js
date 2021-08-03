@@ -34,8 +34,8 @@ function keywordSearch(listDicts, searchWord) {
 
 
 function posterButtonCreat(listPosters, divPosters) {
-    for (let j = 0; j < dicts.length; j++) {
-        dicts[j].forEach(element => {
+    for (let j = 0; j < listPosters.length; j++) {
+        listPosters[j].forEach(element => {
             let title = $(`
             <button id="${element.number}" class="titleposters"> 
                 <h3>#${element.number} ${element.title}</h3>
