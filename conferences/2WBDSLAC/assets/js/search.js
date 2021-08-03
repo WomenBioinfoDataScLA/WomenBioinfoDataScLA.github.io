@@ -18,11 +18,30 @@ function createSearchSection() {
 
 let listDicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu]
 
-function keywordSearch(listDicts) {
-    const keywords = []
+function keywordSearch(listDicts, searchWord) {
+    const poster = []
     listDicts.map(keywdsList => keywdsList.map(element => {
-        element['keyword'].map(keywd => keywords.push(keywd));
+        cosntposterNumber = element['number'];
+        element['keyword'].map(keywd => {
+            if (keywd === searchWord) {
+                poster.push(cosntposterNumber);
+            }
+        });
     }))
 
-    return keywords;
+    return poster;
+}
+
+
+function posterButtonCreat(listPosters, divPosters) {
+    for (let j = 0; j < dicts.length; j++) {
+        dicts[j].forEach(element => {
+            let title = $(`
+            <button id="${element.number}" class="titleposters"> 
+                <h3>#${element.number} ${element.title}</h3>
+            </button>
+            `);
+            title.appendTo($(divPosters[j]));
+        });
+    }
 }
