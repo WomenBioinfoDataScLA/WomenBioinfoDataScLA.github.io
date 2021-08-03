@@ -1,6 +1,6 @@
 TO DO
 
-1- Add for the click event of the tittle the function for rendering the posters image and video, taking the information from the dictionary, using the poster number from the local storage 
+1- POSTER SESSION - Add for the click event of the tittle the function for rendering the posters image and video, taking the information from the dictionary, using the poster number from the local storage 
 
             <div class="content">
                 <h4>Poster ${element.number}: ${element.title}</h4>
@@ -9,3 +9,5 @@ TO DO
                     <iframe width="360" height="315" src="${element.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div> 
+
+2 - POSTER SESSION - Uncomment the lines 519,574,575 to render the search bar and posters. Style the search bar and connect the search ith the poster renderization

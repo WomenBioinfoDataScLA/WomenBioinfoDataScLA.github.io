@@ -515,9 +515,10 @@ function renderPosterInstSection() {
 
 
 function renderPosterSessionSection() {
+    const searchDiv = createSearchSection();
+    //searchDiv.appendTo(posterSection);//
     const posterSessionContent = $(`
-        <h2>2WBDS Poster Session</h2>
-        <div class="tracks">
+            <div class="tracks">
             <div>
                 <button class="collapsible">
                     <h3>Bioinformatics and Diseases</h3>
@@ -569,18 +570,9 @@ function renderPosterSessionSection() {
     //Create the content in each track
     let divPosters = document.getElementsByClassName("track");
     //Create array with the tracks dictionaries
+    
     //let dicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu]//
-
-    for (let j = 0; j < dicts.length; j++) {
-        dicts[j].forEach(element => {
-            let title = $(`
-            <button id="${element.number}" class="titleposters"> 
-                <h3>#${element.number} ${element.title}</h3>
-            </button>
-            `);
-            title.appendTo($(divPosters[j]));
-        });
-    }
+    //posterButtonCreat(dicts, divPosters);//
 
     // Click in the tracks to toggle between showing and hiding the collapsible content
     let tracks = document.getElementsByClassName("collapsible");
