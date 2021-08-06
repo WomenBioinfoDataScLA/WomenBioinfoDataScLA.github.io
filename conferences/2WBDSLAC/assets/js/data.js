@@ -10,7 +10,8 @@ const speakersList = [
     { "name": "Ariane Nunes Alves", 'img': 'Ariane_Nunes_Alves.jpg', "filiation": "HITS - Germany" },
     { "name": "Eliana K Asciutto", 'img': "Eliana_Asciutto.jpg", "filiation": "Conicet - UNSAM - Argentina" },
     { "name": "Lucia Spangenberg", "img": "Lucia.jpeg", "filiation": "Institut Pasteur - Uruguay" },
-    { "name": "Margot Paulino", "img": "margot.jpg", "filiation": "Udelar-FQ-DETEMA-CeBioinfo - Uruguay" }
+    { "name": "Margot Paulino", "img": "margot.jpg", "filiation": "Udelar-FQ-DETEMA-CeBioinfo - Uruguay" },
+    { "name": "Alejandra Garcia", "img": "Alejandra_Garcia.jpg", "filiation": "CENS - Chile" }
 ];
 
 

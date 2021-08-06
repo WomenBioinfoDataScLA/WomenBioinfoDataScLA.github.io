@@ -21,7 +21,7 @@ const dayThreeButton = $('#daythree');
 
 const registrationSection = $('#registration-section');
 const registrationButton = $('#registration-nav-button');
-const committeeSection = $('#comittees-section');
+const committeeSection = $('#committees-section');
 const committeeButton = $('#comittees-nav-button');
 const sponsorTitleSuport = document.getElementById('sponsors-tittle-suport');
 const sponsorsLogosDiv = document.getElementById('sponsors-logos');
@@ -242,7 +242,7 @@ function renderProgramSection() {
                 <td>Daniela Robles-Espinoza (Mexico)</td>
             </tr>
             <tr>
-                <td>Ariane Nunes Alves (Brazil)</td>
+                <td>Georgina Stegmayer (Argentina)</td>
             </tr>
             <tr>
                 <td>Sara Cuadros (Chile)</td>
@@ -250,9 +250,6 @@ function renderProgramSection() {
             <tr class="breaks">
                 <td>12:30 - 13:30</td>
                 <td colspan="2">Lunch Break</td>
-            </tr>
-            <tr class="prog-tracks">
-                <td colspan="3">TRACK: Machine Learning, Data Mining and Big Data Analysis</td>
             </tr>
             <tr  class="breaks">
                 <td>13:30 - 14:50</td>
@@ -262,9 +259,12 @@ function renderProgramSection() {
                 <td>14:50 - 15:00</td>
                 <td colspan="2">Coffee Break</td>
             </tr>
+            <tr class="prog-tracks">
+                <td colspan="3">ACM-W TRACK:<br>Machine Learning, Data Mining and Big Data Analysis</br></td>
+            </tr>
             <tr>
-                <td rowspan="4">15:00 - 17:00</td>
-                <td rowspan="4">Invited Speakers</td>
+                <td rowspan="3">15:00 - 16:30</td>
+                <td rowspan="3">Invited Speakers</td>
                 <td>Gabriela de Queiroz (Brazil)</td>
             </tr>
             <tr>
@@ -273,15 +273,16 @@ function renderProgramSection() {
             <tr>
                 <td>Patricia Acosta-Vargas (Ecuador)</td>
             </tr>
-            <tr>
-                <td>Georgina Stegmayer (Argentina)</td>
+            <tr  class="breaks">
+            <td>16:30 - 16:50</td>
+            <td colspan="2">Lightning talks</td>
             </tr>
             <tr class="breaks">
-                <td>17:00 - 17:10</td>
+                <td>16:50 - 17:00</td>
                 <td colspan="2">Coffee Break</td>
             </tr>
             <tr class="prog-tracks">
-                <td>17:10 - 19:00</td>
+                <td>17:00 - 19:00</td>
                 <td colspan="2" >Gender &amp; Science Conversatory</td>
             </tr>
         </tbody>
@@ -326,20 +327,23 @@ function renderProgramSection() {
             <td>Han Sun (Alemania/Korea)</td>
         </tr>
         <tr>
-            <td rowspan="2">14:20 - 15:20</td>
-            <td rowspan="2">Invited Speakers</td>
+            <td rowspan="3">14:20 - 15:50</td>
+            <td rowspan="3">Invited Speakers</td>
             <td>Margot Paulino (Uruguay)</td>
         </tr>
         <tr>
             <td>Eliana Asciutto (Argentina)</td>
         </tr>
-        <tr class="breaks">
-            <td>15:20 - 15:30</td>
-            <td colspan="2">Coffee Break</td>
+        <tr>
+            <td>Ariane Nunes Alves (Brazil)</td>
         </tr>
         <tr class="breaks">
-            <td>15:30 - 16:30</td>
-            <td colspan="2">Lightning talks</td>
+            <td>15:50 - 16:10</td>
+            <td colspan="2">Lightning Talk</td>
+        </tr>
+        <tr class="breaks">
+            <td>16:10 - 16:30</td>
+            <td colspan="2">Coffee Break</td>
         </tr>
         <tr class="prog-tracks">
             <td class="prog-tracks" colspan="3">TRACK: Biomolecular Simulations, Structural Bioinformatics &amp; Systems Biology</td>
@@ -355,8 +359,12 @@ function renderProgramSection() {
         <tr>
             <td>Maria Luisa Serrano (Venezuela)</td>
         </tr>
+        <tr>
+            <td >18:00 - 19:00</td>
+            <td colspan="2">Lightning Talks</td>
+        </tr>
         </tbody>
-    </table>
+        </table>
 
     <div id="table-daythree" class="disable">
         <table>
@@ -610,29 +618,32 @@ function renderCommitteesSection() {
     const committeeContent = $(`
     <h2 id="scientific-comm" >Scientific Committee Chairs</h2>
     <ul>
-        <li>Wendy González,  Universidad de Talca - CBSM, Chile</li>
-        <li>Cristina Marino-Buslje, Fundación Instituto Leloir - CONICET, Argentina</li>
-        <li>Ana Julia Velez Rueda, Universidad Nacional de Quilmes - CONICET, Argentina</li>
+        <li>Chair: Wendy González,  Universidad de Talca - CBSM, Chile</li>
+        <li>Co-chair: Cristina Marino-Buslje, Fundación Instituto Leloir - CONICET, Argentina</li>
+        <li>Program Chair: Ana Julia Velez Rueda, Universidad Nacional de Quilmes - CONICET, Argentina</li>
     </ul>
     <hr class="separator">
     <h2 id="executive-comm">Executive Committee</h2>
     <ul>
         <li>Ana Julia Velez Rueda, Universidad Nacional de Quilmes - CONICET, Argentina</li>
         <li>Lucy Jiménez, IT - Machine Learning - Mercado Libre, Colombia</li>
-        <li>Liliane Conteville, IOC - Fiocruz, Brazil</li>
+        <li>Liliane Conteville, CPPSE - EMBRAPA, Brazil</li>
         <li>Ivana Feldfeber, Observatorio de Datos con Perspectiva de Género, Argentina</li>
         <li>Agustina Nardo, CIDCA- CONICET, Argentina</li>
         <li>Mercedes Didier Garnham, Trypanosomatics Lab, IIB-UNSAM, Argentina</li>
     </ul>
+    <hr class="separator">
     <h2 id="executive-comm">Abstract Review Committee</h2>
     <ul>
         <li>Agustina Nardo - Argentina</li>
         <li>Alejandra Medina-Rivera - Mexico</li>
         <li>Ana Beatriz Villaseñor Altamirano - Mexico</li>
         <li>Ana Julia Velez Rueda - Argentina</li>
-        <li>Alessandra Abreu - Brazil</li>
         <li>Angélica Sandoval-Pérez - Colombia</li>
+        <li>Alessandra Conforte - Brazil</li>
+        <li>Ariela Vergara - Chile</li>
         <li>Aurora Labastida Martinez - Mexico</li>
+        <li>Ayari Fuentes - Mexico</li>
         <li>Brenda Cabrera Mendoza - Mexico</li>
         <li>Carla Robles-Espinoza - Mexico</li>
         <li>Carolina Bellera - Argentina</li>
@@ -641,19 +652,28 @@ function renderCommitteesSection() {
         <li>Diana Carolina López - Colombia</li>
         <li>Elena Laura Coitiño - Uruguay</li>
         <li>Elin Teppa - Argentina</li>
-        <li>Elisabeth Tapia - Argentina</li>
+        <li>Elizabeth Martínez Pérez - Cuba</li>
+        <li>Elizabeth Tapia - Argentina</li>
         <li>Estefania Mancini - Argentina</li>
+        <li>Federica Quaglia - Italy</li>
         <li>Gabriela Merino - Argentina</li>
         <li>Georgina Stegmayer - Argentina</li>
+        <li>Gisele Rocha - Brazil</li>
         <li>Irma Martínez-Flores - Mexico</li>
+        <li>Janin Riedelsberger - Switzerland</li>
+        <li>Joicymara Xavier - Brazil </li>
         <li>Juliana Glavina - Argentina</li>
+        <li>Juliana Andrea Murillo López - Chile</li>
         <li>Julia Marchetti - Argentina</li>
         <li>Karen Oróstica Tapia - Chile</li>
         <li>Karina Dos Santos Machado - Brazil</li>
+        <li>Katia De Paiva Lopes - Brazil</li>
         <li>Laura Ación - Argentina</li>
         <li>Leda Carolina Torres Maldonado - Mexico</li>
         <li>Liliane Conteville - Brazil</li>
+        <li>Lucia Chemes - Argentina<li>
         <li>Luciana Gavernet - Argentina</li>
+        <li>Luciana Mofatto - Brazil</li>
         <li>Luciana Rodriguez Sawicki - Argentina</li>
         <li>Maia Cabrera - Argentina</li>
         <li>María Laura Fernández - Argentina</li>
@@ -663,12 +683,22 @@ function renderCommitteesSection() {
         <li>Maria Verónica Fumero - Argentina</li>
         <li>Mariana Recamonde-Mendoza - Brazil</li>
         <li>Melissa Alegria-Arcos - Chile</li>
-        <li>Nelly Selem - Mexico</li>
+        <li>Nancy Ontiveros - UK</li>
+        <li>Natasha Jorge - Brazil </li>
         <li>Narcisse Joseph - Malaysia</li>
+        <li>Nelly Selem - Mexico</li>
+        <li>Norma Paniego - Argentina</li>
+        <li>Nuria Campillo - Spain</li>
         <li>Patricia Soto - Colombia</li>
-        <li>Patricia M. Palagi - Swiss</li>
+        <li>Patricia M. Palagi - Switzerland</li>
+        <li>Raquel Quatrini - Argentina</li>
         <li>Rebeca Campos Sánchez - Costa Rica</li>
+        <li>Sara Rocío Chuguransky - Argentina</li>
+        <li>Sheila Nagamatsu - Brazil</li>
+        <li>Sindy Piñero - Argentina</li>
         <li>Thilakavathy Karuppiah - Malaysia</li>
+        <li>Ursula Matte - Brazil</li>
+        <li>Veronika Stoka - Argentina</li>
         <li>Viviana Monje-Galvan - Bolivia</li>
         <li>Yanina Bellini Saibee - Argentina</li>  
     </ul>
