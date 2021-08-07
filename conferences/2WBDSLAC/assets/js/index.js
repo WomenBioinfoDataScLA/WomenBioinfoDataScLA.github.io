@@ -472,7 +472,7 @@ function renderPosterInstSection() {
         <h2>Poster and Video Instructions</h2>
         <p>Submit the poster and video before September 10th using the form sent by email. If you have any questions, send to our email account: <a href="#" target="_blank" class = "purple-a">womenbioinformaticsnetworkla@gmail.com</a></p>
         <h3>Poster</h3>
-        <p>Participants must create a 45 cm x 53 cm high-resolution image with all the poster information in English, using the background image <a target="_blank" href="https://drive.google.com/file/d/1FQPuxLKAMG8CTuFEmjV7gY3l3YkrkfJ1/view?usp=sharing" class = "purple-a">provided</a> by the organizing committee. The poster should be in png format.  The file should be named with the last name of the first author and the EasyChair submission number:
+        <p>Participants must create a 46 cm x 53 cm high-resolution image with all the poster information in English, using the background image <a target="_blank" href="https://drive.google.com/file/d/1FQPuxLKAMG8CTuFEmjV7gY3l3YkrkfJ1/view?usp=sharing" class = "purple-a">provided</a> by the organizing committee. The poster should be in png format.  The file should be named with the last name of the first author and the EasyChair submission number:
             “Velez_Rueda_Poster5.png”. To clearly explain your work to a broad technical audience, we recommend the following content for the image: Title, author list, affiliation, and
             the abstract: background, or motivation to your approach, method or techniques, results, conclusions, and any related references.
         </p>
