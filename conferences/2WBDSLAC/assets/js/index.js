@@ -466,24 +466,24 @@ function renderPosterInstSection() {
     const posterSessionContent = $(`
     <article>
         <h2>Poster Submission</h2>
-        <p>After <a target="_blank" class = "purple-a" href="https://easychair.org/cfp/2ndWBDS-LA">submitting your abstract </a> and receiving the notification that your abstract has been accepted for poster presentation, you will be able to submit your poster. Submitting a poster comprises on sending a file in png format of the poster and a pre-recorded presentation of 3-5 minutes explaining the poster.</p>
+        <p>After <a target="_blank" class = "purple-a" href="https://easychair.org/cfp/2ndWBDS-LA">submitting your abstract </a> and receiving the notification that your abstract has been accepted for poster presentation, you must send a file in png format of the poster and a pre-recorded presentation of 3-5 minutes explaining the poster.</p>
     </article>
     <article>
         <h2>Poster and Video Instructions</h2>
-        <p>Please send it before the 10th of September to the official email account: <a href="#" target="_blank" class = "purple-a">womenbioinformaticsnetworkla@gmail.com</a></p>
+        <p>Submit the poster and video before September 10th using the form sent by email. If you have any questions, send to our email account: <a href="#" target="_blank" class = "purple-a">womenbioinformaticsnetworkla@gmail.com</a></p>
         <h3>Poster</h3>
-        <p>Participants must create a 45 cm x 53 cm high-resolution image with all the poster information in English, using the background image <a target="_blank" href="https://drive.google.com/file/d/1FQPuxLKAMG8CTuFEmjV7gY3l3YkrkfJ1/view?usp=sharing" class = "purple-a">provided</a> by the organizing committee. The poster should be in png format.  Please send the poster to the conference official email account, using the Subject: Virtual Poster Session. The file should be named with the last name of the first author and the EasyChair submission number:
+        <p>Participants must create a 45 cm x 53 cm high-resolution image with all the poster information in English, using the background image <a target="_blank" href="https://drive.google.com/file/d/1FQPuxLKAMG8CTuFEmjV7gY3l3YkrkfJ1/view?usp=sharing" class = "purple-a">provided</a> by the organizing committee. The poster should be in png format.  The file should be named with the last name of the first author and the EasyChair submission number:
             “Velez_Rueda_Poster5.png”. To clearly explain your work to a broad technical audience, we recommend the following content for the image: Title, author list, affiliation, and
             the abstract: background, or motivation to your approach, method or techniques, results, conclusions, and any related references.
         </p>
         <h3>Video</h3>
         <p>It is mandatory that authors also send the pre-record of their poster talk (3-5 minutes), which will be uploaded on our <a target="_blank" href="https://www.youtube.com/watch?v=anq8YaRMQDo&feature=youtu.be" class = "purple-a">Youtube Channel</a> and will be presented on our website along with the poster. 
-        The video should preferably be in English, but participants can speak in their mother tongue and add English subtitles. Save your presentation as an MP4 file. Please send the video to the conference official email account, using the Subject: Virtual Poster Session. The file should be named with the last name of the first author and the EasyChair submission number: “Velez_Rueda_Poster5.mp4”.
+        The video should preferably be in English, but participants can speak in their mother tongue and add English subtitles. Save your presentation as an MP4 file. The file should be named with the last name of the first author and the EasyChair submission number: “Velez_Rueda_Poster5.mp4”.
         </p>
         <h3>Twitter</h3>
         <p>
         Participants can also post their posters on Twitter at the beginning of the conference using a single tweet with the poster image and a brief explanation. In order to increase the visibility and associate it with the conference, please use the hashtags <strong>#VirtualPostersSession</strong> and <strong>#2WBDS_LA</strong>. 
-        Please use the handle <a target="_blank" href="https://twitter.com/BioinfoLa" class = "purple-a">@BioinfoLa</a> as well so that we will receive a notification. Other suggestions for hashtags are #bioinformatics <strong>#datascience #WomenSTEM</strong> or the topics of the congress <strong>#DeepLearning #DataMining&BigDataAnalysis #Chemoinformatics&DrugDiscovery #Genomics&Evolution #SystemsBiology #StructuralBioinformatics #BiomolecularSimulations #Bioinformatics&Diseases #Education</strong>. 
+        Please use the handle <a target="_blank" href="https://twitter.com/WBDSLA" class = "purple-a">@WBDSLA</a> as well so that we will receive a notification. Other suggestions for hashtags are #bioinformatics <strong>#datascience #WomenSTEM</strong> or the topics of the congress <strong>#DeepLearning #DataMining&BigDataAnalysis #Chemoinformatics&DrugDiscovery #Genomics&Evolution #SystemsBiology #StructuralBioinformatics #BiomolecularSimulations #Bioinformatics&Diseases #Education</strong>. 
         If the poster is associated with a preprint/publication, we advise you to post a second tweet with its url.
         In case you are in a country that does not allow Twitter posting, please send it to the official email account before the 10th of September and we will post it for you.</p>
 
@@ -495,17 +495,17 @@ function renderPosterInstSection() {
  
         <h2>FREQUENTLY ASKED QUESTIONS</h2>
         <h3>Who can send an abstract?</h3>
-        <p>This event is open to the entire community, anyone can send an abstract for the poster session and be selected for oral presentation. </p>
+        <p>This event is open to the entire community, anyone can send an abstract and be selected for poster or oral presentation. </p>
         <h3>How will be the selection for oral presentation?</h3>
         <p>All abstracts will be reviewed by 2 specialists in the field. According to their recommendations, the Scientific Committee will determine if the abstract is presented as oral or poster. </p>
         <h3>Who will receive a certificate for the poster presentation?</h3>
-        <p>Only one registered author by poster will receive a certificate. By default it will be the first author of the poster. In case that the first author is not registered to the congress, the registered author will receive the certificate. In such a case, the responsible for the poster (registered to the congerss) must notify the organizers at the time of submission by email.</p>
+        <p>Only one registered author by poster will receive a certificate. By default it will be the first author of the poster. In case that the first author is not registered to the congress, the registered author will receive the certificate. In such a case, the responsible for the poster (registered to the congerss) must notify the organizers at the time of submission by email. Please be aware that to receive a presentation certificate, you must send a file in png format of the poster and a pre-recorded presentation of 3-5 minutes explaining the poster.</p>
         <h3>Who is the corresponding author?</h3>
-        <p>Correspondence will be sent to the author indicated as corresponding at the time of submission.</p>
+        <p>Correspondences will be sent to the author indicated as corresponding at the time of submission.</p>
         <h3>Can I send only the poster?</h3>
         <p>No. Poster submission requires a poster and a video.</p>
         <h3>Can I send only the video?</h3>
-        <p>No, Poster submission requires a poster and a video.</p>
+        <p>No. Poster submission requires a poster and a video.</p>
         <h3>Which topics does the congress have?</h3>
         <ul>
             <li>Bioinformatics and Diseases</li>
