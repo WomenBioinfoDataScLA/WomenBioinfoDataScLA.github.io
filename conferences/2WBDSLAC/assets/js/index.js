@@ -524,7 +524,7 @@ function renderPosterInstSection() {
 
 function renderPosterSessionSection() {
     const searchDiv = createSearchSection();
-    //searchDiv.appendTo(posterSection);//
+    //searchDiv.appendTo(posterSection); // uncomment this so it can work//
     const posterSessionContent = $(`
             <div class="tracks">
             <div>
@@ -579,8 +579,8 @@ function renderPosterSessionSection() {
     let divPosters = document.getElementsByClassName("track");
     //Create array with the tracks dictionaries
     
-    //let dicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu]//
-    //posterButtonCreat(dicts, divPosters);//
+    //let dicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu] // uncomment this so it can work//
+    //posterButtonCreat(dicts, divPosters); // uncomment this so it can work//
 
     // Click in the tracks to toggle between showing and hiding the collapsible content
     let tracks = document.getElementsByClassName("collapsible");
@@ -592,7 +592,12 @@ function renderPosterSessionSection() {
 function savePosterNumber(elementLists) {
     for (let i = 0; i < elementLists.length; i++) {
         elementLists[i].addEventListener("click", function() {
+            const parentDiv = $(`#${this.id}`);
             localStorage.setItem("posterNumber", this.id);
+            makeCollapsibleElements(elementLists);
+            //renderPosterInfo(searchPosterByNumber(Number(this.id)), parentDiv);
+            console.log(searchPosterByNumber(Number(this.id)));
+            console.log(Number(this.id)+1);
         });
     }
 

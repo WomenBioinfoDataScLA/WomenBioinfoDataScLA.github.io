@@ -10,4 +10,4 @@ TO DO
                 </div>
             </div> 
 
-2 - POSTER SESSION - Uncomment the lines 519,574,575 to render the search bar and posters. Style the search bar and connect the search ith the poster renderization
+2 - POSTER SESSION - Uncomment the lines 527,582,583 to render the search bar and posters. Style the search bar and connect the search ith the poster renderization
