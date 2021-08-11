@@ -17,18 +17,17 @@ function createSearchSection() {
 
 
 function keywordSearch(searchquery) {
-    let poster = []
+    let posters = [];
 
     for (let element of listDicts) {
         for (let poster of element) {
-            if(poster.keyword === searchquery){
-
-                poster.push(cosntposterNumber);
+            if(poster.keywords.toLowerCase().includes(searchquery.toLowerCase().trim())){
+                posters.push(poster);
             }
         }
     }
     
-    return poster;
+    return posters;
 }
 
 
