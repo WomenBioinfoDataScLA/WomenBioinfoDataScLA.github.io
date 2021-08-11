@@ -70,6 +70,22 @@ a {
     text-align: center;
 }
 
+button {
+    background: transparent;
+    text-decoration: none;
+    border: transparent;
+}
+
+input {
+    border-radius: 31px;
+    height: 50px;
+    width: 237px;
+    text-align: center;
+    color: #906aac;
+    border: 3px solid #906aac;
+    margin-top: 20px;
+}
+
 .disable {
     display: none;
 }
@@ -723,6 +739,12 @@ address {
     background-color: #FFFFFF;
 }
 
+.buscador-section{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
 
 /* Style the collapsible content. Note: hidden by default */
 
@@ -743,9 +765,16 @@ address {
 }
 
 .titleposters:hover {
-    transform: scale(1);
-    text-decoration: underline;
     cursor: pointer;
+}
+
+.titleposters h4 {
+    color: #906aac;
+    text-decoration: none;
+}
+
+.titleposters h4:hover {
+    color:#ffa992;
 }
 
 
@@ -808,11 +837,19 @@ address {
 
 .poster-video {
     display: flex;
+    flex-flow: column;
     justify-content: space-evenly;
 }
 
 .poster-video img {
     width: 40%;
+}
+
+.authors-list{
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    color: gray;
+    font-style: italic;
 }
 
 /*Program*/

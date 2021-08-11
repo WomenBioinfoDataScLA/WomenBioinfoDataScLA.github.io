@@ -524,7 +524,7 @@ function renderPosterInstSection() {
 
 function renderPosterSessionSection() {
     const searchDiv = createSearchSection();
-    //searchDiv.appendTo(posterSection); // uncomment this so it can work//
+    searchDiv.appendTo(posterSection); // uncomment this so it can work//
     const posterSessionContent = $(`
             <div class="tracks">
             <div>
@@ -579,8 +579,8 @@ function renderPosterSessionSection() {
     let divPosters = document.getElementsByClassName("track");
     //Create array with the tracks dictionaries
     
-    //let dicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu] // uncomment this so it can work//
-    //posterButtonCreat(dicts, divPosters); // uncomment this so it can work//
+    let dicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu] // uncomment this so it can work//
+    posterButtonCreat(dicts, divPosters); // uncomment this so it can work//
 
     // Click in the tracks to toggle between showing and hiding the collapsible content
     let tracks = document.getElementsByClassName("collapsible");
@@ -589,15 +589,33 @@ function renderPosterSessionSection() {
     savePosterNumber(posters);
 }
 
+
+function renderPosterInfo(element, parentDiv){
+    console.log(parentDiv);
+
+    if ( $(parentDiv).children().length === 1 ) {
+        const posterDiv =  $(
+            `<div class="collapsible">
+                <div class="poster-video">
+                    <figcaption class="authors-list">${element.authors}</figcaption>
+                    <img alt="" src="./assets/img/${element.poster}">
+                </div>
+            </div>`
+        ); 
+        posterDiv.appendTo(parentDiv);
+   }
+   
+}
+
+
 function savePosterNumber(elementLists) {
     for (let i = 0; i < elementLists.length; i++) {
         elementLists[i].addEventListener("click", function() {
             const parentDiv = $(`#${this.id}`);
             localStorage.setItem("posterNumber", this.id);
             makeCollapsibleElements(elementLists);
-            //renderPosterInfo(searchPosterByNumber(Number(this.id)), parentDiv);
-            console.log(searchPosterByNumber(Number(this.id)));
-            console.log(Number(this.id)+1);
+            renderPosterInfo(searchPosterByNumber(Number(this.id)), parentDiv);
+            //console.log(searchPosterByNumber(Number(this.id)));
         });
     }
 

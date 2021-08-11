@@ -16,17 +16,18 @@ function createSearchSection() {
 }
 
 
-function keywordSearch(listDicts, searchWord) {
-    const poster = []
-    listDicts.map(keywdsList => keywdsList.map(element => {
-        const posterNumber = element['number'];
-        element['keyword'].map(keywd => {
-            if (keywd === searchWord) {
+function keywordSearch(searchquery) {
+    let poster = []
+
+    for (let element of listDicts) {
+        for (let poster of element) {
+            if(poster.keyword === searchquery){
+
                 poster.push(cosntposterNumber);
             }
-        });
-    }))
-
+        }
+    }
+    
     return poster;
 }
 
@@ -36,7 +37,7 @@ function posterButtonCreat(listPosters, divPosters) {
         listPosters[j].forEach(element => {
             let title = $(`
             <button id="${element.number}" class="titleposters"> 
-                <h3>#${element.number} ${element.tittle}</h3>
+                <h4>#${element.number} ${element.tittle}</h4>
             </button>
             `);
             title.appendTo($(divPosters[j]));
@@ -44,26 +45,12 @@ function posterButtonCreat(listPosters, divPosters) {
     }
 }
 
-function renderPosterInfo(element, parentDiv){
-    const posterDiv =  $(
-        `<div class="content">
-        <h4>Poster ${element.number}: ${element.tittle}</h4>
-        <div class="poster-video">
-            <img alt="" src="./assets/img/${element.poster}">
-            <iframe width="360" height="315" src="${element.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        </div>`
-    ); 
-    posterDiv.appendTo(parentDiv);
-    
-}
-
 function searchPosterByNumber(id) {
-    listDicts.map(element => {
-        element.map(poster => {
+    for (let element of listDicts) {
+        for (let poster of element) {
             if(poster.number === id){
                 return poster;
             }
-        });
-    });
+        }
+    }
 }
