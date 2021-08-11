@@ -524,7 +524,6 @@ function renderPosterInstSection() {
 
 function renderPosterSessionSection() {
     const searchDiv = createSearchSection();
-    searchDiv.appendTo(posterSection); // uncomment this so it can work//
     const posterSessionContent = $(`
             <div class="tracks">
             <div>
@@ -572,7 +571,16 @@ function renderPosterSessionSection() {
         </div>
         
     `);
+    //Generate Search section content
+    searchDiv.appendTo(posterSection); 
 
+    document.getElementById('search-input').addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+          console.log(keywordSearch(searchInput()));
+        }
+    });
+
+    //create poster section content
     posterSessionContent.appendTo(posterSection);
 
     //Create the content in each track
@@ -587,6 +595,8 @@ function renderPosterSessionSection() {
     makeCollapsibleElements(tracks);
     let posters = document.getElementsByClassName("titleposters");
     savePosterNumber(posters);
+
+
 }
 
 

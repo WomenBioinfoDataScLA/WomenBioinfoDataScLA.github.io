@@ -26,8 +26,14 @@ function keywordSearch(searchquery) {
             }
         }
     }
-    
+
     return posters;
+}
+
+function searchInput() {
+    const input = document.getElementById('search-input');
+
+    return input.value
 }
 
 
