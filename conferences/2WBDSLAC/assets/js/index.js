@@ -574,18 +574,26 @@ function renderPosterSessionSection() {
     //Generate Search section content
     searchDiv.appendTo(posterSection); 
 
-    document.getElementById('search-input').addEventListener('keypress', function (e) {
-        if (e.key === 'Enter') {
-          const posterSearchedList = keywordSearch(searchInput());
-          const suggestions = document.getElementById('sugerencias');
-
-          suggestions.innerHTML = '';
-
-          posterSearchedList.forEach(element => {
-              console.log(element);
-              renderSuggestions(element, suggestions);
-          })
+    document.getElementById('search-input').addEventListener('keyup', function (e) {
+        const input = searchInput();
+        const posterIds = keywordSearch(input).map(it => String(it.number));
+        const suggestions = document.getElementById('sugerencias');
+        const $tracks = $(".collapsible");
+        
+        if (input.length !== 0) {
+            $tracks.addClass("active");
+        } else {
+            $tracks.removeClass("active");
         }
+        
+        $(".titleposters").each((index, element) => {
+            const $element = $(element);
+            if (posterIds.includes(element.id)) {
+                $element.removeClass("hidden");
+            } else {
+                $element.addClass("hidden");
+            }
+        })
     });
 
     //create poster section content
@@ -644,12 +652,6 @@ function makeCollapsibleElements(elementLists) {
     for (let i = 0; i < elementLists.length; i++) {
         elementLists[i].addEventListener("click", function() {
             this.classList.toggle("active");
-            let content = this.nextElementSibling;
-            if (content.style.display === "block") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "block";
-            }
         });
     }
 }

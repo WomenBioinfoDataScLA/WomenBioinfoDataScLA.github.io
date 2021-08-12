@@ -588,6 +588,10 @@ p:hover {
     height: 6em;
 }
 
+.hidden {
+    display: none !important;
+}
+
 footer {
     display: flex;
     flex-direction: row;
@@ -739,6 +743,15 @@ address {
     align-items: baseline;
     background-color: #FFFFFF;
 }
+
+.collapsible + .content {
+    display: none;
+}
+
+.collapsible.active + .content {
+    display: block;
+}
+
 
 .buscador-section{
     display: flex;
