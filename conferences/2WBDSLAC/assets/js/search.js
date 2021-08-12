@@ -53,9 +53,11 @@ function posterButtonCreat(listPosters, divPosters) {
     for (let j = 0; j < listPosters.length; j++) {
         listPosters[j].forEach(element => {
             let title = $(`
-            <button id="${element.number}" class="titleposters"> 
-                <h4>#${element.number} ${element.tittle}</h4>
-            </button>
+            <div>
+                <button id="${element.number}" class="titleposters collapsible"> 
+                    <h4>#${element.number} ${element.tittle}</h4>
+                </button>
+            </div>
             `);
             title.appendTo($(divPosters[j]));
         });

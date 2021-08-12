@@ -729,19 +729,22 @@ address {
 }
 
 
-/* Style the button that is used to open and close the collapsible content */
-
-.collapsible {
-    cursor: pointer;
+.track-header {
     padding: 18px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
+    background-color: #FFFFFF;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+
+.collapsible {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .collapsible + .content {

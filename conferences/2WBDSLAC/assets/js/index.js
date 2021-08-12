@@ -527,42 +527,42 @@ function renderPosterSessionSection() {
     const posterSessionContent = $(`
             <div class="tracks">
             <div>
-                <button class="collapsible">
+                <button class="track-header collapsible">
                     <h3>Bioinformatics and Diseases</h3>
                     <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
                 </button>
                 <div class=" content track" id="BioinfoDisease"></div> 
             </div>
             <div>
-                <button class="collapsible">
+                <button class="track-header collapsible">
                     <h3>Biomolecular Simulations, Structural Bioinformatics & Systems Biology</h3>
                     <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
                 </button>
                 <div class=" content track" id="Structural"></div> 
             </div>
             <div>
-                <button class="collapsible">
+                <button class="track-header collapsible">
                     <h3>Chemoinformatics and Drug Discovery</h3>
                     <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
                 </button>
                 <div class=" content track" id="ChemoDrug"></div> 
             </div>
             <div>
-                <button class="collapsible">
+                <button class="track-header collapsible">
                     <h3>Genomics and Evolution</h3>
                     <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
                 </button>
                 <div class=" content track" id="GenEvol"></div> 
             </div>
             <div>
-                <button class="collapsible">
+                <button class="track-header collapsible">
                     <h3>Machine Learning, Data mining and Big Data Analysis</h3>
                     <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
                 </button>
                 <div class=" content track" id="MlDataMining"></div> 
             </div>
             <div>
-                <button class="collapsible">
+                <button class="track-header collapsible">
                     <h3>Education</h3>
                     <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
                 </button>
@@ -577,8 +577,7 @@ function renderPosterSessionSection() {
     document.getElementById('search-input').addEventListener('keyup', function (e) {
         const input = searchInput();
         const posterIds = keywordSearch(input).map(it => String(it.number));
-        const suggestions = document.getElementById('sugerencias');
-        const $tracks = $(".collapsible");
+        const $tracks = $(".track-header");
         
         if (input.length !== 0) {
             $tracks.addClass("active");
@@ -590,7 +589,6 @@ function renderPosterSessionSection() {
             const $track = $(track);  
             let hasResults = false; 
             $track.parent().find(".titleposters").each((index, element) => {
-                console.log("poster")
                 const $element = $(element);
                 if (posterIds.includes(element.id)) {
                     hasResults = true;
@@ -619,7 +617,7 @@ function renderPosterSessionSection() {
     posterButtonCreat(dicts, divPosters); // uncomment this so it can work//
 
     // Click in the tracks to toggle between showing and hiding the collapsible content
-    let tracks = document.getElementsByClassName("collapsible");
+    let tracks = document.getElementsByClassName("track-header");
     makeCollapsibleElements(tracks);
     let posters = document.getElementsByClassName("titleposters");
     savePosterNumber(posters);
@@ -628,34 +626,31 @@ function renderPosterSessionSection() {
 }
 
 
-function renderPosterInfo(element, parentDiv){
-    console.log(parentDiv);
-
-    if ( $(parentDiv).children().length === 1 ) {
+function renderPosterInfo(element, collapsible){
+    if ( $(collapsible).children().length === 1 ) {
         const posterDiv =  $(
-            `<div class="collapsible">
+            `<div class="content">
                 <div class="poster-video">
                     <figcaption class="authors-list">${element.authors}</figcaption>
                     <img alt="" src="./assets/img/${element.poster}">
                 </div>
             </div>`
         ); 
-        posterDiv.appendTo(parentDiv);
+        posterDiv.insertAfter(collapsible);
    }
-   
 }
 
 
 function savePosterNumber(elementLists) {
     for (let i = 0; i < elementLists.length; i++) {
         elementLists[i].addEventListener("click", function() {
-            const parentDiv = $(`#${this.id}`);
+            const collapsible = $(`#${this.id}`);
             localStorage.setItem("posterNumber", this.id);
-            makeCollapsibleElements(elementLists);
-            renderPosterInfo(searchPosterByNumber(Number(this.id)), parentDiv);
+            renderPosterInfo(searchPosterByNumber(Number(this.id)), collapsible);
             //console.log(searchPosterByNumber(Number(this.id)));
         });
     }
+    makeCollapsibleElements(elementLists);
 
 }
 
