@@ -576,7 +576,15 @@ function renderPosterSessionSection() {
 
     document.getElementById('search-input').addEventListener('keypress', function (e) {
         if (e.key === 'Enter') {
-          console.log(keywordSearch(searchInput()));
+          const posterSearchedList = keywordSearch(searchInput());
+          const suggestions = document.getElementById('sugerencias');
+
+          suggestions.innerHTML = '';
+
+          posterSearchedList.forEach(element => {
+              console.log(element);
+              renderSuggestions(element, suggestions);
+          })
         }
     });
 

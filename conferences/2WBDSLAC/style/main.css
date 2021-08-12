@@ -83,7 +83,8 @@ input {
     text-align: center;
     color: #906aac;
     border: 3px solid #906aac;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 .disable {
@@ -446,7 +447,7 @@ p:hover {
 .poster-section {
     position: relative;
     padding: 0 10%;
-    margin-top: -20%;
+    margin-top: -24%;
     margin-bottom: 25%;
 }
 
@@ -744,6 +745,23 @@ address {
     justify-content: center;
     flex-flow: column;
     align-items: center;
+}
+
+.buscador {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.sugerencias{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.sugerencias li{
+    font-size: 1em;
+    margin-top: 10px;
 }
 
 /* Style the collapsible content. Note: hidden by default */

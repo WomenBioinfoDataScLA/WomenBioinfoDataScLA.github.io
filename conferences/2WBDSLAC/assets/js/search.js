@@ -30,6 +30,18 @@ function keywordSearch(searchquery) {
     return posters;
 }
 
+
+function renderSuggestions(element, parentDiv){
+    const li = document.createElement('li');
+    const anchor = document.createElement('a');
+
+    anchor.href = '#';
+    anchor.innerHTML =  'POSTER #' + element.number +' '+ element.tittle;
+
+    li.appendChild(anchor);
+    parentDiv.appendChild(li);
+}
+
 function searchInput() {
     const input = document.getElementById('search-input');
 
