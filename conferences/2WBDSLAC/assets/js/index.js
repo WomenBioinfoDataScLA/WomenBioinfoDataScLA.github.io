@@ -586,14 +586,26 @@ function renderPosterSessionSection() {
             $tracks.removeClass("active");
         }
         
-        $(".titleposters").each((index, element) => {
-            const $element = $(element);
-            if (posterIds.includes(element.id)) {
-                $element.removeClass("hidden");
+        $tracks.each((index, track) => {
+            const $track = $(track);  
+            let hasResults = false; 
+            $track.parent().find(".titleposters").each((index, element) => {
+                console.log("poster")
+                const $element = $(element);
+                if (posterIds.includes(element.id)) {
+                    hasResults = true;
+                    $element.removeClass("hidden");
+                } else {
+                    $element.addClass("hidden");
+                }
+            })
+            if (hasResults) {
+                $track.removeClass("hidden");
             } else {
-                $element.addClass("hidden");
+                $track.addClass("hidden");
             }
         })
+        
     });
 
     //create poster section content
