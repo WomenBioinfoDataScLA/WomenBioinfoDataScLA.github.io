@@ -647,7 +647,6 @@ function savePosterNumber(elementLists) {
             const collapsible = $(`#${this.id}`);
             localStorage.setItem("posterNumber", this.id);
             renderPosterInfo(searchPosterByNumber(Number(this.id)), collapsible);
-            //console.log(searchPosterByNumber(Number(this.id)));
         });
     }
     makeCollapsibleElements(elementLists);
@@ -681,6 +680,8 @@ function renderCommitteesSection() {
         <li>Ivana Feldfeber, Observatorio de Datos con Perspectiva de Género, Argentina</li>
         <li>Agustina Nardo, CIDCA- CONICET, Argentina</li>
         <li>Mercedes Didier Garnham, Trypanosomatics Lab, IIB-UNSAM, Argentina</li>
+        <li>Celeste Celeste Grimolizzi, MAyDS - 3IA-IIIA CONICET UNSAM, Argentina</li>
+        <li>Lucía Guerrero García, GIBBS - UNAL, Colombia </li>
     </ul>
     <hr class="separator">
     <h2 id="executive-comm">Abstract Review Committee</h2>

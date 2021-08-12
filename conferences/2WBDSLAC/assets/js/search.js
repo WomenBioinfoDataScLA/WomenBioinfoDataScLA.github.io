@@ -1,6 +1,7 @@
 function createSearchSection() {
     const mainSearcherSectionDiv = $(`
         <section class="buscador-section active" id="buscador-section">
+        <img src="./assets/img/Elementos_Persona.png">
         <h2 class="title">2WBDS LA Posters</h2>
         <div class="buscador" id="buscador">
             <input type="text" placeholder=" Search a poster by keywords.." name="search" class="search-input" id="search-input">
