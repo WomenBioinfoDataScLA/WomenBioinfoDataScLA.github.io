@@ -632,7 +632,7 @@ function renderPosterInfo(element, collapsible){
             `<div class="content">
                 <div class="poster-video">
                     <figcaption class="authors-list">${element.authors}</figcaption>
-                    <img alt="" src="./assets/img/${element.poster}">
+                    <img alt="" src="./assets/img/posters/${element.poster}">
                 </div>
             </div>`
         ); 
