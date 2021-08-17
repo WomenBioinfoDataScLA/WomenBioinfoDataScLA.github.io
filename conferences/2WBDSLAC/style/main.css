@@ -38,7 +38,7 @@ h3 {
 }
 
 h4 {
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
 }
 
@@ -875,7 +875,7 @@ address {
 
 .poster-video {
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     justify-content: space-evenly;
     padding-left: 3%;
     padding-right: 3%;
@@ -883,13 +883,19 @@ address {
 }
 
 .poster-video img {
-    width: 40%;
+    width: 80%;
     border-radius: 5px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.authors-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .authors-list{
-    font-size: 0.8em;
+    font-size: 1em;
     margin-bottom: 15px;
     color: gray;
     font-style: italic;

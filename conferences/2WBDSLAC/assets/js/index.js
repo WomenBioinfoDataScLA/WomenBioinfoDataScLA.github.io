@@ -631,8 +631,13 @@ function renderPosterInfo(element, collapsible){
         const posterDiv =  $(
             `<div class="content">
                 <div class="poster-video">
-                    <figcaption class="authors-list">${element.authors}</figcaption>
-                    <img alt="" src="./assets/img/posters/${element.poster}">
+                    <div class="authors-video">
+                        <figcaption class="authors-list">${element.authors}</figcaption>
+                        <iframe width="560" height="315" src="${element.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <a href="./assets/img/posters/${element.poster}" target="_blank">
+                        <img alt="" src="./assets/img/posters/${element.poster}">
+                    </a>
                 </div>
             </div>`
         ); 
