@@ -18,7 +18,8 @@ const speakersList = [
 const conservatoryList = [
     { "name": "Mailén García", 'img': 'mailen.jpg', "filiation": "Data Observatory with a Gender Perspective - Argentina" },
     { "name": "Fran De Castro Bubani", 'img': 'Fran_Bubani.JPG', "filiation": "CONICET/CAB/IB - Argentina" },
-    { "name": "Eliade Lima", 'img': 'eliade.jpg', "filiation": "UNIPAMPA - Brazil" }
+    { "name": "Eliade Lima", 'img': 'eliade.jpg', "filiation": "UNIPAMPA - Brazil" },
+    { "name": "Patricia Castillo-Briceño", 'img': 'Patricia_Castillo-Briceno.jpg', "filiation": "EBIOAC Lab, ULEAM University - Ecuador"}
 ]
 
 const keynotesList = [
