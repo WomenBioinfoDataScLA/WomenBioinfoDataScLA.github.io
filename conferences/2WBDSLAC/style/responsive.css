@@ -7,6 +7,7 @@
         margin-top: -5%;
         margin-left: 46%;
     }
+
 }
 
 @media screen and (min-width: 1900px) and (max-width: 2139px){
@@ -40,6 +41,9 @@
     footer h4{
         margin: 1vw 0;
     }
+    .authors-list {
+        font-size: 1.3em;
+    }
 }
 
 @media screen and (min-width: 1631px) and (max-width: 1899px){
@@ -50,6 +54,9 @@
         margin-top: -6%;
         margin-left: 50%;
     }
+    .authors-list{
+        font-size: 1.3em;
+    }
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1630px){
@@ -59,6 +66,15 @@
     .sponrship-content img {
         margin-top: -6%;
         margin-left: 52%;
+    }
+    .authors-list{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1051px) and (max-width: 1399px){
+    .authors-list{
+        font-size: 1.3em;
     }
 }
 
@@ -79,6 +95,9 @@
     }
     .workshops-section img {
         width: 40vw;
+    }
+    .authors-list{
+        font-size: 1.3em;
     }
 }
 
@@ -295,6 +314,23 @@
     }
     .program-section table {
         width:80vw;
+    }
+    .poster-section{
+        padding:0;
+    }
+    .poster-video {
+        flex-flow: column;
+    }
+    .authors-video {
+        align-items: center;
+        margin-bottom: 1vw;
+    }
+    .authors-list{
+        font-size: 1.4em;
+    }
+    .video-frame{
+        width: 60vw;
+        height: 35vw;
     }
 }
 
