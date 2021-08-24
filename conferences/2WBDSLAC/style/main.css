@@ -683,6 +683,7 @@ address {
 
 .tracks h3 {
     text-align: left;
+    font-size: 1.9em;
 }
 
 .track-title {
@@ -809,7 +810,7 @@ address {
 .titleposters h4 {
     color: #906aac;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .titleposters h4:hover {
