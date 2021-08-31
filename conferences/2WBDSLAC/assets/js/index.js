@@ -225,12 +225,6 @@ function renderProgramSection() {
     const programSectionContent = $(`
     <table id="table-dayone" class="">
         <thead>
-           <tr>
-                <th colspan="3"><span>Day 1: 22nd September</span></th>
-            </tr>
-            <tr>
-                <td colspan="3"> Brazil/Argentina Time: GMT-3</td>
-            </tr>
         </thead>
         <tbody>
             <tr  class="prog-tracks">
@@ -290,12 +284,6 @@ function renderProgramSection() {
 
     <table id="table-daytwo" class="disable">
         <thead>
-        <tr>
-            <th colspan="3"><span>Day 2: 23rd September</span></th>
-        </tr>
-        <tr>
-        <td colspan="3"> Brazil/Argentina Time: GMT-3</td>
-        </tr>
         </thead>
         <tbody>
         <tr class="prog-tracks">
@@ -369,11 +357,27 @@ function renderProgramSection() {
     <div id="table-daythree" class="disable">
         <table>
         <thead>
-        <tr>
-            <th colspan="3"><span></span></th>
-        </tr>
         </thead>
         <tbody>
+        <tr class="prog-tracks">
+        <td class="prog-tracks" colspan="3">2WBDS Workshops</td>
+        </tr>
+        <tr>
+        <td>9:00 - 13:00</td>
+        <td>Metagenomics in the Study of Microbial Communities</td>
+        </tr>
+        <tr>
+        <td>11:00 - 15:00</td>
+        <td>Phylogenetic Orthology Inference for Comparative Genomics</td>
+        </tr>
+        <tr>
+        <td>14:00 a 19:00</td>
+        <td>Exploring Biological Data with Pandas</td>
+        </tr>
+        <tr>
+        <td>16:00 - 19:00</td>
+        <td>Converting Jupyter notebooks to reproducible python packages using Spyder</td>
+        </tr>
         </tbody>
         </table>
     </div>
@@ -386,6 +390,9 @@ function renderProgramSection() {
     const tableThree = $('#table-daythree');
 
     dayOneButton.addEventListener('click', () => {
+        $(dayOneButton).addClass('orange-element');
+        $(dayTwoButton).removeClass('orange-element');
+        $(dayThreeButton).removeClass('orange-element');
         tableOne.removeClass("disable");
         tableTwo.addClass("disable");
         tableThree.addClass("disable");
@@ -393,6 +400,9 @@ function renderProgramSection() {
     });
 
     dayTwoButton.on('click', () => {
+        $(dayTwoButton).addClass('orange-element');
+        $(dayOneButton).removeClass('orange-element');
+        $(dayThreeButton).removeClass('orange-element');
         tableOne.addClass("disable");
         tableTwo.removeClass("disable");
         tableThree.addClass("disable");
@@ -400,11 +410,12 @@ function renderProgramSection() {
     });
 
     dayThreeButton.on('click', () => {
+        $(dayThreeButton).addClass('orange-element');
+        $(dayOneButton).removeClass('orange-element');
+        $(dayTwoButton).removeClass('orange-element');
         tableOne.addClass("disable");
         tableThree.removeClass("disable");
         tableTwo.addClass("disable");
-        workshopsSection.appendTo(programSectionContent);
-        workshopsSection.removeClass("disable");
     });
 }
 

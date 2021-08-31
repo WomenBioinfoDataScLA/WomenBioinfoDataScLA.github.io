@@ -245,6 +245,11 @@ p:hover {
     z-index: 10;
 }
 
+.orange-element {
+    background-color: #ffa992;
+    color: #4d38a5;
+}
+
 .button:hover {
     background-color: #ffa992;
     color: #4d38a5;
@@ -709,6 +714,10 @@ address {
     margin-right: 5vw;
 }
 
+.workshops-section p{
+    margin-bottom:15px;
+}
+
 .workshops-section div {
     display: flex;
     flex-wrap: wrap;
@@ -961,14 +970,16 @@ address {
     flex-wrap: wrap;
 }
 
-.prog-button div{
-    margin-bottom: 5%;
-}
-
 .prog-button a {
     font-size: 1.6em;
 }
 
 .program-section section{
     margin-top: 1%;
+}
+
+.program-section p{
+    font-size: 15px;
+    margin-bottom: 22px;
+    margin-top: 18px;
 }
