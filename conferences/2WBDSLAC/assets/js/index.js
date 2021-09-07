@@ -246,8 +246,18 @@ function renderProgramSection() {
                 <td colspan="2">Lunch Break</td>
             </tr>
             <tr  class="breaks">
-                <td>13:30 - 14:50</td>
-                <td colspan="2" >Lightning talks</td>
+                <td rowspan="4" >13:30 - 14:50</td>
+                <td rowspan="4" >Lightning talks</td>
+                <td>Microbial diversity during different fermentation times of coffee from northern Peru. Martha Calderon (Peru)</td>
+            </tr>
+            <tr>
+                <td>Genetic Drivers of Medulloblastoma Metastasis. Ana Isabel Castillo Orozco (Canada)</td>
+            </tr>
+            <tr>
+                <td>Saccharomyces boulardii CNCM I-745 supplementation modifies the fecal resistome during the Helicobacter pylori eradication therapy. Sara G. Cifuentes (Ecuador)</td>
+            </tr>
+            <tr>
+                <td>“TMBpred”: Web server for the prediction of the total mutation burden as an immune response biomarker in 14 tumor types. Agustina Sofia Torres (Argentina)</td>
             </tr>
             <tr class="breaks">
                 <td>14:50 - 15:00</td>
@@ -268,8 +278,9 @@ function renderProgramSection() {
                 <td>Patricia Acosta-Vargas (Ecuador)</td>
             </tr>
             <tr  class="breaks">
-            <td>16:30 - 16:50</td>
-            <td colspan="2">Lightning talks</td>
+                <td >16:30 - 16:50</td>
+                <td >Lightning talks</td>
+                <td >Redefining Bronchopulmonary Dysplasia by Machine Learning discovery of lung disease trajectories in premature infants. Florencia Nowogrodzki (Argentina)</td>
             </tr>
             <tr class="breaks">
                 <td>16:50 - 17:00</td>
@@ -327,7 +338,8 @@ function renderProgramSection() {
         </tr>
         <tr class="breaks">
             <td>15:50 - 16:10</td>
-            <td colspan="2">Lightning Talk</td>
+            <td>Lightning Talk</td>
+            <td>Reconciling Multiple Connectivity Scores for Drug Repurposing. Kewalin Samart (USA)</td>
         </tr>
         <tr class="breaks">
             <td>16:10 - 16:30</td>
@@ -348,9 +360,16 @@ function renderProgramSection() {
             <td>Maria Luisa Serrano (Venezuela)</td>
         </tr>
         <tr>
-            <td >18:00 - 19:00</td>
-            <td colspan="2">Lightning Talks</td>
+            <td rowspan="3">18:00 - 19:00</td>
+            <td rowspan="3">Lightning Talks</td>
+            <td>Comprehensive virtual screening of 4.8k flavonoids reveals novel insights into allosteric inhibition of SARS-CoV-2 MPRO. Ana Paula Vargas Ruiz (Peru)</td>
         </tr>
+        <tr>
+            <td>Shedding light on the structure-function of rice Na+/K+ transporter OsHKT2;2. Janin Riedelsberger (Chile)</td>
+        </tr>
+        <tr>
+            <td>Effect of the CER[NP]:CER[AP] composition on the structural properties of a model the lipid matrix of the stratum corneum of the human epidermis. Natalia Rivero Arenas (Colombia)</td>
+        </tr>    
         </tbody>
         </table>
 
@@ -446,25 +465,7 @@ function renderRegistrationSection() {
     <p>The whole conference will be held in <strong>English</strong>.</p>
     <hr class="separator">
     <p>Access the registration form <a target="_blank" href="https://forms.gle/AKFMaoqqZ1ghvXN58">here</a></p>
-    <hr class="separator">
-    <h2>Abstract Submission</h2>
-    <p>The call for abstracts is <strong>closed</strong>!</p>
-    <p>This congress focuses on the areas of systems biology, omics technologies, artificial intelligence, machine learning, data science, data mining and high performance computing with biological applications in public and private sectors.</p>
-    <hr class="separator">
-    <p><strong>We welcome abstract that fall within the event topics:</strong></p>
-    <ul>
-    <li>Bioinformatics and Diseases</li>
-    <li>Biomolecular Simulations, Structural Bioinformatics & Systems Biology</li>
-    <li>Chemoinformatics and Drug Discovery</li>
-    <li>Genomics and Evolution</li>
-    <li>Machine Learning, Data mining and Big Data Analysis</li>
-    <li>Education</li>
-    </ul>
-    <hr class="separator">
-    <p>The abstract submission guideline is <a target="_blank" href="https://easychair.org/cfp/2ndWBDS-LA">here</a>.</p>
-    <p>Submit your abstract <a target="_blank" href="https://easychair.org/conferences/?conf=2ndwbdsla" >here</a>.</p>
-    <hr class="separator">
-    
+    <hr class="separator"> 
     <h2>Volunteers</h2>
     <p>If you want to join the volunteers' team to help us during the event, please complete this <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfgs5K5mwFDI5tbu9MRc4SucY1XFheaDFlZSzWdLUSi-Jrkuw/viewform">form</a> and soon you will be contacted. Thank you!!</p>
     `);
