@@ -232,7 +232,7 @@ function renderProgramSection() {
             </tr>
             <tr>
                 <td rowspan="3">11:00 - 12:30</td>
-                <td rowspan="3">Invited Speakers</td>
+                <td rowspan="3">Invited Speakers<br></br>Chair: Alejandra Medina</td>
                 <td>Daniela Robles-Espinoza (Mexico)</td>
             </tr>
             <tr>
@@ -247,7 +247,7 @@ function renderProgramSection() {
             </tr>
             <tr  class="breaks">
                 <td rowspan="4" >13:30 - 14:50</td>
-                <td rowspan="4" >Lightning talks</td>
+                <td rowspan="4" >Lightning talks<br></br>Chair: Cristina Marino</td>
                 <td>Microbial diversity during different fermentation times of coffee from northern Peru. Martha Calderon (Peru)</td>
             </tr>
             <tr>
@@ -268,7 +268,7 @@ function renderProgramSection() {
             </tr>
             <tr>
                 <td rowspan="3">15:00 - 16:30</td>
-                <td rowspan="3">Invited Speakers</td>
+                <td rowspan="3">Invited Speakers<br></br>Chair: Gabriela Merino</td>
                 <td>Gabriela de Queiroz (Brazil)</td>
             </tr>
             <tr>
@@ -279,7 +279,7 @@ function renderProgramSection() {
             </tr>
             <tr  class="breaks">
                 <td >16:30 - 16:50</td>
-                <td >Lightning talks</td>
+                <td >Lightning talks<br></br>Chair: Gabriela Merino</td>
                 <td >Redefining Bronchopulmonary Dysplasia by Machine Learning discovery of lung disease trajectories in premature infants. Florencia Nowogrodzki (Argentina)</td>
             </tr>
             <tr class="breaks">
@@ -302,12 +302,12 @@ function renderProgramSection() {
         </tr>
         <tr class="breaks">
             <td>11:00 - 11:40</td>
-            <td>Keynote Speaker</td>
+            <td>Keynote Speaker<br></br>Chair: Cristina Marino</td>
             <td>Janet Thornton (England)</td>
         </tr>
         <tr>
             <td rowspan="2">11:40 - 12:40</td>
-            <td rowspan="2">Invited Speakers</td>
+            <td rowspan="2">Invited Speakers<br></br>Chair: Cristina Marino</td>
             <td>Daiana Mir (Uruguay)</td>
         </tr>
         <tr>
@@ -322,12 +322,12 @@ function renderProgramSection() {
         </tr>
         <tr class="breaks">
             <td>13:40 -14:20</td>
-            <td>Keynote Speaker</td>
+            <td>Keynote Speaker<br></br>Chair:  Wendy Gonzales</td>
             <td>Han Sun (Alemania/Korea)</td>
         </tr>
         <tr>
             <td rowspan="3">14:20 - 15:50</td>
-            <td rowspan="3">Invited Speakers</td>
+            <td rowspan="3">Invited Speakers<br></br>Chair:  Wendy Gonzales</td>
             <td>Margot Paulino (Uruguay)</td>
         </tr>
         <tr>
@@ -338,7 +338,7 @@ function renderProgramSection() {
         </tr>
         <tr class="breaks">
             <td>15:50 - 16:10</td>
-            <td>Lightning Talk</td>
+            <td>Lightning Talk<br></br>Chair:  Wendy Gonzales</td>
             <td>Reconciling Multiple Connectivity Scores for Drug Repurposing. Kewalin Samart (USA)</td>
         </tr>
         <tr class="breaks">
@@ -350,7 +350,7 @@ function renderProgramSection() {
         </tr>
         <tr>
             <td rowspan="3">16:30 - 18:00</td>
-            <td rowspan="3">Invited Speakers</td>
+            <td rowspan="3">Invited Speakers<br></br>Chair: Ariela Vergara</td>
             <td>Monica Andrea Pickholz (Argentina)</td>
         </tr>
         <tr>
@@ -361,7 +361,7 @@ function renderProgramSection() {
         </tr>
         <tr>
             <td rowspan="3">18:00 - 19:00</td>
-            <td rowspan="3">Lightning Talks</td>
+            <td rowspan="3">Lightning Talks<br></br>Chair: Cristina Marino</td>
             <td>Comprehensive virtual screening of 4.8k flavonoids reveals novel insights into allosteric inhibition of SARS-CoV-2 MPRO. Ana Paula Vargas Ruiz (Peru)</td>
         </tr>
         <tr>
