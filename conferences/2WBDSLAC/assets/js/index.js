@@ -275,7 +275,7 @@ function renderProgramSection() {
                 <td>Wonder woman: Fostering innovation through collaboration<br></br><b class="speakers-names">Alejandra Garcia (Chile)</b></td>
             </tr>
             <tr>
-                <td><b class="speakers-names">Patricia Acosta-Vargas (Ecuador)</b></td>
+                <td>State of university learning with the use of Big Data<br></br><b class="speakers-names">Patricia Acosta-Vargas (Ecuador)</b></td>
             </tr>
             <tr  class="breaks">
                 <td >16:30 - 16:50</td>
