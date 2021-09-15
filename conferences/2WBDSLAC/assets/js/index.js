@@ -239,7 +239,7 @@ function renderProgramSection() {
                 <td>Machine learning for *omics data<br></br><b class="speakers-names">Georgina Stegmayer (Argentina)</b></td>
             </tr>
             <tr>
-                <td><b class="speakers-names">Sara Cuadros (Chile)<b></td>
+                <td>Microbial complexity in Andean hydrothermal systems<br></br><b class="speakers-names">Sara Cuadros (Chile)<b></td>
             </tr>
             <tr class="breaks">
                 <td>12:30 - 13:30</td>
