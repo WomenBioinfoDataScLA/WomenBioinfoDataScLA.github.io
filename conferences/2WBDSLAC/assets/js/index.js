@@ -308,10 +308,10 @@ function renderProgramSection() {
         <tr>
             <td rowspan="2">11:40 - 12:40</td>
             <td rowspan="2">Invited Speakers<br></br>Chair: Cristina Marino</td>
-            <td><b class="speakers-names">Daiana Mir (Uruguay)</b></td>
+            <td>Genomic epidemiology analyses during the early pandemic phase of the SARS-CoV-2 epidemic in Brazil and Uruguay<br></br><b class="speakers-names">Daiana Mir (Uruguay)</b></td>
         </tr>
         <tr>
-            <td><b class="speakers-names">Lucia Spangenberg (Uruguay)</b></td>
+            <td>Advances in human genomics in the Uruguayan scientific context<br></br><b class="speakers-names">Lucia Spangenberg (Uruguay)</b></td>
         </tr>
         <tr class="breaks">
             <td>12:40 -13:40</td>
