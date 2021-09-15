@@ -269,7 +269,7 @@ function renderProgramSection() {
             <tr>
                 <td rowspan="3">15:00 - 16:30</td>
                 <td rowspan="3">Invited Speakers<br></br>Chair: Gabriela Merino</td>
-                <td><b class="speakers-names">Gabriela de Queiroz (Brazil)</b></td>
+                <td>Data Science as a Team Sport <br></br><b class="speakers-names">Gabriela de Queiroz (Brazil)</b></td>
             </tr>
             <tr>
                 <td>Wonder woman: Fostering innovation through collaboration<br></br><b class="speakers-names">Alejandra Garcia (Chile)</b></td>
@@ -303,7 +303,7 @@ function renderProgramSection() {
         <tr class="breaks">
             <td>11:00 - 11:40</td>
             <td>Keynote Speaker<br></br>Chair: Cristina Marino</td>
-            <td><b class="speakers-names">Janet Thornton (England)</b></td>
+            <td>Computational Enzymology: The Structure, Function and Evolution of Enzymes<br></br><b class="speakers-names">Janet Thornton (England)</b></td>
         </tr>
         <tr>
             <td rowspan="2">11:40 - 12:40</td>
@@ -328,13 +328,13 @@ function renderProgramSection() {
         <tr>
             <td rowspan="3">14:20 - 15:50</td>
             <td rowspan="3">Invited Speakers<br></br>Chair:  Wendy Gonzales</td>
-            <td><b class="speakers-names">Margot Paulino (Uruguay)</b></td>
+            <td>Articulation of Ligand Based , Structure Based Drug Design and Artificial Intelligence strategies applied to the design of bioactive compounds<br></br><b class="speakers-names">Margot Paulino (Uruguay)</b></td>
         </tr>
         <tr>
-            <td><b class="speakers-names">Eliana Asciutto (Argentina)</b></td>
+            <td>Computational peptide based drug design targeting tumor-associated macrophages<br></br><b class="speakers-names">Eliana Asciutto (Argentina)</b></td>
         </tr>
         <tr>
-            <td><b class="speakers-names">Ariane Nunes Alves (Brazil)</b></td>
+            <td>Protein-ligand kinetics in drug design: physics-based and data-based approaches for kinetic prediction in kinases<br></br><b class="speakers-names">Ariane Nunes Alves (Brazil)</b></td>
         </tr>
         <tr class="breaks">
             <td>15:50 - 16:10</td>
@@ -354,10 +354,10 @@ function renderProgramSection() {
             <td><b class="speakers-names">Monica Andrea Pickholz (Argentina)</b></td>
         </tr>
         <tr>
-            <td><b class="speakers-names">Janneth González (Colombia)</b></td>
+            <td>Understanding Drugs and Diseases by System Biology<br></br><b class="speakers-names">Janneth González (Colombia)</b></td>
         </tr>
         <tr>
-            <td><b class="speakers-names">Maria Luisa Serrano (Venezuela)</b></td>
+            <td>In silico strategies, key methods for drug discovery<br></br><b class="speakers-names">Maria Luisa Serrano (Venezuela)</b></td>
         </tr>
         <tr>
             <td rowspan="3">18:00 - 19:00</td>
