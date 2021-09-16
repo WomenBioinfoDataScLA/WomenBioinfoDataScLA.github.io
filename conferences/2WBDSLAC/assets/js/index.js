@@ -323,7 +323,7 @@ function renderProgramSection() {
         <tr class="breaks">
             <td>13:40 -14:20</td>
             <td>Keynote Speaker<br></br>Chair:  Wendy Gonzales</td>
-            <td><b class="speakers-names">Han Sun (Alemania/Korea)</b></td>
+            <td>From Natural Products to Ion Channels: Protein-Ligand Interactions and Ion Conduction Mechanism Investigated by MD Simulations and NMR Spectroscopy<br></br><b class="speakers-names">Han Sun (Alemania/Korea)</b></td>
         </tr>
         <tr>
             <td rowspan="3">14:20 - 15:50</td>
