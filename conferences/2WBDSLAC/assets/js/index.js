@@ -257,7 +257,7 @@ function renderProgramSection() {
                 <td>Saccharomyces boulardii CNCM I-745 supplementation modifies the fecal resistome during the Helicobacter pylori eradication therapy<br></br><b class="speakers-names">Sara G. Cifuentes (Ecuador)<b></td>
             </tr>
             <tr>
-                <td>“TMBpred”: Web server for the prediction of the total mutation burden as an immune response biomarker in 14 tumor types<br></br><b class="speakers-names">Agustina Sofia Torres (Argentina)</b></td>
+                <td>“TMBpred”: Web server for the prediction of the tumor mutation burden as an immune response biomarker in 14 tumor types<br></br><b class="speakers-names">Agustina Sofia Torres (Argentina)</b></td>
             </tr>
             <tr class="breaks">
                 <td>14:50 - 15:00</td>
@@ -351,7 +351,7 @@ function renderProgramSection() {
         <tr>
             <td rowspan="3">16:30 - 18:00</td>
             <td rowspan="3">Invited Speakers<br></br>Chair: Ariela Vergara</td>
-            <td><b class="speakers-names">Monica Andrea Pickholz (Argentina)</b></td>
+            <td>Polimeric drug nanocarriers: insights from simulations<br></br><b class="speakers-names">Monica Andrea Pickholz (Argentina)</b></td>
         </tr>
         <tr>
             <td>Understanding Drugs and Diseases by System Biology<br></br><b class="speakers-names">Janneth González (Colombia)</b></td>
@@ -365,11 +365,11 @@ function renderProgramSection() {
             <td>Comprehensive virtual screening of 4.8k flavonoids reveals novel insights into allosteric inhibition of SARS-CoV-2 MPRO<br></br><b class="speakers-names">Ana Paula Vargas Ruiz (Peru)</b></td>
         </tr>
         <tr>
-            <td>Shedding light on the structure-function of rice Na+/K+ transporter OsHKT2;2<br></br><b class="speakers-names">Janin Riedelsberger (Chile)</br></td>
-        </tr>
-        <tr>
             <td>Effect of the CER[NP]:CER[AP] composition on the structural properties of a model the lipid matrix of the stratum corneum of the human epidermis<br></br><b class="speakers-names">Natalia Rivero Arenas (Colombia)</b></td>
-        </tr>    
+        </tr>   
+        <tr>
+            <td>Shedding light on the structure-function of rice Na+/K+ transporter OsHKT2;2<br></br><b class="speakers-names">Janin Riedelsberger (Chile)</br></td>
+        </tr> 
         </tbody>
         </table>
 
@@ -390,7 +390,7 @@ function renderProgramSection() {
         <td>Phylogenetic Orthology Inference for Comparative Genomics</td>
         </tr>
         <tr>
-        <td>14:00 a 19:00</td>
+        <td>14:00 - 19:00</td>
         <td>Exploring Biological Data with Pandas</td>
         </tr>
         <tr>
