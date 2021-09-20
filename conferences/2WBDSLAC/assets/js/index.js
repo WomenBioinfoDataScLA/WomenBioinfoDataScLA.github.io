@@ -584,22 +584,22 @@ function renderPosterSessionSection() {
         
     `);
     //Generate Search section content
-    searchDiv.appendTo(posterSection); 
+    searchDiv.appendTo(posterSection);
 
-    document.getElementById('search-input').addEventListener('keyup', function (e) {
+    document.getElementById('search-input').addEventListener('keyup', function(e) {
         const input = searchInput();
         const posterIds = keywordSearch(input).map(it => String(it.number));
         const $tracks = $(".track-header");
-        
+
         if (input.length !== 0) {
             $tracks.addClass("active");
         } else {
             $tracks.removeClass("active");
         }
-        
+
         $tracks.each((index, track) => {
-            const $track = $(track);  
-            let hasResults = false; 
+            const $track = $(track);
+            let hasResults = false;
             $track.parent().find(".titleposters").each((index, element) => {
                 const $element = $(element);
                 if (posterIds.includes(element.id)) {
@@ -615,7 +615,7 @@ function renderPosterSessionSection() {
                 $track.addClass("hidden");
             }
         })
-        
+
     });
 
     //create poster section content
@@ -624,7 +624,7 @@ function renderPosterSessionSection() {
     //Create the content in each track
     let divPosters = document.getElementsByClassName("track");
     //Create array with the tracks dictionaries
-    
+
     let dicts = [BioinfoDisease, Structural, ChemoDrug, GenEvol, MlDataMining, Edu] // uncomment this so it can work//
     posterButtonCreat(dicts, divPosters); // uncomment this so it can work//
 
@@ -638,9 +638,9 @@ function renderPosterSessionSection() {
 }
 
 
-function renderPosterInfo(element, collapsible){
-    if ( $(collapsible).children().length === 1 ) {
-        const posterDiv =  $(
+function renderPosterInfo(element, collapsible) {
+    if ($(collapsible).children().length === 1) {
+        const posterDiv = $(
             `<div class="content">
                 <div class="poster-video">
                     <div class="authors-video">
@@ -652,9 +652,9 @@ function renderPosterInfo(element, collapsible){
                     </a>
                 </div>
             </div>`
-        ); 
+        );
         posterDiv.insertAfter(collapsible);
-   }
+    }
 }
 
 
@@ -769,6 +769,20 @@ function renderCommitteesSection() {
         <li>Veronika Stoka - Argentina</li>
         <li>Viviana Monje-Galvan - Bolivia</li>
         <li>Yanina Bellini Saibee - Argentina</li>  
+    </ul>
+    <hr class="separator">
+    <h2 id="executive-comm">Awards committee</h2>
+    <ul>
+        <li>Red Mexicana de Bioinformática: Alejandra Medina-Rivera</li> 
+        <li>Asociación Argentina de Bioinformática y Biología Computacional: Nicolás Palopoli, Elin Teppa, Diego Javier Zea</li> 
+        <li>Sociedad Chilena de Bioinformática: Gonzalo Riadi, Karen Oróstica, David Ramírez</li>
+        <li>UTFPR: Alexandre Rossi Paschoal</li>
+        <li>Structural Bioinformatics Group - UNQ: Tadeo Enrique Saldaño, Leandro M. Sommese, Agustina Nardo </li> 
+        <li>RSG Brazil: Lucas Miguel de Carvalho<li>
+        <li>RGS Colombia: Yesid Cuesta Astroz</li>
+        <li>Ioinformatics Unit - FIL: Franco Simonetti, Elizabeth Martinez Perez, Javier Iserte </li>
+        <li>CIC: Jorge Omar Velez Rueda</li>        
+        <li>Viviana Monje-Galvan, José Luís Velázquez Libera, Bruno Andrade, David Ramírez Sánchez, Braulio Favian Valdebenito Maturana, Fernando Orti, Daniel Matías Bustos Guajardo, Mauricio Bedoya Tabares</li>
     </ul>
     `);
     committeeContent.appendTo(committeeSection)
