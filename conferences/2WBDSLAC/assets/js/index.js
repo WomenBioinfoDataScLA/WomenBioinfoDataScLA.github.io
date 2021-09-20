@@ -777,12 +777,13 @@ function renderCommitteesSection() {
         <li>Asociación Argentina de Bioinformática y Biología Computacional: Nicolás Palopoli, Elin Teppa, Diego Javier Zea</li> 
         <li>Sociedad Chilena de Bioinformática: Gonzalo Riadi, Karen Oróstica, David Ramírez</li>
         <li>UTFPR: Alexandre Rossi Paschoal</li>
-        <li>Structural Bioinformatics Group - UNQ: Tadeo Enrique Saldaño, Leandro M. Sommese, Agustina Nardo </li> 
+        <li>SBG-UNQ: Tadeo Enrique Saldaño, Leandro M. Sommese, Agustina Nardo</li> 
         <li>RSG Brazil: Lucas Miguel de Carvalho<li>
         <li>RGS Colombia: Yesid Cuesta Astroz</li>
         <li>Ioinformatics Unit - FIL: Franco Simonetti, Elizabeth Martinez Perez, Javier Iserte </li>
-        <li>CIC: Jorge Omar Velez Rueda</li>        
-        <li>Viviana Monje-Galvan, José Luís Velázquez Libera, Bruno Andrade, David Ramírez Sánchez, Braulio Favian Valdebenito Maturana, Fernando Orti, Daniel Matías Bustos Guajardo, Mauricio Bedoya Tabares</li>
+        <li>CIC-UNLP: Jorge Omar Velez Rueda</li>        
+        <li>Viviana Monje-Galvan, José Luís Velázquez Libera, Bruno Andrade</li>
+        <li>David Ramírez Sánchez, Braulio Favian Valdebenito Maturana, Fernando Orti, Daniel Matías Bustos Guajardo, Mauricio Bedoya Tabares</li>
     </ul>
     `);
     committeeContent.appendTo(committeeSection)
