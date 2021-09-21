@@ -774,16 +774,19 @@ function renderCommitteesSection() {
     <h2 id="executive-comm">Awards committee</h2>
     <ul>
         <li><b>Red Mexicana de Bioinformática</b>: Alejandra Medina-Rivera</li> 
-        <li><b>Asociación Argentina de Bioinformática y Biología Computacional<b>: Nicolás Palopoli, Elin Teppa, Diego Javier Zea</li> 
+        <li><b>Asociación Argentina de Bioinformática y Biología Computacional</b>: Nicolás Palopoli, Elin Teppa, Diego Javier Zea</li> 
         <li><b>Sociedad Chilena de Bioinformática</b>: Gonzalo Riadi, Karen Oróstica, David Ramírez</li>
-        <li><b>UTFPR<b>: Alexandre Rossi Paschoal</li>
+        <li><b>UTFPR</b>: Alexandre Rossi Paschoal</li>
+        <li><b>ATGenomics</b>: Diana Lucía Mendoza Monzoy</li>
         <li><b>SBG-UNQ</b>: Tadeo Enrique Saldaño, Leandro M. Sommese, Agustina Nardo</li> 
-        <li><b>RSG Brazil</b>: Lucas Miguel de Carvalho<li>
+        <li><b>RSG Brazil</b>: Lucas Miguel de Carvalho, Nilson A.R. Coimbra<li>
         <li><b>RGS Colombia</b>: Yesid Cuesta Astroz</li>
+        <li><b>Sociedad Peruana de Bioinfomática:</b> Gustavo Adolfo Sandoval Peña</li>
         <li><b>Bioinformatics Unit - FIL</b>: Franco Simonetti, Elizabeth Martinez Perez, Javier Iserte </li>
         <li><b>CIC-UNLP</b>: Jorge Omar Velez Rueda</li>        
         <li>Viviana Monje-Galvan, José Luís Velázquez Libera, Bruno Andrade</li>
-        <li>David Ramírez Sánchez, Braulio Favian Valdebenito Maturana, Fernando Orti, Daniel Matías Bustos Guajardo, Mauricio Bedoya Tabares</li>
+        <li>David Ramírez Sánchez, Braulio Favian Valdebenito Maturana, Fernando Orti</li>
+        <li>Daniel Matías Bustos Guajardo, Mauricio Bedoya Tabares</li>
     </ul>
     `);
     committeeContent.appendTo(committeeSection)
