@@ -314,16 +314,11 @@ function renderProgramSection() {
             <td>Advances in human genomics in the Uruguayan scientific context<br></br><b class="speakers-names">Lucia Spangenberg (Uruguay)</b></td>
         </tr>
         <tr class="breaks">
-            <td>12:40 -13:40</td>
+            <td>12:40 - 14:20</td>
             <td colspan="2">Lunch Break</td>
         </tr>
         <tr class="prog-tracks">
             <td colspan="3">TRACK: Chemoinformatics and Drug Discovery</td>
-        </tr>
-        <tr class="breaks">
-            <td>13:40 -14:20</td>
-            <td>Keynote Speaker<br></br>Chair:  Wendy Gonzales</td>
-            <td>From Natural Products to Ion Channels: Protein-Ligand Interactions and Ion Conduction Mechanism Investigated by MD Simulations and NMR Spectroscopy<br></br><b class="speakers-names">Han Sun (Alemania/Korea)</b></td>
         </tr>
         <tr>
             <td rowspan="3">14:20 - 15:50</td>
