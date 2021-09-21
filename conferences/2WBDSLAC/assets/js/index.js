@@ -370,6 +370,10 @@ function renderProgramSection() {
         <tr>
             <td>Shedding light on the structure-function of rice Na+/K+ transporter OsHKT2;2<br></br><b class="speakers-names">Janin Riedelsberger (Chile)</br></td>
         </tr> 
+        <tr class="prog-tracks">
+        <td>19:00 - 19:30</td>
+        <td colspan="2" ><b class="speakers-names">Award Nominations</b></td>
+        </tr>
         </tbody>
         </table>
 
