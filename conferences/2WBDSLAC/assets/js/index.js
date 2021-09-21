@@ -773,15 +773,15 @@ function renderCommitteesSection() {
     <hr class="separator">
     <h2 id="executive-comm">Awards committee</h2>
     <ul>
-        <li>Red Mexicana de Bioinformática: Alejandra Medina-Rivera</li> 
-        <li>Asociación Argentina de Bioinformática y Biología Computacional: Nicolás Palopoli, Elin Teppa, Diego Javier Zea</li> 
-        <li>Sociedad Chilena de Bioinformática: Gonzalo Riadi, Karen Oróstica, David Ramírez</li>
-        <li>UTFPR: Alexandre Rossi Paschoal</li>
-        <li>SBG-UNQ: Tadeo Enrique Saldaño, Leandro M. Sommese, Agustina Nardo</li> 
-        <li>RSG Brazil: Lucas Miguel de Carvalho<li>
-        <li>RGS Colombia: Yesid Cuesta Astroz</li>
-        <li>Ioinformatics Unit - FIL: Franco Simonetti, Elizabeth Martinez Perez, Javier Iserte </li>
-        <li>CIC-UNLP: Jorge Omar Velez Rueda</li>        
+        <li><b>Red Mexicana de Bioinformática</b>: Alejandra Medina-Rivera</li> 
+        <li><b>Asociación Argentina de Bioinformática y Biología Computacional<b>: Nicolás Palopoli, Elin Teppa, Diego Javier Zea</li> 
+        <li><b>Sociedad Chilena de Bioinformática</b>: Gonzalo Riadi, Karen Oróstica, David Ramírez</li>
+        <li><b>UTFPR<b>: Alexandre Rossi Paschoal</li>
+        <li><b>SBG-UNQ</b>: Tadeo Enrique Saldaño, Leandro M. Sommese, Agustina Nardo</li> 
+        <li><b>RSG Brazil</b>: Lucas Miguel de Carvalho<li>
+        <li><b>RGS Colombia</b>: Yesid Cuesta Astroz</li>
+        <li><b>Bioinformatics Unit - FIL</b>: Franco Simonetti, Elizabeth Martinez Perez, Javier Iserte </li>
+        <li><b>CIC-UNLP</b>: Jorge Omar Velez Rueda</li>        
         <li>Viviana Monje-Galvan, José Luís Velázquez Libera, Bruno Andrade</li>
         <li>David Ramírez Sánchez, Braulio Favian Valdebenito Maturana, Fernando Orti, Daniel Matías Bustos Guajardo, Mauricio Bedoya Tabares</li>
     </ul>
