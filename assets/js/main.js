@@ -250,8 +250,8 @@ function renderPortugueseIndexPage() {
     h3Conference.innerHTML = "22-24 Set 21";
     h2Workshops.innerHTML = "Cursos";
     h2Articles.innerHTML = "Artigos";
-    h3Articles.innerHTML = "Em Breve!";
-    h2Voluntteer.innerHTML = "Seja um Voluntário";
+    h3Articles.innerHTML = "Novo artigo!";
+    h2Voluntteer.innerHTML = "Junte-se à equipe";
     h2Propose.innerHTML = "Proponha um Projeto";
     h2Database.innerHTML = "Base de Dados Mulheres e LGBTQIA+";
     h2Support.innerHTML = "Nos Apoie";
@@ -276,7 +276,7 @@ function renderSpanishIndexPage() {
     li2Goals.innerHTML = "Queremos contribuir con espacios en los que toda la comunidad pueda desarrollar sus carreras sin barreras, que promueva todos los aspectos que son importantes para la construcción de una sociedad y comunidad científica más igualitaria y diversa.";
     li3Goals.innerHTML = "Promover y visibilizar la investigación femenina en las áreas de Bioinformática y Ciencia de Datos";
     li4Goals.innerHTML = "Alentar a las mujeres a establecer redes de investigación colaborativas";
-    li5Goals.innerHTML = "Empoderar a los jóvenes científicos para que tengan confianza en su trabajo y sus capacidades";
+    li5Goals.innerHTML = "Empoderar a jóvenes profesionales para que tengan confianza en su trabajo y sus capacidades";
     h2Events.innerHTML = "Nuestros eventos";
     h4Events1.innerHTML = "Participantes";
     h4Events2.innerHTML = "Resúmenes";
@@ -288,8 +288,8 @@ function renderSpanishIndexPage() {
     h3Conference.innerHTML = "22-24 Sep 21";
     h2Workshops.innerHTML = "Cursos";
     h2Articles.innerHTML = "Artículos";
-    h3Articles.innerHTML = "¡Próximamente!";
-    h2Voluntteer.innerHTML = "Conviértase en voluntario";
+    h3Articles.innerHTML = "¡Nuevo paper!";
+    h2Voluntteer.innerHTML = "¡Sumate a el equipo!";
     h2Propose.innerHTML = "Proponer un proyecto";
     h2Database.innerHTML = "Base de Datos Mujeres y LGBTQIA+";
     h2Support.innerHTML = "Apóyanos";
