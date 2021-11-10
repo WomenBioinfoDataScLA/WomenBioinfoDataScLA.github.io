@@ -107,6 +107,39 @@ function renderWeSection(){
     weSection.appendChild(MembersList);  
 }
 
+function renderPortugueseAbout() {  
+    const coordinatorsTitle =  document.getElementById('coordinators-title')
+    const membersTitle =  document.getElementById('members-title')
+
+    coordinatorsTitle.innerHTML = "Coordenadoras Gerais";
+    membersTitle.innerHTML = "Equipe"
+}
+
+function renderSpanishAbout() {  
+    const coordinatorsTitle =  document.getElementById('coordinators-title')
+    const membersTitle =  document.getElementById('members-title')
+
+    coordinatorsTitle.innerHTML = "Coordinadoras generales";
+    membersTitle.innerHTML = "Equipo"
+}
+
 window.onload = function() {
     renderWeSection()
+    if(localStorage.getItem("Lang") === "ES"){
+        renderSpanishNavBar();
+        renderSpanishAbout();
+    } else if (localStorage.getItem("Lang") === "PT"){
+        renderPortugueseNavBar();
+        renderPortugueseAbout();        
+    }   
 }
+
+spanishButton.addEventListener('click', () => {
+    languageCheck("ES");
+    renderSpanishAbout();
+});
+
+portugueseButton.addEventListener('click', () => {
+    languageCheck("PT");
+    renderPortugueseAbout();
+});

@@ -149,14 +149,24 @@ function renderSpanishConductPage() {
 
 window.onload = function() {
     renderconductSection()
+    if(localStorage.getItem("Lang") === "ES"){
+        renderSpanishNavBar();
+        renderSpanishConductPage();
+    } else if (localStorage.getItem("Lang") === "PT"){
+        renderPortugueseNavBar();
+        renderPortugueseConductPage();        
+    }   
 }
 
 spanishButton.addEventListener('click', () => {
     languageCheck("ES");
+    renderSpanishNavBar();
     renderSpanishConductPage();
 });
 
 portugueseButton.addEventListener('click', () => {
     languageCheck("PT");
+    renderPortugueseNavBar();
     renderPortugueseConductPage();
 });
+

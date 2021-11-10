@@ -57,10 +57,14 @@ projectsButton.addEventListener('click', () => {
 
 spanishButton.addEventListener('click', () => {
     languageCheck("ES");
+    renderSpanishNavBar();
     renderSpanishIndexPage();
 });
 
 portugueseButton.addEventListener('click', () => {
     languageCheck("PT");
+    renderPortugueseNavBar();
     renderPortugueseIndexPage();
 });
+
+indexLangSetting();

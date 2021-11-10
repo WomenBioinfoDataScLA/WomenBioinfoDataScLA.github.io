@@ -2,6 +2,7 @@ const homeButton  = document.getElementById('home-button');
 const aboutButton  = document.getElementById('about-button');
 const weButton = document.getElementById('about-button');
 const conductButton = document.getElementById('conduct-button');
+const whoweareButton = document.getElementById('whoweare-button'); 
 
 
 const projectsButton = document.getElementById('projects-button');
@@ -48,28 +49,26 @@ function languageCheck(language){
 
 function indexLangSetting(){
     if(localStorage.getItem("Lang") === "ES"){
+        renderSpanishNavBar();
         renderSpanishIndexPage();
     } else if (localStorage.getItem("Lang") === "PT"){
+        renderPortugueseNavBar();
         renderPortugueseIndexPage();        
     }    
 }
 
-function codeLangSetting(){
-    if(localStorage.getItem("Lang") === "ES"){
-        renderSpanishConductPage();
-    } else if (localStorage.getItem("Lang") === "PT"){
-        renderPortugueseConductPage();        
-    }    
-}
-
-
-function renderPortugueseIndexPage() {
+function renderPortugueseNavBar(){
     homeButton.innerHTML = "Início"
-    weButton.innerHTML = "Sobre"
+    whoweareButton.innerHTML = "Sobre"
     projectsButton.innerHTML = "Projetos"
     conductButton.innerHTML = "Código de Conduta"
     supportButton.innerHTML = "Nos Apoie"
     contactButton.innerHTML = "Contato"
+}
+
+
+function renderPortugueseIndexPage() {
+    weButton.innerHTML = "Sobre"
     h1About.innerHTML = "Mulheres na Bioinformática e Ciência de Dados LA";
     pAbout.innerHTML = "Somos uma comunidade de mulheres que atuam nas áreas de Bioinformática e Ciência de Dados criada em 2019 com o objetivo de divulgar e dar visibilidade à pesquisa realizada por mulheres nessas áreas. Também buscamos criar redes e colaboração dentro da comunidade de mulheres cientistas dos setores público e privado. Nossos projetos visam reunir pesquisadoras da América Latina que atuam nas áreas de biologia de sistemas, tecnologias ômicas, inteligência artificial, aprendizado de máquina, ciência de dados, mineração de dados e computação de alto desempenho com aplicações em biologia dos setores público e privado.";
     aboutButton.innerHTML = "Quem somos nós";
@@ -101,13 +100,17 @@ function renderPortugueseIndexPage() {
     h5Media.innerHTML = "Nos siga nas redes sociais:";
 }
 
-function renderSpanishIndexPage() {
+function renderSpanishNavBar(){
     homeButton.innerHTML = "Inicio";
-    weButton.innerHTML = "Acerca de";
+    whoweareButton.innerHTML = "Acerca de"
     projectsButton.innerHTML = "Proyectos";
     conductButton.innerHTML = "Código de conducta";
     supportButton.innerHTML = "Apóyanos";
     contactButton.innerHTML = "Contacto";
+}
+
+function renderSpanishIndexPage() {
+    weButton.innerHTML = "Acerca de";
     h1About.innerHTML = "Mujeres en Bioinformática y Ciencia de Datos LA";
     pAbout.innerHTML = "Somos una comunidad de mujeres que trabajan en las áreas de Bioinformática y Ciencia de Datos creada en 2019 con el objetivo de difundir y dar visibilidad a la investigación que realizan las mujeres en estas áreas. También buscamos crear redes y colaboración dentro de la comunidad de mujeres científicas del sector público y privado, nuestros proyectos tienen como objetivo reunir a investigadores de América Latina que trabajan en las áreas de biología de sistemas, tecnologías ómicas, inteligencia artificial, aprendizaje automático, ciencia de datos, minería de datos y computación de alto rendimiento con aplicaciones en biología del sector público y privado. ";
     aboutButton.innerHTML = "Quiénes somos";
@@ -138,9 +141,6 @@ function renderSpanishIndexPage() {
     h5Contact.innerHTML = "Contáctenos por correo electrónico:";
     h5Media.innerHTML = "Síganos en las redes sociales:";
 }
-
-indexLangSetting();
-
 
 
 globeIcon.addEventListener('click', () => {
