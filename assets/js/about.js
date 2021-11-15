@@ -136,10 +136,12 @@ window.onload = function() {
 
 spanishButton.addEventListener('click', () => {
     languageCheck("ES");
+    renderSpanishNavBar();
     renderSpanishAbout();
 });
 
 portugueseButton.addEventListener('click', () => {
     languageCheck("PT");
+    renderPortugueseNavBar();
     renderPortugueseAbout();
 });
