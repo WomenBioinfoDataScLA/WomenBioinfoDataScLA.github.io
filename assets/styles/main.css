@@ -496,6 +496,13 @@ a.orangehex:active {
     }
 }
 
+.tool-image{
+    background: url("../img/tool_image.png") no-repeat;
+}
+
+.tool-image:hover{
+    background: url("../img/tool_image_purple.png") no-repeat;
+}
 
 /*----------------------------- FOOTER -----------------------------*/
 

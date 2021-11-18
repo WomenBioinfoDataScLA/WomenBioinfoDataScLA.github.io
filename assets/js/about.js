@@ -4,7 +4,7 @@ const weSection = document.getElementById('who-we-are');
 const Coordinators = [
     { "name": "Ana Julia Velez Rueda", 'img': 'ana.jpg', "filiation": "Universidad Nacional de Quilmes - CONICET, Argentina" },
     { "name": "Liliane Conteville", 'img': 'liliane.png', "filiation": "Embrapa Pecuária Sudeste - São Paulo, Brazil" },
-    { "name": "Lucy Jiménez", "img": 'lucy.jpeg', "filiation": "Universidad de Los Andes, Colombia" },
+    { "name": "Lucy Jiménez", "img": 'lucy.jpeg', "filiation": "Pontificia Universidad Javeriana, Colombia" },
     { "name": "Mercedes Didier Garnham", 'img': 'mercedes.jpeg', "filiation": "Genetics and Bioinformatics Lab, IIB-UNSAM, Argentina" }
 ]
 
@@ -17,7 +17,7 @@ const Members = [
     { "name": "Letícia Ferreira Lima", 'img':'leticia.jpg', "filiation":"Fundação Oswaldo Cruz - Rio de Janeiro, Brazil"},
     { "name": "Thayana Vieira Tavares", 'img':'Thayana.jpg', "filiation":"Universidade Federal de São Carlos(UFSCar) - São Paulo, Brazil"},
     { "name": "Clara Cerqueira Matos", 'img':'Clara.jpg', "filiation":"Bahia, Brazil"},
-    { "name": "Sindy Licette Piñero", 'img':'Sindy.jpg', "filiation":"A. C. Camargo Cancer Center - São Paulo, Brazil"}
+    { "name": "Sindy Licette Piñero", 'img':'Sindy.jpg', "filiation":"Oxiteno S. A. Industria e Comércio, Brazil"}
 ];
 
 function renderWeSection(){
