@@ -630,7 +630,7 @@ address {
 
 /*---------------------CONDUCT-----------------------*/
 
-.conduct {
+.conduct,.events-section {
     margin: 0 12vw;
 }
 
@@ -641,4 +641,43 @@ address {
 
 .conduct div{
     margin: 3vw 0;
+}
+
+.events-section h2{
+    margin-top:3vw;
+}
+
+.events-title-div{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 3vw;
+}
+
+.past-events div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:50px;
+}
+
+.past-events img{
+    width:215px;
+    padding: 0 2vw;
+}
+
+.past-events p{
+    text-align: justify;
+    list-style-type: none;
+    padding: 0 7% 0 0;
+    text-indent: 20px;
+}
+
+.upcoming-event{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upcoming-event a{
+    width: 12vw;
 }
