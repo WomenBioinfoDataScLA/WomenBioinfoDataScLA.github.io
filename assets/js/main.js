@@ -32,6 +32,7 @@ function cleanBody() {
     disableElement(projectsSection);
 }
 
+
 cross.addEventListener("click", () => {
     disableElement(cross);
     enableElement(ham);
