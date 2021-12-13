@@ -681,3 +681,25 @@ address {
 .upcoming-event a{
     width: 12vw;
 }
+
+.article-title a{
+    color: #906aac;
+    font-size: 1.4em;
+}
+
+.article-details{
+    font-size: 1em;
+    margin: 15px 0 8px 0;
+    color: gray;
+    padding: 0 7% 0 7%;
+}
+
+.article-details a{
+    color: rgb(90, 89, 89);
+}
+
+.article-abstract{
+    margin-top:5px;
+    text-align: justify;
+    text-indent: 20px;
+}
