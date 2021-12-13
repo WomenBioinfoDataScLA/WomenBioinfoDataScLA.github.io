@@ -703,3 +703,13 @@ address {
     text-align: justify;
     text-indent: 20px;
 }
+
+.video-press{
+    width: 25vw;
+    height: 13vw;
+}
+
+.press-flyers{
+    width: 215px;
+    padding: 0;
+}
