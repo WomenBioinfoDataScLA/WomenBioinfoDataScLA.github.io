@@ -164,6 +164,7 @@
         flex-direction: column;
      }
 
+
     footer{
         flex-direction: column;
         padding-bottom: 2vw;
@@ -245,9 +246,9 @@
         width: 23vw;
     }
     .past-events img {
-        width: 28vw;
+        width: 27vw;
         padding: 0 2vw;
-        height: 32vw;
+        height: 18vw;
     }
 
     footer img{
