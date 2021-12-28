@@ -4,4 +4,4 @@
 > 
 > Created by: Ana Julia Velez Rueda & Liliane Conteville
 >
-> Collaborators: Elin Teppa, Franco Leonardo Bulgarelli, Lucy Jímenez
+> Collaborators: E. Teppa, F. L Bulgarelli, L. Jímenez

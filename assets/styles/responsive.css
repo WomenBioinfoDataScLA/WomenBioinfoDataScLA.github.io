@@ -1,4 +1,8 @@
 @media screen and (min-width: 300px) and (max-width: 650px){
+    #projects{
+        padding: 0 8% 0 8%;
+    }
+
     h5{
         font-size: 1.1em;
     } 
@@ -44,9 +48,24 @@
         width: 10em;
         height: 10em;
     }
+
+    .upcoming-event a {
+        width: 30vw;
+    }
+
+    .conduct, .events-section {
+        margin: 0 12vw;
+        padding: 6% 0 6% 0;
+    }
+    
+    .past-events img {
+        display: none;
+    }
+
     .support{
         background-image: none;
         background-color: #e7d4f9;
+        margin-bottom: 0;
     }
     .support article {
         margin: 0;
@@ -55,7 +74,7 @@
         width: 45%;   
     }
     footer {
-        padding-bottom: 4vw;
+        padding: 5% 0 5% 0;
     }
     footer img {
         width: 7vw;
@@ -149,6 +168,7 @@
         flex-direction: column;
         padding-bottom: 2vw;
         height: 13em;
+        margin-top: 0;
     }
 }
 
@@ -220,6 +240,17 @@
         width: 25vw;
         height: 25vw;
     }
+
+    .upcoming-event a {
+        width: 23vw;
+    }
+    
+    .past-events img {
+        width: 28vw;
+        padding: 0 2vw;
+        height: 32vw;
+    }
+
     footer img{
         width: 4.5vw;
     }
