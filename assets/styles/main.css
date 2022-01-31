@@ -713,3 +713,21 @@ address {
     width: 215px;
     padding: 0;
 }
+
+.past-workshops{
+    display: flex;
+    flex-direction: column;
+}
+
+.workshop-description{
+    text-align: center;
+}
+.workshop-description img{
+    width: 50%;
+    padding-top: 15px;
+}
+
+.workshops-row{
+    display: flex;
+    margin-bottom: 30px;
+}
