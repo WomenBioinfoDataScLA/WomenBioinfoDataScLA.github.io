@@ -234,14 +234,14 @@ nav a:hover {
     margin: 1vw 5vw;
 }
 
-.vision{
+.vision {
     display: flex;
     justify-content: center;
-    flex-grow:1 1;
-    flex-basis:0;
+    flex-grow: 1 1;
+    flex-basis: 0;
 }
 
-.vision p{
+.vision p {
     background-color: #ffa992;
 }
 
@@ -307,7 +307,8 @@ nav a:hover {
     margin: 1.2vw 0vw;
 }
 
-.purplerow h3:hover, .purplerow h4:hover {
+.purplerow h3:hover,
+.purplerow h4:hover {
     color: #e7d4f9;
 }
 
@@ -496,13 +497,14 @@ a.orangehex:active {
     }
 }
 
-.tool-image{
+.tool-image {
     background: url("../img/tool_image.png") no-repeat;
 }
 
-.tool-image:hover{
+.tool-image:hover {
     background: url("../img/tool_image_purple.png") no-repeat;
 }
+
 
 /*----------------------------- FOOTER -----------------------------*/
 
@@ -602,18 +604,18 @@ address {
     background: -webkit-linear-gradient(left top, #906aac 40%, #5cc6d0 80%);
 }
 
-.name{
+.name {
     font-weight: bold;
     color: rgb(140, 100, 170);
 }
 
-.backgroundimage{
-    width:20vw;
-    height:20vw;
+.backgroundimage {
+    width: 20vw;
+    height: 20vw;
     margin-top: -6%;
 }
 
-.underline{
+.underline {
     height: 6px;
     width: 100px;
     background: rgb(92, 198, 208);
@@ -621,113 +623,131 @@ address {
     border-radius: 15px;
 }
 
-.title-div{
+.title-div {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 3% 0 3% 0;
 }
 
+
 /*---------------------CONDUCT-----------------------*/
 
-.conduct,.events-section {
+.conduct,
+.events-section {
     margin: 0 12vw;
 }
 
-.conduct h4{
+.conduct h4 {
     margin: 5vw 7vw 2vw;
-    color:rgb(140, 100, 170);
+    color: rgb(140, 100, 170);
 }
 
-.conduct div{
+.conduct div {
     margin: 3vw 0;
 }
 
-.events-section h2{
-    margin-top:3vw;
+.events-section h2 {
+    margin-top: 3vw;
 }
 
-.events-title-div{
+.events-title-div {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     margin-bottom: 3vw;
 }
 
-.past-events div{
+.past-events div {
     display: flex;
     flex-direction: row;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
-.past-events img{
-    width:215px;
+.past-events img {
+    width: 215px;
     padding: 0 2vw;
 }
 
-.past-events p{
+.past-events p {
     text-align: justify;
     list-style-type: none;
     padding: 0 7% 0 0;
     text-indent: 20px;
 }
 
-.upcoming-event{
+.upcoming-event {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.upcoming-event a{
+.upcoming-event a {
     width: 15vw;
 }
 
-.article-title a{
+.article-title a {
     color: #906aac;
     font-size: 1.4em;
 }
 
-.article-details{
+.article-details {
     font-size: 1em;
     margin: 15px 0 8px 0;
     color: gray;
     padding: 0 7% 0 7%;
 }
 
-.article-details a{
+.article-details a {
     color: rgb(90, 89, 89);
 }
 
-.article-abstract{
-    margin-top:5px;
+.article-abstract {
+    margin-top: 5px;
     text-align: justify;
     text-indent: 20px;
 }
 
-.video-press{
+.video-press {
     width: 25vw;
     height: 13vw;
 }
 
-.press-flyers{
+.press-flyers {
     width: 215px;
     padding: 0;
 }
 
-.past-workshops{
+.past-workshops {
     display: flex;
     flex-direction: column;
 }
 
-.workshop-description{
+.workshop-description {
     text-align: center;
 }
-.workshop-description img{
+
+.workshop-description img {
     width: 50%;
     padding-top: 15px;
 }
 
-.workshops-row{
+.workshop-description h6 {
+    color: grey;
+}
+
+.workshop-description p {
+    color: rgb(92, 198, 208);
+}
+
+.workshops-row {
     display: flex;
     margin-bottom: 30px;
+}
+
+.highlighted-text {
+    font-style: italic;
+    font-weight: bold;
+    color: #906aac;
+    font-size: larger;
 }
