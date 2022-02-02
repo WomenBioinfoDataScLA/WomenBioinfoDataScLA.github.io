@@ -732,7 +732,8 @@ address {
     padding-top: 15px;
 }
 
-.workshop-description h6 {
+.workshop-description h6,
+.press-authors {
     color: grey;
 }
 
@@ -749,5 +750,5 @@ address {
     font-style: italic;
     font-weight: bold;
     color: #906aac;
-    font-size: larger;
+    font-size: large;
 }
