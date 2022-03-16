@@ -1,0 +1,399 @@
+@media screen and (min-width: 2140px){
+    .speakers-img-right, .speakers-img-left{
+        margin-top: 8.1%;
+    }
+    .sponrship-content img {
+        width: 6vw;
+        margin-top: -5%;
+        margin-left: 46%;
+    }
+
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2139px){
+    .speakers-img-right, .speakers-img-left{
+        margin-top: 7%;
+    }
+    .sponrship-content img {
+        width: 7vw;
+        margin-top: -5%;
+        margin-left: 48%;
+    }
+}
+
+@media screen and (min-width: 1900px){
+    .code-button-section figcaption {
+        font-size: 1.8vw;
+    }
+    .support-div h2 {
+        margin-top: 5.5%;
+    }
+    h4{
+        font-size: 1.5em;
+    }
+    .medialinks img{
+        width: 2.3vw;
+    }
+    address {
+        font-size: 1vw;
+        line-height: 2em;
+    }
+    footer h4{
+        margin: 1vw 0;
+    }
+    .authors-list {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1631px) and (max-width: 1899px){
+    .speakers-img-right, .speakers-img-left{
+        margin-top: 5.3%;
+    }
+    .sponrship-content img {
+        margin-top: -6%;
+        margin-left: 50%;
+    }
+    .authors-list{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1630px){
+    .speakers-img-right, .speakers-img-left{
+        margin-top: 4%;
+    }
+    .sponrship-content img {
+        margin-top: -6%;
+        margin-left: 52%;
+    }
+    .authors-list{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1051px) and (max-width: 1399px){
+    .authors-list{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width: 1050px){
+    .code-button-section figcaption{
+        font-size: 1.2em;
+    }
+    .button-div {
+        margin-left: -13%;
+        margin-right: -13%;
+    }
+    .button-div a {
+        font-size: 1.7em;
+    }
+    .sponrship-content img {
+        margin-top: -5%;
+        margin-left: 65%;
+    }
+    .workshops-section img {
+        width: 40vw;
+    }
+    .authors-list{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width:800px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+    main {
+        padding: 0 6%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    nav {
+        height: 11vw;
+    }
+
+    .arrowfigure img{
+        height:9.1vw;
+      }
+      
+    .header{
+        height: 9.1vw;
+        padding-left: 22%;
+        padding-right: 12%;
+        justify-content: right;
+    }
+    
+    .nav-options {
+        position: relative;
+        margin-top: 40vw;
+        align-items: end;
+        margin-right: -34.5%;
+        background: white;
+        z-index: 20;
+    }
+    .logofigure img{
+        width:auto;
+        height:8.9vw;
+    }
+   
+    nav ul{
+        flex-direction: column;
+        margin-top: 40%;
+        list-style-type: none;
+        z-index: 10;
+    }
+
+    nav a{
+        color: rgb(140, 100, 170);
+        font-size: 13px;
+    }
+    .lang-ul{
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .languages a,
+    .languajes h4{
+        color: rgb(140, 100, 170);
+    }
+    .sep{
+        color: rgb(140, 100, 170); 
+    }
+
+    .row{
+        flex-direction: column-reverse;
+        margin: 5vw 0vw;
+    }
+
+    .ham{
+        display: block;
+        position: absolute;
+        margin-right: -7%;
+        margin-top: 2%;
+    }
+
+    .ham img{
+        width: 18px;
+    }
+
+    .lang-imige-mobile{
+        display: block;
+        width: 19px;
+        margin-top: -44px;
+        margin-left: 9px;
+      }
+
+    .about{
+        margin-right: 0;
+    }
+
+    .aboutfigure{
+        display: none;
+    }
+
+    .code-button-section figcaption {
+        font-size: 1.7em;
+        color: white;
+        margin-top: -6.5%;
+    }
+
+    .mujer-code{
+        width: 10vw;
+        margin-bottom: -5px;
+      }
+    
+    .code-suport {
+        width: 39vw;
+    }
+    
+    .tittle-div {
+        margin-top: 5%;
+    }
+    .sponsors-tittle-suport{
+        margin-left: 65%;
+        overflow-x: hidden;
+        display: none;
+    }
+
+    .sponrship-content img {
+        margin-top: -6%;
+        margin-left: 48%;
+    }
+
+    .tittle-suport {
+        position: absolute;
+        margin-left: -60%;
+        margin-top: 3%;
+        width: 80%;
+    }
+
+    .sponsors {
+        width: 50vw;
+        margin-left: -16vw;
+    }
+
+    .sponsors h2 {
+        margin-top: 3%;
+        margin-left: 6vw;
+        font-size: 3vw;
+    }
+    .supporters{
+        margin-left: 52%;
+    }
+    .supporters h2 {
+        margin-top: 3%;
+        font-size: 3vw;
+    }
+      
+    .tittle-texts {
+        padding-top: 7%;
+    }
+    
+    .tittle-div h2{
+        font-size: 3.5vw;
+        margin-left: 3%;
+    }
+    
+    .tittle-div h3 {
+        font-size: 3vw;
+        margin-left: 3%;
+        margin-top: 1%;
+    }
+
+    .button-div {
+        flex-direction: column;
+    }
+    .button-div div{ 
+        margin-bottom: 5%;
+    }
+    .button-div a{ 
+        font-size: 1.5em;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    footer img{
+        width: 5vw;
+    }
+
+    .email-contact {
+        display: flex;
+        flex-direction: row;
+        width: 88%;
+        justify-content: center;
+        margin-bottom: 2vw;
+    }
+
+    footer section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+    .medialinks{
+        margin-top: 2vw;
+    }
+
+    address{
+        font-size: .9em;
+    }
+
+    .speakers-img-right, .speakers-img-left{
+        display: none;
+    }
+    .workshops-section img {
+        width: 50vw;
+    }
+    .program-section table {
+        width:80vw;
+    }
+    .poster-section{
+        padding:0;
+    }
+    .poster-video {
+        flex-flow: column;
+    }
+    .authors-video {
+        align-items: center;
+        margin-bottom: 1vw;
+    }
+    .authors-list{
+        font-size: 1.4em;
+    }
+    .video-frame{
+        width: 60vw;
+        height: 35vw;
+    }
+}
+
+@media screen and (max-width:550px) {
+    h2{
+        font-size: 1.4em;
+    }
+
+    .nav-options {
+        position: relative;
+        margin-top: 64vw;
+        align-items: end;
+        margin-right: 13.5%;
+        background: white;
+        z-index: 20;
+    }
+
+    .ham {
+        display: block;
+        position: absolute;
+        margin-right: 8%;
+        margin-top: 2%;
+    }
+
+    .code-suport {
+        width: 43vw;
+        height: 9vw;
+    }
+
+    .code-button-section figcaption {
+        font-size: 5.2vw;
+        margin-top: -8%;
+    }
+
+    .mujer-code {
+        width: 15vw;
+    }
+
+    .support-div span {
+        width: 64vw;
+        height: 9vw;
+    }
+
+    .sponsors h2 {
+        font-size: 4vw;
+        margin-left: 2vw;
+    }
+
+    .sponsors-logos img {
+        height: 15vw;
+        margin-left: 0;
+    }
+
+    .supporters {
+        font-size: 4vw;
+        margin-left: 47%;
+    }
+    .supporters h2 {
+        font-size: 4vw;
+        margin-left: -8vw;
+    }
+    .workshops-section img {
+        width: 80vw;
+    }
+}
+
