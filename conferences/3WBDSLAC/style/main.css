@@ -11,6 +11,7 @@
     font-family: 'Lato', sans-serif;
     font-weight: normal;
     margin: 0;
+    padding: 0;
     overflow-x: hidden;
 }
 
@@ -42,7 +43,7 @@ h3 {
 
 h4 {
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: #6D4486;
 }
 
 h5 {
@@ -60,10 +61,6 @@ li {
     line-height: 27px;
     text-align: center;
     list-style-type: none;
-}
-
-p {
-    line-height: 45px;
 }
 
 a {
@@ -202,7 +199,7 @@ nav a:hover {
 }
 
 .banner{
-    width: 99%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -214,21 +211,55 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 100px;
+    background-color: #F4F4F4;
+    padding: 50px;
+    flex-wrap: wrap;
 }
 
 .details li{
+    width: 33%;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1em;
 }
 
-.details p{
-    font-size: 1.1em;
+#second-row1,#second-row2{
+    width: 2%;
+    margin-top: 65px;
+}
+
+.details div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.detail p{
     color: rgb(85 85 85 / 82%);
 }
 
+.big-text{
+    font-size: 1em;
+}
+
+.small-text{
+    font-size:0.8em;
+}
+
+
 .icons-conf{
     width: 70px;
+}
+
+.parallelogram {
+	width: 300px;
+	height: 50px;
+	transform: skew(-30deg);
+	background: #5CC6D0;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .about {
@@ -641,11 +672,10 @@ footer {
     justify-content: space-around;
     align-items: center;
     position: relative;
-    background-color: #6D4486;
+    background-color: #FFFFFF;
     margin-bottom: 0;
     padding-top: 3.5%;
-    padding-bottom: 3.5%;
-    height: 19em;
+    height: 11em;
     z-index: 20;
 }
 
@@ -656,7 +686,7 @@ footer section {
 }
 
 footer h4 {
-    color: #FFFFFF;
+    color: #6D4486;
     margin-bottom: 0px;
 }
 
@@ -667,7 +697,7 @@ footer h4 {
 address {
     font-size: 1em;
     line-height: 5.2vw;
-    color: #FFFFFF;
+    color: #6D4486;
     font-weight: bold;
     font-style: normal;
     letter-spacing: 1px;
