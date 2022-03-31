@@ -101,8 +101,8 @@ nav {
     background: white;
 }
 
-.sep{
-    color:#6D4486;
+.sep {
+    color: #6D4486;
 }
 
 .separator {
@@ -198,66 +198,85 @@ nav a:hover {
     justify-content: center;
 }
 
-.banner{
-    width: 100%;
+.banner {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    z-index: 0;
 }
 
-.details{
+.banner img {
+    width: 100%;
+    opacity: 0.9;
+}
+
+.banner h1 {
+    opacity: 1;
+    position: absolute;
+}
+
+.banner h3 {
+    opacity: 1;
+    position: absolute;
+    color: #e0e0e0;
+    color: #e0e0e0;
+    margin-top: -68px;
+    margin-left: 32px;
+}
+
+.details {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 100px;
-    background-color: #F4F4F4;
+    margin-top: 98px;
     padding: 50px;
-    flex-wrap: wrap;
+    background-color: #F4F4F4;
 }
 
-.details li{
-    width: 33%;
+.details li {
     display: flex;
+    flex-direction: column;
+    width: 11%;
     align-items: center;
     justify-content: center;
     gap: 1em;
 }
 
-#second-row1,#second-row2{
+#second-row1,
+#second-row2 {
     width: 2%;
     margin-top: 65px;
 }
 
-.details div{
+.details div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.detail p{
+.detail p {
     color: rgb(85 85 85 / 82%);
 }
 
-.big-text{
+.big-text {
     font-size: 1em;
 }
 
-.small-text{
-    font-size:0.8em;
+.small-text {
+    font-size: 0.8em;
 }
 
-
-.icons-conf{
+.icons-conf {
     width: 70px;
 }
 
 .parallelogram {
-	width: 300px;
-	height: 50px;
-	transform: skew(-30deg);
-	background: #5CC6D0;
+    width: 300px;
+    height: 50px;
+    transform: skew(-30deg);
+    background: #5CC6D0;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -419,14 +438,14 @@ p:hover {
     font-weight: normal;
 }
 
-.title-div{
+.title-div {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.underline{
+.underline {
     height: 6px;
     width: 100px;
     background: rgb(92, 198, 208);
@@ -560,7 +579,8 @@ p:hover {
     margin-left: -4%;
 }
 
-#date-open-2, #date-close-2{
+#date-open-2,
+#date-close-2 {
     text-decoration: line-through;
 }
 
@@ -782,8 +802,8 @@ address {
     margin-right: 5vw;
 }
 
-.workshops-section p{
-    margin-bottom:15px;
+.workshops-section p {
+    margin-bottom: 15px;
 }
 
 .workshops-section div {
@@ -798,14 +818,13 @@ address {
 }
 
 .arrow {
-    height:15px;
+    height: 15px;
 }
 
 .purple-a {
     color: #4d38a5;
     font-weight: bold;
 }
-
 
 .track-header {
     padding: 18px;
@@ -816,6 +835,7 @@ address {
     background-color: #FFFFFF;
 }
 
+
 /* Style the button that is used to open and close the collapsible content */
 
 .collapsible {
@@ -825,23 +845,22 @@ address {
     cursor: pointer;
 }
 
-.collapsible + .content {
+.collapsible+.content {
     display: none;
 }
 
-.collapsible.active + .content {
+.collapsible.active+.content {
     display: block;
 }
 
-
-.buscador-section{
+.buscador-section {
     display: flex;
     justify-content: center;
     flex-flow: column;
     align-items: center;
 }
 
-.buscador-section img{
+.buscador-section img {
     width: 116px;
 }
 
@@ -851,16 +870,17 @@ address {
     align-items: center;
 }
 
-.sugerencias{
+.sugerencias {
     display: flex;
     flex-flow: column;
     align-items: center;
 }
 
-.sugerencias li{
+.sugerencias li {
     font-size: 1em;
     margin-top: 10px;
 }
+
 
 /* Style the collapsible content. Note: hidden by default */
 
@@ -891,7 +911,7 @@ address {
 }
 
 .titleposters h4:hover {
-    color:#ffa992;
+    color: #ffa992;
 }
 
 
@@ -967,72 +987,73 @@ address {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.video-frame{
+.video-frame {
     width: 40vw;
     height: 22vw;
 }
 
-.authors-video{
+.authors-video {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.authors-list{
+.authors-list {
     font-size: 1em;
     margin-bottom: 15px;
     color: gray;
     font-style: italic;
 }
 
+
 /*Program*/
 
 .program-section table {
-    border-collapse:collapse;
-    border-spacing:0;
-    margin:0px auto;
-    width:60vw;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0px auto;
+    width: 60vw;
 }
 
-.program-section table thead td{
-    border-top:hidden;
+.program-section table thead td {
+    border-top: hidden;
     border-left: hidden;
-    border-right:hidden;
+    border-right: hidden;
     line-height: 3vw;
     vertical-align: bottom;
 }
 
-.program-section table span{
+.program-section table span {
     font-size: 1.4em;
-    font-weight:bold;
-    color:#4d38a5;
+    font-weight: bold;
+    color: #4d38a5;
 }
 
-.program-section td{
-    text-align:center;
-    vertical-align:middle;
-    border-color:#e0e0e0;
-    border-style:solid;
-    border-width:1px;
+.program-section td {
+    text-align: center;
+    vertical-align: middle;
+    border-color: #e0e0e0;
+    border-style: solid;
+    border-width: 1px;
     overflow: hidden;
     padding: 10px 5px;
     word-break: normal;
     font-size: 1em;
     line-height: 1.1em;
-    color:rgb(85, 85, 85);
+    color: rgb(85, 85, 85);
 }
 
-.breaks td{
+.breaks td {
     line-height: 1.3em;
 }
 
-.prog-tracks td{
+.prog-tracks td {
     font-size: 1.1em;
     font-weight: bold;
     line-height: 1.4em;
 }
 
-.prog-button{
+.prog-button {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -1043,16 +1064,16 @@ address {
     line-height: 1.8em;
 }
 
-.program-section section{
+.program-section section {
     margin-top: 1%;
 }
 
-.program-section p{
+.program-section p {
     font-size: 15px;
     margin-bottom: 22px;
     margin-top: 18px;
 }
 
-.speakers-names{
+.speakers-names {
     color: #906aac;
 }
