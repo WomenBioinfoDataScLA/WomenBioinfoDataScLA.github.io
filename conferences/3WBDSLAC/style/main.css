@@ -275,12 +275,15 @@ nav a:hover {
 }
 
 .parallelogram {
-    width: 300px;
+    width: 500px;
     height: 50px;
     transform: skew(-30deg);
     background: #5CC6D0;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: -12px;
+    z-index: -5;
+    position: absolute;
 }
 
 .about {
@@ -441,10 +444,29 @@ p:hover {
 }
 
 .title-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.title-div h2{
+    z-index: 83;
+    color: #FFFF;
+    font-size: 1.8em;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 1em;
+    color: rgb(140, 100, 170);
+    margin-top: 15px;
+}
+
+.filiation{
+    font-size: .9em;
 }
 
 .underline {
@@ -612,7 +634,6 @@ p:hover {
 .support-div {
     display: flex;
     flex-direction: column;
-    margin-left: 7%;
     margin-bottom: 3%;
 }
 
@@ -760,6 +781,7 @@ address {
     align-items: center;
     margin-right: 50px;
     margin-left: 50px;
+    margin-top: -50px;
     width: 20vw;
     height: 480px;
 }
