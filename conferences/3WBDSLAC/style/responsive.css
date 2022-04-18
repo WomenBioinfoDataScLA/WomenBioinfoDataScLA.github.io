@@ -97,6 +97,9 @@
         font-size: 1.3em;
         margin-top: -57px;
     }
+    nav a{
+        font-size: 1.3em;
+    }
     .code-button-section figcaption{
         font-size: 1.2em;
     }
@@ -148,7 +151,7 @@
     
     .nav-options {
         position: relative;
-        margin-top: 40vw;
+        margin-top: 275px;
         align-items: end;
         margin-right: -34.5%;
         background: white;
@@ -173,6 +176,9 @@
     .lang-ul{
         flex-direction: row;
         margin-top: 0;
+    }
+    .lang-img {
+        display: none;
     }
 
     .languages a,
@@ -202,7 +208,6 @@
     .lang-imige-mobile{
         display: block;
         width: 19px;
-        margin-top: -44px;
         margin-left: 9px;
       }
 
@@ -359,20 +364,11 @@
 
     .nav-options {
         position: relative;
-        margin-top: 64vw;
         align-items: end;
         margin-right: -35.5%;
         background: white;
         z-index: 20;
     }
-
-    .ham {
-        display: block;
-        position: absolute;
-        margin-right: 8%;
-        margin-top: 2%;
-    }
-
     .code-suport {
         width: 43vw;
         height: 9vw;
