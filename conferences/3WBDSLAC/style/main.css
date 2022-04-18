@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 .body {
@@ -13,19 +14,14 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    height: 100%;
 }
 
 h1 {
-    line-height: 32px;
-    font-size: 2.5em;
+    font-size: 2.8vw;
     color: #FFFFFF;
     text-align: left;
     font-weight: bold;
-    margin-top: -195px;
-    margin-bottom: 125px;
-    margin-left: 30px;
-    width: 100%;
-    z-index: 10;
 }
 
 h2 {
@@ -35,9 +31,8 @@ h2 {
 }
 
 h3 {
-    font-size: 1.6em;
+    font-size: 1.6vw;
     text-align: center;
-    margin-bottom: 1%;
     color: #5cc6d0;
 }
 
@@ -199,29 +194,31 @@ nav a:hover {
 }
 
 .banner {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 30px;
+    background-image: url("../assets/img/smaller_banner_2.png");
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+    height: 28vw;
 }
 
 .banner img {
-    width: 100%;
     opacity: 0.9;
 }
 
 .banner h1 {
-    opacity: 1;
     position: absolute;
-    margin-top: -203px;
+    margin-top: 13vw;
+    width: 90%;
+    line-height: 2vw;
+    margin-left: 4vw;
 }
 
 .banner h3 {
-    opacity: 1;
     position: absolute;
     color: #e0e0e0;
-    margin-top: -83px;
-    margin-left: 32px;
+    margin-top: 22vw;
+    margin-left: 4vw;
 }
 
 .details {
