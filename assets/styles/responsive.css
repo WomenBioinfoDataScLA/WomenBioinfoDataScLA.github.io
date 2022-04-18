@@ -9,15 +9,15 @@
     nav {
         height: 12vw;
     }
+    .nav-options {
+        margin-right: 10.5%;
+    }
     .logofigure img {
         width: auto;
         height: 8.9vw;
     }
     .header{
         padding-left: 23%;
-    }
-    .nav-options {
-        margin-right: -7.5%;
     }
     .button {
         padding: 1.7vw;
@@ -88,7 +88,7 @@
 
     .nav-options{
         position: absolute;
-        margin-top: 9%;
+        margin-top: 20%;
         align-items: end;
     }
 
@@ -135,7 +135,7 @@
     .ham{
         display: block;
         position: absolute;
-        margin-right: -7%;
+        margin-right: 10%;
         margin-top: 2%;
     }
 
@@ -188,7 +188,7 @@
         padding-left: 30%;
     }
     .nav-options {
-        margin-right: -2.5%;
+        margin-right: 7.5%;
     }
     .about{
         margin-right: 0;

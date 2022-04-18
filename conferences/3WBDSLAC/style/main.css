@@ -239,7 +239,6 @@ nav a:hover {
 .details li {
     display: flex;
     flex-direction: column;
-    width: 11%;
     align-items: center;
     justify-content: center;
     gap: 1em;
