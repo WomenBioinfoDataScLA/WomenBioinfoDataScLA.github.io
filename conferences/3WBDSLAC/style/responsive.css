@@ -169,6 +169,17 @@
     }
     .member{
         margin-top: -18vw;
+        width: 30vw;
+    }
+    .member img {
+        width: 25vw;
+        height: 25vw;
+    }
+    .name{
+        font-size: 2.6vw;
+    }
+    .filiation {
+        font-size: 2.5vw;
     }
     .row{
         flex-direction: column-reverse;
