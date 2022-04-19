@@ -2,6 +2,10 @@ const ham = document.getElementById('ham-list');
 const cross = document.getElementById('cross-icon');
 const navOptions = document.getElementById('nav-options');
 
+if ($(window).width() < 800) {
+    disableElement(navOptions);
+}
+
 
 function disableElement(element) {
     element.classList.add('disable');

@@ -86,9 +86,11 @@
     h3{
         font-size: 2.2vw;
     }  
-    
     nav a{
         font-size: 1.3em;
+    }
+    .member{
+        margin-top: -10vw;
     }
     .code-button-section figcaption{
         font-size: 1.2em;
@@ -119,24 +121,16 @@
     }
     h3{
         font-size: 2.3vw;
-    }
-    
-    
+    }  
     nav {
         height: 11vw;
-    }
-
-    .arrowfigure img{
-        height:9.1vw;
-      }
-      
+    } 
     .header{
         height: 9.1vw;
         padding-left: 22%;
         padding-right: 12%;
         justify-content: right;
     }
-    
     .nav-options {
         position: relative;
         margin-top: 275px;
@@ -149,14 +143,12 @@
         width:auto;
         height:8.9vw;
     }
-   
     nav ul{
         flex-direction: column;
         margin-top: 40%;
         list-style-type: none;
         z-index: 10;
     }
-
     nav a{
         color: rgb(140, 100, 170);
         font-size: 13px;
@@ -168,7 +160,6 @@
     .lang-img {
         display: none;
     }
-
     .languages a,
     .languajes h4{
         color: rgb(140, 100, 170);
@@ -176,7 +167,9 @@
     .sep{
         color: rgb(140, 100, 170); 
     }
-
+    .member{
+        margin-top: -18vw;
+    }
     .row{
         flex-direction: column-reverse;
         margin: 5vw 0vw;
@@ -198,7 +191,9 @@
         width: 19px;
         margin-left: 9px;
       }
-
+    .parallelogram {
+        width: 35vw;
+    }
     .about{
         margin-right: 0;
     }
@@ -346,11 +341,9 @@
 }
 
 @media screen and (max-width:550px) {
-
     h2{
         font-size: 1.4em;
     }
-
     .nav-options {
         position: relative;
         align-items: end;
@@ -358,7 +351,6 @@
         background: white;
         z-index: 20;
     }  
-
     .details{
         display: flex;
         flex-direction: column;
@@ -367,7 +359,26 @@
         background-color: #FFFF;
         height: 46em;
     }
-
+    .parallelogram {
+        width: 40vw;
+    }
+    .member{
+        margin-top: -135px;
+        width: 30vw;
+    }
+    .member img {
+        width: 25vw;
+        height: 25vw;
+    }
+    .name{
+        font-size: 2.6vw;
+    }
+    .filiation {
+        font-size: 2.5vw;
+    }
+    .news h3{
+        font-size: 4.3vw;
+    }
     .code-suport {
         width: 43vw;
         height: 9vw;
@@ -376,10 +387,6 @@
     .code-button-section figcaption {
         font-size: 5.2vw;
         margin-top: -8%;
-    }
-
-    .mujer-code {
-        width: 15vw;
     }
 
     .support-div span {

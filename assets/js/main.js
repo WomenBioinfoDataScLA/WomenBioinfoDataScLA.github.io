@@ -7,7 +7,9 @@ const goalsSection = document.getElementById('goals');
 const firsteventSection = document.getElementById('1stwbds');
 const projectsSection = document.getElementById('projects');
 
-
+if ($(window).width() < 800) {
+    disableElement(navOptions);
+}
 
 function disableElement(element) {
     element.classList.add('disable');
