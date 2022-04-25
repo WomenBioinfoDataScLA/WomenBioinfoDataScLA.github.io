@@ -23,6 +23,9 @@ const Members = [
     { "name": "Sindy Licette Piñero", 'img':'Sindy.jpg', "filiation":"Oxiteno S. A. Industria e Comércio, Brazil"}
 ];
 
+if ($(window).width() < 800) {
+    disableElement(navOptions);
+}
 
 function renderWeSection(){
     $weSection.empty();

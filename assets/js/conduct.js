@@ -2,6 +2,10 @@ const conductSection = document.getElementById('conduct');
 const $conductSection = $(document.getElementById('conduct'));
 const conductButton2 = document.getElementById('conduct-button');
 
+if ($(window).width() < 800) {
+    disableElement(navOptions);
+}
+
 function h2TitleDivCreator(titleText, id, className) {
     const h2 = document.createElement('h2');
     const underlineSpan = document.createElement('span');
