@@ -136,7 +136,6 @@ nav {
 
 nav ul {
     display: flex;
-    align-items: center;
     text-transform: uppercase;
     margin: 0;
 }
@@ -169,7 +168,7 @@ nav a:hover {
 }
 
 .lang-img {
-    width: 2.2vw;
+    width: 24px;
 }
 
 .languages {
@@ -208,9 +207,22 @@ nav a:hover {
 .banner h1 {
     position: absolute;
     margin-top: 13vw;
-    width: 90%;
-    line-height: 2vw;
+
+    line-height: 3.5vw;
     margin-left: 4vw;
+    word-break: break-all;
+}
+
+.h1-en{
+    width: 15em;
+}
+
+.h1-pt{
+    width: 23em;  
+}
+
+.h1-es{
+    width: 22em;    
 }
 
 .banner h3 {
@@ -783,11 +795,18 @@ address {
     height: 480px;
 }
 
-.member img {
+.speaker-img {
     width: 15vw;
     height: 15vw;
     object-fit: cover;
     border-radius: 100%;
+}
+
+.flag-img {
+    width: 3.5vw;
+    border-radius: 20%;
+    margin-top: -12%;
+    margin-left: 40%;
 }
 
 .tracks {

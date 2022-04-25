@@ -171,9 +171,15 @@
         margin-top: -18vw;
         width: 30vw;
     }
-    .member img {
+    .speaker-img {
         width: 25vw;
         height: 25vw;
+    }
+    .flag-img {
+        width: 5vw;
+        border-radius: 20%;
+        margin-top: -12%;
+        margin-left: 46%;
     }
     .name{
         font-size: 2.6vw;
@@ -377,9 +383,15 @@
         margin-top: -135px;
         width: 30vw;
     }
-    .member img {
+    .speaker-img {
         width: 25vw;
         height: 25vw;
+    }
+    .flag-img {
+        width: 8vw;
+        border-radius: 20%;
+        margin-top: -20%;
+        margin-left: 50%;
     }
     .name{
         font-size: 2.6vw;
