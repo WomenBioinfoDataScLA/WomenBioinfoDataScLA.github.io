@@ -295,6 +295,14 @@ nav a:hover {
     position: absolute;
 }
 
+.news{
+    margin-bottom: 10vw;
+}
+
+.sponsors-logos h2{
+    font-size: 2.5em;
+}
+
 .about {
     padding: 3% 2%;
     margin-right: 2%;
@@ -675,22 +683,25 @@ p:hover {
     color: white;
 }
 
-.sponsors-logos,
-.orgas-logos {
+.sponsors-logos{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-left: 0;
+    flex-direction: column;
+    gap: 35px;
 }
 
-.sponsors-logos img {
-    height: 5.5em;
-    margin-left: 25px;
+.row-logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
 }
 
 #spyder {
-    height: 2em;
+    height: 7.5em;
+}
+
+#atg{
+    height: 5em;   
 }
 
 #acmw {
@@ -698,7 +709,7 @@ p:hover {
 }
 
 #mumuki {
-    height: 2em;
+    height: 2.5em;
 }
 
 .orgas-logo {
