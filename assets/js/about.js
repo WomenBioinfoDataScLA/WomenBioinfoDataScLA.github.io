@@ -20,7 +20,8 @@ const Members = [
     { "name": "Augustina Nardo", 'img': 'Agus2.jpg', "filiation": "CIDCA -UNLP, Argentina" },
     { "name": "Thayana Vieira Tavares", 'img':'Thayana.jpg', "filiation":"Universidade Federal de São Carlos(UFSCar) - São Paulo, Brazil"},
     { "name": "Clara Cerqueira Matos", 'img':'Clara.jpg', "filiation":"Bahia, Brazil"},
-    { "name": "Sindy Licette Piñero", 'img':'Sindy.jpg', "filiation":"Oxiteno S. A. Industria e Comércio, Brazil"}
+    { "name": "Sindy Licette Piñero", 'img':'Sindy.jpg', "filiation":"Oxiteno S. A. Industria e Comércio, Brazil"},
+    { "name": "Carolina Kurotusch Canettieri", 'img':'caroline.jpg', "filiation":"Bachelor of Biology - UFG, Brazil"}
 ];
 
 if ($(window).width() < 800) {
