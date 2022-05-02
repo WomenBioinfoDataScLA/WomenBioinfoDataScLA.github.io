@@ -57,6 +57,12 @@
     .authors-list{
         font-size: 1.3em;
     }
+    .member{
+        margin-top: 0;
+    }
+    .name{
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1630px){
