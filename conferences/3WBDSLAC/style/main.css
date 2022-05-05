@@ -273,6 +273,7 @@ nav a:hover {
 
 .big-text {
     font-size: 1em;
+    margin: 0 2px 0 2px;
 }
 
 .small-text {
@@ -694,6 +695,7 @@ p:hover {
     align-items: center;
     justify-content: center;
     gap: 5vw;
+    flex-wrap: wrap;
 }
 
 #spyder {
