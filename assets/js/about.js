@@ -20,14 +20,11 @@ const Members = [
     { "name": "Thayana Vieira Tavares", 'img':'Thayana.jpg', "filiation":"Universidade Federal de São Carlos(UFSCar) - São Paulo, Brazil"},
     { "name": "Clara Cerqueira Matos", 'img':'Clara.jpg', "filiation":"Bahia, Brazil"},
     { "name": "Sindy Licette Piñero", 'img':'Sindy.jpg', "filiation":"Oxiteno S. A. Industria e Comércio, Brazil"},
-    { "name": "Brenda Cabrera Mendoza", 'img':'Brenda_Cabrera.jpg', "filiation":"Universidad de Yale, USA"},
+    { "name": "Brenda Cabrera Mendoza", 'img':'Brenda_Cabrera.jpg', "filiation":"Yale University, Mexico"},
     { "name": "Carolina Kurotusch Canettieri", 'img':'caroline.jpg', "filiation":"Bachelor of Biology - UFG, Brazil"},
-    { "name": "Karla Ruiz", 'img':'karla.jpg', "filiation":"Early Stage Researcher"}
+    { "name": "Karla Ruiz", 'img':'karla.jpg', "filiation":"Early Stage Researcher - Mexico"}
 ];
 
-if ($(window).width() < 800) {
-    disableElement(navOptions);
-}
 
 function renderWeSection(){
     $weSection.empty();
