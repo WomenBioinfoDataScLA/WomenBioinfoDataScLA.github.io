@@ -138,10 +138,10 @@
         justify-content: right;
     }
     .nav-options {
-        position: relative;
+        position: absolute;
         margin-top: 275px;
         align-items: end;
-        margin-right: -34.5%;
+        margin-right: -10%;
         background: white;
         z-index: 20;
     }
@@ -243,6 +243,12 @@
     .tittle-div {
         margin-top: 5%;
     }
+
+    .news-tab {
+        margin-bottom: 45vw;
+        margin-top: 56vw;
+    }
+
     .sponsors-tittle-suport{
         margin-left: 65%;
         overflow-x: hidden;
@@ -332,7 +338,7 @@
     }
 
     address{
-        font-size: .9em;
+        font-size: .6em;
     }
 
     .speakers-img-right, .speakers-img-left{
@@ -368,9 +374,9 @@
         font-size: 1.4em;
     }
     .nav-options {
-        position: relative;
+        position: absolute;
         align-items: end;
-        margin-right: -35.5%;
+        margin-right: -12.5%;
         background: white;
         z-index: 20;
     }  

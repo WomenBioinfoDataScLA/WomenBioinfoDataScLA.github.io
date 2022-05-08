@@ -27,7 +27,7 @@ h1 {
 h2 {
     font-size: 2.9em;
     text-align: center;
-    margin-bottom: 1%;
+    margin-bottom: 4%;
 }
 
 h3 {
@@ -54,8 +54,16 @@ li {
     font-size: 1.4em;
     color: rgb(85, 85, 85);
     line-height: 27px;
-    text-align: center;
     list-style-type: none;
+}
+
+
+li {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
 }
 
 a {
@@ -620,7 +628,7 @@ p:hover {
 
 .registration-section {
     padding: 0 10%;
-    margin-top: -20%;
+    margin-top: 8%;
     margin-bottom: 24%;
 }
 
@@ -1077,6 +1085,13 @@ address {
 
 /*Program*/
 
+.program-section{
+    margin: 5% 0;
+}
+
+.table-p {
+    margin-left: 20%;
+}
 .program-section table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -1120,6 +1135,7 @@ address {
     font-size: 1.1em;
     font-weight: bold;
     line-height: 1.4em;
+    color:#906aac;
 }
 
 .prog-button {
