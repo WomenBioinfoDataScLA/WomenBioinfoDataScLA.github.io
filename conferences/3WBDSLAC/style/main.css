@@ -91,9 +91,12 @@ nav {
     flex-direction: row;
     align-items: flex-start;
     margin: 0;
-    height: 6vw;
     width: 100%;
     background: white;
+}
+
+.tab-nav{
+    border-bottom: 1px solid;
 }
 
 .sep {
@@ -111,10 +114,14 @@ nav {
     margin: 0 3vw;
 }
 
-.logofigure img {
-    width: auto;
-    height: 4.9vw;
+.index-logo{
     margin-top: 2%;
+    height: 4.9vw;
+}
+
+.tab-logo{
+    height: 3.9vw;
+    margin-top: 5%;
 }
 
 .arrowfigure {
@@ -132,6 +139,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-left: 7%;
 }
 
 nav ul {
@@ -141,7 +149,7 @@ nav ul {
 }
 
 nav li {
-    margin: 0 1.5vw;
+    margin: 0 19px;
     font-size: 0.9vw;
     font-weight: bold;
 }
@@ -300,6 +308,11 @@ nav a:hover {
     margin-bottom: 10vw;
 }
 
+.news-tab{
+    margin-bottom: 20vw;
+    margin-top: 15vw;
+
+}
 .sponsors-logos h2{
     font-size: 2.5em;
 }
@@ -401,7 +414,7 @@ p:hover {
 
 .speakers-section {
     display: block;
-    margin-top: 3%;
+    margin-top: -1%;
     margin-bottom: 10%;
 }
 
@@ -471,9 +484,9 @@ p:hover {
 .title-div h2{
     z-index: 83;
     color: #FFFF;
-    font-size: 2vw;
-    margin-left: 1.5vw;
-    margin-top: 1vw;
+    font-size: 1.9vw;
+    margin-left: 1.5%;
+    margin-top: 1%;
 }
 
 .name{
