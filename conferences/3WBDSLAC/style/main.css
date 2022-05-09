@@ -337,10 +337,6 @@ nav a:hover {
     margin-top: 7%;
 }
 
-p:hover {
-    transform: scale(1.05);
-}
-
 .aboutfigure {
     transform: rotate(5deg);
     position: absolute;
@@ -1091,11 +1087,24 @@ address {
 .table-p {
     margin-left: 20%;
 }
+
 .program-section table {
+    width: 50%;
     border-collapse: collapse;
     border-spacing: 0;
     margin: 0px auto;
-    width: 60vw;
+}
+
+.schedule-table{
+    width: 100%;
+}
+
+.keydates {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding: 0 20%;
+    
 }
 
 .program-section table thead td {
@@ -1113,7 +1122,7 @@ address {
 }
 
 .program-section td {
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
     border-color: #e0e0e0;
     border-style: solid;
