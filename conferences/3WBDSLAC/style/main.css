@@ -256,7 +256,7 @@ nav a:hover {
     margin-top: 54px;
     padding: 50px;
     background-color: #F4F4F4;
-    height: 22em;
+    height: 17em;
 }
 
 .details li {
@@ -265,7 +265,7 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     gap: 1em;
-    margin: 2vw;
+    margin: 0 2vw;
 }
 
 #second-row1,
@@ -296,7 +296,7 @@ nav a:hover {
 }
 
 .icons-conf {
-    width: 70px;
+    width: 75px;
 }
 
 .parallelogram {
@@ -632,10 +632,6 @@ nav a:hover {
     font-size: 1.6em;
 }
 
-.key-dates {
-    margin-top: -26%;
-    margin-left: -4%;
-}
 
 #date-open-2,
 #date-close-2 {
@@ -1097,14 +1093,6 @@ address {
 
 .schedule-table{
     width: 100%;
-}
-
-.keydates {
-    display: flex;
-    flex-direction: row;
-    gap: 5%;
-    padding: 0 20%;
-    
 }
 
 .program-section table thead td {
