@@ -1,5 +1,4 @@
 //Buttons//
-const codeButton = $("#coc-nav-button");
 const speakersButton = $("#speakers-nav-button");
 const programButton = $('#program-nav-button');
 const sponsorsButton = $('#sponsors-nav-button');
@@ -12,7 +11,6 @@ const portugueseButton = document.getElementById('portuguese-button');
 const h1Title = $('#title-h1')
 
 function renderPortuguese() {
-    codeButton.text('Código de Conduta');
     speakersButton.text('Palestrantes');
     programButton.text('Programa');
     sponsorsButton.text('Patrocinadores');
@@ -24,7 +22,6 @@ function renderPortuguese() {
 }
 
 function renderSpanish() {
-    codeButton.text('Código de conducta');
     speakersButton.text('Oradoras');
     programButton.text('Programa');
     sponsorsButton.text('Patrocinadores');
