@@ -268,6 +268,10 @@ nav a:hover {
     margin: 0 2vw;
 }
 
+.conf-icon-li:hover *{
+        color:#2299A9;
+}
+
 #second-row1,
 #second-row2 {
     width: 2%;
@@ -296,7 +300,53 @@ nav a:hover {
 }
 
 .icons-conf {
-    width: 75px;
+    width: 80px;
+    height: 80px;
+}
+
+.calendar-icon{
+    background: url("../assets/img/calendar.png") no-repeat;
+    background-size: 75px;
+}
+.calendar-icon:hover {
+    background: url("../assets/img/calendar_blue.png") no-repeat;
+    background-size: 75px;
+}
+
+.wallet-icon{
+    background: url("../assets/img/wallet.png") no-repeat;
+    background-size: 75px;
+}
+.wallet-icon:hover {
+    background: url("../assets/img/wallet_blue.png") no-repeat;
+    background-size: 75px;
+}
+
+.instructions-icon{
+    background: url("../assets/img/instructions.png") no-repeat;
+    background-size: 75px;
+}
+.instructions-icon:hover {
+    background: url("../assets/img/instructions_blue.png") no-repeat;
+    background-size: 75px;
+}
+
+.poster-icon{
+    background: url("../assets/img/poster-icon.png") no-repeat;
+    background-size: 78px;
+}
+.poster-icon:hover {
+    background: url("../assets/img/poster-icon-blue.png") no-repeat;
+    background-size: 78px;
+}
+
+.workshop-icon{
+    background: url("../assets/img/laptop.png") no-repeat;
+    background-size: 80px;
+}
+.workshop-icon:hover {
+    background: url("../assets/img/laptop_blue.png") no-repeat;
+    background-size: 80px;
 }
 
 .parallelogram {

@@ -95,6 +95,13 @@
     nav a{
         font-size: 1.3em;
     }
+    nav li{
+        margin: 0 10px;
+    }
+    .details{
+        gap: 10vw 0;
+        height: 25em;
+    }
     .member{
         margin-top: -10vw;
     }
@@ -172,6 +179,10 @@
     }
     .sep{
         color: rgb(140, 100, 170); 
+    }
+    .details{
+        gap: 10vw 0;
+        height: 25em;
     }
     .member{
         margin-top: -18vw;
@@ -387,6 +398,7 @@
         padding: 50px;
         background-color: #FFFF;
         height: 46em;
+        gap:7vw;
     }
     .parallelogram {
         width: 40vw;
