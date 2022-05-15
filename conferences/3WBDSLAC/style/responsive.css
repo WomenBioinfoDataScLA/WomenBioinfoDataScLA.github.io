@@ -384,6 +384,13 @@
     h2{
         font-size: 1.4em;
     }
+    .logofigure img {
+        width: auto;
+        height: 10vw;
+    }
+    .ham {
+        margin-top: 3%;
+    }
     .nav-options {
         position: absolute;
         align-items: end;
