@@ -395,10 +395,11 @@
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        align-items: center;
         padding: 50px;
         background-color: #FFFF;
         height: 46em;
-        gap:7vw;
+        gap:10vw;
     }
     .parallelogram {
         width: 40vw;

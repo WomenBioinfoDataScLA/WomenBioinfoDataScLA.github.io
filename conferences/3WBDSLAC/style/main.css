@@ -261,6 +261,11 @@ nav a:hover {
 
 .details li {
     display: flex;
+    align-items: center;
+}
+
+.details a {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -284,8 +289,11 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
     margin-top: -15px;
+    background-position: center;
 }
-
+.details div:hover {
+    background-position: center;
+}
 .detail p {
     color: rgb(85 85 85 / 82%);
 }
@@ -306,38 +314,38 @@ nav a:hover {
 
 .calendar-icon{
     background: url("../assets/img/calendar.png") no-repeat;
-    background-size: 75px;
+    background-size: 76px;
 }
 .calendar-icon:hover {
     background: url("../assets/img/calendar_blue.png") no-repeat;
-    background-size: 75px;
+    background-size: 76px;
 }
 
 .wallet-icon{
     background: url("../assets/img/wallet.png") no-repeat;
-    background-size: 75px;
+    background-size: 76px;
 }
 .wallet-icon:hover {
     background: url("../assets/img/wallet_blue.png") no-repeat;
-    background-size: 75px;
+    background-size: 76px;
 }
 
 .instructions-icon{
     background: url("../assets/img/instructions.png") no-repeat;
-    background-size: 75px;
+    background-size: 76px;
 }
 .instructions-icon:hover {
     background: url("../assets/img/instructions_blue.png") no-repeat;
-    background-size: 75px;
+    background-size: 76px;
 }
 
 .poster-icon{
     background: url("../assets/img/poster-icon.png") no-repeat;
-    background-size: 78px;
+    background-size: 79px;
 }
 .poster-icon:hover {
     background: url("../assets/img/poster-icon-blue.png") no-repeat;
-    background-size: 78px;
+    background-size: 79px;
 }
 
 .workshop-icon{
