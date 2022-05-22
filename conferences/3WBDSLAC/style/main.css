@@ -27,7 +27,7 @@ h1 {
 h2 {
     font-size: 2.9em;
     text-align: center;
-    margin-bottom: 4%;
+    margin-bottom: 1%;
 }
 
 h3 {
@@ -153,6 +153,7 @@ nav ul {
     display: flex;
     text-transform: uppercase;
     margin: 0;
+    margin-left: 3%;
 }
 
 nav li {
@@ -245,6 +246,13 @@ nav a:hover {
     color: #e0e0e0;
     margin-top: 22vw;
     margin-left: 4vw;
+}
+
+.section-titlle{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 2%;
 }
 
 .details {
@@ -358,15 +366,15 @@ nav a:hover {
 }
 
 .parallelogram {
-    width: 33vw;
-    height: 3vw;
+    width: 23vw;
+    height: 4vw;
     transform: skew(-30deg);
     background: #5CC6D0;
-    margin-top: -1%;
+    margin-top: 1%;
     margin-bottom: 30px;
-    margin-left: -30px;
     z-index: -5;
     position: absolute;
+    margin-left: -1%;
 }
 
 .news{
@@ -376,8 +384,18 @@ nav a:hover {
 .news-tab{
     margin-bottom: 20vw;
     margin-top: 15vw;
-
 }
+
+
+.keydates{
+    margin-top: 25px;
+}
+
+
+.sponsors-logos{
+    margin-top: 25px;
+}
+
 .sponsors-logos h2{
     font-size: 3.5em;
 }
@@ -475,7 +493,7 @@ nav a:hover {
 
 .speakers-section {
     display: block;
-    margin-top: -1%;
+    margin-top: 5%;
     margin-bottom: 10%;
 }
 
@@ -545,9 +563,9 @@ nav a:hover {
 .title-div h2{
     z-index: 83;
     color: #FFFF;
-    font-size: 1.9vw;
+    font-size: 1.6vw;
     margin-left: 1.5%;
-    margin-top: 1%;
+    margin-top: 24px;
 }
 
 .name{
@@ -781,7 +799,7 @@ nav a:hover {
 }
 
 #acmw {
-    height: 4em;
+    height: 8em;
 }
 
 #mumuki {
@@ -1170,9 +1188,6 @@ address {
 .program-section td {
     text-align: left;
     vertical-align: middle;
-    border-color: #e0e0e0;
-    border-style: solid;
-    border-width: 1px;
     overflow: hidden;
     padding: 10px 5px;
     word-break: normal;
