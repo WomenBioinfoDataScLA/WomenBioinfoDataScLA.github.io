@@ -252,7 +252,7 @@ nav a:hover {
     display: flex;
     flex-flow: column;
     align-items: center;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 .details {
@@ -565,7 +565,7 @@ nav a:hover {
     color: #FFFF;
     font-size: 1.6vw;
     margin-left: 1.5%;
-    margin-top: 24px;
+    margin-top: 16px;
 }
 
 .name{
@@ -699,7 +699,7 @@ nav a:hover {
 
 .registration-section {
     padding: 0 10%;
-    margin-top: 8%;
+    margin-top: 5%;
     margin-bottom: 24%;
 }
 
@@ -708,6 +708,37 @@ nav a:hover {
     font-size: 1.6em;
 }
 
+.cupons-div{
+    display: flex;
+    flex-flow: column;
+    margin-top: 4%;
+}
+
+.cupons-div img {
+    width: 30vw;
+}
+
+.cupons-div div {
+    margin-top: 2%;
+}
+
+.cupons-div figcaption{
+    margin-top: 1%;
+    margin-left: 4%;
+}
+
+.volunteers{
+    margin-top: 4%;
+}
+
+.list-tracks {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 2%;
+    gap: 5px;
+}
 
 #date-open-2,
 #date-close-2 {
@@ -1226,8 +1257,16 @@ address {
     font-size: 15px;
     margin-bottom: 22px;
     margin-top: 18px;
+    margin-left: 25%;
 }
 
 .speakers-names {
     color: #906aac;
+}
+
+.prgram-butons {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 2%;
 }
