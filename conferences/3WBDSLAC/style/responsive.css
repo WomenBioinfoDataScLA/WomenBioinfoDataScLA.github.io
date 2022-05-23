@@ -420,8 +420,9 @@
         margin-top: 6em;
     }
     .speaker-img {
-        width: 25vw;
-        height: 25vw;
+        width: 30vw;
+        height: 30vw;
+        padding: 6px;
     }
     .flag-img {
         width: 8vw;
@@ -431,6 +432,7 @@
     }
     .name{
         font-size: 2.6vw;
+        line-height: 1em;
     }
     .filiation {
         font-size: 2.5vw;
