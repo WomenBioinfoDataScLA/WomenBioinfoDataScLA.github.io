@@ -438,8 +438,8 @@ nav a:hover {
 
 .button {
     position: relative;
-    width: 15vw;
-    padding: 0.7vw 2.6vw;
+    width: 12vw;
+    padding: 0.7vw 1.8vw;
     margin: 1vw;
     border-radius: 2em;
     color: #FFFFFF;
@@ -1278,5 +1278,6 @@ address {
     display: flex;
     flex-flow: row;
     justify-content: center;
-    margin-top: 2%;
+    margin: 2% 0;
+    flex-wrap: wrap;
 }

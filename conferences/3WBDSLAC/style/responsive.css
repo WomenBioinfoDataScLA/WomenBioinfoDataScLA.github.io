@@ -136,7 +136,7 @@
         font-size: 2.3vw;
     }  
     nav {
-        height: 11vw;
+        height: 13vw;
     } 
     .header{
         height: 9.1vw;
@@ -236,6 +236,18 @@
         display: none;
     }
 
+    .title-div{
+        margin-top: 0.5em;
+    }
+
+    .title-div h2{
+        z-index: 83;
+        color: #FFFF;
+        font-size: 3.6vw;
+        margin-left: 1.5%;
+        margin-top: -5px;
+    }
+
     .code-button-section figcaption {
         font-size: 1.7em;
         color: white;
@@ -251,10 +263,6 @@
         width: 39vw;
     }
     
-    .tittle-div {
-        margin-top: 5%;
-    }
-
     .news-tab {
         margin-bottom: 45vw;
         margin-top: 56vw;
@@ -299,17 +307,7 @@
     .tittle-texts {
         padding-top: 7%;
     }
-    
-    .tittle-div h2{
-        font-size: 3.5vw;
-        margin-left: 3%;
-    }
-    
-    .tittle-div h3 {
-        font-size: 3vw;
-        margin-left: 3%;
-        margin-top: 1%;
-    }
+
 
     .button-div {
         flex-direction: column;
@@ -397,6 +395,7 @@
         margin-right: -12.5%;
         background: white;
         z-index: 20;
+        margin-top: 308px;
     }  
     .details{
         display: flex;
@@ -410,10 +409,15 @@
     }
     .parallelogram {
         width: 40vw;
+        height: 11vw;
     }
     .member{
         margin-top: -135px;
         width: 30vw;
+        height: 321px;
+    }
+    .memberslist {
+        margin-top: 6em;
     }
     .speaker-img {
         width: 25vw;
@@ -469,6 +473,9 @@
     }
     .workshops-section img {
         width: 80vw;
+    }
+    .button{
+        width: 36vw;
     }
 }
 
