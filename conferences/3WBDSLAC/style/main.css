@@ -840,6 +840,13 @@ nav a:hover {
     height: 2.5em;
 }
 
+#wiki-arg{
+    height: 6.2em;
+}
+
+#wiki-mx{
+    height: 6em;
+}
 .orgas-logo {
     height: 3em;
 }
