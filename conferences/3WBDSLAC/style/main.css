@@ -946,6 +946,8 @@ address {
     height: 15vw;
     object-fit: cover;
     border-radius: 100%;
+    padding: 10px;
+    background: -webkit-linear-gradient(right bottom, #906aac 10%, #5cc6d0 80%);
 }
 
 .flag-img {
