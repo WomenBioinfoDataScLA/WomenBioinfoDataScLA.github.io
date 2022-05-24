@@ -88,7 +88,7 @@ function renderProgramSection() {
         <td> Keynote Talk </td>
         </tr>
         <tr>
-        <td>11:30 to 12:10</td>
+        <td>11:30 - 12:10</td>
         <td>Wikimedias Workshops</td>
         </tr>
         <tr>

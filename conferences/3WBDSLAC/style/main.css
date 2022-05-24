@@ -184,11 +184,12 @@ nav a:hover {
 }
 
 .lang-img {
-    width: 24px;
+    width: 20px;
+    margin-top: 2px;
 }
 
 .languages {
-    margin: 0 0.35vw;
+    margin: 0 0.2vw;
 }
 
 .languages a {
@@ -449,13 +450,12 @@ nav a:hover {
 }
 
 .orange-element {
-    background-color: #ffa992;
-    color: #4d38a5;
+    background-color: #906aac;
 }
 
 .button:hover {
-    background-color: #ffa992;
-    color: #4d38a5;
+    background-color: #906aac;
+
 }
 
 .tittle-div {
@@ -816,7 +816,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5vw;
+    gap: 1vw 5vw;
     flex-wrap: wrap;
 }
 
