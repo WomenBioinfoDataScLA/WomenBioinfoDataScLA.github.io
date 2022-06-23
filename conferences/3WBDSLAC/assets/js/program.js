@@ -177,16 +177,23 @@ function renderProgramSection() {
             <td> Data Feminism <br><br> <b class="speakers-names">Catherine D'Ignazio (US)</b></td>
             </tr>
             <tr>
-            <td>11:30 - 12:10</td>
-            <td colspan="2">Wikimedias Workshops</td>
+                <td>11:30 - 12:10</td>
+                <td colspan="2">Wikimedias Workshops</td>
             </tr>
             <tr>
-            <td>13:00 - 15:00 </td>
-            <td colspan="2">Wikiton</td>
+                <td>13:00 - 15:00 </td>
+                <td colspan="2">Wikiton</td>
             </tr>
             <tr>
-            <td>16:30 - 18:30</td>
-            <td colspan="2">Gender & Science Conversatory</td>
+                <td>16:30 - 18:30</td>
+                <td colspan="2">Gender & Science Conversatory</td>
+            </tr>
+            <tr class="prog-tracks"><td></td></tr>
+            <tr class="prog-tracks">
+                <td colspan="3">
+                    <a href="https://wikimedia.org.ar/" target="_blank"><img src="assets/img/logos/wiki_arg.png" alt="wikimedia" id="wiki-arg"></a>
+                    <a href="https://wikimedia.mx/" target="_blank"><img src="assets/img/logos/wiki_mx.png" alt="wikimedia" id="wiki-mx"></a>
+                </td>
             </tr>
         </tbody>
     </table>
