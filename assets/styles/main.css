@@ -752,3 +752,7 @@ address {
     color: #906aac;
     font-size: large;
 }
+
+.open_collective_logo{
+    border-radius: 15px;
+}
