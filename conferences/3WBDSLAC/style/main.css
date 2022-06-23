@@ -1203,11 +1203,31 @@ address {
     margin-left: 20%;
 }
 
-.program-section table {
+.keydates_table{
     width: 50%;
     border-collapse: collapse;
     border-spacing: 0;
+    margin: 0px auto; 
+}
+
+.keydates_table td{
+    text-align: left;
+}
+
+.program-section table, .table_program{
+    width: 70%;
+    border-collapse: collapse;
+    border-spacing: 0;
     margin: 0px auto;
+}
+
+.table_program td{
+    text-align: center;
+    border: 1px solid;
+}
+
+.table_program img{
+    padding: 0 2vw;
 }
 
 .schedule-table{
@@ -1229,7 +1249,6 @@ address {
 }
 
 .program-section td {
-    text-align: left;
     vertical-align: middle;
     overflow: hidden;
     padding: 10px 5px;
@@ -1248,6 +1267,11 @@ address {
     font-weight: bold;
     line-height: 1.4em;
     color:#906aac;
+    border: none;
+}
+
+.prog-tracks strong{
+    color: rgb(85, 85, 85);
 }
 
 .prog-button {
