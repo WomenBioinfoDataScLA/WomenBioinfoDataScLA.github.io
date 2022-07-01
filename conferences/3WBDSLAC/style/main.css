@@ -1307,3 +1307,14 @@ address {
     margin: 2% 0;
     flex-wrap: wrap;
 }
+
+
+/* WORKSHOP */
+
+.workshopsflyer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    padding-bottom: 10%;
+}
