@@ -820,11 +820,11 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
-#spyder {
+#spyder,#wellcome {
     height: 7.5em;
 }
 
-#atg{
+#atg,#css{
     height: 5em;   
 }
 
@@ -1214,11 +1214,14 @@ address {
     text-align: left;
 }
 
-.program-section table, .table_program{
-    width: 70%;
+.program-section table{
     border-collapse: collapse;
     border-spacing: 0;
     margin: 0px auto;
+}
+
+.table_program{
+width: 70%;
 }
 
 .table_program td{
