@@ -15,7 +15,12 @@ function renderProgramSection() {
         </thead>
         <tbody>
             <tr class="prog-tracks">
-            <td colspan="3"><strong>20th September: </strong> Rosalind Franklin's Day - Nucleic Acids </td>
+            <td colspan="3"><strong>20th September: </strong> Rosalind Franklin's Day - Nucleic Acids
+            </td>
+            </tr>
+            <tr class="prog-tracks">
+            <td colspan="3"><strong>Time Zone: GMT-3 </strong>
+            </td>
             </tr>
             <tr class="prog-tracks">
             <td colspan="3"> 
@@ -68,6 +73,10 @@ function renderProgramSection() {
             <td colspan="3"><strong>21st September: </strong>Margaret Dayhoff's Day - Proteins</td>
             </tr>
             <tr class="prog-tracks">
+            <td colspan="3"><strong>Time Zone: GMT-3 </strong>
+            </td>
+            </tr>
+            <tr class="prog-tracks">
             <td colspan="3"> 
             </td>
             </tr>
@@ -115,6 +124,10 @@ function renderProgramSection() {
         <tbody>
             <tr class="prog-tracks">
             <td colspan="3"><strong>22nd September:</strong> Margaret Hamilton's Day - Data Science</td>
+            </tr>
+            <tr class="prog-tracks">
+            <td colspan="3"><strong>Time Zone: GMT-3 </strong>
+            </td>
             </tr>
             <tr class="prog-tracks">
             <td colspan="3"> 
@@ -166,6 +179,10 @@ function renderProgramSection() {
         <tbody>
             <tr class="prog-tracks">
                 <td colspan="3"><strong>23rd September: </strong> Open Data Day</td>
+            </tr>
+            <tr class="prog-tracks">
+            <td colspan="3"><strong>Time Zone: GMT-3 </strong>
+            </td>
             </tr>
             <tr class="prog-tracks">
                 <td colspan="3"> 
