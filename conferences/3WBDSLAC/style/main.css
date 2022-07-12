@@ -449,6 +449,10 @@ nav a:hover {
     z-index: 10;
 }
 
+.wshop-button{
+    width: 14vw;
+}
+
 .orange-element {
     background-color: #906aac;
 }
@@ -844,7 +848,7 @@ nav a:hover {
     height: 6.2em;
 }
 
-#wiki-mx{
+#wiki-mx,#datagenero{
     height: 6em;
 }
 .orgas-logo {
@@ -1307,6 +1311,7 @@ width: 70%;
     display: flex;
     flex-flow: row;
     justify-content: center;
+    align-items: center;
     margin: 2% 0;
     flex-wrap: wrap;
 }

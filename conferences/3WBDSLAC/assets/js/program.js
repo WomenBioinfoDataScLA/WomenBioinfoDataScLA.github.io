@@ -199,7 +199,7 @@ function renderProgramSection() {
             </tr>
             <tr>
                 <td>13:00 - 15:00 </td>
-                <td colspan="2">Wikiton</td>
+                <td colspan="2">Wikithon</td>
             </tr>
             <tr>
                 <td>16:30 - 18:30</td>
@@ -210,7 +210,8 @@ function renderProgramSection() {
                 <td colspan="3">
                     <a href="https://wikimedia.org.ar/" target="_blank"><img src="assets/img/logos/wiki_arg.png" alt="wikimedia" id="wiki-arg"></a>
                     <a href="https://wikimedia.mx/" target="_blank"><img src="assets/img/logos/wiki_mx.png" alt="wikimedia" id="wiki-mx"></a>
-                </td>
+                    <a href="https://www.datagenero.org/" target="_blank"><img src="assets/img/logos/observatorio.png" alt="data género" id="datagenero"></a>
+                </td>               
             </tr>
         </tbody>
     </table>
