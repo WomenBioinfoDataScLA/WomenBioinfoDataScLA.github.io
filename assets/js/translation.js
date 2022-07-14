@@ -31,14 +31,13 @@ const h2Conference = document.getElementById('conference-h2');
 const h2Workshops = document.getElementById('workshops-h2');
 const h3Workshops = document.getElementById('workshops-h3');
 const h2Articles = document.getElementById('articles-h2');
-const h2Voluntteer = document.getElementById('volunteer-h2');
+const h2OneMinute = document.getElementById('oneminute-h2');
 const h2Database = document.getElementById('database-h2');
 const h2Support = document.getElementById('support-h2');
 const p1Support = document.getElementById('support-p1');
 const p2Support = document.getElementById('support-p2');
 const h5Contact = document.getElementById('contact-h5');
 const h5Media = document.getElementById('socialmedia-h5');
-
 
 function languageCheck(language){
     localStorage.setItem("Lang", language);
@@ -83,9 +82,9 @@ function renderPortugueseIndexPage() {
     pEvents.innerHTML = "Você pode verificar como foram nossos eventos anteriores em nosso canal do youtube.";
     h2Projects.innerHTML = "Nossos Projetos";
     h2Conference.innerHTML = "Congressos";
-    h2Workshops.innerHTML = "Cursos";
+    h2Workshops.innerHTML = "Workshops e Webinars";
     h2Articles.innerHTML = "Artigos e Apresentações";
-    h2Voluntteer.innerHTML = "Junte-se à equipe";
+    h2OneMinute.innerHTML = "Uma história em um minuto";
     h2Database.innerHTML = "Base de Dados Mulheres e LGBTQIA+";
     h2Support.innerHTML = "Nos Apoie";
     p1Support.innerHTML = "Se você gostou da nossa comunidade e gostaria de nos apoiar, verifique os links abaixo.Somos uma comunidade sem fins lucrativos, portanto, qualquer ajuda será muito apreciada.";
@@ -122,9 +121,9 @@ function renderSpanishIndexPage() {
     pEvents.innerHTML = "Puedes ver nuestros eventos anteriores en nuestro canal de youtube.";
     h2Projects.innerHTML = "Nuestros proyectos";
     h2Conference.innerHTML = "Congresos";
-    h2Workshops.innerHTML = "Cursos";
+    h2Workshops.innerHTML = "Workshops y Webinars";
     h2Articles.innerHTML = "Artículos y Prensa";
-    h2Voluntteer.innerHTML = "¡Sumate a el equipo!";
+    h2OneMinute.innerHTML = "Una historia en um minuto";
     h2Database.innerHTML = "Base de Datos Mujeres y LGBTQIA+";
     h2Support.innerHTML = "Apóyanos";
     p1Support.innerHTML = "Si le gusta nuestra comunidad y desea apoyarnos, consulte los enlaces a continuación.Somos una comunidad sin fines de lucro, por lo que cualquier ayuda será muy apreciada.";

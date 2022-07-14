@@ -651,14 +651,14 @@ address {
     margin-top: 3vw;
 }
 
-.events-title-div {
+.events-title-div,.oneminute-description{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 3vw;
 }
 
-.past-events div {
+.past-events div,.oneminute-div div {
     display: flex;
     flex-direction: row;
     margin-bottom: 50px;
@@ -669,11 +669,10 @@ address {
     padding: 0 2vw;
 }
 
-.past-events p {
+.past-events p,.oneminute-div p {
     text-align: justify;
     list-style-type: none;
     padding: 0 7% 0 0;
-    text-indent: 20px;
 }
 
 .upcoming-event {
@@ -684,6 +683,11 @@ address {
 
 .upcoming-event a {
     width: 15vw;
+}
+
+.oneminute-div img {
+    width: 350px;
+    padding: 0 2vw;
 }
 
 .article-title a {
@@ -755,4 +759,8 @@ address {
 
 .open_collective_logo{
     border-radius: 15px;
+}
+
+.oneminute-description p {
+    margin-bottom: 20px;
 }
