@@ -79,6 +79,17 @@
     footer img {
         width: 7vw;
     }
+    .oneminute-description-video{
+        width: 328px;
+        height: 184px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 650px){
+    .oneminute-description-video{
+        width: 383px;
+        height: 216px;
+    }
 }
 
 @media screen and (max-width: 850px){
@@ -179,6 +190,7 @@
         width: 75vw;
         padding: 2vw 2vw;
     }
+
 }
 
 @media screen and (min-width: 651px) and (max-width: 850px){
@@ -261,6 +273,11 @@
 
     footer img{
         width: 4.5vw;
+    }
+
+    .oneminute-description-video{
+        width: 448px;
+        height: 252px;
     }
 }
 

@@ -764,3 +764,8 @@ address {
 .oneminute-description p {
     margin-bottom: 20px;
 }
+
+.oneminute-description-video{
+    width: 560px;
+    height: 315px;
+}

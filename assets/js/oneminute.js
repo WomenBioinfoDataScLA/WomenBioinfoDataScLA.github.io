@@ -21,7 +21,7 @@ function renderOneMinuteSection(){
                 Don't forget to subscribe to our channel, like the videos and share with your friends!
             </p>
             <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/KF5GPFLj_bk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="oneminute-description-video" src="https://www.youtube.com/embed/KF5GPFLj_bk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
 
@@ -111,7 +111,7 @@ function renderPortugueseOneMinute() {
                 Não se esqueça de se inscrever em nosso canal, curtir os vídeos e compartilhar!
             </p>
             <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/mzW5AAfuFMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+                <iframe class="oneminute-description-video" src="https://www.youtube.com/embed/mzW5AAfuFMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
         </div>
 
 
@@ -197,7 +197,7 @@ function renderSpanishOneMinute() {
             ¡No te olvides de suscribirte a nuestro canal, darle like a los videos si te gustaron y compartir con tus amigxs!
             </p>
             <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/KF5GPFLj_bk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="oneminute-description-video" src="https://www.youtube.com/embed/KF5GPFLj_bk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
 
