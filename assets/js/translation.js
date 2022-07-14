@@ -123,7 +123,7 @@ function renderSpanishIndexPage() {
     h2Conference.innerHTML = "Congresos";
     h2Workshops.innerHTML = "Workshops y Webinars";
     h2Articles.innerHTML = "Artículos y Prensa";
-    h2OneMinute.innerHTML = "Una historia en um minuto";
+    h2OneMinute.innerHTML = "Una historia en un minuto";
     h2Database.innerHTML = "Base de Datos Mujeres y LGBTQIA+";
     h2Support.innerHTML = "Apóyanos";
     p1Support.innerHTML = "Si le gusta nuestra comunidad y desea apoyarnos, consulte los enlaces a continuación.Somos una comunidad sin fines de lucro, por lo que cualquier ayuda será muy apreciada.";
