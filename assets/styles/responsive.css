@@ -171,6 +171,14 @@
         height: 13em;
         margin-top: 0;
     }
+    .past-events div, .oneminute-div div {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .oneminute-div img {
+        width: 75vw;
+        padding: 2vw 2vw;
+    }
 }
 
 @media screen and (min-width: 651px) and (max-width: 850px){
