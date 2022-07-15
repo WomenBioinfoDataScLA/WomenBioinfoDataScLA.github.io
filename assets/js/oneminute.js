@@ -17,7 +17,7 @@ function renderOneMinuteSection(){
                 women in technology is told in first person. The objective of this space is to tell stories that 
                 inspire and spread them to different corners of the world.<br>Captioning in English,
                 Spanish and Portuguese will be available for all videos.<br>
-                We will post one story every week starting on <span class="highlighted-text">July 25th, 2022!</span> <br><br>
+                We will post one story every week starting on <span class="highlighted-text">July 24th, 2022!</span> <br><br>
                 Don't forget to subscribe to our channel, like the videos and share with your friends!
             </p>
             <div>
@@ -107,7 +107,7 @@ function renderPortugueseOneMinute() {
                 mulheres da tecnologia é contada em primeira pessoa. <br>O objetivo deste espaço é contar histórias que
                 inspiram e espalhá-las para diferentes cantos do mundo.<br>Legendas em Inglês,
                 Espanhol e Português estarão disponíveis para todos os vídeos.<br>
-                Publicaremos uma história toda semana a partir de <span class="highlighted-text">25 de julho de 2022!</span> <br><br>
+                Publicaremos uma história toda semana a partir de <span class="highlighted-text">24 de julho de 2022!</span> <br><br>
                 Não se esqueça de se inscrever em nosso canal, curtir os vídeos e compartilhar!
             </p>
             <div>
@@ -193,7 +193,7 @@ function renderSpanishOneMinute() {
         <div class="oneminute-description">
             <p id="oneminute-description">
             "Cientificxs: Una historia en un minuto" Una historia en un minuto es una serie de videos cortos, en los que se cuenta en primera persona la historia de científicxs.<br> Los videos cuentan con traducciones al Inglés, Español y Portugués.<br>
-            Publicaremos una historia todas las semanas a partir del Youtube desde el <span class="highlighted-text">25 de Julio de 2022!</span> <br><br>
+            Publicaremos una historia todas las semanas a partir del Youtube desde el <span class="highlighted-text">24 de Julio de 2022!</span> <br><br>
             ¡No te olvides de suscribirte a nuestro canal, darle like a los videos si te gustaron y compartir con tus amigxs!
             </p>
             <div>
