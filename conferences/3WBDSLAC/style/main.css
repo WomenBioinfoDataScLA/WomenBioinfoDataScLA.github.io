@@ -678,8 +678,7 @@ nav a:hover {
 .poster-section {
     position: relative;
     padding: 0 10%;
-    margin-top: -24%;
-    margin-bottom: 25%;
+    margin-bottom: 5%;
 }
 
 .poster-section article,
@@ -968,6 +967,7 @@ address {
 .tracks h3 {
     text-align: left;
     font-size: 1.9em;
+    color: #6D4486;
 }
 
 .track-title {
@@ -1102,7 +1102,7 @@ address {
 }
 
 .titleposters h4:hover {
-    color: #ffa992;
+    color: gray;
 }
 
 
