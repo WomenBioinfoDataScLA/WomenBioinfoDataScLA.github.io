@@ -7,6 +7,9 @@
         margin-top: -5%;
         margin-left: 46%;
     }
+    .wshop-button{
+        width: 14em;
+    }
 
 }
 
@@ -18,6 +21,9 @@
         width: 7vw;
         margin-top: -5%;
         margin-left: 48%;
+    }
+    .wshop-button{
+        width: 14em;
     }
 }
 
@@ -124,6 +130,9 @@
     }
     .authors-list{
         font-size: 1.3em;
+    }
+    .wshop-button {
+        width: 11em;
     }
 }
 
@@ -375,6 +384,9 @@
     .video-frame{
         width: 60vw;
         height: 35vw;
+    }
+    .wshop-button {
+        width: 10em;
     }
 }
 

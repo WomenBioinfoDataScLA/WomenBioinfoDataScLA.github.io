@@ -230,6 +230,12 @@ nav a:hover {
     word-break: break-all;
 }
 
+.banner-poster{
+    background-image: url("../assets/img/banner_postersession.png");
+    background-size: cover;
+    background-position: center;
+}
+
 .h1-en{
     width: 15em;
 }
@@ -450,7 +456,7 @@ nav a:hover {
 }
 
 .wshop-button{
-    width: 14vw;
+    width: 12em;
 }
 
 .orange-element {
@@ -843,7 +849,7 @@ nav a:hover {
     height: 2.5em;
 }
 
-#wiki-arg,#umbrella,#nordic,#metadocencia{
+#wiki-arg,#umbrella,#nordic,#metadocencia,#spb{
     height: 6.2em;
 }
 
