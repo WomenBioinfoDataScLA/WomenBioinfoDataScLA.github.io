@@ -41,7 +41,9 @@ function renderOneMinuteSection(){
                     professor of the department of Statistics. Her work focuses on the development and application 
                     of statistical methods to understand biological systems.
                 </p>
-                <img src="assets/img/one-minute/Liliana.png">
+                <a href="https://youtu.be/-ypIwHAq7G8" target="_blank">
+                    <img src="assets/img/one-minute/Liliana.png">
+                </a>
             </div>
             <div>
                 <p>
@@ -50,7 +52,9 @@ function renderOneMinuteSection(){
                     department of Bioinformatics. Her work focuses on developing drugs that bind to more than 
                     one protein.
                 </p>
-                <img src="assets/img/one-minute/Wendy.png">
+                <a href="https://youtu.be/BvPTlMmc7y8" target="_blank">
+                    <img src="assets/img/one-minute/Wendy.png">
+                </a>
             </div>
             <div>
                 <p>
