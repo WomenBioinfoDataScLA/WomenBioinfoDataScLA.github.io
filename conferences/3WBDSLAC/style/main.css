@@ -715,9 +715,12 @@ nav a:hover {
 .registration-section h3 {
     color: #5cc6d0;
     font-size: 1.6em;
-    text-align: left;
     margin-bottom: 25px;
     margin-top: 25px;
+}
+
+.left{
+    text-align: left;
 }
 
 .cupons-div{
@@ -1320,6 +1323,10 @@ width: 70%;
     align-items: center;
     margin: 2% 0;
     flex-wrap: wrap;
+}
+
+.center{
+    text-align: center;
 }
 
 
