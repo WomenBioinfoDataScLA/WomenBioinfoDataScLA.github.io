@@ -62,7 +62,9 @@ function renderOneMinuteSection(){
                     Cristina is a scientist at the Fundación Instituto Leloir, in Buenos Aires, Argentina. Founder 
                     of the Argentine Association of Bioinformatics and Computational Biology.
                 </p>
-                <img src="assets/img/one-minute/Cristina.png">
+                <a href="https://youtu.be/MG9_VHCyPYA" target="_blank">
+                    <img src="assets/img/one-minute/Cristina.png">
+                </a>
             </div>
             <div>
                 <p>
