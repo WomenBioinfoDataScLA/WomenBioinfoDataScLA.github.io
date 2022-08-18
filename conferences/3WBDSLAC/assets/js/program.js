@@ -205,11 +205,11 @@ function renderProgramSection() {
                 <td>16:30 - 18:30</td>
                 <td colspan="2">Gender & Science Conversatory</td>
             </tr>
-            <tr class="prog-tracks"><td></td></tr>
-            <tr class="prog-tracks">
+            <tr class="prog-tracks" >
                 <td colspan="3">
-                    <a href="https://wikimedia.org.ar/" target="_blank"><img src="assets/img/logos/wiki_arg.png" alt="wikimedia" id="wiki-arg"></a>
-                    <a href="https://wikimedia.mx/" target="_blank"><img src="assets/img/logos/wiki_mx.png" alt="wikimedia" id="wiki-mx"></a>
+                    <a href="https://wikimedia.org.ar/" target="_blank"><img src="assets/img/logos/wiki_arg.png" alt="wikimedia AR" id="wiki-arg"></a>
+                    <a href="https://wikimedia.mx/" target="_blank"><img src="assets/img/logos/wiki_mx.png" alt="wikimedia MX" id="wiki-mx"></a>
+                    <a href="https://wmnobrasil.org/" target="_blank"><img src="assets/img/logos/WikiBR2.png" alt="wikimedia BR" id="wiki-br"></a>
                     <a href="https://www.datagenero.org/" target="_blank"><img src="assets/img/logos/observatorio.png" alt="data género" id="datagenero"></a>
                 </td>               
             </tr>

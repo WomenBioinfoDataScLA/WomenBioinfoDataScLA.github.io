@@ -856,14 +856,14 @@ nav a:hover {
     height: 6.2em;
 }
 
-#wiki-mx,#datagenero{
+#wiki-mx,#datagenero,#wiki-br{
     height: 6em;
 }
 .orgas-logo {
     height: 3em;
 }
 
-.smaller-orgas-logo {
+.smaller-orgas-logo{
     height: 4em;
 }
 
