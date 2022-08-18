@@ -199,7 +199,7 @@ function renderProgramSection() {
             </tr>
             <tr>
                 <td>13:00 - 15:00 </td>
-                <td colspan="2">Wikithon</td>
+                <td colspan="2">Editatona</td>
             </tr>
             <tr>
                 <td>16:30 - 18:30</td>
