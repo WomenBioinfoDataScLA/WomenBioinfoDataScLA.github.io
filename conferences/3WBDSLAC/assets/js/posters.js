@@ -1,117 +1,166 @@
 const posterSection = $('#poster-section');
 
 const genesgenomics =[
-    {"number": 8901, 
-    "authors": "Esmeralda Escobar Muciño, José Rivera Chávez and Jesús Israel Morales Jiménez", 
-    "tittle": "Bioinformatic search and in silico study of the Diels alderase and transcription activators related to the synthesis of cuautepestalorin in the genome assembly of Pestalotiopsis sp. IQ-011", 
-    "keywords": "Cuatepestalorin, Diels alderase, Genome assembly, Molecular docking, Pestalotiopsis sp. IQ-011.",
-    "poster": "poster.png",
-    "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
+    {"number":	186	, "authors": "	Juliana Nascimento da Silva, Cecilia Veronica Nunez and Jacqueline da Silva Batista	", "tittle": "	Using bioinformatics to access the genetic variability of Duroia macrophylla (Rubiaceae) with the screening of 14 molecular markers	", "keywords": "	chloroplast, DNA, sequences	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	237	, "authors": "	Carine Linda Moura de Farias, Rodrigo Jardim and Nelson Kotowski	", "tittle": "	METAGENOMIC ANALYSIS ON A BRAZILIAN PANTANAL LAKE	", "keywords": "	metagenomics, pantanal, microbiome, metaWRAP	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	258	, "authors": "	Borja Gómez, Francisco García-García and Marta R. Hidalgo	", "tittle": "	Review and proposals for methods to summarise and improve the results of functional enrichment analysis in GO	", "keywords": "	Functional enrichment, Gene Ontology, Redundancy of results, Systematic review	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	328	, "authors": "	Glever Alexander Velez Martinez, Wendy Lorena Reyes, Juan Diego Duque Zapata, Jaime Eduardo Muñoz-Florez, Paula Andrea Rugeles Silva and Diana Carolina Lopez Alvarez	", "tittle": "	Taxonomic characterization and ecological differences of soil bacteria in terrestrial ecosystems in Valle del Cauca, Colombia.	", "keywords": "	Terrestrial ecosystem, Metataxonomic, Bacterial ecology, Colombian National Parks	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	539	, "authors": "	Paz E. Zuñiga, Vanessa Gonzalez, Claudia Rivera-Mora, Karla Jara-Cornejo, Eliana Bustos and Carlos R. Figueroa	", "tittle": "	Genome-wide identification and bioinformatic characterization of ascorbate peroxidase 1 (APX1) gene in ten species of Fragaria genus.	", "keywords": "	Ascorbate peroxidase 1, Antioxidant enzymes, Fragaria, Strawberry, Genomes	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	764	, "authors": "	Juan Diego Duque-Zapata, Glever Alexander Velez, Jaime Eduardo Muñoz-Florez, Diana Lopez-Alvarez and Paula Rugeles	", "tittle": "	Metabarcoding of Soil Fungi from three different ecosystems of the Western Andean ranges in Valle Del Cauca, Colombia	", "keywords": "	Metataxonomic, Fungal Ecology, Next generation sequencing (NGS), Tropical dry forest, Tropical alpine ecosystem	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	772	, "authors": "	Maria Cristina Aspromonte, Emanuela Leonardi, Alessio Del Conte, Leoanrdo Pastena Legori, Damiano Piovesan, Silvio E. Tosatto and Alessandra Murgia	", "tittle": "	ID-Challenge: Predict patients’ clinical descriptions and pathogenic variants from gene panel sequences	", "keywords": "	CAGI, NGS, Neurodevelopmental Disorders, gene-panel	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	926	, "authors": "	Iliana Julieta Cortese, Andrea Liliana Onetto, Gustavo Ángel Bich, María Lorena Castrillo and Margarita Ester Laczeski	", "tittle": "	Prediction of genes associated with plant growth promotion in Bacillus spp. genomes	", "keywords": "	Plant growth-promoting rhizobacteria, Bacillus altitudinis, PGP genes, Biofertilizers, Genes mapping	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	1636	, "authors": "	Paula Klotz Brandão Rodrigues, Luis Angel Chicoma Rojas, Cinara Ramos Sales and Eliana Gertrudes de Macedo Lemos	", "tittle": "	Identification of genes with biocontrol activity and comparative genomics between isolated JAB01 and related species	", "keywords": "	Genomics, Biological control, Phytopathogens	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	1902	, "authors": "	Liliane Conteville, Bruno Gabriel Andrade, Adhemar Zerlotini, Gerson Mourão, Luiz Lehmann Coutinho and Luciana de Almeida Regitano	", "tittle": "	Carbohydrate active enzymes in metagenome-assembled genomes from ruminal and stool microbiomes of nelore cattle	", "keywords": "	Metagenome-Assembled Genomes, Rumen Microbiome, Stool Microbiome, Nelore, Metagenomics	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	2450	, "authors": "	Maria Lorena Castrillo, Gustavo Ángel Bich, Laura Lidia Villalba, Mario Carlos Nazareno Saparrat and Pedro Dario Zapata	", "tittle": "	Genes coding xylanase in the Trichoderma koningiopsis POS7 isolate: detection and annotation.	", "keywords": "	enzymes, bioinformatic tools, Trichoderma	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	3726	, "authors": "	Juliana Rodrigues, Nathalia de Setta and Nicolas Bellora	", "tittle": "	Genetic diversity of transposable elements and their impact on the plant functional genome: is there an association between insertion patterns and gene functions	", "keywords": "	Genomic evolution, Transposable element, Metabolic pathways, Adaptability	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	4047	, "authors": "	Renata Cavalcante, Sidney dos Santos, Jorge de Souza and Tetsu Sakamoto	", "tittle": "	Sequence data mining of genome sex-specific assembly of Arapaima gigas (Pirarucu) for identifying sex-linked regions.	", "keywords": "	Comparative Genomics, Sexual Differentiation, Osteoglossiformes	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	4337	, "authors": "	Wendy Lorena Reyes Ardila, Jaime Eduardo Muñoz Florez, Diana Carolina López Álvarez and Glever Alexander Vélez Martínez	", "tittle": "	Metataxonomic analysis of bacteria community in soils of the western mountain range on an altitudinal gradient of Valle del Cauca, Colombia	", "keywords": "	Bacterial diversity, Ecology, Soil, Forestry	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	4465	, "authors": "	Melanie Abril Avila Rodriguez and Christian Solis Calero	", "tittle": "	Comparative genomics and structural analysis of Limosilactobacillus reuteri gene regulation for glycerol-utilization	", "keywords": "	Limosilactobacillus reuteri, 1 3-propanediol, 3-Hydroxypropionaldehyde, pdu operon, PocR protein	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	5044	, "authors": "	Silvia Sanchez, Ulises Juarez, Julieta Dominguez, Nelly Altamirano, Patricia Grether, Dora Gilda Mayen, Alessandra Carnevale, Emiy Yokoyama, Angelica Martinez-Hernandez, Sara Frias and Leda Torres	", "tittle": "	Frequent copy number variants found in a group of Mexican-Mestizo individuals.	", "keywords": "	Copy number variants, Mexican population, CRMA v2, CN/SNP Array, GEO	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	6569	, "authors": "	Daniela Araya-Ortega, Felipe Gainza-Cortés and Gonzalo Riadi	", "tittle": "	Genomic differentiation of two Carménère clones cultivated in Chile	", "keywords": "	Structural variants, Vitis vinifera, Clonal selections, Genomics, Bioinformatics	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	6865	, "authors": "	María Fernanda Mirón Toruño, Israel Aguilar Ordoñez and Enrique Morett Sánchez	", "tittle": "	A bioinformatics tool for detecting signatures of selection in whole-genome data with Population Branch Statistic (PBS) and integrated Haplotype Score (iHS)	", "keywords": "	Bioinformatics, Population Genomics, Signatures of Selection, Nextflow pipeline	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	6984	, "authors": "	Virginia Marcelino, Hayde Saracho and Daniel German Kurth	", "tittle": "	Taxonomic analysis of white gypsum-halite precipitations from Laguna Verde	", "keywords": "	Taxonomy, Metagenomic, microbial mats	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	7927	, "authors": "	Natalia Coutuouné, Sheila Nagamatsu, Juliana Velasco, Marcelo Falsarella Carazolle and Juliana José	", "tittle": "	Evolutive Islands: the comparative genomics of yeast for ethanol production in Brazil	", "keywords": "	Ethanol production, Comparative genomics, Saccharomyces cereviseae, Stress	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	8813	, "authors": "	Florencia Ivonne Rotharmel, Gustavo Angel Bich, Laura Lidia Villalba, Pedro Dario Zapata and Maria Lorena Castrillo	", "tittle": "	IN SILICO PROSPECTION OF THE swollenin GENE IN THE GENOME OF Trichoderma koningiopsis POS7	", "keywords": "	Gene mining, Biological control, Biostimulant, Fungi	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	8901	, "authors": "	Esmeralda Escobar Muciño, José Rivera Chávez and Jesús Israel Morales Jiménez	", "tittle": "	Bioinformatic search and in silico study of the Diels alderase and transcription activators related to the synthesis of cuautepestalorin in the genome assembly of Pestalotiopsis sp. IQ-011	", "keywords": "	Cuatepestalorin, Diels alderase, Genome assembly, Molecular docking, Pestalotiopsis sp. IQ-011.	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	9149	, "authors": "	Alejandra Gil-Ordóñez, Diana López-Álvarez and Andrés Castillo	", "tittle": "	Metagenomics of sedimentary prokaryotes through a salinity gradient in the Colombian Pacific	", "keywords": "	Archaea, Bacteria, Colombian marine metagenomics, Mangrove, Microbiome	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
 ];
 
 const rnas =[
-    {"number": 0274, 
-    "authors": "Francisca Rodríguez-Cabello, Bárbara Arévalo Ramos and Basilio Carrasco", 
-    "tittle": "Analysis of differential expression in the phaseolin gene in samples of Chilean and foreign Phaseolus vulgaris L. species", 
-    "keywords": "Bioinformatics, Phaseolin, Gene, Expression",
-    "poster": "poster.png",
-    "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
+    {"number":	274	, "authors": "	Francisca Rodríguez-Cabello, Bárbara Arévalo Ramos and Basilio Carrasco	", "tittle": "	Analysis of differential expression in the phaseolin gene in samples of Chilean and foreign Phaseolus vulgaris L. species.	", "keywords": "	Bioinformatics, Phaseolin, Gene, Expression	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	1738	, "authors": "	Andrea Pacheco De la Cruz and Julio Solis Sarmiento	", "tittle": "	In silico characterization of delta conglutins in Lupinus mutabilis(Sweet)	", "keywords": "	Lupinus mutabilis, lupin, conglutins, delta conglutin, bioinformatics	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	2435	, "authors": "	Luz Rosalina Tincopa Marca, Matthew Ronshaugen and Sam Griffiths-Jones	", "tittle": "	Pingpong signature is present in Parasteatoda tepidariorum embryo	", "keywords": "	transposon, piRNA, transposon annotation, expression, pingpong signature	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	3947	, "authors": "	Giovana Motta de Oliveira, Maria Fernanda Campanari, Marcelo Falsarella Carazzolle and Henrique Marques Barbosa de Souza	", "tittle": "	Prospecting for essential genes in Meloidogyne incognita through a multi-omic approach for silencing by RNAi	", "keywords": "	Transcriptomic, Genomic, Parasite	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	3977	, "authors": "	Heloise Cale da Rocha, Patricia Kubo Fontes, Marcella Pecora Milazzotto and Fernanda Almeida	", "tittle": "	Benchmark in bioinformatics: how to know the best analysis method for RNA sequencing analyzes	", "keywords": "	Bioinformatics, Worbench, RNA-sequencing, Multiple algorithms, Benchmark	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	4490	, "authors": "	Beatriz A. Picinato, Vinícius Franceschini-Santos, Lívia Zaramela, Ricardo Vêncio and Tie Koide	", "tittle": "	Comparative transcriptomics among archaea to search for circular RNAs	", "keywords": "	RNA-Seq, Archaea, Circular RNAs	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	8413	, "authors": "	Ester Muñoz del Campo, José Francisco Català-Senent and Francisco García-García	", "tittle": "	Identifying microRNA biomarkers in Multiple Sclerosis exhibiting a sex-related differential pattern	", "keywords": "	Multiple Sclerosis, microRNA, Meta-analysis, Sex diferences	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
 ];
 
 const phylogenyevolution =[
-    {"number": 1, 
-    "authors": "", 
-    "tittle": "", 
-    "keywords": "",
-    "poster": "poster.png",
-    "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
+    {"number":	609	, "authors": "	Marcela P. Barengo, Ernesto E. Alzaga, Gustavo A. Bich, Natalia S. Amerio, Pedro D. Zapata and Maria L. Castrillo	", "tittle": "	Phylogenetic analysis of ITS sequences in Escovopsis isolates from Misiones, in the framework of a polyphasic identification	", "keywords": "	Bioinformatics, E. catenulata, E. primorosea, Genbank	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	632	, "authors": "	Romina Micaela Zambrana Montaño, Mercedes Nabaes Jodar, Stephanie Goya, Dolores Acuña, Raúl Maximiliano Acevedo, Ariel Amadio, Betina Brusés, Santiago Ceballos, Humberto Debat, María Florencia Eberhardt, Ailén Fernández, Franco Fernández, Laura Formichelli, Fernando Gallego, Iván Gramundi, Matías Irazoqui, Guido König, Melina Lorenzini Campos, Horacio Lucero, Nathalie Marquez, Melina Mazzeo, Javier Mussin, Cristina Nardi, Griselda Oria, Julia Ousset, Luis Pianciola, Carolina Pintos, Andrea Puebla, Carolina Torres and Mariana Viegas	", "tittle": "	Evolution of SARS-CoV-2 Gamma variant during the second wave of the COVID-19 pandemic in Argentina	", "keywords": "	Viral evolution, SARS-CoV-2, Genomic surveillance, Lineage P.1, Gamma variant	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	1392	, "authors": "	Emanoelle La Santrer, Claudia Assunção, Edgar Aguiar and Rachel Basques Caligiorne	", "tittle": "	Two different approaches to the confidence intervals on phylogeny on SARS-CoV-2 Spike protein	", "keywords": "	Bioinformatics, SARS-CoV-2, Phylogeny, Confidence topology	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	2585	, "authors": "	Juliana Soares da Silva, Rodrigo Jardim and Nelson Kotowski	", "tittle": "	COMPARATIVE GENOMICS OF PATHOGENIC AND FREE-LIVING PROTOZOA	", "keywords": "	protozoa, free-living, bioinformatics, comparative genomics	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	5494	, "authors": "	Renata Biazzi, André Fujita and Daniel Y. Takahashi	", "tittle": "	Convergent evolution in silico reveals shape and dynamic principles of directed locomotion	", "keywords": "	morphological computation, evolutionary convergence, biological principles, evolutionary algorithms, soft robots	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	5621	, "authors": "	Anahi Tania Sanchez Leon, Selene Zarate and Martha Yopicucio	", "tittle": "	Effect of intra-subtype recombination on the evolution of env in HIV-1	", "keywords": "	recombination, hotspots, btreakpoints	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	5844	, "authors": "	Juliana Galhardo, Gonçalo A. G. Pereira and Juliana José	", "tittle": "	Exploring Saccharomycotina subphylum to enhance Saccharomyces cerevisiae performance on maltose consumption	", "keywords": "	Phylogenetic, Saccharomyces cerevisiae, Saccharomycotina, Bioethanol, Maltose consumption	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	6097	, "authors": "	Tania Tamara Pedrozo, Gustavo Bich, Laura Villalba, Pedro Zapata and María Lorena Castrillo	", "tittle": "	Molecular and phylogenetic identification of two native biocontrol isolates from Misiones province Clonostachys HEP 30 and Paecilomyces HEP 24	", "keywords": "	DNA extraction, ITS1 5.8S ITS2 region, Fungi, Databases, Monophyletic clade	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	9394	, "authors": "	Paula Cristina Andrade, Ighor Arantes, Amilcar Tanuri, Gonzalo Bello and Tiago Gräf	", "tittle": "	Characterization of HIV-1 Transmission clusters inferred from the Brazilian nation-wide genotyping service database	", "keywords": "	HIV-1, Transmission dynamics, Phylogenetic clusters, Brazil	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
 ];
 
 const proteins =[
-    {"number": 2, 
-    "authors": "", 
-    "tittle": "", 
-    "keywords": "",
-    "poster": "poster.png",
-    "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
+    {"number":	3223	, "authors": "	Beatiz Estevam, Danilo B. Rocha and Diego Mauricio Riaño-Pachón	", "tittle": "	Large scale genomic identification of CAZymes families involved in mannan and xylan degradation	", "keywords": "	Bioinformatics, Proteins and Proteomics, Phylogeny and Evolution, Biomolecular Simulations and Structural Bioinformatics	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	4435	, "authors": "	Ximena Aixa Castro Gonzalez, Silvana Apichela and Martín Eduardo Argañaraz	", "tittle": "	Proteomic analysis of elongated alpaca embryos	", "keywords": "	Proteome, Alpaca, Embryo, Pregnancy, Implantation	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	4455	, "authors": "	Macarena Alonso, Franco L Simonetti and Cristina Marino-Buslje	", "tittle": "	Protein-protein interaction analysis in membraneless organelles	", "keywords": "	Protein-protein interaction, Phase separation, Network analysis	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	5656	, "authors": "	Matias Carletti, Luciana Rodriguez Sawicki, Guillermo Benitez, Maria Silvina Fornasari, Nicolás Palopoli and Gustavo Parisi	", "tittle": "	Unveiling the origins of protein disorder using ancestral resurrection	", "keywords": "	resurrected proteins, Alphafold, disorder, evolution	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	5820	, "authors": "	Hanna Montserrat Tolosa Lerma, Eliakym Arámbula Meraz, Martín Irigoyen Arredondo, Enrique Romo Martínez, Paola Martínez Camberos, Fred Luque Ortega, Fernando Bergez Hernández, América Torres Moreno and Noemí García Magallanes	", "tittle": "	Analysis of the effect of mutations on structure in the enzyme G6PD related to deficiency in human.	", "keywords": "	Bioinformatics, G6PD, Mutations, Enzyme	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	9884	, "authors": "	Ana Julia Velez Rueda, Franco Leonardo Bulgarelli, Nicolás Palopoli and Gustavo Parisi	", "tittle": "	CaviDB: a database of proteins cavities features for structure-based drug design	", "keywords": "	DATABASE, PROTEINS, CAVITIES, DRUG DESIGN	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
 ];
 
 const simulationsstructural =[
-    {"number": 3, 
-    "authors": "", 
-    "tittle": "", 
-    "keywords": "",
-    "poster": "poster.png",
-    "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
+    {"number":	489	, "authors": " Leslie Mamani and Christian Solis-Calero	", "tittle": " Virtual screening on natural products from Peruvian biodiversity for discovering of G-protein-coupled receptor MAS ligands.	", "keywords": " MAS ligands, RAS system, Mitraphylline, Peruvians natural compounds, Molecular docking	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	865	, "authors": " Karla Araceli León García, Christian Adalid Martínez Rebollar, Marisol López Hidalgo, Darinka Pamela Durán Gutierrez and César Augusto Sandino Reyes López	", "tittle": " Virtual screening and docking analysis of Entamoeba histolytica enolase putative inhibitors	", "keywords": " Entamoeba histolytica, inhibitors, virtual screening, molecular docking	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	1255	, "authors": " Oluwatoyin Campbell and Viviana Monje-Galvan	", "tittle": " Lipid fingerprint in chronic viral infections: learning from simulations of the viroporin protein of Hepatitis C Virus (HCV)	", "keywords": " Membrane lipids, Protein-lipid interactions, Protein-mediated membrane remodeling, Computational Biophysics, Molecular dynamics	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	2247	, "authors": " Alejandra Rubinstein, Laura Lucas and Oscar Perez	", "tittle": " Structural analysis and modeling of the Cupin 1 domain present in the quinoa 11S globulin	", "keywords": " Bioinformatics, 11 S quinoa protein, cupin 1.	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	2523	, "authors": " Isabel Garcia-Pereira and Ariela Vergara-Jaque	", "tittle": " Identification of Integrins as Pharmacological Targets for Design of Therapies Against Colorectal Cancer.	", "keywords": " Bioinformatics, Colorectal Cancer, Integrins, Biomolecular Simulation, Peptide docking	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	3558	, "authors": " Hershna Patel	", "tittle": " Molecular simulations and virtual screening to investigate the structure and binding sites of the Influenza A virus Nuclear Export Protein	", "keywords": " Influenza A, Nuclear export protein, Molecular Dynamics Simulation	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	4428	, "authors": " Michelle C. Chirinos-Arias and Claudia P. Spampinato	", "tittle": " In silico analysis of MSH orthologous proteins of major agronomic crops	", "keywords": " MMR system, MSH, DNA repair, Cell Cycle	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	4648	, "authors": " Agostina B. Marquez, Priscila A. Lanza Castronuovo, Mariano Vera, Agustina Alaimo and Cybele C. García	", "tittle": " In silico study of the Aryl Hydrocarbon Receptor with natural compounds as an antiviral strategy against Zika virus	", "keywords": " Aryl Hydrocarbon Receptor, Homology modeling, Molecular docking, Molecular dynamics, Zika virus	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	7676	, "authors": " Abira Dey, Ruoya Li, Nathalie Larzat, Jean Bernard Idoipe and Ashwani Sharma	", "tittle": " PREDICTION OF ENDOCRINE DISRUPTION CHEMICAL PROPERTIES BY in – silico APPROACH	", "keywords": " Endocrine Disruption, Hormonal Disorder, Estrogen Receptors, Molecular Docking, Binding Energy	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	7824	, "authors": " Suparna Dey, Abira Dey, Ruoya Li, Nathalie Larzat, Jean Bernard Idoipe and Ashwani Sharma	", "tittle": " Affinity prediction and Understanding mechanism of Inhibition of FDA approved drugs on Hepatic Transporters BSEP and MRP2	", "keywords": " BSEP, MRP2, Drug inhibitors, Binding affinity, Molecular docking	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	8611	, "authors": " Javiera Baeza, Wendy Gonzalez and Oscar Cerda	", "tittle": " DESIGN OF INHIBITORY PEPTIDES BASED ON MOLECULAR MODELING OF THE TRPM4-KCTD5 INTERACTION	", "keywords": " TRPM4, KCTD5, Peptides, Cancer, Proteomics	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	9617	, "authors": " Darinka Pamela Durán Gutiérrez, José Luis Castrejón Flores and César Augusto Sandino Reyes López	", "tittle": " In Silico analysis of the impact of pathogenic variants in the interaction of a natural substrate and a synthetic substrate with the human alfa-L-iduronidase.	", "keywords": " IDUA, MPS I, Pathogenic variants, Molecular docking	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	8762	, "authors": "	María Clara Miserendino and Yaw Sing Tan	", "tittle": "	Unveiling the molecular mechanisms of coding variants associated with type 2 diabetes for precision medicine	", "keywords": "	Bioinformatics, Diabetes, Molecular dynamics, Precision medicine	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
 ];
 
 const bioinfoDiseases =[
-    {"number": 4, 
-    "authors": "", 
-    "tittle": "", 
-    "keywords": "",
-    "poster": "poster.png",
-    "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
+    {"number": 254 , "authors": " Helena Gómez-Martínez, Adolfo López Cerdán, Eva Hernando and Francisco García-García	", "tittle": " Novel computational strategies for the identification of a microRNA signature for diagnosis and prognosis in melanoma	", "keywords": " Melanoma, Microrna expression, Sex differences, Meta-analysis, Precision medicine	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 3465 , "authors": " Irene Soler Sáez, Zoraida Andreu Martínez, José Francisco Català-Senent, Rubén Grillo-Risco, Adolfo López-Cerdán, Almudena Neva-Alejo, Borja Gómez-Cabañes, Héctor Carceller, María de la Iglesia-Vayá, Marta R. Hidalgo and Francisco García-García	", "tittle": " Molecular and functional atlas of sex-differences in secondary-progressive multiple sclerosis: neurons characterization	", "keywords": " Bioinformatics, snRNA-seq, Multiple sclerosis, Sex bias, Precision medicine	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 3552 , "authors": " Alison Díaz-Cuevas, M. Fernanda Maldonado-Lira, Pamela D. Meza-Cruz and Claudia Gonzaga-Jauregui	", "tittle": " Bioinformatic analyses and comparison of multiple long-read whole genome assembly approaches of PacBio HiFi human sequence data.	", "keywords": " PacBio HiFi, Long-read sequencing, Genome Assembly, Variant Calling, WGS	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 3834 , "authors": " Jasbir Kaur Simak, Ashwani Sharma and Anshul Nigam	", "tittle": " Molecular Docking And Toxicity Analysis of FDA Approved Drugs And Plant Metabolites Against Potential Biomarkers To Target Human Hepatocellular Carcinoma	", "keywords": " Hepatocellular Carcinoma, Bromodomain and PHD finger containing 1, Transglutaminase 2	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 4343 , "authors": " Diana Paola Pacheco Verduzco, Alicia Rivera Cameras, Le Figuera, Asbiel Felipe Garibaldi Rios, María Guadalupe Márquez Rosales, Maria Teresa Magaña Torres, Guillermo Zuñiga González, Belinda Claudia Gómez Meda, Javier Ibarra, Eric Jonathan Maciel Cruz and Martha Patricia Gallegos Arreola	", "tittle": " Participation in molecular interaction nodes of rs140080026 in KRAS: Bioinformatics approach.	", "keywords": " Bioinformatics and diseases, molecular interaction nodes, KRAS gene	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 4400 , "authors": " Olga Rueda Lopez, Deborah J. Burks, Daniel González Camblor, Irene Soler-Sáez, José F. Català-Senent, Pablo Malmierca-Merlo, Francisco García-García and Amparo Galán	", "tittle": " Differential expression analysis of obesity markers and insulin resistance according to sex biological variable	", "keywords": " bioinformatics, obesity, insulin resistance, sex differences, precision medicine	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 4665 , "authors": " Carla Perpiñá-Clérigues, José F. Català-Senent, Susana Mellado, Consuelo Guerri, María Pascual and Francisco García-García	", "tittle": " Alcohol consumption affects the lipidome of extracellular vesicles: a sex-based difference study	", "keywords": " Lipidomics, Alcohol, Sex differences, Extracellular vesicles, Precision medicine	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 4945 , "authors": " Shankar Aissvarya, Manohar Arumugam, Ling King Hwa and Karuppiah Thilakavathy	", "tittle": " Identification of Differentially Expressed Genes in Dupuytren’s Contracture: A Study Based on Geo Datasets.	", "keywords": " Dupuytren’s contracture, Differentially expressed genes, Robust rank aggregation, Wnt signalling pathway	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 5173 , "authors": " Noor Haliza Mohamed Ibrahim, Zurina Zainudin, Amilia Afzan Mohd Jamil, Norshariza Nordin and Karuppiah Thilakavathy	", "tittle": " Analysis of Differentially Expressed Genes and Molecular Pathways in Spontaneous Preterm Birth: A Bioinformatics Approach	", "keywords": " Preterm birth, Differential gene expression, P value combination, Protein-protein interaction, Enrichment analysis	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 5264 , "authors": " Katia Avina Padilla and Mmaribel Hernandez-Rosales	", "tittle": " Multi-omics approaches to deep insight into the complex heterogeneity of cancer diseases: The search of Driver genes	", "keywords": " tumor microenvironment, biomarkers, intronless genes, complex networks, transcriptional reprogramming, complex diseases	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 5360 , "authors": " A. Paulina Pérez-González, Israel Aguilar Ordóñez and Enrique Morett Sanchez	", "tittle": " From genomic context to structural protein-based medicine	", "keywords": " WGS, native american population, genomic medicine, protein, Seri	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 5425 , "authors": " Cristina Galiana-Roselló, Rubén Grillo-Risco, José Francisco Català-Senent, Adolfo López-Cerdán, Isabel del Pino and Francisco García-García	", "tittle": " Transcriptome-based Drug Repurposing in Alzheimer's Disease: A Sex-tailored Analysis	", "keywords": " Drug repurposing, Alzheimer’s Disease, Transcriptome, Sex differences	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 5574 , "authors": " Christhy Massiell Campbell-Sánchez and Christian Solis-Calero	", "tittle": " Structure-based identification of potential Candida albicans malate synthase inhibitors from natural products of the South American biodiversity	", "keywords": " Malate synthase, Natural products, Multiscoring virtual screening, NuBBE database	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 5691 , "authors": " Sarra Akermi, Ashwani Sharma, Moufida Chaari, Khawla Elhadef and Mariam Fourati	", "tittle": " Antifungal properties and toxicity prediction of essential oil from Cupressus sempervirens against Candida albicans infection by using in silico approach	", "keywords": " Antifungal activity, Cupressus sempervirens EO, Toxicity assessment, Molecular docking	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 6439 , "authors": " Esmeralda Escobar Muciño and Esmeralda Escobar Muciño	", "tittle": " Molecular dynamic study for 1,3,7-trihydroxy-2,4-di-isoprenyl xanthone (TDX) and 6-Geranylnaringenin (6GNG) as competitive inhibitors of LasR a transcriptional regulator of Quorum Sensing in P. aeruginosa	", "keywords": " AHL binding domain, Inhibitor of Quorum Sensing, Molecular docking, Molecular dynamics, Quorum Sensing	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 6627 , "authors": " Andrea Ross Orozco, Noemí García Magallanes, Adrián González Castillo, Eliakym Arámbula Meraz, Armando Guarneros, Carlos Vázquez Chacon, Enrique Jhonatan Romo Martínez and Fred Luque Ortega	", "tittle": " Detection of mutations associated with bedaquiline resistance in Mycobacterium tuberculosis in Latin American countries	", "keywords": " bedaquiline, mutation, antibiotic resistance, MTB-ss, LATAM	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 6665 , "authors": " Sandra Arancibia-Opazo, J. Sebastián Contreras-Riquelme, Mario Sánchez, Alberto J.M. Martin and Mauricio Sáez-Venegas	", "tittle": " Study of the variation of the acetylation levels of H3K27 and transcriptional changes associated with CRE elements in the R 6/2 murine model of Huntington’s disease	", "keywords": " Bioinformatics, Huntington disease, cAMP response element binding protein, Gene Regulatory Networks	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 7190 , "authors": " Vitoria Zanon Gomes, Robinson Montes, Felipe Rodríguez Gaxiola, Paúl Alexis López-Durán, Matheus Carreira Andrade and Noemí García Magallanes	", "tittle": " Liponium: An algorithm for identification of discrete traits associated with Mycobacterium tuberculosis hetero-resistance and virulence	", "keywords": " Mycobacterium tuberculosis, Hetero-resistance, Algorithm, Detection	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 7255 , "authors": " Yocyny Surendran, Narcisse Mary Joseph, Syafinaz Binti Amin Nordin and Sandeep Kumar Dhanda	", "tittle": " T-cell Epitope Mapping of Outer Membrane Protein of Leptospira	", "keywords": " Leptospirosis, Vaccine candidate, T-cell Epitope Mapping, Conserved region, LipL46	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 7986 , "authors": " Vanessa Souza, Mariana Santesso, Sandra Linde and Patricia Reis	", "tittle": " Integrated Meta-Analysis of transcriptome identifies potential therapeutic targets in patients with Brain Metastasis from Lung Adenocarcinoma	", "keywords": " Brain metastasis, Lung cancer, Transcriptome, Biomarkers, Therapeutic targets	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 8555 , "authors": " Fernando Gordillo González, Jaime Llera Oyola, Irene Soler Saez, Marta R. Hidalgo, Zoraida Andreu, María de la Iglesia-Vayá, Héctor Carceller and Francisco García García	", "tittle": " Novel integration of single cell transcriptomics studies for the characterization of sex differences in Parkinson disease	", "keywords": " Bioinformatics, Sex differences, Omics integration, Parkinson, sc-RNAseq	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 8881 , "authors": " Jaime Llera Oyola, Zoraida Andreu, Irene Soler Sáez, Fernando Gordillo González, Héctor Carceller, María De la Iglesia Vayá, Marta R. Hidalgo and Francisco García García	", "tittle": " Sex-differences in Alzheimer’s disease: a meta-analysis of microRNA studies	", "keywords": " Alzheimer, MicroRNA, Transcriptomics, Sex-differences, Meta-analysis	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 9089 , "authors": " Arshita Jindal and Yashika Jindal	", "tittle": " Quantitative Structure-Activity Relationship and Molecular Modeling Studies on Inhibitors of Parkinson’s Disease-Associated Protein	", "keywords": " Parkinson's Disease, QSAR Molecular, Docking, ADME, Toxicity	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 9363 , "authors": " Daniela Picardi	", "tittle": " Monte Carlo simulation applied to human health risk analysis	", "keywords": " Bioinformatics, Environmental Science, Risk analysis, Montecarlo, Human health	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number": 9841 , "authors": " Tanmai Agasam, Anshul Nigam and Ashwani Sharma	", "tittle": " Designing of Antimicrobial compounds and finding their mechanism of inhibition on Pseudomonas aeruginosa by in-silico approach	", "keywords": " chronic obstructive pulmonary disease (COPD), antimicrobial compounds, VEGA QSAR	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
 ];
 
 const machinelearning =[
-    {"number": 5, 
-    "authors": "", 
-    "tittle": "", 
-    "keywords": "",
-    "poster": "poster.png",
-    "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
-];
-
-const miningBigData =[
-    {"number": 6, 
-    "authors": "", 
-    "tittle": "", 
-    "keywords": "",
-    "poster": "poster.png",
-    "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
+    {"number":	868	, "authors": "	Nethmi Wijesinghe, Nethmee Sellahewa and Rashmi Perera	", "tittle": "	Anomaly Detection in Image Streams with Explainable AI	", "keywords": "	Anomaly Detection, Explainable AI, Deep Learning, Machine Learning, Extreme Value Theory	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	4392	, "authors": "	Mariana S. Candamil-Cortés and Jorge W. Arboleda-Valencia	", "tittle": "	Calibration and implementation of a predictive computational harvest model for cacao quality improvement.	", "keywords": "	Machine Learning, Agricultural economics, Computer science, Biotechnology, Theobroma cacao	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	4941	, "authors": "	Fabiana Rodrigues de Góes	", "tittle": "	Feature extraction based on Complex Networks for classification of genomic sequences	", "keywords": "	DNA sequence classification, DNA pattern mining, machine learning, complex networks	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	9972	, "authors": "	Georgios Michoulis	", "tittle": "	Graph Embedding and Node Features for Drug Target Interaction: The GenGRAM-DTA Approach	", "keywords": "	Bioinformatics, Drug Discovery, Drug Target Interaction, Graph Neural Networks, Node Features	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
 ];
 
 const artInt =[
-    {"number": 7, 
-    "authors": "", 
-    "tittle": "", 
-    "keywords": "",
-    "poster": "poster.png",
-    "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
+    {"number":	5424,
+    "authors": "Arantxa Ortega Leon, María Inmaculada Rodríguez García, Daniel Urda and Ignacio Turias",
+    "tittle": "A classification approach to predict pathological MRI using clinical data of preterm infants",
+    "keywords": "Bioinformatics, Machine Learning, Artificial Intelligence in Health",
+    "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
 ];
 
 const systemsBiology =[
-    {"number": 8, 
-    "authors": "", 
-    "tittle": "", 
-    "keywords": "",
-    "poster": "poster.png",
-    "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
+    {"number":	1957	, "authors": "	Alexandra Russolo Cardelli, Gonçalo A. G. Pereira and Lucas Carvalho	", "tittle": "	Comparative transcriptomics for identification of key genes among xylose fermenting yeasts through interaction networks and co-expression analysis	", "keywords": "	Systems Biology, Genetics, Omics, Transcriptomics, Yeast, 2G, Ethanol	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	2433	, "authors": "	Paola Corbín Agustí, Arián Ferrero Fernández, María Castillo López, José Luis García López and Juli Peretó	", "tittle": "	Genome-scale metabolic model reconstruction of the xerotolerant bacteria Exiguobacterium sp. Helios	", "keywords": "	Bioinformatics, Systems Biology, Metabolic models, GEMRE	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	4476	, "authors": "	Victória Regina da Silva, Jordana Marina da Silva, Gabriela Rodrigues de Aguiar Leal, José Lucas Medeiros Mariz, Rhayanny Kethylly Pereira Santos, Rosana Pereira Nobre de Lima and Priscila Gubert	", "tittle": "	In silico analysis of immunological pathways from Multiple Sclerosis transcriptome reveals microglial damage induced by complement system	", "keywords": "	Multiple Sclerosis, Immune System, Pathways, System Biology, Bioinformatics	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	7288	, "authors": "	Zainab Muhammad Sani, Halima Sani Mamman, Asiya Aminu Mukhtar, Fatima Waziri Saleh, Suwaiba Auwalu Umar, Halima Musa Rabiu and Sani Ibrahim	", "tittle": "	Microbial diversity in dye-contaminated soil of Kofar Na’isa dyeing pit, Kano, Nigeria	", "keywords": "	Dye-contaminated Soil, Fungi, Bacteria, Microbial Population	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	8668	, "authors": "	Irene Roller Parodi and Christian Solis Calero	", "tittle": "	Drug perturbation of cross-talk between PI3K/Akt/mTOR and RTK/ERK signaling pathways via mathematical modeling	", "keywords": "	PI3K/Akt/mTOR signaling pathway, RTK/ERK signaling pathway, Drug responses, Mathematical modeling	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
 ];
 
 const databaseSoftware =[
-    {"number": 9, 
-    "authors": "", 
-    "tittle": "", 
-    "keywords": "",
-    "poster": "poster.png",
-    "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
+    {"number":	2587	, "authors": "	Daniela Senra, Nara Guisoni and Luis Diambra	", "tittle": "	A stemness score for single-cell RNA sequencing data using a protein-protein network as a scaffold	", "keywords": "	scRNA-seq, Stem cells, Entropy, PPI networks	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	7471	, "authors": "	Michelle C. Chirinos-Arias and Marcela Dotto	", "tittle": "	EURECA (Eukaryote DNA Repair Capacity) a web-platform with a database about indirect DNA repair systems in eukaryotes and bioinformatics tools	", "keywords": "	Database, DNA repair, BER, NER, MMR	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	8423	, "authors": "	Natalia Soriani Daleffi, Marcella Pecora Milazzotto and Fernanda Almeida	", "tittle": "	Bovine RNA-Seq Database: Modeling and Implementation	", "keywords": "	Bioinformatics, Database, RNA-Seq	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
 ];
 
 const education =[
-    {"number": 10, 
-    "authors": "", 
-    "tittle": "", 
-    "keywords": "",
-    "poster": "poster.png",
-    "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
+    {"number":	419	, "authors": "	Mia Danna Bazan Melendez	", "tittle": "	Women in Data Management: A review of clinical trials and health equity in Peruvian context	", "keywords": "	Women, Data Managemen, Clinical Trials, UNIDEC	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	9091	, "authors": "	Natalia Coutouné and Thayana Tavares	", "tittle": "	The PyLadies Bioinfo initiative: promoting bioinformatics among women	", "keywords": "	Bioinformatics, Python, Education, Inclusion	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	9531	, "authors": "	Michelle C. Chirinos-Arias and Alex Sánchez Yumbo	", "tittle": "	The “Cazadores de datos” series of “IGBM divulga” Podcasts as a tool for the communication of bioinformatics	", "keywords": "	Podcast, Bioinformatics, Science Communication, Education	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
+];
+
+const chemoinfo =[
+    {"number":	518	, "authors": "	Dayana Mesa Tejeda, Dayana Alonso, Anabel Villa Testa and Yamilet Coll	", "tittle": "	In silico and in vitro analysis of steroidal oximes esters as potential lung anticancer compounds	", "keywords": "	diosgenin analogs, oxime esters, molecular docking, lung cancer.	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	844	, "authors": "	Nerlis Pajaro-Castro, Elkin Torres and Edwar Cortes	", "tittle": "	Computational screening of imidazolones-type small molecule for the treatment of alzheimer's disease	", "keywords": "	Bioinformatics, Drug-like, Neurodegenerative	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	1648	, "authors": "	Cecilia L. Barbieri, Priscila A. Lanza Castronuovo, Jeronimo Laiolo, Maria Cecilia Carpinella, Constantinos Athanassopoulos and D. Mariano A Vera	", "tittle": "	Rational drug design applied to the search for candidates to reverse multidrug resistance mediated by P-Glycoprotein	", "keywords": "	Betulinic derivatives, Molecular docking, Molecular dynamics, Drug design	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	2567	, "authors": "	Yudibeth Sixto-López, José Antonio Gómez-Vidal and José Correa-Basurto	", "tittle": "	Development of HDAC inhibitors assisted by molecular dynamics simulation	", "keywords": "	HDAC, molecular dynamics simulations, molecular docking, drug discovery, parkinson disease	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	5589	, "authors": "	Daniela Flores, Dayana Alonso, Yamilet Coll and Armando Zaldo	", "tittle": "	The boc-protecting group enhances the potential agonist activity of amino acid-steroidal hybrids toward Toll-like receptor 2. A molecular docking simulation	", "keywords": "	hybrid molecules, steroidal derivatives, molecular docking.	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	7228	, "authors": "	Devyani Srivastava, Surabhi Johari, Nishu Sharma and Vanshika Tiwari	", "tittle": "	SCREENING OF PHYTOCONSTITUENTS OF MEDICINAL PLANTS BASED ON LIPINSKI RULE.	", "keywords": "	Aerva lanata, Amaranthaceae, canthin-6-one, Sesbania grandiflora l., Withania somnifera.	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	7877	, "authors": "	Andrea Sánchez, Maria Fernanda Hashimoto and Miguel Quiliano	", "tittle": "	Pharmacophore-Based Virtual Screening Toward the Discovery of potential inhibitors of Hepatitis B virus (HBV) capsid assembly	", "keywords": "	Pharmacophore, Virtual screening, Hepatitis B, Capsid inhibitors	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	8027	, "authors": "	Estefanía Peralta, Maximiliano J. Fallico and Carolina L. Bellera	", "tittle": "	Virtual screening applied to search for new antiepileptics drugs active in the PTZ kindling model	", "keywords": "	MACHINE LEARNING, VIRTUAL SCREENING, PTZ KINDLING, ANTIEPILEPTIC DRUG	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	9590	, "authors": "	Dayana Alonso, Daylin Fernández Pacheco, Yamilet Coll and Armando Zaldo	", "tittle": "	Synthesis of steroidal carbamates with potential plant growth-promoting activity.	", "keywords": "	brassinosteroid, brassinosteroid analogs, carbamates, molecular docking, plant-growth promoters.	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	9621	, "authors": "	Tábata Barbosa, Melissa Alegría-Arcos, Felipe Sepúlveda, Germán Combariza, Janet Gónzalez, Carmen Gil, Ana Martínez and David Ramírez	", "tittle": "	Network pharmacology reveals multitarget mechanism of action of drugs to be repurposed for COVID-19	", "keywords": "	Protein-protein interaction network, Protein-Drug Interaction Network, Drug repurposing, SARS-CoV-2, Network Pharmacology, Polypharmacology	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"},
+    {"number":	9947	, "authors": "	Sana Bougueroua, Dominique Barth and Marie-Pierre Gaigeot	", "tittle": "	Graph Theory for Molecular Dynamics simulations	", "keywords": "	Chemoinformatic, Graph Theory, Molecular Dynamics, Vibrational modes, Algorithms	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
 ];
 
 const searchDiv = createSearchSection();
 
 const posterSessionContent = $(`
     <div class="tracks">
+        <div>
+            <button class="track-header collapsible">
+                <h3>Bioinformatics and Diseases </h3>
+                <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
+            </button>
+            <div class=" content track" id="BioinformaticsDiseases"></div> 
+        </div>
         <div>
             <button class="track-header collapsible">
                 <h3>Genes and Genomics</h3>
@@ -149,10 +198,10 @@ const posterSessionContent = $(`
         </div>
         <div>
             <button class="track-header collapsible">
-                <h3>Bioinformatics and Diseases </h3>
+                <h3>Chemoinformatics and Drug Discovery</h3>
                 <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
             </button>
-            <div class=" content track" id="BioinformaticsDiseases"></div> 
+        <div class=" content track" id="Chemoinformatics"></div> 
         </div>
         <div>
             <button class="track-header collapsible">
@@ -160,13 +209,6 @@ const posterSessionContent = $(`
                 <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
             </button>
             <div class=" content track" id="MachineLearning"></div> 
-        </div>
-        <div>
-            <button class="track-header collapsible">
-                <h3>Data mining and Big Data Analysis</h3>
-                <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
-            </button>
-            <div class=" content track" id="MiningBigData"></div> 
         </div>
         <div>
             <button class="track-header collapsible">
@@ -241,8 +283,10 @@ posterSessionContent.appendTo(posterSection);
 //Create the content in each track
 let divPosters = document.getElementsByClassName("track");
 //Create array with the tracks dictionaries
-const dicts = [genesgenomics,rnas,phylogenyevolution,proteins,simulationsstructural,bioinfoDiseases,
-    machinelearning,miningBigData,artInt,systemsBiology,databaseSoftware,education]
+const dicts = [bioinfoDiseases,genesgenomics,rnas,
+    phylogenyevolution,proteins,simulationsstructural,
+    chemoinfo,machinelearning,artInt,
+    systemsBiology,databaseSoftware,education]
 posterButtonCreat(dicts, divPosters);
 
 // Click in the tracks to toggle between showing and hiding the collapsible content
