@@ -32,16 +32,30 @@ function renderProgramSection() {
                 <td>Transcriptomic immune cell states and how they influence genetic cis regulatory effects<br><br><b class="speakers-names">Maria Gutierrez-Arcelus (MX)</b></td>
             </tr>
             <tr>
-                <td>11:30 - 12:30</td>
-                <td colspan="2">Lightning talks</td>
+                <td rowspan="3">11:30 - 12:30</td>
+                <td rowspan="3">Lightning talks</td>
+                <td>Genomic differentiation of two Carménère clones cultivated in Chile<br><br><b class="speakers-names">Daniela Araya-Ortega (CL)</b></td>
+            </tr>
+            <tr>
+                <td>Study of the variation of the acetylation levels of H3K27 and transcriptional changes associated with CRE elements in the R 6/2 murine model of Huntington’s disease<br><br><b class="speakers-names">Sandra Arancibia-Opazo (CL)</b></td>
+            </tr>
+            <tr>
+                <td>Integrated Meta-Analysis of transcriptome identifies potential therapeutic targets in patients with Brain Metastasis from Lung Adenocarcinoma<br><br><b class="speakers-names">Vanessa Souza (BR)</b></td>
             </tr>
             <tr>
                 <td>12:30 - 13:20</td>
                 <td colspan="2">LUNCH</td>
             </tr>
             <tr>
-                <td>13:20 - 14:20</td>
-                <td colspan="2">Lightning talks</td>
+                <td rowspan="3">13:20 - 14:20</td>
+                <td rowspan="3">Lightning talks</td>
+                <td>Metagenomics of sedimentary prokaryotes through a salinity gradient in the Colombian Pacific<br><br><b class="speakers-names">Alejandra Gil-Ordóñez (CO)</b></td>
+            </tr>
+            <tr>
+                <td>Detection of mutations associated with bedaquiline resistance in Mycobacterium tuberculosis in Latin American countries<br><br><b class="speakers-names">Andrea Ross Orozco(CO)</b></td>
+            </tr>
+            <tr>
+                <td>TBA<br><br><b class="speakers-names">TBA</b></td>
             </tr>
             <tr>
                 <td>14:20 - 14:50</td>
@@ -86,16 +100,30 @@ function renderProgramSection() {
             <td>Hybrid methods for  Atomic level modeling of macromolecular complexes based on  Cryo-Electron Microscopy, and determination of their conformational dynamics and stability<br><br><b class="speakers-names">Ana Lígia Scott (BR)</b></td>
             </tr>
             <tr>
-                <td>11:30 - 12:30</td>
-                <td colspan="2">Lightning talks</td>
+                <td rowspan="3">11:30 - 12:30</td>
+                <td rowspan="3">Lightning talks</td>
+                <td>Molecular simulations and virtual screening to investigate the structure and binding sites of the Influenza A virus Nuclear Export Protein<br><br><b class="speakers-names">Hershna Patel (UK)</b></td>
+            </tr>
+            <tr>
+                <td>In Silico analysis of the impact of pathogenic variants in the interaction of a natural substrate and a synthetic substrate with the human alfa-L-iduronidase<br><br><b class="speakers-names">Darinka Gutiérrez (MX)</b></td>
+            </tr>
+            <tr>
+                <td>TBA<br><br><b class="speakers-names">TBA</b></td>
             </tr>
             <tr>
                 <td>12:30 - 13:20 </td>
                 <td colspan="2">LUNCH</td>
             </tr>
             <tr>
-                <td>13:20 - 14:20</td>
-                <td colspan="2">Lightning talks</td>
+                <td rowspan="3">13:20 - 14:20</td>
+                <td rowspan="3">Lightning talks</td>
+                <td>Design of inhibitory peptides based on molecular modeling of the TRPM4-KCTD5 interaction<br><br><b class="speakers-names">Javiera Baeza (CL)</b></td>
+            </tr>
+            <tr>
+                <td>CaviDB: a database of proteins cavities features for structure-based drug design<br><br><b class="speakers-names">Ana Julia Velez Rueda (AR)</b></td>
+            </tr>
+            <tr>
+                <td>Graph Theory for Molecular Dynamics simulations<br><br><b class="speakers-names">Sana Bougueroua (FR)</b></td>
             </tr>
             <tr>
                 <td>14:20 - 14:50</td>
@@ -139,16 +167,30 @@ function renderProgramSection() {
             <td>MicroAgrobiome - a comparative metagenomics platform applied to the crop microbiome <br><br> <b class="speakers-names">Nelly Sélem Mojica (MX)</b></td>
             </tr>
             <tr>
-            <td>11:30 - 12:30</td>
-            <td colspan="2">Lightning talks</td>
-        </tr>
+                <td rowspan="3">11:30 - 12:30</td>
+                <td rowspan="3">Lightning talks</td>
+                <td>Liponium: An algorithm for identification of discrete traits associated with Mycobacterium tuberculosis hetero-resistance and virulence<br><br><b class="speakers-names">Vitoria Zanon Gomes (BR)</b></td>
+            </tr>
+            <tr>
+                <td>A stemness score for single-cell RNA sequencing data using a protein-protein network as a scaffold<br><br><b class="speakers-names">Daniela Senra (AR)</b></td>
+            </tr>
+            <tr>
+                <td>Feature extraction based on Complex Networks for classification of genomic sequences<br><br><b class="speakers-names">Fabiana Rodrigues de Góes (BR)</b></td>
+            </tr>
         <tr>
             <td>12:30 - 13:20 </td>
             <td colspan="2">LUNCH</td>
         </tr>
         <tr>
-            <td>13:20 - 14:20</td>
-            <td colspan="2">Lightning talks</td>
+            <td rowspan="3">13:20 - 14:20</td>
+            <td rowspan="3">Lightning talks</td>
+            <td>Virtual screening applied to search for new antiepileptics drugs active in the PTZ kindling model<br><br><b class="speakers-names">Estefanía Peralta (AR)</b></td>
+        </tr>
+        <tr>
+            <td>Anomaly Detection in Image Streams with Explainable AI<br><br><b class="speakers-names">Rashmi Perera (LK)</b></td>
+        </tr>
+        <tr>
+            <td>Calibration and implementation of a predictive computational harvest model for cacao quality improvement<br><br><b class="speakers-names">Mariana S. Candamil-Cortés (CO)</b></td>
         </tr>
         <tr>
             <td>14:20 - 14:50</td>
