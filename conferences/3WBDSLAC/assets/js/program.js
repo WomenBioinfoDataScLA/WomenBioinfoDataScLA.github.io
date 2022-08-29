@@ -108,7 +108,7 @@ function renderProgramSection() {
                 <td>In Silico analysis of the impact of pathogenic variants in the interaction of a natural substrate and a synthetic substrate with the human alfa-L-iduronidase<br><br><b class="speakers-names">Darinka Gutiérrez (MX)</b></td>
             </tr>
             <tr>
-                <td>TBA<br><br><b class="speakers-names">TBA</b></td>
+                <td>Design of inhibitory peptides based on molecular modeling of the TRPM4-KCTD5 interaction<br><br><b class="speakers-names">Javiera Baeza (CL)</b></td>
             </tr>
             <tr>
                 <td>12:30 - 13:20 </td>
@@ -117,7 +117,7 @@ function renderProgramSection() {
             <tr>
                 <td rowspan="3">13:20 - 14:20</td>
                 <td rowspan="3">Lightning talks</td>
-                <td>Design of inhibitory peptides based on molecular modeling of the TRPM4-KCTD5 interaction<br><br><b class="speakers-names">Javiera Baeza (CL)</b></td>
+                <td>Lipid fingerprint in chronic viral infections: learning from simulations of the viroporin protein of Hepatitis C Virus (HCV)<br><br><b class="speakers-names"> Viviana Monje-Galvan (US)</b></td>
             </tr>
             <tr>
                 <td>CaviDB: a database of proteins cavities features for structure-based drug design<br><br><b class="speakers-names">Ana Julia Velez Rueda (AR)</b></td>
