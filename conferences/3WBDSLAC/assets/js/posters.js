@@ -150,7 +150,7 @@ const chemoinfo =[
     {"number":	9947	, "authors": "	Sana Bougueroua, Dominique Barth and Marie-Pierre Gaigeot	", "tittle": "	Graph Theory for Molecular Dynamics simulations	", "keywords": "	Chemoinformatic, Graph Theory, Molecular Dynamics, Vibrational modes, Algorithms	", "poster": "poster.png", "video": "https://www.youtube.com/embed/mzW5AAfuFMU"}
 ];
 
-const searchDiv = createSearchSection();
+//const searchDiv = createSearchSection();
 
 const posterSessionContent = $(`
     <div class="tracks">
@@ -242,7 +242,7 @@ const posterSessionContent = $(`
 `);
 
 //Generate Search section content
-searchDiv.appendTo(posterSection);
+//searchDiv.appendTo(posterSection);
 
 document.getElementById('search-input').addEventListener('keyup', function(e) {
     const input = searchInput();

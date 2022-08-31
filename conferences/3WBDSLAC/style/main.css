@@ -231,9 +231,11 @@ nav a:hover {
 }
 
 .banner-poster{
-    background-image: url("../assets/img/banner_postersession.png");
+    margin-top: 30px;
+    background-image: url("../assets/img/banner_postersession2.png");
     background-size: cover;
     background-position: center;
+    height: 22vw;
 }
 
 .h1-en{
@@ -967,6 +969,11 @@ address {
     border-radius: 20%;
     margin-top: -12%;
     margin-left: 40%;
+}
+
+.title-postersession{
+    color: #FFFFFF;
+    margin-top: 7vw;
 }
 
 .tracks {
