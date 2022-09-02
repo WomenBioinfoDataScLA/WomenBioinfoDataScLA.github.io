@@ -55,7 +55,7 @@ function renderProgramSection() {
                 <td>Detection of mutations associated with bedaquiline resistance in Mycobacterium tuberculosis in Latin American countries<br><br><b class="speakers-names">Andrea Ross Orozco(CO)</b></td>
             </tr>
             <tr>
-                <td>TBA<br><br><b class="speakers-names">TBA</b></td>
+                <td>Evolutive Islands: the comparative genomics of yeast for ethanol production in Brazil<br><br><b class="speakers-names">Natalia Coutuouné (BR)</b></td>
             </tr>
             <tr>
                 <td>14:20 - 14:50</td>
