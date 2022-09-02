@@ -85,7 +85,7 @@ input {
     width: 347px;
     text-align: center;
     color: #5cc6d0;
-    border: 3px solid #5cc6d0;
+    border: 3px solid lightgray;
     margin-top: 25px;
     margin-bottom: 30px;
 }
