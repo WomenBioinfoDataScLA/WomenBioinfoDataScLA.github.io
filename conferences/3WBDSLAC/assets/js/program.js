@@ -187,7 +187,7 @@ function renderProgramSection() {
             <td>Virtual screening applied to search for new antiepileptics drugs active in the PTZ kindling model<br><br><b class="speakers-names">Estefanía Peralta (AR)</b></td>
         </tr>
         <tr>
-            <td>Anomaly Detection in Image Streams with Explainable AI<br><br><b class="speakers-names">Rashmi Perera (LK)</b></td>
+            <td>Anomaly Detection in Image Streams with Explainable AI<br><br><b class="speakers-names">Nethmi Wijesinghe (LK)</b></td>
         </tr>
         <tr>
             <td>Calibration and implementation of a predictive computational harvest model for cacao quality improvement<br><br><b class="speakers-names">Mariana S. Candamil-Cortés (CO)</b></td>
