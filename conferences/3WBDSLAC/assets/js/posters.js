@@ -212,13 +212,6 @@ const posterSessionContent = $(`
         </div>
         <div>
             <button class="track-header collapsible">
-                <h3>Artificial Intelligence in Health</h3>
-                <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
-            </button>
-            <div class=" content track" id="ArtInt"></div> 
-        </div>
-        <div>
-            <button class="track-header collapsible">
                 <h3>Systems Biology</h3>
                 <img class="arrow" alt="" src="./assets/icon/plantarrow2.png">
             </button>
@@ -285,7 +278,7 @@ let divPosters = document.getElementsByClassName("track");
 //Create array with the tracks dictionaries
 const dicts = [bioinfoDiseases,genesgenomics,rnas,
     phylogenyevolution,proteins,simulationsstructural,
-    chemoinfo,machinelearning,artInt,
+    chemoinfo,machinelearning,
     systemsBiology,databaseSoftware,education]
 posterButtonCreat(dicts, divPosters);
 

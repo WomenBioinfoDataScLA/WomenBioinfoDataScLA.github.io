@@ -128,7 +128,7 @@ function renderProgramSection() {
             <tr>
                 <td>14:20 - 14:50</td>
                 <td>Keynote Speaker</td>
-                <td><b class="speakers-names">Nuria E. Campillo (ES)</b></td>
+                <td><b class="speakers-names">Nuria E. Campillo (ES) - CANCELLED</b></td>
             </tr>
             <tr >
                 <td colspan="3">
