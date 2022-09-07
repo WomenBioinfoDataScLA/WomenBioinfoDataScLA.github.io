@@ -10,6 +10,9 @@
     .wshop-button{
         width: 14em;
     }
+    .titleposters h4 {
+        font-size: 1.2em;
+    }
 
 }
 
@@ -50,6 +53,15 @@
     .authors-list {
         font-size: 1.3em;
     }
+    .title-postersession {
+        font-size: 4em;
+        margin-top: 6vw;
+    }
+    input {
+        margin-top: 30px;
+        height: 70px;
+        width: 540px;
+    }
 }
 
 @media screen and (min-width: 1631px) and (max-width: 1899px){
@@ -69,6 +81,15 @@
     .name{
         margin-bottom: 10px;
     }
+    .title-postersession {
+        font-size: 3.7em;
+        margin-top: 6vw;
+    }
+    input {
+        margin-top: 10px;
+        height: 58px;
+        width: 470px;
+    }
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1630px){
@@ -82,11 +103,38 @@
     .authors-list{
         font-size: 1.3em;
     }
+    .title-postersession {
+        font-size: 3.5em;
+        margin-top: 6vw;
+    }
+    input {
+        margin-top: 10px;
+        height: 58px;
+        width: 470px;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1399px){
+    .tracks h3 {
+        font-size: 1.7em;
+    }
+    .titleposters h4 {
+        font-size: .85em;
+    }
+    .authors-list {
+        font-size: 1.05em;
+    }
 }
 
 @media screen and (min-width: 1051px) and (max-width: 1399px){
-    .authors-list{
-        font-size: 1.2em;
+    .title-postersession {
+        font-size: 3em;
+        margin-top: 6vw;
+    }
+    input {
+        margin-top: 10px;
+        height: 50px;
+        width: 355px;
     }
 }
 
@@ -128,11 +176,15 @@
     .workshops-section img {
         width: 40vw;
     }
-    .authors-list{
-        font-size: 1.3em;
-    }
     .wshop-button {
         width: 11em;
+    }
+    .title-postersession {
+        font-size: 2em;
+        margin-top: 6vw;
+    }
+    input {
+        margin-top: 10px;
     }
 }
 
@@ -378,15 +430,29 @@
         align-items: center;
         margin-bottom: 1vw;
     }
-    .authors-list{
-        font-size: 1.4em;
-    }
     .video-frame{
         width: 60vw;
         height: 35vw;
+        margin-bottom: 2vw;
+    }
+    .tracks h3 {
+        font-size: 1.6em;
+    }
+    .titleposters h4 {
+        font-size: .8em;
+    }
+    .authors-list {
+        font-size: 1em;
     }
     .wshop-button {
         width: 10em;
+    }
+    .title-postersession {
+        font-size: 1.6em;
+        margin-top: 4vw;
+    }
+    input {
+        margin-top: 6px;
     }
 }
 
@@ -490,6 +556,23 @@
     }
     .button{
         width: 36vw;
+    }
+    .tracks h3 {
+        font-size: 1.4em;
+    }
+    .titleposters h4 {
+        font-size: .8em;
+        margin-top: 1.5vw;
+    }
+    .authors-list {
+        font-size: 1em;
+    }
+    .title-postersession {
+        font-size: 1.4em;
+        margin-top: 4vw;
+    }
+    input {
+        margin-top: 6px;
     }
 }
 
