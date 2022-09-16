@@ -52,7 +52,7 @@ function renderProgramSection() {
                 <td>Metagenomics of sedimentary prokaryotes through a salinity gradient in the Colombian Pacific<br><br><b class="speakers-names">Alejandra Gil-Ordóñez (CO)</b></td>
             </tr>
             <tr>
-                <td>Detection of mutations associated with bedaquiline resistance in Mycobacterium tuberculosis in Latin American countries<br><br><b class="speakers-names">Andrea Ross Orozco (CO)</b></td>
+                <td>Detection of mutations associated with bedaquiline resistance in Mycobacterium tuberculosis in Latin American countries<br><br><b class="speakers-names">Andrea Ross Orozco (MX)</b></td>
             </tr>
             <tr>
                 <td>Evolutive Islands: the comparative genomics of yeast for ethanol production in Brazil<br><br><b class="speakers-names">Natalia Coutuouné (BR)</b></td>
