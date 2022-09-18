@@ -1050,6 +1050,7 @@ address {
     flex-direction: row;
     align-items: baseline;
     cursor: pointer;
+    gap: 6px;
 }
 
 .collapsible+.content {
