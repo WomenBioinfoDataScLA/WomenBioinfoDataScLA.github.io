@@ -576,3 +576,8 @@
     }
 }
 
+@media screen and (max-width:550px) {
+    .banner-poster {
+        height: 32vw;
+    }
+}
