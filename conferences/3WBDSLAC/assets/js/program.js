@@ -164,7 +164,7 @@ function renderProgramSection() {
             <tr>
             <td>11:00 - 11:30</td>
             <td>Keynote Speaker</td>
-            <td>MicroAgrobiome - a comparative metagenomics platform applied to the crop microbiome <br><br> <b class="speakers-names">Nelly Sélem Mojica (MX)</b></td>
+            <td><b class="speakers-names">Margarita Sordo (MX)</b></td>
             </tr>
             <tr>
                 <td rowspan="3">11:30 - 12:30</td>
@@ -195,7 +195,7 @@ function renderProgramSection() {
         <tr>
             <td>14:20 - 14:50</td>
             <td>Keynote Speaker</td>
-            <td><b class="speakers-names">Margarita Sordo (MX)</b></td>
+            <td>MicroAgrobiome - a comparative metagenomics platform applied to the crop microbiome <br><br> <b class="speakers-names">Nelly Sélem Mojica (MX)</b></td>
         </tr>
         <tr>
             <td colspan="3">
