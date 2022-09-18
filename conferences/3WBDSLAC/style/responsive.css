@@ -580,4 +580,10 @@
     .banner-poster {
         height: 32vw;
     }
+    address {
+        font-size: 0.9em;
+    }
+    footer {
+        justify-content: center;
+    }
 }
