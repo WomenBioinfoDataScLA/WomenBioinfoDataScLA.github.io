@@ -164,7 +164,7 @@ function renderProgramSection() {
             <tr>
             <td>11:00 - 11:30</td>
             <td>Keynote Speaker</td>
-            <td><b class="speakers-names">Margarita Sordo (MX)</b></td>
+            <td>Knowledge-Based AI to support the Practice of Medicine <br><br> <b class="speakers-names">Margarita Sordo (MX)</b></td>
             </tr>
             <tr>
                 <td rowspan="3">11:30 - 12:30</td>
