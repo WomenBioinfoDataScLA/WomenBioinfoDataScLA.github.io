@@ -247,6 +247,10 @@ function renderProgramSection() {
                 <td>16:30 - 18:30</td>
                 <td colspan="2">Gender & Science Conversatory</td>
             </tr>
+            <tr>
+            <td>18:30 - 19:00</td>
+            <td colspan="2">Final Remarks and Awards Ceremony</td>
+            </tr>
             <tr class="prog-tracks" >
                 <td colspan="3">
                     <a href="https://wikimedia.org.ar/" target="_blank"><img src="assets/img/logos/wiki_arg.png" alt="wikimedia AR" id="wiki-arg"></a>
