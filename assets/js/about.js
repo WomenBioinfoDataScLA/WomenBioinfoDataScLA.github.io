@@ -13,16 +13,20 @@ const Advisors = [
 ];
 
 const Members = [
-    { "name": "Celeste Grimolizzi", 'img': 'celeste.jpg', "filiation": "3IA-IIIA CONICET UNSAM, Argentina"},
     { "name": "Lucía Guerrero García", 'img': 'lucia.jpg', "filiation": "GIBBS - UNAL, Colombia" },
     { "name": "Letícia Ferreira Lima", 'img':'leticia.jpg', "filiation":"Fundação Oswaldo Cruz - Rio de Janeiro, Brazil"},
-    { "name": "Lucy Jiménez", "img": 'lucy.jpeg', "filiation": "Pontificia Universidad Javeriana, Colombia" },
+    { "name": "Carolina Kurotusch Canettieri", 'img':'caroline.jpg', "filiation":"Bachelor of Biology - UFG, Brazil"},
     { "name": "Thayana Vieira Tavares", 'img':'Thayana.jpg', "filiation":"Universidade Federal de São Carlos(UFSCar) - São Paulo, Brazil"},
     { "name": "Clara Cerqueira Matos", 'img':'Clara.jpg', "filiation":"Bahia, Brazil"},
     { "name": "Sindy Licette Piñero", 'img':'Sindy.jpg', "filiation":"Oxiteno S. A. Industria e Comércio, Brazil"},
-    { "name": "Brenda Cabrera Mendoza", 'img':'Brenda_Cabrera.jpg', "filiation":"Yale University, Mexico"},
-    { "name": "Carolina Kurotusch Canettieri", 'img':'caroline.jpg', "filiation":"Bachelor of Biology - UFG, Brazil"},
-    { "name": "Karla Ruiz", 'img':'karla.jpg', "filiation":"Early Stage Researcher - Mexico"}
+    { "name": "Karla Ruiz", 'img':'karla.jpg', "filiation":"Early Stage Researcher - Mexico"},
+    { "name": "Brenda Cabrera Mendoza", 'img':'Brenda_Cabrera.jpg', "filiation":"Yale University, Mexico"}
+];
+
+const FormingMembers = [
+    { "name": "Celeste Grimolizzi", 'img': 'celeste.jpg', "filiation": "3IA-IIIA CONICET UNSAM, Argentina"},
+    { "name": "Lucy Jiménez", "img": 'lucy.jpeg', "filiation": "Pontificia Universidad Javeriana, Colombia" },
+    { "name": "Agustina Nardo", "img": 'Agus2.jpg', "filiation": "Universidad Nacional de La Plata, Argentina" }
 ];
 
 
@@ -35,19 +39,28 @@ function renderWeSection(){
     const AdvisorsTitle = document.createElement('h2');
     const AdvisorsList = document.createElement('ul');
     const TitleDivMembers = document.createElement('div');
+    const TitleDivFormingMembers = document.createElement('div');
+
     const MembersTitle = document.createElement('h2');
     const MembersList = document.createElement('ul');
+    const FormingMembersTitle = document.createElement('h2');
+    const FormingMembersList = document.createElement('ul');
     const span1 = document.createElement('span');
     const span2 = document.createElement('span');
     const span3 = document.createElement('span');
+    const span4 = document.createElement('span');
+
 
     TitleDivCoordinators.className = "title-div"
     TitleDivMembers.className = "title-div"
     TitleDivAdvisors.className = "title-div"
+    TitleDivFormingMembers.className = "title-div"
 
     span1.className = "underline"
     span2.className = "underline"
     span3.className = "underline"
+    span4.className = "underline"
+
     
     CoordinatorsTitle.innerHTML = "General Coordinators";
     CoordinatorsTitle.id ="coordinators-title";
@@ -133,6 +146,34 @@ function renderWeSection(){
         AdvisorsList.appendChild(li);
     });
 
+    FormingMembersTitle.innerHTML = "Former Contributors";
+    FormingMembersTitle.id ="members-title";
+    FormingMembersList.className = "memberslist";
+    
+    FormingMembers.forEach(element => {
+        const li = document.createElement('li');
+        const figure =  document.createElement('figure');
+        const img =  document.createElement('img');
+        const figcappurple =  document.createElement('figcapture');
+        const figcapgray =  document.createElement('figcapture');
+        
+        figure.className = "member";
+        figcappurple.className = "name";
+        
+        img.src = "assets/img/" + element.img;
+        img.alt = element.name + "-img";
+        figcappurple.innerHTML = element.name;
+        figcapgray.innerHTML = element.filiation;
+        
+        
+        figure.appendChild(img);
+        figure.appendChild(figcappurple);
+        figure.appendChild(figcapgray);
+        
+        li.appendChild(figure);
+        FormingMembersList.appendChild(li);
+    });
+
     TitleDivCoordinators.appendChild(CoordinatorsTitle);
     TitleDivCoordinators.appendChild(span1);
 
@@ -150,6 +191,13 @@ function renderWeSection(){
 
     weSection.appendChild(TitleDivAdvisors);
     weSection.appendChild(AdvisorsList);
+
+
+    TitleDivFormingMembers.appendChild(FormingMembersTitle);
+    TitleDivFormingMembers.appendChild(span4);
+
+    weSection.appendChild(TitleDivFormingMembers);
+    weSection.appendChild(FormingMembersList);
 }
 
 function renderPortugueseAbout() {  
