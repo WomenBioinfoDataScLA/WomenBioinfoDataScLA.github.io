@@ -147,7 +147,7 @@ function renderWeSection(){
     });
 
     FormingMembersTitle.innerHTML = "Former Contributors";
-    FormingMembersTitle.id ="members-title";
+    FormingMembersTitle.id ="forming-members-title";
     FormingMembersList.className = "memberslist";
     
     FormingMembers.forEach(element => {
@@ -211,9 +211,13 @@ function renderPortugueseAbout() {
 function renderSpanishAbout() {  
     const coordinatorsTitle =  document.getElementById('coordinators-title')
     const membersTitle =  document.getElementById('members-title')
+    const advisoryTitle =  document.getElementById('advisors-title')
+    const FormingMembersTitle =  document.getElementById('forming-members-title')
 
     coordinatorsTitle.innerHTML = "Coordinadoras generales";
     membersTitle.innerHTML = "Equipo"
+    advisoryTitle.innerHTML = "Asesoras";
+    FormingMembersTitle.innerHTML = "Colaboraron con WBDS LA"
 }
 
 window.onload = function() {
