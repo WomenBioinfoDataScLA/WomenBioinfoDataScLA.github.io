@@ -83,6 +83,9 @@
         width: 287px;
         height: 162px;
     }
+    .invisible-on-phone{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 400px) and (max-width: 650px){

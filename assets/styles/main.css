@@ -415,14 +415,8 @@ a.orangehex:active {
     transform: translateY(3px);
 }
 
-.projects .whitehex,
-.projects .orangehex {
-    display: none;
-}
-
-.projects .orangehex h2 {
-    color: #ffffff;
-    margin: 0 -8px;
+.projects .whitehex{
+    background-color: white;
 }
 
 .projects a:nth-child(2n) {
