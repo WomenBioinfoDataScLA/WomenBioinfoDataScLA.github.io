@@ -203,9 +203,13 @@ function renderWeSection(){
 function renderPortugueseAbout() {  
     const coordinatorsTitle =  document.getElementById('coordinators-title')
     const membersTitle =  document.getElementById('members-title')
-
+    const advisoryTitle =  document.getElementById('advisors-title')
+    const FormingMembersTitle =  document.getElementById('forming-members-title')
+    
     coordinatorsTitle.innerHTML = "Coordenadoras Gerais";
     membersTitle.innerHTML = "Equipe"
+    advisoryTitle.innerHTML = "Conselheiras";
+    FormingMembersTitle.innerHTML = "Colaboraram com a WBDS LA"
 }
 
 function renderSpanishAbout() {  

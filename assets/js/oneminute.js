@@ -73,7 +73,9 @@ function renderOneMinuteSection(){
                     in Argentina. Her work focuses on the study of viral evolution, investigating diversification 
                     patterns and their relationship with biological, clinical, ecological and historical factors.
                 </p>
-                <img src="assets/img/one-minute/Carolina.png">
+                <a href="https://youtu.be/sSMbb-bD2Rw" target="_blank">
+                    <img src="assets/img/one-minute/Carolina.png">
+                </a>
             </div>
             <div>
                 <p>
@@ -81,7 +83,9 @@ function renderOneMinuteSection(){
                     Pilar is Doctor in Physics and Chemistry of Biological Systems, with Postdoctorate in the Max Planck Tandem 
                     group and NIH. She is a professor at the Universidad de Antioquia.
                 </p>
-                <img src="assets/img/one-minute/Pilar.png">
+                <a href="https://youtu.be/yu5T-NSnCeo" target="_blank">
+                    <img src="assets/img/one-minute/Pilar.png">
+                </a>
             </div>
             <div>
                 <p>
@@ -90,7 +94,9 @@ function renderOneMinuteSection(){
                     Her work involves sequencing bacterial genomes and investigating metabolic and regulatory 
                     networks of resistance-related genes.
                 </p>
-                <img src="assets/img/one-minute/Marisa.png">
+                <a href="https://youtu.be/RIk_dvoqtG8" target="_blank">
+                    <img src="assets/img/one-minute/Marisa.png">
+                </a>
             </div>
         </div>
     </section>
@@ -136,7 +142,9 @@ function renderPortugueseOneMinute() {
                     professora do Departamento de Estatística. Seu trabalho se concentra no desenvolvimento e aplicação
                     de métodos estatísticos para compreender sistemas biológicos.
                 </p>
-                <img src="assets/img/one-minute/Liliana.png">
+                <a href="https://youtu.be/-ypIwHAq7G8" target="_blank">
+                    <img src="assets/img/one-minute/Liliana.png">
+                </a>
             </div>
             <div>
                 <p>
@@ -145,7 +153,9 @@ function renderPortugueseOneMinute() {
                     Departamento de Bioinformática. Seu trabalho se concentra no desenvolvimento de drogas que se ligam a mais de
                     uma proteína.
                 </p>
-                <img src="assets/img/one-minute/Wendy.png">
+                <a href="https://youtu.be/BvPTlMmc7y8" target="_blank">
+                    <img src="assets/img/one-minute/Wendy.png">
+                </a>
             </div>
             <div>
                 <p>
@@ -153,7 +163,9 @@ function renderPortugueseOneMinute() {
                     Cristina é cientista da Fundação Instituto Leloir, em Buenos Aires, Argentina. Fundadora
                     da Associação Argentina de Bioinformática e Biologia Computacional.
                 </p>
-                <img src="assets/img/one-minute/Cristina.png">
+                <a href="https://youtu.be/MG9_VHCyPYA" target="_blank">
+                    <img src="assets/img/one-minute/Cristina.png">
+                </a>
             </div>
             <div>
                 <p>
@@ -162,7 +174,9 @@ function renderPortugueseOneMinute() {
                     na Argentina. Seu trabalho se concentra no estudo da evolução viral, investigando padrões de diversificação e 
                     sua relação com fatores biológicos, clínicos, ecológicos e históricos.
                 </p>
-                <img src="assets/img/one-minute/Carolina.png">
+                <a href="https://youtu.be/sSMbb-bD2Rw" target="_blank">
+                    <img src="assets/img/one-minute/Carolina.png">
+                </a>
             </div>
             <div>
                 <p>
@@ -170,7 +184,9 @@ function renderPortugueseOneMinute() {
                     Pilar é Doutora em Física e Química de Sistemas Biológicos, com Pós-doutorado no grupo Max Planck Tandem e NIH. 
                     Também é professora da Universidad de Antioquia.
                 </p>
-                <img src="assets/img/one-minute/Pilar.png">
+                <a href="https://youtu.be/yu5T-NSnCeo" target="_blank">
+                    <img src="assets/img/one-minute/Pilar.png">
+                </a>
             </div>
             <div>
                 <p>
@@ -179,7 +195,9 @@ function renderPortugueseOneMinute() {
                     sequenciamento de genomas bacterianos e a investigação de redes metabólicas e regulatórias de genes relacionados à 
                     resistência.
                 </p>
-                <img src="assets/img/one-minute/Marisa.png">
+                <a href="https://youtu.be/RIk_dvoqtG8" target="_blank">
+                    <img src="assets/img/one-minute/Marisa.png">
+                </a>
             </div>
         </div>
     </section>
@@ -223,7 +241,9 @@ function renderSpanishOneMinute() {
                     departamento de Estadística. Su trabajo se centra en el desarrollo y la aplicación de métodos estadísticos 
                     para comprender los sistemas biológicos.
                 </p>
-                <img src="assets/img/one-minute/Liliana.png">
+                <a href="https://youtu.be/-ypIwHAq7G8" target="_blank">
+                    <img src="assets/img/one-minute/Liliana.png">
+                </a>
             </div>
             <div>
                 <p>
@@ -232,7 +252,9 @@ function renderSpanishOneMinute() {
                     Departamento de Bioinformática. Su trabajo se centra en el desarrollo de fármacos que se unen a más de
                     una proteína.
                 </p>
-                <img src="assets/img/one-minute/Wendy.png">
+                <a href="https://youtu.be/BvPTlMmc7y8" target="_blank">
+                    <img src="assets/img/one-minute/Wendy.png">
+                </a>
             </div>
             <div>
                 <p>
@@ -240,7 +262,9 @@ function renderSpanishOneMinute() {
                     Cristina es científica de la Fundación Instituto Leloir, en Buenos Aires, Argentina. Fundador
                     de la Asociación Argentina de Bioinformática y Biología Computacional.
                 </p>
-                <img src="assets/img/one-minute/Cristina.png">
+                <a href="https://youtu.be/MG9_VHCyPYA" target="_blank">
+                    <img src="assets/img/one-minute/Cristina.png">
+                </a>
             </div>
             <div>
                 <p>
@@ -249,7 +273,9 @@ function renderSpanishOneMinute() {
                     en Argentina. Su trabajo se centra en el estudio de la evolución viral, investigando la diversificación de
                     patrones y su relación con factores biológicos, clínicos, ecológicos e históricos.
                 </p>
-                <img src="assets/img/one-minute/Carolina.png">
+                <a href="https://youtu.be/sSMbb-bD2Rw" target="_blank">
+                    <img src="assets/img/one-minute/Carolina.png">
+                </a>
             </div>
             <div>
                 <p>
@@ -257,7 +283,9 @@ function renderSpanishOneMinute() {
                     Pilar es Doctora en Física y Química de Sistemas Biológicos, con Postdoctorados en el grupo Max Planck Tandem y NIH. 
                     Es profesora de la Universidad de Antioquia.
                 </p>
-                <img src="assets/img/one-minute/Pilar.png">
+                <a href="https://youtu.be/yu5T-NSnCeo" target="_blank">
+                    <img src="assets/img/one-minute/Pilar.png">
+                </a>
             </div>
             <div>
                 <p>
@@ -266,7 +294,9 @@ function renderSpanishOneMinute() {
                     Su trabajo implica la secuenciación de los genomas bacterianos y la investigación del metabolismo y regulación de
                     redes de genes relacionados con la resistencia a antibioticos.
                 </p>
-                <img src="assets/img/one-minute/Marisa.png">
+                <a href="https://youtu.be/RIk_dvoqtG8" target="_blank">
+                    <img src="assets/img/one-minute/Marisa.png">
+                </a>
             </div>
         </div>
     </section>

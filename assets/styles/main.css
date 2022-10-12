@@ -769,3 +769,7 @@ address {
     width: 560px;
     height: 315px;
 }
+
+.camp-description{
+    margin-bottom: 35px;
+}

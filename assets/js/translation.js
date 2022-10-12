@@ -3,8 +3,6 @@ const aboutButton  = document.getElementById('about-button');
 const weButton = document.getElementById('about-button');
 const conductButton = document.getElementById('conduct-button');
 const whoweareButton = document.getElementById('whoweare-button'); 
-
-
 const projectsButton = document.getElementById('projects-button');
 const supportButton = document.getElementById('support-button');
 const contactButton = document.getElementById('contact-button');
