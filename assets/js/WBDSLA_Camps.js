@@ -11,7 +11,7 @@ function renderPortugueseCamp() {
     <p>O <span class="highlighted-text">WBDS LA Camp</span> é um treinamento intensivo gratuito para estudantes de
      graduação e pós-graduação com interesse em aprender Bioinformática e
     Ciência de Dados do zero.</p>
-    <a href="#" target="_blank" class="button">Registre-se</a>`
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-3cAGCsoEkBttB21x5I4BfCBdBfPsCTUD7qnesuPUkgkCoQ/viewform" target="_blank" class="button">Registre-se</a>`
     termsText.innerHTML=`
     <p>Com o objetivo de reduzir a disparidade de gênero nas áreas de Bioinformática e Ciência de Dados, o <a href="#" target="_blank"><span class="highlighted-text">1º WBDS LA Camp</span></a> "Introdução a Bioinformática and Ciência de Dados" está sendo organizado pelo WBDS LA.
     Este evento tem o objetivo de oferecer uma formação que proporcione as ferramentas necessárias para que as pessoas participantes 
@@ -30,7 +30,7 @@ function renderSpanishCamp() {
     <p>El <span class="highlighted-text">WBDS LA Camp</span> es un curso de formación intensivo gratuito para 
     estudiantes de grado y posgrado que tengan interés ​​en aprender bioinformática y 
     ciencia de datos desde cero.</p >
-    <a href="#" target="_blank" class="button">Registrarse</a>`
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-3cAGCsoEkBttB21x5I4BfCBdBfPsCTUD7qnesuPUkgkCoQ/viewform" target="_blank" class="button">Registrarse</a>`
     termsText.innerHTML=`
     <p>Con el objetivo de reducir la disparidad de género en los campos de la bioinformática y la ciencia de datos, 
     el <a href="#" target="_blank"><span class="highlighted-text">1st WBDS LA Camp</span></a> "Introducción a la 
