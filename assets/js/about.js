@@ -20,7 +20,8 @@ const Members = [
     { "name": "Clara Cerqueira Matos", 'img':'Clara.jpg', "filiation":"Bahia, Brazil"},
     { "name": "Sindy Licette Piñero", 'img':'Sindy.jpg', "filiation":"Oxiteno S. A. Industria e Comércio, Brazil"},
     { "name": "Karla Ruiz", 'img':'karla.jpg', "filiation":"Early Stage Researcher - Mexico"},
-    { "name": "Brenda Cabrera Mendoza", 'img':'Brenda_Cabrera.jpg', "filiation":"Yale University, Mexico"}
+    { "name": "Brenda Cabrera Mendoza", 'img':'Brenda_Cabrera.jpg', "filiation":"Yale University, Mexico"},
+    { "name": "Rocio Gonzales", 'img':'Rocio.jpg', "filiation":"UTN FRBA, Argentina"}
 ];
 
 const FormingMembers = [
