@@ -19,15 +19,16 @@ const Members = [
     { "name": "Thayana Vieira Tavares", 'img':'Thayana.jpg', "filiation":"Universidade Federal de São Carlos(UFSCar) - São Paulo, Brazil"},
     { "name": "Clara Cerqueira Matos", 'img':'Clara.jpg', "filiation":"Bahia, Brazil"},
     { "name": "Sindy Licette Piñero", 'img':'Sindy.jpg', "filiation":"Oxiteno S. A. Industria e Comércio, Brazil"},
-    { "name": "Karla Ruiz", 'img':'karla.jpg', "filiation":"Early Stage Researcher - Mexico"},
-    { "name": "Brenda Cabrera Mendoza", 'img':'Brenda_Cabrera.jpg', "filiation":"Yale University, Mexico"},
+    { "name": "Isabela Avila Rodriguez", 'img':'isabela.jpg', "filiation":"IIO -Tecnologico de Monterrey, México"},
     { "name": "Rocio Gonzales", 'img':'Rocio.jpg', "filiation":"UTN FRBA, Argentina"}
 ];
 
 const FormingMembers = [
     { "name": "Celeste Grimolizzi", 'img': 'celeste.jpg', "filiation": "3IA-IIIA CONICET UNSAM, Argentina"},
     { "name": "Lucy Jiménez", "img": 'lucy.jpeg', "filiation": "Pontificia Universidad Javeriana, Colombia" },
-    { "name": "Agustina Nardo", "img": 'Agus2.jpg', "filiation": "Universidad Nacional de La Plata, Argentina" }
+    { "name": "Agustina Nardo", "img": 'Agus2.jpg', "filiation": "Universidad Nacional de La Plata, Argentina" },
+    { "name": "Karla Ruiz", 'img':'karla.jpg', "filiation":"Early Stage Researcher - Mexico"},
+    { "name": "Brenda Cabrera Mendoza", 'img':'Brenda_Cabrera.jpg', "filiation":"Yale University, Mexico"}
 ];
 
 
